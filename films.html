@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Films</title>
     <link rel="icon" type="image/png" href="FrontPic/index_favicon.png">
-    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@400;500;700&family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;500;700&family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <style>
         body { 
             font-family: "Geologica", sans-serif; 
@@ -120,6 +120,10 @@
             cursor: pointer;
             font-weight: bold;
         }
+        .movie-year {
+            font-weight: 300; /* Light weight for Geologica */
+            color: #333333; /* Dark gray */
+        }
         details ul {
             list-style-type: none;
             padding: 10px;
@@ -134,6 +138,22 @@
         details details summary {
             color: #42438f;
             padding-left: 10px;
+        }
+        .search-bar {
+            margin-bottom: 20px;
+        }
+        .search-bar input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .search-bar input:focus {
+            outline: none;
+            border-color: #0000FF;
+            box-shadow: 0 0 5px rgba(0, 0, 255, 0.3);
         }
     </style>
 </head>
@@ -152,244 +172,406 @@
     </div>
     <div class="content">
         <h1>Films</h1>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Rechercher un film..." oninput="searchMovies()">
+        </div>
         <div class="section">
             <h2># :</h2>
             <details>
-                <summary>007 : Les diamants sont éternels (1971)</summary>
+                <summary>007 : Les diamants sont éternels <span class="movie-year">(1971)</span></summary>
                 <details>
                     <summary>Blu-Ray</summary>
                     <ul>
-                    <li><a href="Doc_jpg/100920240926_Les_diamants_sont_eternels_BD.jpg" target="_blank">Afficher en JPG</a></li>
-                    <li><a href="Doc_pdf/100920240926_Les_diamants_sont_eternels_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                        <li><a href="Doc_jpg/100920240926_Les_diamants_sont_eternels_BD.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/100920240926_Les_diamants_sont_eternels_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
                     </ul>
                 </details>
             </details>
             <h2>A :</h2>
             <details>
-                <summary>Aviator (2004)</summary>
+                <summary>Aviator <span class="movie-year">(2004)</span></summary>
                 <details>
                     <summary>Blu-Ray</summary>
                     <ul>
-                    <li><a href="Doc_jpg/300920250910_Aviator_BD.jpg" target="_blank">Afficher en JPG</a></li>
-                    <li><a href="Doc_pdf/300920250910_Aviator_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                        <li><a href="Doc_jpg/300920250910_Aviator_BD.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/300920250910_Aviator_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
                     </ul>
                 </details>
             </details>
             <h2>C :</h2>
             <details>
-                <summary>Canicule (1984)</summary>
+                <summary>Canicule <span class="movie-year">(1984)</span></summary>
                 <details>
                     <summary>Blu-Ray</summary>
                     <ul>
-                    <li><a href="Doc_jpg/300920250911_Canicule_BD.jpg" target="_blank">Afficher en JPG</a></li>
-                    <li><a href="Doc_pdf/300920250911_Canicule_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                        <li><a href="Doc_jpg/300920250911_Canicule_BD.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/300920250911_Canicule_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
                     </ul>
                 </details>
             </details>
             <details>
-                <summary>Captain Conan (1996)</summary>
+                <summary>Captain Conan <span class="movie-year">(1996)</span></summary>
                 <details>
                     <summary>Blu-Ray</summary>
                     <ul>
-                    <li><a href="Doc_jpg/300920250912_Captain_conan_BD.jpg" target="_blank">Afficher en JPG</a></li>
-                    <li><a href="Doc_pdf/300920250912_Captain_conan_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                        <li><a href="Doc_jpg/300920250912_Captain_conan_BD.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/300920250912_Captain_conan_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
                     </ul>
                 </details>
             </details>
             <details>
-                <summary>Coup de tête (1979)</summary>
+                <summary>Coup de tête <span class="movie-year">(1979)</span></summary>
                 <details>
                     <summary>Blu-Ray</summary>
                     <ul>
-                    <li><a href="Doc_jpg/300920250913_Coup_de_tete_BD.jpg" target="_blank">Afficher en JPG</a></li>
-                    <li><a href="Doc_pdf/300920250913_Coup_de_tete_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                        <li><a href="Doc_jpg/300920250913_Coup_de_tete_BD.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/300920250913_Coup_de_tete_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
                     </ul>
                 </details>
             </details>
             <h2>F :</h2>
             <details>
-                <summary>Firefox (1982)</summary>
+                <summary>Firefox <span class="movie-year">(1982)</span></summary>
                 <details>
                     <summary>Blu-Ray</summary>
                     <ul>
-                    <li><a href="Doc_jpg/300920250914_Firefox_BD.jpg" target="_blank">Afficher en JPG</a></li>
-                    <li><a href="Doc_pdf/300920250914_Firefox_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                        <li><a href="Doc_jpg/300920250914_Firefox_BD.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/300920250914_Firefox_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
                     </ul>
                 </details>
             </details>
             <details>
-                <summary>Folle à tuer (1975)</summary>
+                <summary>Folle à tuer <span class="movie-year">(1975)</span></summary>
                 <details>
                     <summary>Blu-Ray</summary>
                     <ul>
-                    <li><a href="Doc_jpg/300920250915_Folle_a_tuer_BD.jpg" target="_blank">Afficher en JPG</a></li>
-                    <li><a href="Doc_pdf/300920250915_Folle_a_tuer_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                        <li><a href="Doc_jpg/300920250915_Folle_a_tuer_BD.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/300920250915_Folle_a_tuer_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
                     </ul>
                 </details>
             </details>
             <h2>G :</h2>
             <details>
-                <summary>Gremlins 2 (1990)</summary>
+                <summary>Gremlins 2 <span class="movie-year">(1990)</span></summary>
                 <details>
                     <summary>Blu-Ray</summary>
                     <ul>
-                    <li><a href="Doc_jpg/300920250916_Gremlins_2_BD.jpg" target="_blank">Afficher en JPG</a></li>
-                    <li><a href="Doc_pdf/300920250916_Gremlins_2_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                        <li><a href="Doc_jpg/300920250916_Gremlins_2_BD.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/300920250916_Gremlins_2_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
                     </ul>
                 </details>
             </details>
             <h2>I :</h2>
             <details>
-                <summary>Intelligence artificielle (2001)</summary>
+                <summary>Intelligence artificielle <span class="movie-year">(2001)</span></summary>
                 <details>
                     <summary>Blu-Ray</summary>
                     <ul>
-                    <li><a href="Doc_jpg/100920240920_Intelligence_artificielle_BD.jpg" target="_blank">Afficher en JPG</a></li>
-                    <li><a href="Doc_pdf/100920240920_Intelligence_artificielle_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                        <li><a href="Doc_jpg/100920240920_Intelligence_artificielle_BD.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/100920240920_Intelligence_artificielle_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
                     </ul>
                 </details>
             </details>
             <h2>L :</h2>
             <details>
-                <summary>La vie et rien d'autre (1989)</summary>
+                <summary>La vie et rien d'autre <span class="movie-year">(1989)</span></summary>
                 <details>
                     <summary>Blu-Ray</summary>
                     <ul>
-                    <li><a href="Doc_jpg/100920240921_La_vie_et_rien_d_autre_BD.jpg" target="_blank">Afficher en JPG</a></li>
-                    <li><a href="Doc_pdf/100920240921_La_vie_et_rien_d_autre_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                        <li><a href="Doc_jpg/100920240921_La_vie_et_rien_d_autre_BD.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/100920240921_La_vie_et_rien_d_autre_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
                     </ul>
                 </details>
             </details>
             <details>
-                <summary>Le Gitan (1975)</summary>
+                <summary>Le Gitan <span class="movie-year">(1975)</span></summary>
                 <details>
                     <summary>Blu-Ray</summary>
                     <ul>
-                    <li><a href="Doc_jpg/100920240922_Le_Gitan_BD.jpg" target="_blank">Afficher en JPG</a></li>
-                    <li><a href="Doc_pdf/100920240922_Le_Gitan_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                        <li><a href="Doc_jpg/100920240922_Le_Gitan_BD.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/100920240922_Le_Gitan_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
                     </ul>
                 </details>
             </details>
             <details>
-                <summary>Le Guépard (1963)</summary>
+                <summary>Le Guépard <span class="movie-year">(1963)</span></summary>
                 <details>
                     <summary>Blu-Ray</summary>
                     <ul>
-                    <li><a href="Doc_jpg/100920240923_Le_Guepard_BD.jpg" target="_blank">Afficher en JPG</a></li>
-                    <li><a href="Doc_pdf/100920240923_Le_Guepard_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                        <li><a href="Doc_jpg/100920240923_Le_Guepard_BD.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/100920240923_Le_Guepard_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
                     </ul>
                 </details>
             </details>
             <details>
-                <summary>Le Hasard et la Violence (1974)</summary>
+                <summary>Le Hasard et la Violence <span class="movie-year">(1974)</span></summary>
                 <details>
                     <summary>Blu-Ray</summary>
                     <ul>
-                    <li><a href="Doc_jpg/100920240924_Le_Hasard_et_la_Violence_BD.jpg" target="_blank">Afficher en JPG</a></li>
-                    <li><a href="Doc_pdf/100920240924_Le_Hasard_et_la_Violence_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                        <li><a href="Doc_jpg/100920240924_Le_Hasard_et_la_Violence_BD.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/100920240924_Le_Hasard_et_la_Violence_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
                     </ul>
                 </details>
             </details>
             <details>
-                <summary>Le Président (1961)</summary>
+                <summary>Le Président <span class="movie-year">(1961)</span></summary>
                 <details>
                     <summary>Blu-Ray</summary>
                     <ul>
-                    <li><a href="Doc_jpg/100920240925_Le_President_BD.jpg" target="_blank">Afficher en JPG</a></li>
-                    <li><a href="Doc_pdf/100920240925_Le_President_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                        <li><a href="Doc_jpg/100920240925_Le_President_BD.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/100920240925_Le_President_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
                     </ul>
                 </details>
             </details>
             <h2>P :</h2>
             <details>
-                <summary>Predator (1987)</summary>
+                <summary>Predator <span class="movie-year">(1987)</span></summary>
                 <details>
                     <summary>4K Ultra HD</summary>
                     <ul>
-                    <li><a href="Doc_jpg/300920251506_Predator_4K.jpg" target="_blank">Afficher en JPG</a></li>
-                    <li><a href="Doc_pdf/300920251506_Predator_4K.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                        <li><a href="Doc_jpg/300920251506_Predator_4K.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/300920251506_Predator_4K.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                    </ul>
+                </details>
+            </details>
+            <h2>R :</h2>
+            <details>
+                <summary>Rogue One: A Star Wars Story <span class="movie-year">(2016)</span></summary>
+                <details>
+                    <summary>Collection "La Saga Skywalker" - Affiches originales : 4K Ultra HD</summary>
+                    <ul>
+                        <li><a href="Doc_jpg/270920242122_Rogue_One_4K.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/270920242122_Rogue_One_4K.pdf" target="_blank">Afficher en PDF pour impression</a></li>
                     </ul>
                 </details>
             </details>
             <h2>S :</h2>
             <details>
-                <summary>Scream (1996)</summary>
+                <summary>Scream <span class="movie-year">(1996)</span></summary>
                 <details>
                     <summary>Blu-Ray</summary>
                     <ul>
-                    <li><a href="Doc_jpg/100920241711_Scream_1_BD.jpg" target="_blank">Afficher en JPG</a></li>
-                    <li><a href="Doc_pdf/100920241711_Scream_1_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                        <li><a href="Doc_jpg/100920241711_Scream_1_BD.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/100920241711_Scream_1_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
                     </ul>
                 </details>
             </details>
             <details>
-                <summary>Scream 2 (1997)</summary>
+                <summary>Scream <span class="movie-year">(2022)</span></summary>
                 <details>
                     <summary>Blu-Ray</summary>
                     <ul>
-                    <li><a href="Doc_jpg/100920241712_Scream_2_BD.jpg" target="_blank">Afficher en JPG</a></li>
-                    <li><a href="Doc_pdf/100920241712_Scream_2_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                        <li><a href="Doc_jpg/100920241715_Scream_5_BD.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/100920241715_Scream_5_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
                     </ul>
                 </details>
             </details>
             <details>
-                <summary>Scream 3 (2000)</summary>
+                <summary>Scream 2 <span class="movie-year">(1997)</span></summary>
                 <details>
                     <summary>Blu-Ray</summary>
                     <ul>
-                    <li><a href="Doc_jpg/100920241713_Scream_3_BD.jpg" target="_blank">Afficher en JPG</a></li>
-                    <li><a href="Doc_pdf/100920241713_Scream_3_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                        <li><a href="Doc_jpg/100920241712_Scream_2_BD.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/100920241712_Scream_2_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
                     </ul>
                 </details>
             </details>
             <details>
-                <summary>Scream 4 (2011)</summary>
+                <summary>Scream 3 <span class="movie-year">(2000)</span></summary>
                 <details>
                     <summary>Blu-Ray</summary>
                     <ul>
-                    <li><a href="Doc_jpg/100920241714_Scream_4_BD.jpg" target="_blank">Afficher en JPG</a></li>
-                    <li><a href="Doc_pdf/100920241714_Scream_4_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                        <li><a href="Doc_jpg/100920241713_Scream_3_BD.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/100920241713_Scream_3_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
                     </ul>
                 </details>
             </details>
             <details>
-                <summary>Scream (2022)</summary>
+                <summary>Scream 4 <span class="movie-year">(2011)</span></summary>
                 <details>
                     <summary>Blu-Ray</summary>
                     <ul>
-                    <li><a href="Doc_jpg/100920241715_Scream_5_BD.jpg" target="_blank">Afficher en JPG</a></li>
-                    <li><a href="Doc_pdf/100920241715_Scream_5_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                        <li><a href="Doc_jpg/100920241714_Scream_4_BD.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/100920241714_Scream_4_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
                     </ul>
                 </details>
             </details>
             <details>
-                <summary>Scream VI (2023)</summary>
+                <summary>Scream VI <span class="movie-year">(2023)</span></summary>
                 <details>
                     <summary>Blu-Ray</summary>
                     <ul>
-                    <li><a href="Doc_jpg/100920241716_Scream_6_BD.jpg" target="_blank">Afficher en JPG</a></li>
-                    <li><a href="Doc_pdf/100920241716_Scream_6_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                        <li><a href="Doc_jpg/100920241716_Scream_6_BD.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/100920241716_Scream_6_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
                     </ul>
                 </details>
             </details>
             <details>
-                <summary>Spider-Man : No Way Home (2021)</summary>
+                <summary>Solo: A Star Wars Story <span class="movie-year">(2018)</span></summary>
+                <details>
+                    <summary>Collection "La Saga Skywalker" - Affiches originales : 4K Ultra HD</summary>
+                    <ul>
+                        <li><a href="Doc_jpg/270920242123_Solo_4K.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/270920242123_Solo_4K.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                    </ul>
+                </details>
+            </details>
+            <details>
+                <summary>Spider-Man : No Way Home <span class="movie-year">(2021)</span></summary>
                 <details>
                     <summary>Version comics - Blu-Ray</summary>
                     <ul>
-                    <li><a href="Doc_jpg/300920251850_Spiderman_NWH_BD.jpg" target="_blank">Afficher en JPG</a></li>
-                    <li><a href="Doc_pdf/300920251850_Spiderman_NWH_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                        <li><a href="Doc_jpg/300920251850_Spiderman_NWH_BD.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/300920251850_Spiderman_NWH_BD.pdf" target="_blank">Afficher en PDF pour impression</a></li>
                     </ul>
                 </details>
                 <details>
                     <summary>Version comics - 4K Ultra HD</summary>
                     <ul>
-                    <li><a href="Doc_jpg/300920251851_Spiderman_NWH_4K.jpg" target="_blank">Afficher en JPG</a></li>
-                    <li><a href="Doc_pdf/300920251851_Spiderman_NWH_4K.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                        <li><a href="Doc_jpg/300920251851_Spiderman_NWH_4K.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/300920251851_Spiderman_NWH_4K.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                    </ul>
+                </details>
+            </details>
+            <details>
+                <summary>Star Wars, épisode I : La Menace fantôme <span class="movie-year">(1999)</span></summary>
+                <details>
+                    <summary>Collection "La Saga Skywalker" - Affiches originales : 4K Ultra HD</summary>
+                    <ul>
+                        <li><a href="Doc_jpg/270920242113_Star_Wars_1_4K.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/270920242113_Star_Wars_1_4K.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                    </ul>
+                </details>
+            </details>
+            <details>
+                <summary>Star Wars, épisode II : L'Attaque des clones <span class="movie-year">(2002)</span></summary>
+                <details>
+                    <summary>Collection "La Saga Skywalker" - Affiches originales : 4K Ultra HD</summary>
+                    <ul>
+                        <li><a href="Doc_jpg/270920242114_Star_Wars_2_4K.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/270920242114_Star_Wars_2_4K.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                    </ul>
+                </details>
+            </details>
+            <details>
+                <summary>Star Wars, épisode III : La Revanche des Sith <span class="movie-year">(2005)</span></summary>
+                <details>
+                    <summary>Collection "La Saga Skywalker" - Affiches originales : 4K Ultra HD</summary>
+                    <ul>
+                        <li><a href="Doc_jpg/270920242115_Star_Wars_3_4K.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/270920242115_Star_Wars_3_4K.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                    </ul>
+                </details>
+            </details>
+            <details>
+                <summary>Star Wars, épisode IV : Un nouvel espoir <span class="movie-year">(1977)</span></summary>
+                <details>
+                    <summary>Collection "La Saga Skywalker" - Affiches originales : 4K Ultra HD</summary>
+                    <ul>
+                        <li><a href="Doc_jpg/270920242116_Star_Wars_4_4K.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/270920242116_Star_Wars_4_4K.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                    </ul>
+                </details>
+            </details>
+            <details>
+                <summary>Star Wars, épisode V : L'Empire contre-attaque <span class="movie-year">(1980)</span></summary>
+                <details>
+                    <summary>Collection "La Saga Skywalker" - Affiches originales : 4K Ultra HD</summary>
+                    <ul>
+                        <li><a href="Doc_jpg/270920242117_Star_Wars_5_4K.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/270920242117_Star_Wars_5_4K.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                    </ul>
+                </details>
+            </details>
+            <details>
+                <summary>Star Wars, épisode VI : Le Retour du Jedi <span class="movie-year">(1983)</span></summary>
+                <details>
+                    <summary>Collection "La Saga Skywalker" - Affiches originales : 4K Ultra HD</summary>
+                    <ul>
+                        <li><a href="Doc_jpg/270920242118_Star_Wars_6_4K.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/270920242118_Star_Wars_6_4K.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                    </ul>
+                </details>
+            </details>
+            <details>
+                <summary>Star Wars, épisode VII : Le Réveil de la Force <span class="movie-year">(2015)</span></summary>
+                <details>
+                    <summary>Collection "La Saga Skywalker" - Affiches originales : 4K Ultra HD</summary>
+                    <ul>
+                        <li><a href="Doc_jpg/270920242119_Star_Wars_7_4K.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/270920242119_Star_Wars_7_4K.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                    </ul>
+                </details>
+            </details>
+            <details>
+                <summary>Star Wars, épisode VIII : Les Derniers Jedi <span class="movie-year">(2017)</span></summary>
+                <details>
+                    <summary>Collection "La Saga Skywalker" - Affiches originales : 4K Ultra HD</summary>
+                    <ul>
+                        <li><a href="Doc_jpg/270920242120_Star_Wars_8_4K.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/270920242120_Star_Wars_8_4K.pdf" target="_blank">Afficher en PDF pour impression</a></li>
+                    </ul>
+                </details>
+            </details>
+            <details>
+                <summary>Star Wars, épisode IX : L'Ascension de Skywalker <span class="movie-year">(2019)</span></summary>
+                <details>
+                    <summary>Collection "La Saga Skywalker" - Affiches originales : 4K Ultra HD</summary>
+                    <ul>
+                        <li><a href="Doc_jpg/270920242121_Star_Wars_9_4K.jpg" target="_blank">Afficher en JPG</a></li>
+                        <li><a href="Doc_pdf/270920242121_Star_Wars_9_4K.pdf" target="_blank">Afficher en PDF pour impression</a></li>
                     </ul>
                 </details>
             </details>
         </div>
     </div>
+    <script>
+        function searchMovies() {
+            const input = document.getElementById('searchInput').value.toLowerCase();
+            const section = document.querySelector('.section');
+            const headers = section.querySelectorAll('h2');
+            const details = section.querySelectorAll('details');
+
+            let hasVisibleMovies = false;
+
+            details.forEach(detail => {
+                const title = detail.querySelector('summary').textContent.toLowerCase();
+                if (title.includes(input)) {
+                    detail.style.display = 'block';
+                    hasVisibleMovies = true;
+                } else {
+                    detail.style.display = 'none';
+                }
+            });
+
+            headers.forEach(header => {
+                const nextDetails = header.nextElementSibling;
+                let hasVisibleDetails = false;
+                while (nextDetails && nextDetails.tagName === 'DETAILS') {
+                    if (nextDetails.style.display !== 'none') {
+                        hasVisibleDetails = true;
+                        break;
+                    }
+                    nextDetails = nextDetails.nextElementSibling;
+                }
+                header.style.display = hasVisibleDetails ? 'block' : 'none';
+            });
+
+            if (!hasVisibleMovies) {
+                const noResults = document.createElement('p');
+                noResults.textContent = 'Aucun film trouvé.';
+                noResults.id = 'noResults';
+                noResults.style.color = '#000';
+                if (!section.querySelector('#noResults')) {
+                    section.appendChild(noResults);
+                }
+            } else {
+                const noResults = section.querySelector('#noResults');
+                if (noResults) {
+                    noResults.remove();
+                }
+            }
+        }
+    </script>
 </body>
 </html>

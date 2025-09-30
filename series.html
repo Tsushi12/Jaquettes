@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Séries</title>
     <link rel="icon" type="image/png" href="FrontPic/index_favicon.png">
-    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@400;500;700&family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;500;700&family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <style>
         body { 
             font-family: "Geologica", sans-serif; 
@@ -120,6 +120,10 @@
             cursor: pointer;
             font-weight: bold;
         }
+        .series-year {
+            font-weight: 300; /* Light weight for Geologica */
+            color: #333333; /* Dark gray */
+        }
         details ul {
             list-style-type: none;
             padding: 10px;
@@ -142,6 +146,22 @@
             color: #42438f;
             padding-left: 10px;
         }
+        .search-bar {
+            margin-bottom: 20px;
+        }
+        .search-bar input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .search-bar input:focus {
+            outline: none;
+            border-color: #0000FF;
+            box-shadow: 0 0 5px rgba(0, 0, 255, 0.3);
+        }
     </style>
 </head>
 <body>
@@ -159,10 +179,13 @@
     </div>
     <div class="content">
         <h1>Séries</h1>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Rechercher une série ou saison..." oninput="searchSeries()">
+        </div>
         <div class="section">
             <h2>G :</h2>
             <details>
-                <summary>Game of Thrones (2011)</summary>
+                <summary>Game of Thrones <span class="series-year">(2011)</span></summary>
                 <details>
                     <summary>Saison 1</summary>
                     <details>
@@ -176,5 +199,62 @@
             </details>
         </div>
     </div>
+    <script>
+        function searchSeries() {
+            const input = document.getElementById('searchInput').value.toLowerCase();
+            const section = document.querySelector('.section');
+            const headers = section.querySelectorAll('h2');
+            const series = section.querySelectorAll('details');
+
+            let hasVisibleSeries = false;
+
+            series.forEach(serie => {
+                const serieTitle = serie.querySelector('summary').textContent.toLowerCase();
+                const seasons = serie.querySelectorAll(':scope > details');
+                let hasVisibleSeasons = false;
+
+                seasons.forEach(season => {
+                    const seasonTitle = season.querySelector('summary').textContent.toLowerCase();
+                    season.style.display = seasonTitle.includes(input) || serieTitle.includes(input) ? 'block' : 'none';
+                    if (seasonTitle.includes(input) || serieTitle.includes(input)) {
+                        hasVisibleSeasons = true;
+                    }
+                });
+
+                serie.style.display = hasVisibleSeasons || serieTitle.includes(input) ? 'block' : 'none';
+                if (hasVisibleSeasons || serieTitle.includes(input)) {
+                    hasVisibleSeries = true;
+                }
+            });
+
+            headers.forEach(header => {
+                const nextDetails = header.nextElementSibling;
+                let hasVisibleDetails = false;
+                while (nextDetails && nextDetails.tagName === 'DETAILS') {
+                    if (nextDetails.style.display !== 'none') {
+                        hasVisibleDetails = true;
+                        break;
+                    }
+                    nextDetails = nextDetails.nextElementSibling;
+                }
+                header.style.display = hasVisibleDetails ? 'block' : 'none';
+            });
+
+            if (!hasVisibleSeries) {
+                const noResults = document.createElement('p');
+                noResults.textContent = 'Aucune série ou saison trouvée.';
+                noResults.id = 'noResults';
+                noResults.style.color = '#000';
+                if (!section.querySelector('#noResults')) {
+                    section.appendChild(noResults);
+                }
+            } else {
+                const noResults = section.querySelector('#noResults');
+                if (noResults) {
+                    noResults.remove();
+                }
+            }
+        }
+    </script>
 </body>
 </html>
