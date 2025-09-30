@@ -260,18 +260,20 @@
             const input = document.getElementById('searchInput').value.toLowerCase();
             const section = document.querySelector('.section');
             const headers = section.querySelectorAll('h2');
-            const collections = section.querySelectorAll('details');
+            const collections = section.querySelectorAll('.section > details');
 
             let hasVisibleCollections = false;
 
             collections.forEach(collection => {
-                const collectionTitle = collection.querySelector('summary').textContent.toLowerCase();
+                const summary = collection.querySelector('summary');
+                const collectionTitle = summary.textContent.toLowerCase(); // Titre complet de la collection
                 const movies = collection.querySelectorAll('details');
                 let hasVisibleMovies = false;
+                const collectionMatches = collectionTitle.includes(input);
 
                 movies.forEach(movie => {
                     const movieTitle = movie.querySelector('summary').textContent.toLowerCase();
-                    if (movieTitle.includes(input) || collectionTitle.includes(input)) {
+                    if (collectionMatches || movieTitle.includes(input)) {
                         movie.style.display = 'block';
                         hasVisibleMovies = true;
                     } else {
@@ -279,14 +281,14 @@
                     }
                 });
 
-                collection.style.display = hasVisibleMovies || collectionTitle.includes(input) ? 'block' : 'none';
-                if (hasVisibleMovies || collectionTitle.includes(input)) {
+                collection.style.display = hasVisibleMovies ? 'block' : 'none';
+                if (hasVisibleMovies) {
                     hasVisibleCollections = true;
                 }
             });
 
             headers.forEach(header => {
-                const nextDetails = header.nextElementSibling;
+                let nextDetails = header.nextElementSibling;
                 let hasVisibleDetails = false;
                 while (nextDetails && nextDetails.tagName === 'DETAILS') {
                     if (nextDetails.style.display !== 'none') {
@@ -298,19 +300,17 @@
                 header.style.display = hasVisibleDetails ? 'block' : 'none';
             });
 
+            const noResults = section.querySelector('#noResults');
             if (!hasVisibleCollections) {
-                const noResults = document.createElement('p');
-                noResults.textContent = 'Aucune collection ou film trouvé.';
-                noResults.id = 'noResults';
-                noResults.style.color = '#000';
-                if (!section.querySelector('#noResults')) {
-                    section.appendChild(noResults);
+                if (!noResults) {
+                    const noResultsElem = document.createElement('p');
+                    noResultsElem.textContent = 'Aucune collection ou film trouvé.';
+                    noResultsElem.id = 'noResults';
+                    noResultsElem.style.color = '#000';
+                    section.appendChild(noResultsElem);
                 }
-            } else {
-                const noResults = section.querySelector('#noResults');
-                if (noResults) {
-                    noResults.remove();
-                }
+            } else if (noResults) {
+                noResults.remove();
             }
         }
     </script>

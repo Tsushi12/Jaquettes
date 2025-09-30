@@ -180,7 +180,7 @@
     <div class="content">
         <h1>Séries</h1>
         <div class="search-bar">
-            <input type="text" id="searchInput" placeholder="Rechercher une série ou saison..." oninput="searchSeries()">
+            <input type="text" id="searchInput" placeholder="Rechercher une série..." oninput="searchSeries()">
         </div>
         <div class="section">
             <h2>G :</h2>
@@ -204,55 +204,49 @@
             const input = document.getElementById('searchInput').value.toLowerCase();
             const section = document.querySelector('.section');
             const headers = section.querySelectorAll('h2');
-            const series = section.querySelectorAll('details');
+            const series = section.querySelectorAll('.section > details'); // Sélectionne uniquement les <details> principaux
 
             let hasVisibleSeries = false;
 
             series.forEach(serie => {
-                const serieTitle = serie.querySelector('summary').textContent.toLowerCase();
-                const seasons = serie.querySelectorAll(':scope > details');
-                let hasVisibleSeasons = false;
-
-                seasons.forEach(season => {
-                    const seasonTitle = season.querySelector('summary').textContent.toLowerCase();
-                    season.style.display = seasonTitle.includes(input) || serieTitle.includes(input) ? 'block' : 'none';
-                    if (seasonTitle.includes(input) || serieTitle.includes(input)) {
-                        hasVisibleSeasons = true;
-                    }
-                });
-
-                serie.style.display = hasVisibleSeasons || serieTitle.includes(input) ? 'block' : 'none';
-                if (hasVisibleSeasons || serieTitle.includes(input)) {
+                // Récupérer le texte du premier <summary> (titre de la série) et ignorer l'année
+                const summary = serie.querySelector('summary');
+                const title = summary.childNodes[0].textContent.trim().toLowerCase(); // Prend uniquement le texte avant le span
+                if (title.includes(input)) {
+                    serie.style.display = 'block';
                     hasVisibleSeries = true;
+                } else {
+                    serie.style.display = 'none';
                 }
             });
 
+            // Gérer l'affichage des en-têtes (h2) en fonction des détails visibles
             headers.forEach(header => {
                 const nextDetails = header.nextElementSibling;
                 let hasVisibleDetails = false;
-                while (nextDetails && nextDetails.tagName === 'DETAILS') {
-                    if (nextDetails.style.display !== 'none') {
+                let currentElement = nextDetails;
+                while (currentElement && currentElement.tagName === 'DETAILS') {
+                    if (currentElement.style.display !== 'none') {
                         hasVisibleDetails = true;
                         break;
                     }
-                    nextDetails = nextDetails.nextElementSibling;
+                    currentElement = currentElement.nextElementSibling;
                 }
                 header.style.display = hasVisibleDetails ? 'block' : 'none';
             });
 
+            // Afficher un message si aucune série n'est trouvée
+            const noResults = section.querySelector('#noResults');
             if (!hasVisibleSeries) {
-                const noResults = document.createElement('p');
-                noResults.textContent = 'Aucune série ou saison trouvée.';
-                noResults.id = 'noResults';
-                noResults.style.color = '#000';
-                if (!section.querySelector('#noResults')) {
+                if (!noResults) {
+                    const noResults = document.createElement('p');
+                    noResults.textContent = 'Aucune série trouvée.';
+                    noResults.id = 'noResults';
+                    noResults.style.color = '#000';
                     section.appendChild(noResults);
                 }
-            } else {
-                const noResults = section.querySelector('#noResults');
-                if (noResults) {
-                    noResults.remove();
-                }
+            } else if (noResults) {
+                noResults.remove();
             }
         }
     </script>

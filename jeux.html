@@ -194,18 +194,20 @@
             const input = document.getElementById('searchInput').value.toLowerCase();
             const section = document.querySelector('.section');
             const headers = section.querySelectorAll('h2');
-            const games = section.querySelectorAll('details');
+            const games = section.querySelectorAll('.section > details');
 
             let hasVisibleGames = false;
 
             games.forEach(game => {
-                const gameTitle = game.querySelector('summary').textContent.toLowerCase();
+                const summary = game.querySelector('summary');
+                const title = summary.childNodes[0].textContent.trim().toLowerCase(); // Titre sans l'année
                 const formats = game.querySelectorAll('details');
                 let hasVisibleFormats = false;
+                const titleMatches = title.includes(input);
 
                 formats.forEach(format => {
                     const formatTitle = format.querySelector('summary').textContent.toLowerCase();
-                    if (formatTitle.includes(input) || gameTitle.includes(input)) {
+                    if (titleMatches || formatTitle.includes(input)) {
                         format.style.display = 'block';
                         hasVisibleFormats = true;
                     } else {
@@ -213,14 +215,14 @@
                     }
                 });
 
-                game.style.display = hasVisibleFormats || gameTitle.includes(input) ? 'block' : 'none';
-                if (hasVisibleFormats || gameTitle.includes(input)) {
+                game.style.display = hasVisibleFormats ? 'block' : 'none';
+                if (hasVisibleFormats) {
                     hasVisibleGames = true;
                 }
             });
 
             headers.forEach(header => {
-                const nextDetails = header.nextElementSibling;
+                let nextDetails = header.nextElementSibling;
                 let hasVisibleDetails = false;
                 while (nextDetails && nextDetails.tagName === 'DETAILS') {
                     if (nextDetails.style.display !== 'none') {
@@ -232,19 +234,17 @@
                 header.style.display = hasVisibleDetails ? 'block' : 'none';
             });
 
+            const noResults = section.querySelector('#noResults');
             if (!hasVisibleGames) {
-                const noResults = document.createElement('p');
-                noResults.textContent = 'Aucun jeu ou format trouvé.';
-                noResults.id = 'noResults';
-                noResults.style.color = '#000';
-                if (!section.querySelector('#noResults')) {
-                    section.appendChild(noResults);
+                if (!noResults) {
+                    const noResultsElem = document.createElement('p');
+                    noResultsElem.textContent = 'Aucun jeu ou format trouvé.';
+                    noResultsElem.id = 'noResults';
+                    noResultsElem.style.color = '#000';
+                    section.appendChild(noResultsElem);
                 }
-            } else {
-                const noResults = section.querySelector('#noResults');
-                if (noResults) {
-                    noResults.remove();
-                }
+            } else if (noResults) {
+                noResults.remove();
             }
         }
     </script>

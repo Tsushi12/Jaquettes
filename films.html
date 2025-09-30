@@ -530,12 +530,14 @@
             const input = document.getElementById('searchInput').value.toLowerCase();
             const section = document.querySelector('.section');
             const headers = section.querySelectorAll('h2');
-            const details = section.querySelectorAll('details');
+            const details = section.querySelectorAll('.section > details'); // Sélectionne uniquement les <details> principaux
 
             let hasVisibleMovies = false;
 
             details.forEach(detail => {
-                const title = detail.querySelector('summary').textContent.toLowerCase();
+                // Récupérer le texte du premier <summary> (titre du film) et ignorer l'année
+                const summary = detail.querySelector('summary');
+                const title = summary.childNodes[0].textContent.trim().toLowerCase(); // Prend uniquement le texte avant le span
                 if (title.includes(input)) {
                     detail.style.display = 'block';
                     hasVisibleMovies = true;
@@ -544,32 +546,33 @@
                 }
             });
 
+            // Gérer l'affichage des en-têtes (h2) en fonction des détails visibles
             headers.forEach(header => {
                 const nextDetails = header.nextElementSibling;
                 let hasVisibleDetails = false;
-                while (nextDetails && nextDetails.tagName === 'DETAILS') {
-                    if (nextDetails.style.display !== 'none') {
+                let currentElement = nextDetails;
+                while (currentElement && currentElement.tagName === 'DETAILS') {
+                    if (currentElement.style.display !== 'none') {
                         hasVisibleDetails = true;
                         break;
                     }
-                    nextDetails = nextDetails.nextElementSibling;
+                    currentElement = currentElement.nextElementSibling;
                 }
                 header.style.display = hasVisibleDetails ? 'block' : 'none';
             });
 
+            // Afficher un message si aucun film n'est trouvé
+            const noResults = section.querySelector('#noResults');
             if (!hasVisibleMovies) {
-                const noResults = document.createElement('p');
-                noResults.textContent = 'Aucun film trouvé.';
-                noResults.id = 'noResults';
-                noResults.style.color = '#000';
-                if (!section.querySelector('#noResults')) {
+                if (!noResults) {
+                    const noResults = document.createElement('p');
+                    noResults.textContent = 'Aucun film trouvé.';
+                    noResults.id = 'noResults';
+                    noResults.style.color = '#000';
                     section.appendChild(noResults);
                 }
-            } else {
-                const noResults = section.querySelector('#noResults');
-                if (noResults) {
-                    noResults.remove();
-                }
+            } else if (noResults) {
+                noResults.remove();
             }
         }
     </script>
