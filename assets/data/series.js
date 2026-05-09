@@ -1,16 +1,33 @@
 ﻿window.SERIES_DATA = [
     {
-        "titre":  "The Mandalorian (2019 - 2023)",
-        "sortId":  "S1",
+        "titre":  "House of the Dragon  (2022 - EC..)",
+        "sortId":  "HouseoftheDragon1",
         "seasons":  [
                         {
                             "saison":  "Saison 1",
-                            "sortId":  "S1",
+                            "sortId":  "HouseoftheDragon1",
                             "items":  [
                                           {
-                                              "id":  "S1",
+                                              "id":  "HouseoftheDragon1",
+                                              "format":  "4K Ultra HD",
+                                              "lien":  "https://jaquettes.pages.dev/series_jpg/houseofthedragon_s1.jpg"
+                                          }
+                                      ]
+                        }
+                    ]
+    },
+    {
+        "titre":  "The Mandalorian (2019 - 2023)",
+        "sortId":  "SWMando1",
+        "seasons":  [
+                        {
+                            "saison":  "Saison 1",
+                            "sortId":  "SWMando1",
+                            "items":  [
+                                          {
+                                              "id":  "SWMando1",
                                               "format":  "Blu-Ray",
-                                              "lien":  "https://jaquettes.pages.dev/jeux_jpg/mandalorian_s1.jpg"
+                                              "lien":  "https://jaquettes.pages.dev/series_jpg/mandalorian_s1.jpg"
                                           }
                                       ]
                         }

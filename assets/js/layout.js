@@ -1,15 +1,25 @@
 // Sidebar HTML fallback (works even when opened via file://)
-const SIDEBAR_FALLBACK_HTML = `<div class="sidebar">
-  <ul>
-    <li class="brand"><a href="index.html" data-nav="index"><span class="brand-title">Jaquettes</span><span class="brand-sub">Bibliothèque</span></a></li>
-    <li><a href="films.html" data-nav="films">Films</a></li>
-    <li><a href="series.html" data-nav="series">Séries</a></li>
-    <li><a href="jeux.html" data-nav="jeux">Jeux Vidéo</a></li>
+const SIDEBAR_FALLBACK_HTML = `<div class="sidebar" id="site-sidebar">
+  <ul class="sidebar-menu">
+    <li class="brand">
+      <a href="index.html" data-nav="index" class="brand-link">
+        <span class="brand-mark" aria-hidden="true">J</span>
+        <span class="brand-copy">
+          <span class="brand-title">Jaquettes</span>
+          <span class="brand-sub">Bibliothèque</span>
+        </span>
+      </a>
+    </li>
 
-    <li><a href="https://www.themoviedb.org/?language=fr" target="_blank" rel="noopener noreferrer" class="no-bg"><img src="FrontPic/tmdb.png" alt="TMDB Logo"> TMDb</a></li>
-    <li><a href="https://github.com/Tsushi12" target="_blank" rel="noopener noreferrer" class="no-bg"><img src="FrontPic/github.png" alt="GitHub Logo"> GitHub</a></li>
-    <li><a href="https://www.linkedin.com/in/driss-el-bouffi-25a394316" target="_blank" rel="noopener noreferrer" class="no-bg"><img src="FrontPic/linkedin.png" alt="LinkedIn Logo"> LinkedIn</a></li>
-    <li><a href="https://elbdweb.github.io/El_Bouffi/" target="_blank" rel="noopener noreferrer" class="no-bg"><img src="FrontPic/portfolio.png" alt="Portfolio Logo"> Mon portfolio</a></li>
+    <li class="nav-section-label">Navigation</li>
+    <li><a href="films.html" data-nav="films"><span class="nav-icon" aria-hidden="true">🎬</span><span>Films</span></a></li>
+    <li><a href="series.html" data-nav="series"><span class="nav-icon" aria-hidden="true">📺</span><span>Séries</span></a></li>
+    <li><a href="jeux.html" data-nav="jeux"><span class="nav-icon" aria-hidden="true">🎮</span><span>Jeux Vidéo</span></a></li>
+
+    <li><a href="https://www.themoviedb.org/?language=fr" target="_blank" rel="noopener noreferrer" class="no-bg utility-link"><img src="front_pic/tmdb.png" alt="TMDB Logo"><span>TMDb</span></a></li>
+    <li><a href="https://github.com/Tsushi12" target="_blank" rel="noopener noreferrer" class="no-bg utility-link"><img src="front_pic/github.png" alt="GitHub Logo"><span>GitHub</span></a></li>
+    <li><a href="https://www.linkedin.com/in/driss-el-bouffi-25a394316" target="_blank" rel="noopener noreferrer" class="no-bg utility-link"><img src="front_pic/linkedin.png" alt="LinkedIn Logo"><span>LinkedIn</span></a></li>
+    <li><a href="https://elbdweb.github.io/El_Bouffi/" target="_blank" rel="noopener noreferrer" class="no-bg utility-link"><img src="front_pic/portfolio.png" alt="Portfolio Logo"><span>Mon portfolio</span></a></li>
   </ul>
 </div>`;
 
@@ -63,6 +73,60 @@ function applyBackground() {
   document.body.style.backgroundImage = gradients[page] || gradients.default;
 }
 
+
+function setupMobileSidebar(host) {
+  const sidebar = host.querySelector(".sidebar");
+  if (!sidebar) return;
+
+  if (document.querySelector(".mobile-nav-toggle")) return;
+
+  const toggle = document.createElement("button");
+  toggle.type = "button";
+  toggle.className = "mobile-nav-toggle";
+  toggle.setAttribute("aria-controls", sidebar.id || "site-sidebar");
+  toggle.setAttribute("aria-expanded", "false");
+  toggle.innerHTML = `<span aria-hidden="true">☰</span><span>Menu</span>`;
+
+  const backdrop = document.createElement("div");
+  backdrop.className = "sidebar-backdrop";
+  backdrop.hidden = true;
+
+  document.body.insertBefore(toggle, document.body.firstChild);
+  document.body.insertBefore(backdrop, document.body.firstChild);
+
+  function closeMenu() {
+    document.body.classList.remove("sidebar-open");
+    toggle.setAttribute("aria-expanded", "false");
+    backdrop.hidden = true;
+  }
+
+  function openMenu() {
+    document.body.classList.add("sidebar-open");
+    toggle.setAttribute("aria-expanded", "true");
+    backdrop.hidden = false;
+  }
+
+  toggle.addEventListener("click", () => {
+    if (document.body.classList.contains("sidebar-open")) closeMenu();
+    else openMenu();
+  });
+
+  backdrop.addEventListener("click", closeMenu);
+
+  host.addEventListener("click", (event) => {
+    const link = event.target.closest("a");
+    if (link && window.matchMedia("(max-width: 700px)").matches) closeMenu();
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") closeMenu();
+  });
+
+  window.addEventListener("resize", () => {
+    if (!window.matchMedia("(max-width: 700px)").matches) closeMenu();
+  });
+}
+
 document.addEventListener("DOMContentLoaded", async () => {
   applyBackground();
 
@@ -71,4 +135,5 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   host.innerHTML = await getSidebarHtml();
   applyActiveLink(host);
+  setupMobileSidebar(host);
 });

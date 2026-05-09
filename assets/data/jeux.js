@@ -1,10 +1,21 @@
 ﻿window.GAMES_DATA = [
     {
-        "titre":  "Watch Dogs (2014)",
-        "sortId":  "J1",
+        "titre":  "Red Dead Redemption II (2018)",
+        "sortId":  "RDR2",
         "items":  [
                       {
-                          "id":  "J1",
+                          "id":  "RDR2",
+                          "format":  "PS4",
+                          "lien":  "https://jaquettes.pages.dev/jeux_jpg/rdr2.jpg"
+                      }
+                  ]
+    },
+    {
+        "titre":  "Watch Dogs (2014)",
+        "sortId":  "WatchDogs1",
+        "items":  [
+                      {
+                          "id":  "WatchDogs1",
                           "format":  "Xbox",
                           "lien":  "https://jaquettes.pages.dev/jeux_jpg/1564_wd_xbox.jpg"
                       }

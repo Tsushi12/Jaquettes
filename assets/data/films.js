@@ -104,7 +104,7 @@
                   ]
     },
     {
-        "titre":  "Firefox1982",
+        "titre":  "Firefox (1982)",
         "sortId":  "Firefox1982",
         "items":  [
                       {
