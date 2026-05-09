@@ -107,11 +107,44 @@ function isPhoneDevice() {
 
 function looksLikeForcedDesktopMode() {
   const screenWidth = getDeviceScreenWidth();
+  const screenLongSide = Math.round(Math.max(
+    screen.width || window.innerWidth || 0,
+    screen.height || window.innerHeight || 0
+  ));
   const viewportWidth = getViewportWidth();
 
   if (!isPhoneDevice() || !screenWidth || !viewportWidth) return false;
 
-  return viewportWidth >= 760 && viewportWidth >= screenWidth * 1.6;
+  const storageKey = "jaquettesForcedDesktopMode";
+  let storedDesktopMode = false;
+
+  try {
+    storedDesktopMode = sessionStorage.getItem(storageKey) === "true";
+  } catch (e) {
+    storedDesktopMode = false;
+  }
+
+  const detectedDesktopMode =
+    viewportWidth >= 760 &&
+    (viewportWidth >= screenWidth * 1.45 || viewportWidth >= screenLongSide * 0.95);
+
+  if (detectedDesktopMode) {
+    try {
+      sessionStorage.setItem(storageKey, "true");
+    } catch (e) {}
+    return true;
+  }
+
+  const backToNormalMobileMode = viewportWidth <= screenWidth * 1.25 && viewportWidth < 700;
+
+  if (backToNormalMobileMode) {
+    try {
+      sessionStorage.removeItem(storageKey);
+    } catch (e) {}
+    return false;
+  }
+
+  return storedDesktopMode;
 }
 
 function shouldUseMobileLayout() {
