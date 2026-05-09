@@ -87,18 +87,21 @@ function getViewportWidth() {
 }
 
 function looksLikeForcedDesktopMode() {
-  const screenWidth = Math.min(screen.width || 0, screen.height || 0);
   const viewportWidth = getViewportWidth();
+  const physicalScreenWidth = Math.min(screen.width || 0, screen.height || 0);
 
-  if (!screenWidth || !viewportWidth) return false;
+  if (!physicalScreenWidth || !viewportWidth) return false;
 
   const isTouchDevice =
     (navigator.maxTouchPoints || 0) > 0 ||
     window.matchMedia("(pointer: coarse)").matches;
 
   const isPortrait = window.matchMedia("(orientation: portrait)").matches;
+  const isPhoneScreen = physicalScreenWidth <= 600;
+  const desktopViewportOnPhone = viewportWidth >= 980;
+  const desktopPortraitOnPhone = isPortrait && viewportWidth >= 700 && viewportWidth > physicalScreenWidth * 1.45;
 
-  return isTouchDevice && isPortrait && viewportWidth >= 900 && viewportWidth > screenWidth * 1.7;
+  return isTouchDevice && isPhoneScreen && (desktopViewportOnPhone || desktopPortraitOnPhone);
 }
 
 function shouldUseMobileLayout() {
