@@ -1,25 +1,15 @@
 // Sidebar HTML fallback (works even when opened via file://)
-const SIDEBAR_FALLBACK_HTML = `<div class="sidebar" id="site-sidebar">
-  <ul class="sidebar-menu">
-    <li class="brand">
-      <a href="index.html" data-nav="index" class="brand-link">
-        <span class="brand-mark" aria-hidden="true">J</span>
-        <span class="brand-copy">
-          <span class="brand-title">Jaquettes</span>
-          <span class="brand-sub">Bibliothèque</span>
-        </span>
-      </a>
-    </li>
+const SIDEBAR_FALLBACK_HTML = `<div class="sidebar">
+  <ul>
+    <li class="brand"><a href="index.html" data-nav="index"><span class="brand-title">Jaquettes</span><span class="brand-sub">Bibliothèque</span></a></li>
+    <li><a href="films.html" data-nav="films">Films</a></li>
+    <li><a href="series.html" data-nav="series">Séries</a></li>
+    <li><a href="jeux.html" data-nav="jeux">Jeux Vidéo</a></li>
 
-    <li class="nav-section-label">Navigation</li>
-    <li><a href="films.html" data-nav="films"><span class="nav-icon" aria-hidden="true">🎬</span><span>Films</span></a></li>
-    <li><a href="series.html" data-nav="series"><span class="nav-icon" aria-hidden="true">📺</span><span>Séries</span></a></li>
-    <li><a href="jeux.html" data-nav="jeux"><span class="nav-icon" aria-hidden="true">🎮</span><span>Jeux Vidéo</span></a></li>
-
-    <li><a href="https://www.themoviedb.org/?language=fr" target="_blank" rel="noopener noreferrer" class="no-bg utility-link"><img src="front_pic/tmdb.png" alt="TMDB Logo"><span>TMDb</span></a></li>
-    <li><a href="https://github.com/Tsushi12" target="_blank" rel="noopener noreferrer" class="no-bg utility-link"><img src="front_pic/github.png" alt="GitHub Logo"><span>GitHub</span></a></li>
-    <li><a href="https://www.linkedin.com/in/driss-el-bouffi-25a394316" target="_blank" rel="noopener noreferrer" class="no-bg utility-link"><img src="front_pic/linkedin.png" alt="LinkedIn Logo"><span>LinkedIn</span></a></li>
-    <li><a href="https://elbdweb.github.io/El_Bouffi/" target="_blank" rel="noopener noreferrer" class="no-bg utility-link"><img src="front_pic/portfolio.png" alt="Portfolio Logo"><span>Mon portfolio</span></a></li>
+    <li><a href="https://www.themoviedb.org/?language=fr" target="_blank" rel="noopener noreferrer" class="no-bg"><img src="FrontPic/tmdb.png" alt="TMDB Logo"> TMDb</a></li>
+    <li><a href="https://github.com/Tsushi12" target="_blank" rel="noopener noreferrer" class="no-bg"><img src="FrontPic/github.png" alt="GitHub Logo"> GitHub</a></li>
+    <li><a href="https://www.linkedin.com/in/driss-el-bouffi-25a394316" target="_blank" rel="noopener noreferrer" class="no-bg"><img src="FrontPic/linkedin.png" alt="LinkedIn Logo"> LinkedIn</a></li>
+    <li><a href="https://elbdweb.github.io/El_Bouffi/" target="_blank" rel="noopener noreferrer" class="no-bg"><img src="FrontPic/portfolio.png" alt="Portfolio Logo"> Mon portfolio</a></li>
   </ul>
 </div>`;
 
@@ -73,58 +63,74 @@ function applyBackground() {
   document.body.style.backgroundImage = gradients[page] || gradients.default;
 }
 
-
 function setupMobileSidebar(host) {
   const sidebar = host.querySelector(".sidebar");
   if (!sidebar) return;
 
-  if (document.querySelector(".mobile-nav-toggle")) return;
-
-  const toggle = document.createElement("button");
-  toggle.type = "button";
-  toggle.className = "mobile-nav-toggle";
-  toggle.setAttribute("aria-controls", sidebar.id || "site-sidebar");
-  toggle.setAttribute("aria-expanded", "false");
-  toggle.innerHTML = `<span aria-hidden="true">☰</span><span>Menu</span>`;
-
-  const backdrop = document.createElement("div");
-  backdrop.className = "sidebar-backdrop";
-  backdrop.hidden = true;
-
-  document.body.insertBefore(toggle, document.body.firstChild);
-  document.body.insertBefore(backdrop, document.body.firstChild);
-
-  function closeMenu() {
-    document.body.classList.remove("sidebar-open");
+  let toggle = document.querySelector(".mobile-menu-toggle");
+  if (!toggle) {
+    toggle = document.createElement("button");
+    toggle.type = "button";
+    toggle.className = "mobile-menu-toggle";
+    toggle.setAttribute("aria-label", "Ouvrir le menu");
+    toggle.setAttribute("aria-controls", sidebar.id || "site-sidebar");
     toggle.setAttribute("aria-expanded", "false");
-    backdrop.hidden = true;
+    toggle.textContent = "Menu";
+    document.body.prepend(toggle);
   }
 
-  function openMenu() {
-    document.body.classList.add("sidebar-open");
-    toggle.setAttribute("aria-expanded", "true");
-    backdrop.hidden = false;
+  if (!sidebar.id) sidebar.id = "site-sidebar";
+
+  let backdrop = document.querySelector(".sidebar-backdrop");
+  if (!backdrop) {
+    backdrop = document.createElement("div");
+    backdrop.className = "sidebar-backdrop";
+    backdrop.hidden = true;
+    document.body.appendChild(backdrop);
   }
+
+  const isMobile = () => {
+    return window.innerWidth <= 900 || window.screen.width <= 900 || window.matchMedia("(hover: none) and (pointer: coarse)").matches;
+  };
+
+  const closeMenu = () => {
+    document.body.classList.remove("mobile-menu-open");
+    toggle.setAttribute("aria-expanded", "false");
+    toggle.setAttribute("aria-label", "Ouvrir le menu");
+    backdrop.hidden = true;
+  };
+
+  const openMenu = () => {
+    document.body.classList.add("mobile-menu-open");
+    toggle.setAttribute("aria-expanded", "true");
+    toggle.setAttribute("aria-label", "Fermer le menu");
+    backdrop.hidden = false;
+  };
+
+  const syncMode = () => {
+    document.body.classList.toggle("mobile-nav-enabled", isMobile());
+    if (!isMobile()) closeMenu();
+  };
 
   toggle.addEventListener("click", () => {
-    if (document.body.classList.contains("sidebar-open")) closeMenu();
+    if (document.body.classList.contains("mobile-menu-open")) closeMenu();
     else openMenu();
   });
 
   backdrop.addEventListener("click", closeMenu);
 
-  host.addEventListener("click", (event) => {
+  sidebar.addEventListener("click", (event) => {
     const link = event.target.closest("a");
-    if (link && window.matchMedia("(max-width: 700px)").matches) closeMenu();
+    if (link && isMobile()) closeMenu();
   });
 
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") closeMenu();
   });
 
-  window.addEventListener("resize", () => {
-    if (!window.matchMedia("(max-width: 700px)").matches) closeMenu();
-  });
+  window.addEventListener("resize", syncMode);
+  window.addEventListener("orientationchange", syncMode);
+  syncMode();
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
