@@ -86,22 +86,32 @@ function getViewportWidth() {
   return Math.round(window.visualViewport?.width || window.innerWidth || document.documentElement.clientWidth || 0);
 }
 
-function looksLikeForcedDesktopMode() {
-  const viewportWidth = getViewportWidth();
-  const physicalScreenWidth = Math.min(screen.width || 0, screen.height || 0);
+function getDeviceScreenWidth() {
+  return Math.round(Math.min(
+    screen.width || window.innerWidth || 0,
+    screen.height || window.innerHeight || 0
+  ));
+}
 
-  if (!physicalScreenWidth || !viewportWidth) return false;
-
-  const isTouchDevice =
+function isTouchDevice() {
+  return (
     (navigator.maxTouchPoints || 0) > 0 ||
-    window.matchMedia("(pointer: coarse)").matches;
+    window.matchMedia("(pointer: coarse)").matches
+  );
+}
 
-  const isPortrait = window.matchMedia("(orientation: portrait)").matches;
-  const isPhoneScreen = physicalScreenWidth <= 600;
-  const desktopViewportOnPhone = viewportWidth >= 980;
-  const desktopPortraitOnPhone = isPortrait && viewportWidth >= 700 && viewportWidth > physicalScreenWidth * 1.45;
+function isPhoneDevice() {
+  const screenWidth = getDeviceScreenWidth();
+  return isTouchDevice() && screenWidth > 0 && screenWidth <= 600;
+}
 
-  return isTouchDevice && isPhoneScreen && (desktopViewportOnPhone || desktopPortraitOnPhone);
+function looksLikeForcedDesktopMode() {
+  const screenWidth = getDeviceScreenWidth();
+  const viewportWidth = getViewportWidth();
+
+  if (!isPhoneDevice() || !screenWidth || !viewportWidth) return false;
+
+  return viewportWidth >= 760 && viewportWidth >= screenWidth * 1.6;
 }
 
 function shouldUseMobileLayout() {
@@ -113,15 +123,9 @@ function shouldUseMobileLayout() {
   const isNarrowViewport = viewportWidth > 0 && viewportWidth <= 1100;
   const isHalfScreenOrLess = screenAvailableWidth > 0 && browserWidth <= screenAvailableWidth * 0.52;
 
-  const isTouchDevice =
-    (navigator.maxTouchPoints || 0) > 0 ||
-    window.matchMedia("(pointer: coarse)").matches;
+  if (isPhoneDevice()) return true;
 
-  const isPortrait = window.matchMedia("(orientation: portrait)").matches;
-  const screenWidth = Math.min(screen.width || viewportWidth, screen.height || viewportWidth);
-  const isPhonePortrait = isTouchDevice && isPortrait && screenWidth <= 600;
-
-  return isNarrowViewport || isHalfScreenOrLess || isPhonePortrait;
+  return isNarrowViewport || isHalfScreenOrLess;
 }
 
 function applyResponsiveMode() {
