@@ -1,0 +1,11 @@
+cmd.txt
+GENERER_FILMS_JS.bat
+assets/data/films.csv
+assets/data/series.csv
+assets/data/jeux.csv
+tools/
+films_jpg/
+series_jpg/
+jeux_jpg/
+upload-cloudflare/
+.wrangler/

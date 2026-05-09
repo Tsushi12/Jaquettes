@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"/>
+  <title>Séries</title>
+  <link rel="icon" type="image/png" href="FrontPic/index_favicon.png"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="assets/css/theme.css"/>
+  <script defer src="assets/js/layout.js"></script>
+</head>
+
+<body data-page="series" data-bg="FrontPic/films_et_series.jpg">
+  <div id="sidebar-host"></div>
+
+  <div class="content">
+    <h1>Séries</h1>
+
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Rechercher une série ou une saison..." oninput="searchSeries()">
+    </div>
+
+    <div class="section">
+      <div class="movie-list" id="seriesList"></div>
+    </div>
+  </div>
+
+  <!-- Fallback data (file://) -->
+  <script src="assets/data/series.js"></script>
+  <script src="assets/js/series.js"></script>
+</body>
+</html>

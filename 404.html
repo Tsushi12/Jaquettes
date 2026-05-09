@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirection</title>
+  <script>
+    const targetBase = "https://jaquettes.pages.dev";
+    const path = window.location.pathname;
+    const search = window.location.search;
+    const hash = window.location.hash;
+
+    const match = path.match(/^\/Jaquettes\/([^\/]+_jpg)\/(.+)$/i);
+
+    if (match) {
+      let folder = match[1];
+      const filePath = match[2];
+
+      folder = folder.toLowerCase();
+
+      if (folder === "doc_jpg") {
+        folder = "films_jpg";
+      }
+
+      const targetUrl =
+        targetBase + "/" + folder + "/" + filePath + search + hash;
+
+      window.location.replace(targetUrl);
+    }
+  </script>
+</head>
+<body>
+  Redirection...
+</body>
+</html>
