@@ -9,22 +9,26 @@
     const search = window.location.search;
     const hash = window.location.hash;
 
-    const match = path.match(/^\/Jaquettes\/([^\/]+_jpg)\/(.+)$/i);
+    const match = path.match(/^\/Jaquettes\/([^\/]+_jpg)\/([^?#]+)$/i);
 
     if (match) {
-      let folder = match[1];
+      let folder = match[1].toLowerCase();
       const filePath = match[2];
-
-      folder = folder.toLowerCase();
 
       if (folder === "doc_jpg") {
         folder = "films_jpg";
       }
 
-      const targetUrl =
-        targetBase + "/" + folder + "/" + filePath + search + hash;
+      if (
+        !filePath.includes("..") &&
+        !filePath.includes("\\") &&
+        /\.(jpg|jpeg|png|webp)$/i.test(filePath)
+      ) {
+        const targetUrl =
+          targetBase + "/" + folder + "/" + encodeURI(filePath) + search + hash;
 
-      window.location.replace(targetUrl);
+        window.location.replace(targetUrl);
+      }
     }
   </script>
 </head>
