@@ -22,7 +22,7 @@
                   ]
     },
     {
-        "titre":  "007 : Les diamants sont �ternels (1971)",
+        "titre":  "007 : Les diamants sont éternels (1971)",
         "sortId":  "Bond1971",
         "items":  [
                       {
@@ -82,7 +82,7 @@
                   ]
     },
     {
-        "titre":  "Coup de tÃªte (1979)",
+        "titre":  "Coup de tête (1979)",
         "sortId":  "Coupdetete1979",
         "items":  [
                       {
@@ -93,7 +93,7 @@
                   ]
     },
     {
-        "titre":  "PiÃ¨ge de cristal (Die Hard) (1988)",
+        "titre":  "Piège de cristal (Die Hard) (1988)",
         "sortId":  "DieHard1",
         "items":  [
                       {
@@ -115,7 +115,7 @@
                   ]
     },
     {
-        "titre":  "Folle Ã  tuer (1975)",
+        "titre":  "Folle à tuer (1975)",
         "sortId":  "Folleatuer1975",
         "items":  [
                       {
@@ -159,7 +159,7 @@
                   ]
     },
     {
-        "titre":  "Le GuÃ©pard (1963)",
+        "titre":  "Le Guépard (1963)",
         "sortId":  "Guepard1963",
         "items":  [
                       {
@@ -181,7 +181,7 @@
                   ]
     },
     {
-        "titre":  "Il Ã©tait une fois dans l\u0027Ouest (1968)",
+        "titre":  "Il était une fois dans l\u0027Ouest (1968)",
         "sortId":  "Iletaitunefoisdanslouest1968",
         "items":  [
                       {
@@ -236,7 +236,7 @@
                   ]
     },
     {
-        "titre":  "PokÃ©mon : DÃ©tective Pikachu (2019)",
+        "titre":  "Pokémon : Détective Pikachu (2019)",
         "sortId":  "Pokemon01",
         "items":  [
                       {
@@ -283,7 +283,7 @@
                   ]
     },
     {
-        "titre":  "Le PrÃ©sident (1961)",
+        "titre":  "Le Président (1961)",
         "sortId":  "President1961",
         "items":  [
                       {
@@ -387,7 +387,7 @@
                   ]
     },
     {
-        "titre":  "Star Wars, Ã©pisode I : La Menace fantÃ´me (1999)",
+        "titre":  "Star Wars, épisode I : La Menace fantôme (1999)",
         "sortId":  "SW1aa",
         "items":  [
                       {
@@ -413,7 +413,7 @@
                   ]
     },
     {
-        "titre":  "Star Wars, Ã©pisode II : L\u0027Attaque des clones (2002)",
+        "titre":  "Star Wars, épisode II : L\u0027Attaque des clones (2002)",
         "sortId":  "SW2aa",
         "items":  [
                       {
@@ -439,7 +439,7 @@
                   ]
     },
     {
-        "titre":  "Star Wars, Ã©pisode III : La Revanche des Sith (2005)",
+        "titre":  "Star Wars, épisode III : La Revanche des Sith (2005)",
         "sortId":  "SW3aa",
         "items":  [
                       {
@@ -465,7 +465,7 @@
                   ]
     },
     {
-        "titre":  "Star Wars, Ã©pisode IV : Un nouvel espoir (1977)",
+        "titre":  "Star Wars, épisode IV : Un nouvel espoir (1977)",
         "sortId":  "SW4aa",
         "items":  [
                       {
@@ -491,7 +491,7 @@
                   ]
     },
     {
-        "titre":  "Star Wars, Ã©pisode V : L\u0027Empire contre-attaque (1980)",
+        "titre":  "Star Wars, épisode V : L\u0027Empire contre-attaque (1980)",
         "sortId":  "SW5aa",
         "items":  [
                       {
@@ -517,7 +517,7 @@
                   ]
     },
     {
-        "titre":  "Star Wars, Ã©pisode VI : Le Retour du Jedi (1983)",
+        "titre":  "Star Wars, épisode VI : Le Retour du Jedi (1983)",
         "sortId":  "SW6aa",
         "items":  [
                       {
@@ -543,7 +543,7 @@
                   ]
     },
     {
-        "titre":  "Star Wars, Ã©pisode VII : Le RÃ©veil de la Force (2015)",
+        "titre":  "Star Wars, épisode VII : Le Réveil de la Force (2015)",
         "sortId":  "SW7aa",
         "items":  [
                       {
@@ -569,7 +569,7 @@
                   ]
     },
     {
-        "titre":  "Star Wars, Ã©pisode VIII : Les Derniers Jedi (2017)",
+        "titre":  "Star Wars, épisode VIII : Les Derniers Jedi (2017)",
         "sortId":  "SW8aa",
         "items":  [
                       {
@@ -595,7 +595,7 @@
                   ]
     },
     {
-        "titre":  "Star Wars, Ã©pisode IX : L\u0027Ascension de Skywalker (2019)",
+        "titre":  "Star Wars, épisode IX : L\u0027Ascension de Skywalker (2019)",
         "sortId":  "SW9aa",
         "items":  [
                       {
@@ -684,7 +684,7 @@
                   ]
     },
     {
-        "titre":  "Tron : L\u0027HÃ©ritage (2011)",
+        "titre":  "Tron : L\u0027Héritage (2011)",
         "sortId":  "Tron24kdisc",
         "items":  [
                       {
