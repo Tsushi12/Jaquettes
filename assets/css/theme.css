@@ -768,6 +768,12 @@ body::before{
   animation: pageBlackReveal .5s ease-out 1 both;
 }
 
+@media (min-width: 701px){
+  body:not(.mobile-layout)::before{
+    left: var(--sidebar-width);
+  }
+}
+
 .content{
   animation: pageFadeIn .20s cubic-bezier(.2, .8, .2, 1) 1 both;
   backface-visibility: hidden;
