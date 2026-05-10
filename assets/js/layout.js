@@ -3,7 +3,9 @@ const SIDEBAR_FALLBACK_HTML = `<div class="sidebar" id="site-sidebar">
   <ul class="sidebar-menu">
     <li class="brand">
       <a href="index.html" data-nav="index" class="brand-link">
-        <span class="brand-mark" aria-hidden="true">J</span>
+        <span class="brand-mark" aria-hidden="true">
+          <img src="front_pic/favicon.svg" alt="">
+        </span>
         <span class="brand-copy">
           <span class="brand-title">Jaquettes</span>
           <span class="brand-sub">Bibliothèque</span>
@@ -45,29 +47,29 @@ function applyBackground() {
 
   const gradients = {
     index:
-      "radial-gradient(circle at 12% 18%, rgba(70,205,196,0.20) 0%, rgba(7,10,22,0.00) 44%)," +
-      "radial-gradient(circle at 88% 18%, rgba(229,178,70,0.18) 0%, rgba(7,10,22,0.00) 50%)," +
-      "linear-gradient(150deg, #070b16 0%, #111831 55%, #1a142c 100%)",
+      "radial-gradient(circle at 15% 10%, rgba(212,175,55,0.22) 0%, rgba(26,11,11,0.00) 42%)," +
+      "radial-gradient(circle at 90% 25%, rgba(177,58,44,0.20) 0%, rgba(26,11,11,0.00) 48%)," +
+      "linear-gradient(135deg, #1a0b0b 0%, #0f0707 55%, #1d0b0b 100%)",
 
     films:
-      "radial-gradient(circle at 16% 16%, rgba(229,178,70,0.18) 0%, rgba(8,9,18,0.00) 45%)," +
-      "radial-gradient(circle at 84% 24%, rgba(154,60,54,0.16) 0%, rgba(8,9,18,0.00) 48%)," +
-      "linear-gradient(125deg, #080a12 0%, #121629 56%, #22152a 100%)",
+      "radial-gradient(circle at 20% 12%, rgba(212,175,55,0.18) 0%, rgba(15,7,7,0.00) 45%)," +
+      "radial-gradient(circle at 85% 18%, rgba(177,58,44,0.18) 0%, rgba(15,7,7,0.00) 46%)," +
+      "linear-gradient(135deg, #120707 0%, #0b0707 55%, #1a0b0b 100%)",
 
     series:
-      "radial-gradient(circle at 14% 18%, rgba(94,111,255,0.18) 0%, rgba(7,9,20,0.00) 46%)," +
-      "radial-gradient(circle at 86% 22%, rgba(70,205,196,0.15) 0%, rgba(7,9,20,0.00) 48%)," +
-      "linear-gradient(215deg, #070a14 0%, #101832 55%, #171225 100%)",
+      "radial-gradient(circle at 18% 12%, rgba(212,175,55,0.18) 0%, rgba(15,7,7,0.00) 45%)," +
+      "radial-gradient(circle at 82% 22%, rgba(177,58,44,0.18) 0%, rgba(15,7,7,0.00) 46%)," +
+      "linear-gradient(135deg, #120707 0%, #0b0707 55%, #1a0b0b 100%)",
 
     jeux:
-      "radial-gradient(circle at 16% 20%, rgba(0,205,178,0.16) 0%, rgba(7,10,18,0.00) 46%)," +
-      "radial-gradient(circle at 88% 26%, rgba(229,178,70,0.14) 0%, rgba(7,10,18,0.00) 50%)," +
-      "linear-gradient(140deg, #070b13 0%, #0e1730 55%, #101c22 100%)",
+      "radial-gradient(circle at 18% 14%, rgba(212,175,55,0.16) 0%, rgba(12,8,8,0.00) 46%)," +
+      "radial-gradient(circle at 88% 30%, rgba(177,58,44,0.16) 0%, rgba(12,8,8,0.00) 48%)," +
+      "linear-gradient(135deg, #130808 0%, #0b0707 55%, #1a0b0b 100%)",
 
     default:
-      "radial-gradient(circle at 16% 14%, rgba(70,205,196,0.16) 0%, rgba(7,10,22,0.00) 44%)," +
-      "radial-gradient(circle at 88% 22%, rgba(229,178,70,0.14) 0%, rgba(7,10,22,0.00) 48%)," +
-      "linear-gradient(150deg, #070b16 0%, #111831 55%, #1a142c 100%)"
+      "radial-gradient(circle at 20% 10%, rgba(212,175,55,0.16) 0%, rgba(26,11,11,0.00) 44%)," +
+      "radial-gradient(circle at 90% 20%, rgba(177,58,44,0.14) 0%, rgba(26,11,11,0.00) 48%)," +
+      "linear-gradient(135deg, #1a0b0b 0%, #0f0707 55%, #1d0b0b 100%)"
   };
 
   document.body.style.backgroundImage = gradients[page] || gradients.default;
@@ -121,7 +123,7 @@ function isPhoneBrowser() {
 
 const PHONE_LAYOUT_SESSION_KEY = "jaquettesPhoneLayoutMode";
 const DESKTOP_PHONE_VIEWPORT = "width=device-width, initial-scale=0.24, minimum-scale=0.24, maximum-scale=5.0, viewport-fit=cover";
-const MOBILE_PHONE_VIEWPORT = "width=device-width, initial-scale=0.70, minimum-scale=0.70, maximum-scale=5.0, viewport-fit=cover";
+const MOBILE_PHONE_VIEWPORT = "width=device-width, initial-scale=0.74, minimum-scale=0.74, maximum-scale=5.0, viewport-fit=cover";
 
 let stablePhoneLayoutMode = null;
 

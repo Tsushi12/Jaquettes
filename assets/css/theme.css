@@ -451,6 +451,16 @@ p{
   box-shadow: 0 12px 24px rgba(0,0,0,0.24);
 }
 
+.sidebar .brand-mark img{
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  flex: 0 0 auto;
+  display: block;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+
 .brand-copy{
   display: flex;
   flex-direction: column;
@@ -734,6 +744,7 @@ body:not(.mobile-layout) .sidebar-backdrop{
     transform: translate3d(0, 0, 0);
   }
 }
+
 
 @keyframes pageBlackReveal{
   from{
