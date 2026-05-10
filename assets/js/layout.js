@@ -47,9 +47,9 @@ function applyBackground() {
 
   const gradients = {
     index:
-      "radial-gradient(circle at 14% 10%, rgba(198,116,56,0.24) 0%, rgba(28,23,21,0.00) 44%)," +
-      "radial-gradient(circle at 88% 24%, rgba(142,103,76,0.18) 0%, rgba(28,23,21,0.00) 50%)," +
-      "linear-gradient(135deg, #211916 0%, #141414 56%, #25201d 100%)",
+      "radial-gradient(circle at 14% 10%, rgba(242,242,242,0.20) 0%, rgba(18,18,18,0.00) 44%)," +
+      "radial-gradient(circle at 88% 24%, rgba(176,176,176,0.16) 0%, rgba(18,18,18,0.00) 50%)," +
+      "linear-gradient(135deg, #2a2a2a 0%, #101010 56%, #d9d9d9 100%)",
 
     films:
       "radial-gradient(circle at 18% 12%, rgba(142,104,70,0.22) 0%, rgba(22,19,17,0.00) 46%)," +
@@ -62,9 +62,9 @@ function applyBackground() {
       "linear-gradient(138deg, #151d22 0%, #111416 57%, #1d242a 100%)",
 
     jeux:
-      "radial-gradient(circle at 17% 13%, rgba(98,139,105,0.22) 0%, rgba(18,22,20,0.00) 46%)," +
-      "radial-gradient(circle at 86% 26%, rgba(72,101,82,0.18) 0%, rgba(18,22,20,0.00) 50%)," +
-      "linear-gradient(140deg, #151c18 0%, #111514 58%, #1d241f 100%)",
+      "radial-gradient(circle at 17% 13%, rgba(132,50,86,0.24) 0%, rgba(20,13,18,0.00) 46%)," +
+      "radial-gradient(circle at 86% 26%, rgba(95,50,104,0.20) 0%, rgba(20,13,18,0.00) 50%)," +
+      "linear-gradient(140deg, #24131b 0%, #141014 58%, #2a1724 100%)",
 
     default:
       "radial-gradient(circle at 20% 10%, rgba(212,175,55,0.16) 0%, rgba(26,11,11,0.00) 44%)," +
