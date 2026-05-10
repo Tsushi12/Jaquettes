@@ -120,7 +120,7 @@ function isPhoneBrowser() {
 }
 
 const PHONE_LAYOUT_SESSION_KEY = "jaquettesPhoneLayoutMode";
-const DESKTOP_PHONE_VIEWPORT = "width=1200, initial-scale=1.0, viewport-fit=cover";
+const DESKTOP_PHONE_VIEWPORT = "width=device-width, initial-scale=0.1, minimum-scale=0.1, maximum-scale=5.0, viewport-fit=cover";
 const MOBILE_PHONE_VIEWPORT = "width=device-width, initial-scale=1.0, viewport-fit=cover";
 
 let stablePhoneLayoutMode = null;
