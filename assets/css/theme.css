@@ -880,10 +880,10 @@ body::before{
 /* Harmonisation couleur blocs par page */
 body[data-page="index"]{
   --block-frame-bg:
-    linear-gradient(90deg, rgba(246,210,164,0.070) 0%, rgba(238,225,210,0.038) 42%, rgba(182,134,96,0.055) 100%),
-    linear-gradient(155deg, rgba(46,45,45,0.92) 0%, rgba(37,34,33,0.95) 54%, rgba(30,27,26,0.97) 100%);
-  --block-frame-border: rgba(236,216,194,0.24);
-  --block-frame-text: rgba(249,239,224,0.95);
+    linear-gradient(90deg, rgba(238,238,236,0.96) 0%, rgba(226,226,223,0.96) 52%, rgba(214,214,210,0.95) 100%),
+    linear-gradient(155deg, rgba(232,232,229,0.96) 0%, rgba(221,221,217,0.97) 56%, rgba(208,208,204,0.96) 100%);
+  --block-frame-border: rgba(203,203,198,0.62);
+  --block-frame-text: #111111;
   --block-search-bg:
     linear-gradient(90deg, rgba(255,244,230,0.86) 0%, rgba(237,224,211,0.90) 52%, rgba(226,203,181,0.88) 100%);
   --block-search-border: rgba(201,166,133,0.46);

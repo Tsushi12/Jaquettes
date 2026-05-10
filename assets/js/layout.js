@@ -47,24 +47,24 @@ function applyBackground() {
 
   const gradients = {
     index:
-      "radial-gradient(circle at 15% 10%, rgba(212,175,55,0.22) 0%, rgba(26,11,11,0.00) 42%)," +
-      "radial-gradient(circle at 90% 25%, rgba(177,58,44,0.20) 0%, rgba(26,11,11,0.00) 48%)," +
-      "linear-gradient(135deg, #1a0b0b 0%, #0f0707 55%, #1d0b0b 100%)",
+      "radial-gradient(circle at 14% 10%, rgba(198,116,56,0.24) 0%, rgba(28,23,21,0.00) 44%)," +
+      "radial-gradient(circle at 88% 24%, rgba(142,103,76,0.18) 0%, rgba(28,23,21,0.00) 50%)," +
+      "linear-gradient(135deg, #211916 0%, #141414 56%, #25201d 100%)",
 
     films:
-      "radial-gradient(circle at 20% 12%, rgba(212,175,55,0.18) 0%, rgba(15,7,7,0.00) 45%)," +
-      "radial-gradient(circle at 85% 18%, rgba(177,58,44,0.18) 0%, rgba(15,7,7,0.00) 46%)," +
-      "linear-gradient(135deg, #120707 0%, #0b0707 55%, #1a0b0b 100%)",
+      "radial-gradient(circle at 18% 12%, rgba(142,104,70,0.22) 0%, rgba(22,19,17,0.00) 46%)," +
+      "radial-gradient(circle at 86% 22%, rgba(105,82,65,0.18) 0%, rgba(22,19,17,0.00) 50%)," +
+      "linear-gradient(140deg, #1f1915 0%, #141313 58%, #282019 100%)",
 
     series:
-      "radial-gradient(circle at 18% 12%, rgba(212,175,55,0.18) 0%, rgba(15,7,7,0.00) 45%)," +
-      "radial-gradient(circle at 82% 22%, rgba(177,58,44,0.18) 0%, rgba(15,7,7,0.00) 46%)," +
-      "linear-gradient(135deg, #120707 0%, #0b0707 55%, #1a0b0b 100%)",
+      "radial-gradient(circle at 16% 12%, rgba(78,121,142,0.22) 0%, rgba(18,22,25,0.00) 46%)," +
+      "radial-gradient(circle at 84% 24%, rgba(69,86,112,0.18) 0%, rgba(18,22,25,0.00) 50%)," +
+      "linear-gradient(138deg, #151d22 0%, #111416 57%, #1d242a 100%)",
 
     jeux:
-      "radial-gradient(circle at 18% 14%, rgba(212,175,55,0.16) 0%, rgba(12,8,8,0.00) 46%)," +
-      "radial-gradient(circle at 88% 30%, rgba(177,58,44,0.16) 0%, rgba(12,8,8,0.00) 48%)," +
-      "linear-gradient(135deg, #130808 0%, #0b0707 55%, #1a0b0b 100%)",
+      "radial-gradient(circle at 17% 13%, rgba(98,139,105,0.22) 0%, rgba(18,22,20,0.00) 46%)," +
+      "radial-gradient(circle at 86% 26%, rgba(72,101,82,0.18) 0%, rgba(18,22,20,0.00) 50%)," +
+      "linear-gradient(140deg, #151c18 0%, #111514 58%, #1d241f 100%)",
 
     default:
       "radial-gradient(circle at 20% 10%, rgba(212,175,55,0.16) 0%, rgba(26,11,11,0.00) 44%)," +
