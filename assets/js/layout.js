@@ -82,15 +82,20 @@ function normalizeHtmlForCompare(html) {
     .trim();
 }
 
-function getViewportWidth() {
-  return Math.round(window.visualViewport?.width || window.innerWidth || document.documentElement.clientWidth || 0);
+function getVisualViewportWidth() {
+  return Math.round(window.visualViewport?.width || 0);
 }
 
-function getDeviceScreenWidth() {
-  return Math.round(Math.min(
-    screen.width || window.innerWidth || 0,
-    screen.height || window.innerHeight || 0
+function getLayoutViewportWidth() {
+  return Math.round(Math.max(
+    window.innerWidth || 0,
+    document.documentElement?.clientWidth || 0,
+    document.body?.clientWidth || 0
   ));
+}
+
+function getViewportWidth() {
+  return getLayoutViewportWidth() || getVisualViewportWidth();
 }
 
 function isTouchDevice() {
@@ -100,63 +105,73 @@ function isTouchDevice() {
   );
 }
 
-function isPhoneDevice() {
-  const screenWidth = getDeviceScreenWidth();
-  return isTouchDevice() && screenWidth > 0 && screenWidth <= 600;
+function getScreenShortSide() {
+  const w = screen.width || 0;
+  const h = screen.height || 0;
+  return Math.min(w || h, h || w);
+}
+
+function isPhoneBrowser() {
+  const ua = navigator.userAgent || "";
+  const phoneUa = /iPhone|iPod|Android.*Mobile|Windows Phone|Mobile/i.test(ua);
+  const screenShortSide = getScreenShortSide();
+
+  return isTouchDevice() && (phoneUa || (screenShortSide > 0 && screenShortSide <= 600));
+}
+
+let stablePhoneLayoutMode = null;
+
+function detectForcedDesktopModeOnPhone() {
+  if (!isPhoneBrowser()) return false;
+
+  const ua = navigator.userAgent || "";
+  const platform = navigator.platform || "";
+  const screenShortSide = getScreenShortSide();
+  const visualViewportWidth = getVisualViewportWidth();
+  const layoutViewportWidth = getLayoutViewportWidth();
+  const widestViewport = Math.max(visualViewportWidth, layoutViewportWidth);
+
+  if (!screenShortSide || !widestViewport) return false;
+
+  const desktopSizedLayoutViewport =
+    layoutViewportWidth >= 900 ||
+    layoutViewportWidth >= screenShortSide * 1.7;
+
+  const desktopSizedAnyViewport = widestViewport >= 900;
+
+  const desktopUserAgentOnPhoneScreen =
+    screenShortSide <= 600 &&
+    !/iPhone|iPod|Android.*Mobile|Windows Phone|Mobile/i.test(ua) &&
+    (/Macintosh|Mac OS X|Windows NT|X11|Linux x86_64/i.test(ua) || platform === "MacIntel");
+
+  return desktopSizedLayoutViewport || desktopSizedAnyViewport || desktopUserAgentOnPhoneScreen;
+}
+
+function getStablePhoneLayoutMode() {
+  if (!isPhoneBrowser()) return null;
+
+  if (!stablePhoneLayoutMode) {
+    stablePhoneLayoutMode = detectForcedDesktopModeOnPhone() ? "desktop" : "mobile";
+  }
+
+  return stablePhoneLayoutMode;
 }
 
 function looksLikeForcedDesktopMode() {
-  const screenWidth = getDeviceScreenWidth();
-  const screenLongSide = Math.round(Math.max(
-    screen.width || window.innerWidth || 0,
-    screen.height || window.innerHeight || 0
-  ));
-  const viewportWidth = getViewportWidth();
-
-  if (!isPhoneDevice() || !screenWidth || !viewportWidth) return false;
-
-  const storageKey = "jaquettesForcedDesktopMode";
-  let storedDesktopMode = false;
-
-  try {
-    storedDesktopMode = sessionStorage.getItem(storageKey) === "true";
-  } catch (e) {
-    storedDesktopMode = false;
-  }
-
-  const detectedDesktopMode =
-    viewportWidth >= 760 &&
-    (viewportWidth >= screenWidth * 1.45 || viewportWidth >= screenLongSide * 0.95);
-
-  if (detectedDesktopMode) {
-    try {
-      sessionStorage.setItem(storageKey, "true");
-    } catch (e) {}
-    return true;
-  }
-
-  const backToNormalMobileMode = viewportWidth <= screenWidth * 1.25 && viewportWidth < 700;
-
-  if (backToNormalMobileMode) {
-    try {
-      sessionStorage.removeItem(storageKey);
-    } catch (e) {}
-    return false;
-  }
-
-  return storedDesktopMode;
+  return getStablePhoneLayoutMode() === "desktop";
 }
 
 function shouldUseMobileLayout() {
-  if (looksLikeForcedDesktopMode()) return false;
+  const phoneLayoutMode = getStablePhoneLayoutMode();
+
+  if (phoneLayoutMode === "desktop") return false;
+  if (phoneLayoutMode === "mobile") return true;
 
   const viewportWidth = getViewportWidth();
   const screenAvailableWidth = screen.availWidth || screen.width || 0;
   const browserWidth = window.outerWidth || viewportWidth;
   const isNarrowViewport = viewportWidth > 0 && viewportWidth <= 1100;
   const isHalfScreenOrLess = screenAvailableWidth > 0 && browserWidth <= screenAvailableWidth * 0.52;
-
-  if (isPhoneDevice()) return true;
 
   return isNarrowViewport || isHalfScreenOrLess;
 }

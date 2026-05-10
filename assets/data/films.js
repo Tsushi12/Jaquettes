@@ -371,7 +371,7 @@
                   ]
     },
     {
-        "titre":  "Spider-Man : No Way Home (2021)",
+        "titre":  "Spider-Man: No Way Home (2021)",
         "sortId":  "SpidNWHcom4K",
         "items":  [
                       {
