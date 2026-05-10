@@ -735,6 +735,28 @@ body:not(.mobile-layout) .sidebar-backdrop{
   }
 }
 
+@keyframes pageBlackReveal{
+  from{
+    opacity: .28;
+    visibility: visible;
+  }
+  to{
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+body::before{
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 2147483647;
+  pointer-events: none;
+  background: #000;
+  opacity: 0;
+  animation: pageBlackReveal .5s ease-out 1 both;
+}
+
 .content{
   animation: pageFadeIn .20s cubic-bezier(.2, .8, .2, 1) 1 both;
   backface-visibility: hidden;
