@@ -119,7 +119,29 @@ function isPhoneBrowser() {
   return isTouchDevice() && (phoneUa || (screenShortSide > 0 && screenShortSide <= 600));
 }
 
+const PHONE_LAYOUT_SESSION_KEY = "jaquettesPhoneLayoutMode";
+const DESKTOP_PHONE_VIEWPORT = "width=1200, initial-scale=1.0, viewport-fit=cover";
+const MOBILE_PHONE_VIEWPORT = "width=device-width, initial-scale=1.0, viewport-fit=cover";
+
 let stablePhoneLayoutMode = null;
+
+function readStoredPhoneLayoutMode() {
+  try {
+    const value = sessionStorage.getItem(PHONE_LAYOUT_SESSION_KEY);
+    return value === "desktop" || value === "mobile" ? value : null;
+  } catch (e) {
+    return null;
+  }
+}
+
+function storePhoneLayoutMode(mode) {
+  if (mode !== "desktop" && mode !== "mobile") return;
+  try {
+    sessionStorage.setItem(PHONE_LAYOUT_SESSION_KEY, mode);
+  } catch (e) {
+    /* sessionStorage can be unavailable in some private contexts. */
+  }
+}
 
 function detectForcedDesktopModeOnPhone() {
   if (!isPhoneBrowser()) return false;
@@ -151,10 +173,33 @@ function getStablePhoneLayoutMode() {
   if (!isPhoneBrowser()) return null;
 
   if (!stablePhoneLayoutMode) {
-    stablePhoneLayoutMode = detectForcedDesktopModeOnPhone() ? "desktop" : "mobile";
+    stablePhoneLayoutMode = detectForcedDesktopModeOnPhone() ? "desktop" : (readStoredPhoneLayoutMode() || "mobile");
+    storePhoneLayoutMode(stablePhoneLayoutMode);
   }
 
   return stablePhoneLayoutMode;
+}
+
+function ensureViewportMeta() {
+  let meta = document.querySelector('meta[name="viewport"]');
+  if (!meta) {
+    meta = document.createElement("meta");
+    meta.name = "viewport";
+    document.head.appendChild(meta);
+  }
+  return meta;
+}
+
+function applyPhoneViewportMode() {
+  const phoneLayoutMode = getStablePhoneLayoutMode();
+  if (!phoneLayoutMode) return;
+
+  const meta = ensureViewportMeta();
+  const nextContent = phoneLayoutMode === "desktop" ? DESKTOP_PHONE_VIEWPORT : MOBILE_PHONE_VIEWPORT;
+
+  if (meta.getAttribute("content") !== nextContent) {
+    meta.setAttribute("content", nextContent);
+  }
 }
 
 function looksLikeForcedDesktopMode() {
@@ -177,6 +222,7 @@ function shouldUseMobileLayout() {
 }
 
 function applyResponsiveMode() {
+  applyPhoneViewportMode();
   document.body.classList.toggle("mobile-layout", shouldUseMobileLayout());
 
   if (!document.body.classList.contains("mobile-layout")) {
@@ -242,7 +288,17 @@ function setupMobileSidebar(host) {
 
   host.addEventListener("click", (event) => {
     const link = event.target.closest("a");
-    if (link && document.body.classList.contains("mobile-layout")) closeMenu();
+    if (!link) return;
+
+    const href = link.getAttribute("href") || "";
+    const isInternalPageLink = /^(index|films|series|jeux)\.html(?:[?#].*)?$/i.test(href);
+
+    if (isInternalPageLink) {
+      const phoneLayoutMode = getStablePhoneLayoutMode();
+      if (phoneLayoutMode) storePhoneLayoutMode(phoneLayoutMode);
+    }
+
+    if (document.body.classList.contains("mobile-layout")) closeMenu();
   });
 
   document.addEventListener("keydown", (event) => {
@@ -258,6 +314,7 @@ function setupMobileSidebar(host) {
 }
 
 function initLayout() {
+  applyPhoneViewportMode();
   applyBackground();
 
   const host = document.getElementById("sidebar-host");
@@ -270,6 +327,8 @@ function initLayout() {
   applyActiveLink(host);
   setupMobileSidebar(host);
 }
+
+applyPhoneViewportMode();
 
 if (document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", initLayout);
