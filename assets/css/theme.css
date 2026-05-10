@@ -771,6 +771,11 @@ body::before{
 @media (min-width: 701px){
   body:not(.mobile-layout)::before{
     left: var(--sidebar-width);
+    z-index: 900;
+  }
+
+  body:not(.mobile-layout) .sidebar{
+    z-index: 1000;
   }
 }
 
