@@ -673,17 +673,15 @@ body:not(.mobile-layout) .sidebar-backdrop{
 /* Animation légère d'apparition des pages */
 @keyframes pageFadeIn{
   from{
-    opacity: 0.001;
-    transform: translateY(8px);
+    opacity: 0;
   }
   to{
     opacity: 1;
-    transform: translateY(0);
   }
 }
 
 .content{
-  animation: pageFadeIn .28s ease-out both;
+  animation: pageFadeIn .22s cubic-bezier(.2, .8, .2, 1) both;
 }
 
 @media (prefers-reduced-motion: reduce){

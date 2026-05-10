@@ -120,8 +120,8 @@ function isPhoneBrowser() {
 }
 
 const PHONE_LAYOUT_SESSION_KEY = "jaquettesPhoneLayoutMode";
-const DESKTOP_PHONE_VIEWPORT = "width=device-width, initial-scale=0.30, minimum-scale=0.30, maximum-scale=5.0, viewport-fit=cover";
-const MOBILE_PHONE_VIEWPORT = "width=device-width, initial-scale=0.78, minimum-scale=0.78, maximum-scale=5.0, viewport-fit=cover";
+const DESKTOP_PHONE_VIEWPORT = "width=device-width, initial-scale=0.24, minimum-scale=0.24, maximum-scale=5.0, viewport-fit=cover";
+const MOBILE_PHONE_VIEWPORT = "width=device-width, initial-scale=0.74, minimum-scale=0.74, maximum-scale=5.0, viewport-fit=cover";
 
 let stablePhoneLayoutMode = null;
 
@@ -173,7 +173,7 @@ function getStablePhoneLayoutMode() {
   if (!isPhoneBrowser()) return null;
 
   if (!stablePhoneLayoutMode) {
-    stablePhoneLayoutMode = detectForcedDesktopModeOnPhone() ? "desktop" : (readStoredPhoneLayoutMode() || "mobile");
+    stablePhoneLayoutMode = detectForcedDesktopModeOnPhone() ? "desktop" : "mobile";
     storePhoneLayoutMode(stablePhoneLayoutMode);
   }
 
