@@ -1,73 +1,8 @@
 (function () {
-  const CSV_URL = "assets/data/films.csv";
   const listEl = () => document.getElementById("moviesList");
 
   const FORMAT_PRIORITY = ["4K Ultra HD", "Blu-Ray", "DVD"];
-
-  function detectDelimiter(line) {
-    const candidates = [";", ",", "\t"];
-    let best = ";";
-    let bestCount = -1;
-    for (const d of candidates) {
-      const re = new RegExp(d === "\t" ? "\\t" : "\\" + d, "g");
-      const c = (line.match(re) || []).length;
-      if (c > bestCount) {
-        bestCount = c;
-        best = d;
-      }
-    }
-    return best;
-  }
-
-  function parseLine(line, delim) {
-    const out = [];
-    let i = 0;
-    let field = "";
-    let inQuotes = false;
-
-    while (i < line.length) {
-      const ch = line[i];
-
-      if (inQuotes) {
-        if (ch === '"') {
-          if (line[i + 1] === '"') {
-            field += '"';
-            i += 2;
-            continue;
-          }
-          inQuotes = false;
-          i++;
-          continue;
-        }
-        field += ch;
-        i++;
-        continue;
-      }
-
-      if (ch === '"') {
-        inQuotes = true;
-        i++;
-        continue;
-      }
-
-      if (ch === delim) {
-        out.push(field.trim());
-        field = "";
-        i++;
-        continue;
-      }
-
-      field += ch;
-      i++;
-    }
-
-    out.push(field.trim());
-    return out;
-  }
-
-  function normalizeHeader(h) {
-    return (h || "").trim().toLowerCase();
-  }
+  const THUMB_DIR = "assets/data/thumbs/films_webp/";
 
   function applyTitleTail(el, text) {
     const t = (text || "").toString();
@@ -101,6 +36,27 @@
     return d + f;
   }
 
+  function buildPreviewLink(lien, apercu) {
+    const explicit = (apercu || "").trim();
+    if (explicit) return explicit;
+
+    let src = (lien || "").trim();
+    if (!src) return "";
+
+    try {
+      src = new URL(src, window.location.href).pathname;
+    } catch (e) {
+      // Keep the raw link when URL parsing is not possible.
+    }
+
+    const parts = src.replace(/\\/g, "/").split("/").filter(Boolean);
+    let file = parts.pop() || "";
+    try { file = decodeURIComponent(file); } catch (e) { /* keep raw file name */ }
+
+    const base = file.replace(/\.[^/.?#]+$/, "");
+    return base ? THUMB_DIR + base + ".webp" : "";
+  }
+
   // Normalize a "row" (one cover) from either schema
   function normalizeCoverRow(r) {
     const id = (r.id || "").trim();
@@ -110,69 +66,10 @@
     let lien = (r.lien || "").trim();
     if (!lien) lien = buildLink(r.dossier, r.fichier, r.extension);
 
-    if (!id || !titre || !format || !lien) return null;
-    return { id, titre, format, lien };
-  }
+    const apercu = buildPreviewLink(lien, r.apercu);
 
-  function parseCSV(text) {
-    const rows = [];
-    const cleaned = text.replace(/^\uFEFF/, ""); // BOM
-    const lines = cleaned
-      .replace(/\r\n/g, "\n")
-      .replace(/\r/g, "\n")
-      .split("\n")
-      .filter(l => l.trim() !== "");
-
-    if (!lines.length) return rows;
-
-    const delim = detectDelimiter(lines[0]);
-    const header = parseLine(lines[0], delim).map(normalizeHeader);
-    const hasHeader = header.includes("id") && header.includes("titre") && header.includes("format");
-
-    const idx = {
-      id: header.indexOf("id"),
-      titre: header.indexOf("titre"),
-      format: header.indexOf("format"),
-      lien: header.indexOf("lien"),
-      dossier: header.indexOf("dossier"),
-      fichier: header.indexOf("fichier"),
-      extension: header.indexOf("extension"),
-    };
-
-    const startAt = hasHeader ? 1 : 0;
-
-    for (let li = startAt; li < lines.length; li++) {
-      const cols = parseLine(lines[li], delim);
-      const obj = {
-        id: idx.id >= 0 ? cols[idx.id] : cols[0],
-        titre: idx.titre >= 0 ? cols[idx.titre] : cols[1],
-        format: idx.format >= 0 ? cols[idx.format] : cols[2],
-        lien: idx.lien >= 0 ? cols[idx.lien] : "",
-        dossier: idx.dossier >= 0 ? cols[idx.dossier] : "",
-        fichier: idx.fichier >= 0 ? cols[idx.fichier] : "",
-        extension: idx.extension >= 0 ? cols[idx.extension] : "",
-      };
-
-      const row = normalizeCoverRow(obj);
-      if (row) rows.push(row);
-    }
-
-    return rows;
-  }
-
-  async function loadFromCSV() {
-    // On file://, fetch du CSV est souvent bloqué → fallback JS
-    if (location.protocol === "file:") {
-      throw new Error("CSV blocked on file://");
-    }
-
-    const res = await fetch(CSV_URL, { cache: "no-store" });
-    if (!res.ok) throw new Error("CSV HTTP " + res.status);
-    const text = await res.text();
-    const rows = parseCSV(text);
-    if (!rows.length) throw new Error("CSV parsed empty");
-    console.info("[films] CSV OK:", rows.length, "jaquettes");
-    return rows;
+    if (!id || !titre || !format || !lien || !apercu) return null;
+    return { id, titre, format, lien, apercu };
   }
 
   function loadFromFallback() {
@@ -189,7 +86,7 @@
         if (!m || !m.titre || !Array.isArray(m.items)) continue;
         const items = [];
         for (const it of m.items) {
-          const row = normalizeCoverRow({ id: it.id, titre: m.titre, format: it.format, lien: it.lien });
+          const row = normalizeCoverRow({ id: it.id, titre: m.titre, format: it.format, lien: it.lien, apercu: it.apercu });
           if (row) items.push(row);
         }
         if (items.length) modules.push({ titre: m.titre, sortId: (m.sortId || "").trim(), items });
@@ -211,7 +108,7 @@
     // Convert modules back to cover rows (internal helper)
     const rows = [];
     for (const m of modules) {
-      for (const it of m.items) rows.push({ id: it.id, titre: m.titre, format: it.format, lien: it.lien });
+      for (const it of m.items) rows.push({ id: it.id, titre: m.titre, format: it.format, lien: it.lien, apercu: it.apercu });
     }
     return rows;
   }
@@ -225,7 +122,7 @@
       if (!map.has(key)) map.set(key, { titre, items: [], sortId: r.id });
       const m = map.get(key);
       if (!m.titre && titre) m.titre = titre;
-      m.items.push({ id: r.id, format: r.format, lien: r.lien });
+      m.items.push({ id: r.id, format: r.format, lien: r.lien, apercu: r.apercu });
 
       // Keep smallest id as sortId
       const coll = new Intl.Collator("fr", { numeric: true, sensitivity: "base" });
@@ -265,10 +162,7 @@
     if (!modules.length) {
       const p = document.createElement("p");
       p.className = "no-results";
-      p.textContent =
-        (location.protocol === "file:")
-          ? "Aucune donnée chargée. En file://, exécute GENERER_FILMS_JS.bat après avoir modifié le CSV."
-          : "Aucun film trouvé (vérifie assets/data/films.csv).";
+      p.textContent = "Aucun film trouvé (vérifie assets/data/films_data.js).";
       host.appendChild(p);
       return;
     }
@@ -309,7 +203,7 @@
         a.rel = "noopener";
 
         const img = document.createElement("img");
-        img.src = it.lien;
+        img.src = it.apercu;
         img.alt = m.titre + " - " + it.format;
         img.loading = "lazy";
 
@@ -346,15 +240,9 @@
     render(filtered);
   }
 
-  async function init() {
-    let coverRows = [];
-    try {
-      coverRows = await loadFromCSV();
-      window.__DATA_SOURCE = "csv";
-    } catch (e) {
-      coverRows = loadFromFallback();
-      window.__DATA_SOURCE = "fallback";
-    }
+  function init() {
+    const coverRows = loadFromFallback();
+    window.__DATA_SOURCE = "js";
 
     window.__MOVIES_MODULES = groupByTitle(coverRows);
     render(window.__MOVIES_MODULES);

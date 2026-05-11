@@ -1,73 +1,8 @@
 (function () {
-  const CSV_URL = "assets/data/series.csv";
   const listEl = () => document.getElementById("seriesList");
 
   const FORMAT_PRIORITY = ["4K Ultra HD", "Blu-Ray", "DVD"];
-
-  function detectDelimiter(line) {
-    const candidates = [";", ",", "\t"];
-    let best = ";";
-    let bestCount = -1;
-    for (const d of candidates) {
-      const re = new RegExp(d === "\t" ? "\\t" : "\\" + d, "g");
-      const c = (line.match(re) || []).length;
-      if (c > bestCount) {
-        bestCount = c;
-        best = d;
-      }
-    }
-    return best;
-  }
-
-  function parseLine(line, delim) {
-    const out = [];
-    let i = 0;
-    let field = "";
-    let inQuotes = false;
-
-    while (i < line.length) {
-      const ch = line[i];
-
-      if (inQuotes) {
-        if (ch === '"') {
-          if (line[i + 1] === '"') {
-            field += '"';
-            i += 2;
-            continue;
-          }
-          inQuotes = false;
-          i++;
-          continue;
-        }
-        field += ch;
-        i++;
-        continue;
-      }
-
-      if (ch === '"') {
-        inQuotes = true;
-        i++;
-        continue;
-      }
-
-      if (ch === delim) {
-        out.push(field.trim());
-        field = "";
-        i++;
-        continue;
-      }
-
-      field += ch;
-      i++;
-    }
-
-    out.push(field.trim());
-    return out;
-  }
-
-  function normalizeHeader(h) {
-    return (h || "").trim().toLowerCase();
-  }
+  const THUMB_DIR = "assets/data/thumbs/series_webp/";
 
   function applyTitleTail(el, text) {
     const t = (text || "").toString();
@@ -101,6 +36,27 @@
     return d + f;
   }
 
+  function buildPreviewLink(lien, apercu) {
+    const explicit = (apercu || "").trim();
+    if (explicit) return explicit;
+
+    let src = (lien || "").trim();
+    if (!src) return "";
+
+    try {
+      src = new URL(src, window.location.href).pathname;
+    } catch (e) {
+      // Keep the raw link when URL parsing is not possible.
+    }
+
+    const parts = src.replace(/\\/g, "/").split("/").filter(Boolean);
+    let file = parts.pop() || "";
+    try { file = decodeURIComponent(file); } catch (e) { /* keep raw file name */ }
+
+    const base = file.replace(/\.[^/.?#]+$/, "");
+    return base ? THUMB_DIR + base + ".webp" : "";
+  }
+
   function normalizeRow(r) {
     const id = (r.id || "").trim();
     const titre = (r.titre || "").trim();
@@ -110,69 +66,10 @@
     let lien = (r.lien || "").trim();
     if (!lien) lien = buildLink(r.dossier, r.fichier, r.extension);
 
-    if (!id || !titre || !saison || !format || !lien) return null;
-    return { id, titre, saison, format, lien };
-  }
+    const apercu = buildPreviewLink(lien, r.apercu);
 
-  function parseCSV(text) {
-    const rows = [];
-    const cleaned = text.replace(/^\uFEFF/, "");
-    const lines = cleaned
-      .replace(/\r\n/g, "\n")
-      .replace(/\r/g, "\n")
-      .split("\n")
-      .filter(l => l.trim() !== "");
-
-    if (!lines.length) return rows;
-
-    const delim = detectDelimiter(lines[0]);
-    const header = parseLine(lines[0], delim).map(normalizeHeader);
-    const hasHeader =
-      header.includes("id") &&
-      header.includes("titre") &&
-      header.includes("saison") &&
-      header.includes("format");
-
-    const idx = {
-      id: header.indexOf("id"),
-      titre: header.indexOf("titre"),
-      saison: header.indexOf("saison"),
-      format: header.indexOf("format"),
-      lien: header.indexOf("lien"),
-      dossier: header.indexOf("dossier"),
-      fichier: header.indexOf("fichier"),
-      extension: header.indexOf("extension"),
-    };
-
-    const startAt = hasHeader ? 1 : 0;
-
-    for (let li = startAt; li < lines.length; li++) {
-      const cols = parseLine(lines[li], delim);
-      const obj = {
-        id: idx.id >= 0 ? cols[idx.id] : cols[0],
-        titre: idx.titre >= 0 ? cols[idx.titre] : cols[1],
-        saison: idx.saison >= 0 ? cols[idx.saison] : cols[2],
-        format: idx.format >= 0 ? cols[idx.format] : cols[3],
-        lien: idx.lien >= 0 ? cols[idx.lien] : "",
-        dossier: idx.dossier >= 0 ? cols[idx.dossier] : "",
-        fichier: idx.fichier >= 0 ? cols[idx.fichier] : "",
-        extension: idx.extension >= 0 ? cols[idx.extension] : "",
-      };
-
-      const row = normalizeRow(obj);
-      if (row) rows.push(row);
-    }
-    return rows;
-  }
-
-  async function loadFromCSV() {
-    if (location.protocol === "file:") throw new Error("CSV blocked on file://");
-    const res = await fetch(CSV_URL, { cache: "no-store" });
-    if (!res.ok) throw new Error("CSV HTTP " + res.status);
-    const text = await res.text();
-    const rows = parseCSV(text);
-    if (!rows.length) throw new Error("CSV parsed empty");
-    return rows;
+    if (!id || !titre || !saison || !format || !lien || !apercu) return null;
+    return { id, titre, saison, format, lien, apercu };
   }
 
   function rowsFromFallback() {
@@ -193,6 +90,7 @@
             saison: seas.saison,
             format: it.format,
             lien: it.lien,
+            apercu: it.apercu,
           });
           if (row) rows.push(row);
         }
@@ -223,7 +121,7 @@
       const seas = s.seasons.get(sk);
 
       if (coll.compare(r.id, seas.sortId) < 0) seas.sortId = r.id;
-      seas.items.push({ id: r.id, format: r.format, lien: r.lien });
+      seas.items.push({ id: r.id, format: r.format, lien: r.lien, apercu: r.apercu });
     }
 
     const modules = [];
@@ -259,10 +157,7 @@
     if (!modules.length) {
       const p = document.createElement("p");
       p.className = "no-results";
-      p.textContent =
-        (location.protocol === "file:")
-          ? "Aucune donnée chargée. En file://, exécute GENERER_FILMS_JS.bat après avoir modifié le CSV."
-          : "Aucune série trouvée (vérifie assets/data/series.csv).";
+      p.textContent = "Aucune série trouvée (vérifie assets/data/series_data.js).";
       host.appendChild(p);
       return;
     }
@@ -310,7 +205,7 @@
           a.rel = "noopener";
 
           const img = document.createElement("img");
-          img.src = it.lien;
+          img.src = it.apercu;
           img.alt = s.titre + " - " + seas.saison + " - " + it.format;
           img.loading = "lazy";
 
@@ -379,13 +274,9 @@
     render(filterModules(window.__SERIES_MODULES, q));
   }
 
-  async function init() {
-    let rows = [];
-    try {
-      rows = await loadFromCSV();
-    } catch (e) {
-      rows = rowsFromFallback();
-    }
+  function init() {
+    const rows = rowsFromFallback();
+    window.__DATA_SOURCE = "js";
 
     window.__SERIES_MODULES = groupSeries(rows);
     render(window.__SERIES_MODULES);
