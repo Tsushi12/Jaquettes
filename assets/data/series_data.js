@@ -10,7 +10,8 @@
                                           {
                                               "id":  "HouseoftheDragon1",
                                               "format":  "4K Ultra HD",
-                                              "lien":  "https://jaquettes.pages.dev/series_jpg/houseofthedragon_s1.jpg"
+                                              "lien":  "https://jaquettes.pages.dev/series_jpg/houseofthedragon_s1.jpg",
+                                              "apercu":  "assets/data/thumbs/series_webp/houseofthedragon_s1.webp"
                                           }
                                       ]
                         }
@@ -27,7 +28,8 @@
                                           {
                                               "id":  "SWMando1",
                                               "format":  "Blu-Ray",
-                                              "lien":  "https://jaquettes.pages.dev/series_jpg/mandalorian_s1.jpg"
+                                              "lien":  "https://jaquettes.pages.dev/series_jpg/mandalorian_s1.jpg",
+                                              "apercu":  "assets/data/thumbs/series_webp/mandalorian_s1.webp"
                                           }
                                       ]
                         }

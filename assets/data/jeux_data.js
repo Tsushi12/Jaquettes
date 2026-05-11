@@ -6,7 +6,8 @@
                       {
                           "id":  "RDR2",
                           "format":  "PS4",
-                          "lien":  "https://jaquettes.pages.dev/jeux_jpg/rdr2.jpg"
+                          "lien":  "https://jaquettes.pages.dev/jeux_jpg/rdr2.jpg",
+                          "apercu":  "assets/data/thumbs/jeux_webp/rdr2.webp"
                       }
                   ]
     },
@@ -17,7 +18,8 @@
                       {
                           "id":  "WatchDogs1",
                           "format":  "Xbox",
-                          "lien":  "https://jaquettes.pages.dev/jeux_jpg/1564_wd_xbox.jpg"
+                          "lien":  "https://jaquettes.pages.dev/jeux_jpg/1564_wd_xbox.jpg",
+                          "apercu":  "assets/data/thumbs/jeux_webp/1564_wd_xbox.webp"
                       }
                   ]
     }
