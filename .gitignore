@@ -1,5 +1,3 @@
-cmd.txt
-caracteres_francais.pdf
 csv_to_js.bat
 assets/data/films.csv
 assets/data/series.csv
@@ -7,7 +5,3 @@ assets/data/jeux.csv
 tools/
 upload-cloudflare/
 .wrangler/
-films.csv - Raccourci.lnk
-series.csv - Raccourci.lnk
-jeux.csv - Raccourci.lnk
-thumbs - Raccourci.lnk
