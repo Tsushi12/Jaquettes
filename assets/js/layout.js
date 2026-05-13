@@ -19,9 +19,7 @@ const SIDEBAR_FALLBACK_HTML = `<div class="sidebar" id="site-sidebar">
     <li><a href="jeux.html" data-nav="jeux"><span class="nav-icon" aria-hidden="true">🎮</span><span>Jeux Vidéo</span></a></li>
 
     <li><a href="https://www.themoviedb.org/?language=fr" target="_blank" rel="noopener noreferrer" class="no-bg utility-link"><img src="front_pic/tmdb.png" alt="TMDB Logo"><span>TMDb</span></a></li>
-    <li><a href="https://github.com/Tsushi12" target="_blank" rel="noopener noreferrer" class="no-bg utility-link"><img src="front_pic/github.png" alt="GitHub Logo"><span>GitHub</span></a></li>
-    <li><a href="https://www.linkedin.com/in/driss-el-bouffi-25a394316" target="_blank" rel="noopener noreferrer" class="no-bg utility-link"><img src="front_pic/linkedin.png" alt="LinkedIn Logo"><span>LinkedIn</span></a></li>
-    <li><a href="https://elbdweb.github.io/El_Bouffi/" target="_blank" rel="noopener noreferrer" class="no-bg utility-link"><img src="front_pic/portfolio.png" alt="Portfolio Logo"><span>Mon portfolio</span></a></li>
+    <li><a href="https://www.cinemapassion.com/jaquette-blu-ray-1-9.php" target="_blank" rel="noopener noreferrer" class="no-bg utility-link"><img src="front_pic/cinemapassion.png" alt="Cinéma Passion Logo"><span>Cinéma Passion</span></a></li>
   </ul>
 </div>`;
 
