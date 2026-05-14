@@ -1287,3 +1287,18 @@ body[data-page="coffrcollec"] .cover-format{
     border-color: rgba(186,132,36,0.58);
   }
 }
+
+/* Empêche la sélection du texte sur le site, sans bloquer les clics */
+body {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Garde les champs de recherche utilisables normalement */
+input,
+textarea {
+  -webkit-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
