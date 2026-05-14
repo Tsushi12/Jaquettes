@@ -155,7 +155,7 @@
         "items":  [
                       {
                           "id":  "HogwartsLegacy",
-                          "format":  "Boitier XBSX - Xbox One",
+                          "format":  "Version Serdaigle : Boitier XBSX - Xbox One",
                           "lien":  "https://jaquettes.pages.dev/jeux_jpg/140520261308_hogwarts_legacy_xboxone.jpg",
                           "apercu":  "assets/data/thumbs/jeux_webp/140520261308_hogwarts_legacy_xboxone.webp"
                       }
@@ -174,7 +174,7 @@
                   ]
     },
     {
-        "titre":  "LEGO Batman 3: Au-dela de Gotham (2014)",
+        "titre":  "LEGO Batman 3: Au-delÃ  de Gotham (2014)",
         "sortId":  "LegoBatman3",
         "items":  [
                       {
