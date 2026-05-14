@@ -5,22 +5,7 @@
   const THUMB_DIR = "assets/data/thumbs_webp/";
 
   function applyTitleTail(el, text) {
-    const t = (text || "").toString();
-    const n = 13;
-    el.innerHTML = "";
-    if (t.length <= n) {
-      el.textContent = t;
-      return;
-    }
-    const main = document.createElement("span");
-    main.textContent = t.slice(0, t.length - n);
-
-    const tail = document.createElement("span");
-    tail.className = "title-tail";
-    tail.textContent = t.slice(t.length - n);
-
-    el.appendChild(main);
-    el.appendChild(tail);
+    el.textContent = (text || "").toString();
   }
 
   function buildLink(dossier, fichier, extension) {
