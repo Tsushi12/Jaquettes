@@ -1,13 +1,38 @@
 (function () {
   const listEl = () => document.getElementById("gamesList");
   const THUMB_DIR = "assets/data/thumbs_webp/";
-  const INITIAL_RENDER_BATCH = 80;
-  const RENDER_BATCH_SIZE = 120;
+  const DESKTOP_INITIAL_RENDER_BATCH = 80;
+  const DESKTOP_RENDER_BATCH_SIZE = 120;
+  const MOBILE_INITIAL_RENDER_BATCH = 24;
+  const MOBILE_RENDER_BATCH_SIZE = 36;
   let renderCycle = 0;
+
+  function isMobileRenderMode() {
+    if (document.body?.classList.contains("mobile-layout")) return true;
+
+    const viewportWidth = Math.max(
+      window.innerWidth || 0,
+      document.documentElement?.clientWidth || 0,
+      window.visualViewport?.width || 0
+    );
+    const shortSide = Math.min(screen.width || 0, screen.height || 0);
+    const coarsePointer = window.matchMedia?.("(pointer: coarse)")?.matches || false;
+
+    return (viewportWidth > 0 && viewportWidth <= 700) ||
+      (coarsePointer && shortSide > 0 && shortSide <= 700);
+  }
+
+  function getRenderBatchConfig() {
+    if (isMobileRenderMode()) {
+      return { initial: MOBILE_INITIAL_RENDER_BATCH, next: MOBILE_RENDER_BATCH_SIZE };
+    }
+    return { initial: DESKTOP_INITIAL_RENDER_BATCH, next: DESKTOP_RENDER_BATCH_SIZE };
+  }
 
   function applyEntryAnimationDelay(el, index) {
     if (!el || !el.style) return el;
-    el.style.animationDelay = Math.min(index, 8) * 16 + "ms";
+    const delayStep = isMobileRenderMode() ? 10 : 16;
+    el.style.animationDelay = Math.min(index, 8) * delayStep + "ms";
     return el;
   }
 
@@ -225,6 +250,7 @@
     }
 
     let index = 0;
+    const batchConfig = getRenderBatchConfig();
 
     function appendBatch(size) {
       if (token !== renderCycle) return;
@@ -240,11 +266,11 @@
       host.appendChild(fragment);
 
       if (index < modules.length) {
-        scheduleFrame(() => appendBatch(RENDER_BATCH_SIZE));
+        scheduleFrame(() => appendBatch(batchConfig.next));
       }
     }
 
-    appendBatch(INITIAL_RENDER_BATCH);
+    appendBatch(batchConfig.initial);
   }
 
   function render(modules) {
