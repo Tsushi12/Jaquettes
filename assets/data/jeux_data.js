@@ -174,7 +174,7 @@
                   ]
     },
     {
-        "titre":  "LEGO Batman 3: Au-dela de Gotham (2014)",
+        "titre":  "LEGO Batman 3: Au-delà de Gotham (2014)",
         "sortId":  "LegoBatman3",
         "items":  [
                       {
