@@ -761,6 +761,17 @@ body:not(.mobile-layout) .sidebar-backdrop{
   }
 }
 
+@keyframes detailsOpenIn{
+  from{
+    opacity: .01;
+    transform: translate3d(0, 8px, 0);
+  }
+  to{
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 
 @keyframes pageBlackReveal{
   from{
@@ -803,12 +814,31 @@ body::before{
 .content > h1,
 .content > .search-bar,
 .content > .section,
-.content .movie-list > .movie-details,
-.content .season-details,
-.content .cover-grid > .cover-card{
+.content .movie-list > .movie-details{
   animation: pageContentIn .34s cubic-bezier(.16, 1, .3, 1) 1 both;
   backface-visibility: hidden;
 }
+
+.movie-details[open] > .movie-panel,
+.season-details[open] > .season-panel,
+.movie-details[open] > .movie-panel > .season-details,
+.movie-details[open] > .movie-panel > .cover-grid > .cover-card,
+.season-details[open] > .season-panel > .cover-grid > .cover-card{
+  animation: detailsOpenIn .28s cubic-bezier(.16, 1, .3, 1) 1 backwards;
+  backface-visibility: hidden;
+}
+
+.movie-details[open] > .movie-panel > .season-details:nth-child(2),
+.movie-details[open] > .movie-panel > .cover-grid > .cover-card:nth-child(2),
+.season-details[open] > .season-panel > .cover-grid > .cover-card:nth-child(2){ animation-delay: .03s; }
+
+.movie-details[open] > .movie-panel > .season-details:nth-child(3),
+.movie-details[open] > .movie-panel > .cover-grid > .cover-card:nth-child(3),
+.season-details[open] > .season-panel > .cover-grid > .cover-card:nth-child(3){ animation-delay: .06s; }
+
+.movie-details[open] > .movie-panel > .season-details:nth-child(n+4),
+.movie-details[open] > .movie-panel > .cover-grid > .cover-card:nth-child(n+4),
+.season-details[open] > .season-panel > .cover-grid > .cover-card:nth-child(n+4){ animation-delay: .09s; }
 
 .content > h1{ animation-delay: .02s; }
 .content > .search-bar{ animation-delay: .04s; }
@@ -818,11 +848,6 @@ body::before{
 .content .movie-list > .movie-details:nth-child(3){ animation-delay: .12s; }
 .content .movie-list > .movie-details:nth-child(4){ animation-delay: .14s; }
 .content .movie-list > .movie-details:nth-child(n+5){ animation-delay: .16s; }
-.content .season-details{ animation-delay: .10s; }
-.content .cover-grid > .cover-card{ animation-delay: .10s; }
-.content .cover-grid > .cover-card:nth-child(2){ animation-delay: .12s; }
-.content .cover-grid > .cover-card:nth-child(3){ animation-delay: .14s; }
-.content .cover-grid > .cover-card:nth-child(n+4){ animation-delay: .16s; }
 
 @media (hover: hover) and (pointer: fine){
   .search-bar input{
@@ -890,8 +915,11 @@ body::before{
   .content > .search-bar,
   .content > .section,
   .content .movie-list > .movie-details,
-  .content .season-details,
-  .content .cover-grid > .cover-card,
+  .movie-details[open] > .movie-panel,
+  .season-details[open] > .season-panel,
+  .movie-details[open] > .movie-panel > .season-details,
+  .movie-details[open] > .movie-panel > .cover-grid > .cover-card,
+  .season-details[open] > .season-panel > .cover-grid > .cover-card,
   .search-bar input,
   .movie-details,
   .season-details,
