@@ -751,25 +751,13 @@ body:not(.mobile-layout) .sidebar-backdrop{
   display: none;
 }
 
-/* Animation légère d'apparition des pages */
+/* Animation légère d'apparition des pages
+   Optimisée : une seule animation globale du contenu pour éviter les saccades au chargement.
+   Les animations d'ouverture des blocs restent inchangées. */
 @keyframes pageFadeIn{
   from{
-    opacity: 1;
-    transform: translate3d(0, 2px, 0);
-  }
-  to{
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-@keyframes pageContentIn{
-  from{
-    opacity: 1;
-    transform: translate3d(0, 9px, 0);
-  }
-  60%{
-    opacity: 1;
+    opacity: .01;
+    transform: translate3d(0, 4px, 0);
   }
   to{
     opacity: 1;
@@ -788,50 +776,17 @@ body:not(.mobile-layout) .sidebar-backdrop{
   }
 }
 
-
-@keyframes pageBlackReveal{
-  from{
-    opacity: .28;
-    visibility: visible;
-  }
-  to{
-    opacity: 0;
-    visibility: hidden;
-  }
-}
-
-body::before{
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: 2147483647;
-  pointer-events: none;
-  background: #000;
-  opacity: 0;
-  animation: pageBlackReveal .5s ease-out 1 both;
-}
-
-@media (min-width: 701px){
-  body:not(.mobile-layout)::before{
-    left: var(--sidebar-width);
-    z-index: 900;
-  }
-
-  body:not(.mobile-layout) .sidebar{
-    z-index: 1000;
-  }
-}
-
 .content{
-  animation: pageFadeIn .20s cubic-bezier(.2, .8, .2, 1) 1 both;
+  animation: pageFadeIn .18s cubic-bezier(.2, .8, .2, 1) 1 both;
   backface-visibility: hidden;
+  transform: translateZ(0);
+  will-change: transform, opacity;
 }
 
 .content > h1,
 .content > .search-bar,
 .content > .section,
 .content .movie-list > .movie-details{
-  animation: pageContentIn .34s cubic-bezier(.16, 1, .3, 1) 1 both;
   backface-visibility: hidden;
 }
 
@@ -855,15 +810,6 @@ body::before{
 .movie-details[open] > .movie-panel > .season-details:nth-child(n+4),
 .movie-details[open] > .movie-panel > .cover-grid > .cover-card:nth-child(n+4),
 .season-details[open] > .season-panel > .cover-grid > .cover-card:nth-child(n+4){ animation-delay: .09s; }
-
-.content > h1{ animation-delay: .02s; }
-.content > .search-bar{ animation-delay: .04s; }
-.content > .section{ animation-delay: .06s; }
-.content .movie-list > .movie-details{ animation-delay: .08s; }
-.content .movie-list > .movie-details:nth-child(2){ animation-delay: .10s; }
-.content .movie-list > .movie-details:nth-child(3){ animation-delay: .12s; }
-.content .movie-list > .movie-details:nth-child(4){ animation-delay: .14s; }
-.content .movie-list > .movie-details:nth-child(n+5){ animation-delay: .16s; }
 
 @media (hover: hover) and (pointer: fine){
   .search-bar input{
