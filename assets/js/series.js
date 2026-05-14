@@ -3,6 +3,17 @@
 
   const FORMAT_PRIORITY = ["4K Ultra HD", "Blu-Ray", "DVD"];
   const THUMB_DIR = "assets/data/thumbs_webp/";
+  const INITIAL_RENDER_BATCH = 70;
+  const RENDER_BATCH_SIZE = 100;
+  let renderCycle = 0;
+
+  function scheduleFrame(fn) {
+    if (typeof window.requestAnimationFrame === "function") {
+      window.requestAnimationFrame(fn);
+      return;
+    }
+    window.setTimeout(fn, 16);
+  }
 
   function applyTitleTail(el, text) {
     const t = (text || "").toString();
@@ -73,7 +84,7 @@
     if (!data) return [];
     if (!Array.isArray(data)) data = [data];
     if (!data.length) return [];
-    // Expect module shape
+
     const rows = [];
     for (const s of data) {
       if (!s || !s.titre || !Array.isArray(s.seasons)) continue;
@@ -98,7 +109,7 @@
   function groupSeries(rows) {
     const coll = new Intl.Collator("fr", { numeric: true, sensitivity: "base" });
 
-    const seriesMap = new Map(); // titleKey -> {titre, sortId, seasonsMap}
+    const seriesMap = new Map();
     for (const r of rows) {
       const title = (r.titre || "").trim();
       const key = title.toLowerCase();
@@ -145,11 +156,119 @@
     return modules;
   }
 
-  function render(modules) {
-    const host = listEl();
-    if (!host) return;
+  function createCoverCard(seriesTitle, seasonName, it) {
+    const a = document.createElement("a");
+    a.className = "cover-card";
+    a.href = it.lien;
+    a.target = "_blank";
+    a.rel = "noopener";
 
-    host.innerHTML = "";
+    const img = document.createElement("img");
+    img.src = it.apercu;
+    img.alt = seriesTitle + " - " + seasonName + " - " + it.format;
+    img.loading = "lazy";
+    img.decoding = "async";
+
+    const meta = document.createElement("div");
+    meta.className = "cover-meta";
+
+    const fmt = document.createElement("div");
+    fmt.className = "cover-format";
+    fmt.textContent = it.format;
+
+    meta.appendChild(fmt);
+    a.appendChild(img);
+    a.appendChild(meta);
+    return a;
+  }
+
+  function createSeasonPanel(seriesTitle, seas) {
+    const wrap = document.createElement("div");
+    wrap.className = "season-panel";
+
+    const grid = document.createElement("div");
+    grid.className = "cover-grid";
+
+    const fragment = document.createDocumentFragment();
+    for (const it of seas.items) fragment.appendChild(createCoverCard(seriesTitle, seas.saison, it));
+    grid.appendChild(fragment);
+    wrap.appendChild(grid);
+    return wrap;
+  }
+
+  function ensureSeasonPanel(details, seriesTitle, seas) {
+    if (details.dataset.lazyLoaded === "true") return;
+    details.appendChild(createSeasonPanel(seriesTitle, seas));
+    details.dataset.lazyLoaded = "true";
+  }
+
+  function createSeasonDetails(seriesTitle, seas) {
+    const sd = document.createElement("details");
+    sd.className = "season-details";
+
+    const ss = document.createElement("summary");
+    ss.textContent = seas.saison;
+    sd.appendChild(ss);
+
+    sd.addEventListener("toggle", () => {
+      if (sd.open) ensureSeasonPanel(sd, seriesTitle, seas);
+    });
+
+    return sd;
+  }
+
+  function createSeriesPanel(s) {
+    const panel = document.createElement("div");
+    panel.className = "movie-panel";
+
+    const fragment = document.createDocumentFragment();
+    for (const seas of s.seasons) {
+      fragment.appendChild(createSeasonDetails(s.titre, seas));
+    }
+    panel.appendChild(fragment);
+    return panel;
+  }
+
+  function ensureSeriesPanel(details, s) {
+    if (details.dataset.lazyLoaded === "true") return;
+    details.appendChild(createSeriesPanel(s));
+    details.dataset.lazyLoaded = "true";
+  }
+
+  function createSeriesDetails(s) {
+    const details = document.createElement("details");
+    details.className = "movie-details";
+
+    const summary = document.createElement("summary");
+
+    const left = document.createElement("div");
+    left.className = "movie-summary-title";
+
+    const title = document.createElement("div");
+    title.className = "movie-title";
+    applyTitleTail(title, s.titre);
+
+    left.appendChild(title);
+
+    const chev = document.createElement("div");
+    chev.className = "movie-chevron";
+    chev.textContent = "▼";
+
+    summary.appendChild(left);
+    summary.appendChild(chev);
+    details.appendChild(summary);
+
+    details.addEventListener("toggle", () => {
+      if (details.open) ensureSeriesPanel(details, s);
+    });
+
+    return details;
+  }
+
+  function renderBatched(host, modules) {
+    const token = ++renderCycle;
+    host.replaceChildren();
+
     if (!modules.length) {
       const p = document.createElement("p");
       p.className = "no-results";
@@ -158,80 +277,30 @@
       return;
     }
 
-    for (const s of modules) {
-      const details = document.createElement("details");
-      details.className = "movie-details";
+    let index = 0;
 
-      const summary = document.createElement("summary");
+    function appendBatch(size) {
+      if (token !== renderCycle) return;
 
-      const left = document.createElement("div");
-      left.className = "movie-summary-title";
-
-      const title = document.createElement("div");
-      title.className = "movie-title";
-      applyTitleTail(title, s.titre);
-
-      left.appendChild(title);
-
-      const chev = document.createElement("div");
-      chev.className = "movie-chevron";
-      chev.textContent = "▼";
-
-      summary.appendChild(left);
-      summary.appendChild(chev);
-
-      const panel = document.createElement("div");
-      panel.className = "movie-panel";
-
-      for (const seas of s.seasons) {
-        const sd = document.createElement("details");
-        sd.className = "season-details";
-
-        const ss = document.createElement("summary");
-        ss.textContent = seas.saison;
-
-        const grid = document.createElement("div");
-        grid.className = "cover-grid";
-
-        for (const it of seas.items) {
-          const a = document.createElement("a");
-          a.className = "cover-card";
-          a.href = it.lien;
-          a.target = "_blank";
-          a.rel = "noopener";
-
-          const img = document.createElement("img");
-          img.src = it.apercu;
-          img.alt = s.titre + " - " + seas.saison + " - " + it.format;
-          img.loading = "lazy";
-
-          const meta = document.createElement("div");
-          meta.className = "cover-meta";
-
-          const fmt = document.createElement("div");
-          fmt.className = "cover-format";
-          fmt.textContent = it.format;
-
-          meta.appendChild(fmt);
-
-          a.appendChild(img);
-          a.appendChild(meta);
-          grid.appendChild(a);
-        }
-
-        const wrap = document.createElement("div");
-        wrap.className = "season-panel";
-        wrap.appendChild(grid);
-
-        sd.appendChild(ss);
-        sd.appendChild(wrap);
-        panel.appendChild(sd);
+      const end = Math.min(index + size, modules.length);
+      const fragment = document.createDocumentFragment();
+      for (; index < end; index += 1) {
+        fragment.appendChild(createSeriesDetails(modules[index]));
       }
+      host.appendChild(fragment);
 
-      details.appendChild(summary);
-      details.appendChild(panel);
-      host.appendChild(details);
+      if (index < modules.length) {
+        scheduleFrame(() => appendBatch(RENDER_BATCH_SIZE));
+      }
     }
+
+    appendBatch(INITIAL_RENDER_BATCH);
+  }
+
+  function render(modules) {
+    const host = listEl();
+    if (!host) return;
+    renderBatched(host, modules || []);
   }
 
   function filterModules(modules, q) {

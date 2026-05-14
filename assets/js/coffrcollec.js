@@ -3,6 +3,17 @@
 
   const FORMAT_PRIORITY = ["4K Ultra HD", "Blu-Ray", "DVD"];
   const THUMB_DIR = "assets/data/thumbs_webp/";
+  const INITIAL_RENDER_BATCH = 70;
+  const RENDER_BATCH_SIZE = 100;
+  let renderCycle = 0;
+
+  function scheduleFrame(fn) {
+    if (typeof window.requestAnimationFrame === "function") {
+      window.requestAnimationFrame(fn);
+      return;
+    }
+    window.setTimeout(fn, 16);
+  }
 
   function applyTitleTail(el, text) {
     el.textContent = (text || "").toString();
@@ -175,12 +186,144 @@
     return wrap;
   }
 
-  function render(groups) {
-    const host = listEl();
-    if (!host) return;
+  function createCoverCard(title, coffrName, it) {
+    const a = document.createElement("a");
+    a.className = "cover-card";
+    a.href = it.lien;
+    a.target = "_blank";
+    a.rel = "noopener";
 
-    host.innerHTML = "";
-    const hasTitles = (groups || []).some(group => (group.titles || []).length);
+    const img = document.createElement("img");
+    img.src = it.apercu;
+    img.alt = title + " - " + coffrName + " - " + it.format;
+    img.loading = "lazy";
+    img.decoding = "async";
+
+    const meta = document.createElement("div");
+    meta.className = "cover-meta";
+
+    const fmt = document.createElement("div");
+    fmt.className = "cover-format";
+    fmt.textContent = it.format;
+
+    meta.appendChild(fmt);
+    a.appendChild(img);
+    a.appendChild(meta);
+    return a;
+  }
+
+  function createCoffrPanel(title, cc) {
+    const wrap = document.createElement("div");
+    wrap.className = "season-panel";
+
+    const grid = document.createElement("div");
+    grid.className = "cover-grid";
+
+    const fragment = document.createDocumentFragment();
+    for (const it of cc.items) fragment.appendChild(createCoverCard(title, cc.coffrcollec, it));
+    grid.appendChild(fragment);
+    wrap.appendChild(grid);
+    return wrap;
+  }
+
+  function ensureCoffrPanel(details, title, cc) {
+    if (details.dataset.lazyLoaded === "true") return;
+    details.appendChild(createCoffrPanel(title, cc));
+    details.dataset.lazyLoaded = "true";
+  }
+
+  function createCoffrDetails(title, cc) {
+    const sd = document.createElement("details");
+    sd.className = "season-details";
+
+    const ss = document.createElement("summary");
+    ss.textContent = cc.coffrcollec;
+    sd.appendChild(ss);
+
+    sd.addEventListener("toggle", () => {
+      if (sd.open) ensureCoffrPanel(sd, title, cc);
+    });
+
+    return sd;
+  }
+
+  function createTitlePanel(titleGroup) {
+    const panel = document.createElement("div");
+    panel.className = "movie-panel";
+
+    const fragment = document.createDocumentFragment();
+    for (const cc of titleGroup.coffrcollecs) {
+      fragment.appendChild(createCoffrDetails(titleGroup.titre, cc));
+    }
+    panel.appendChild(fragment);
+    return panel;
+  }
+
+  function ensureTitlePanel(details, titleGroup) {
+    if (details.dataset.lazyLoaded === "true") return;
+    details.appendChild(createTitlePanel(titleGroup));
+    details.dataset.lazyLoaded = "true";
+  }
+
+  function createTitleDetails(titleGroup) {
+    const details = document.createElement("details");
+    details.className = "movie-details";
+
+    const summary = document.createElement("summary");
+
+    const left = document.createElement("div");
+    left.className = "movie-summary-title";
+
+    const title = document.createElement("div");
+    title.className = "movie-title";
+    applyTitleTail(title, titleGroup.titre);
+
+    left.appendChild(title);
+
+    const chev = document.createElement("div");
+    chev.className = "movie-chevron";
+    chev.textContent = "▼";
+
+    summary.appendChild(left);
+    summary.appendChild(chev);
+    details.appendChild(summary);
+
+    details.addEventListener("toggle", () => {
+      if (details.open) ensureTitlePanel(details, titleGroup);
+    });
+
+    return details;
+  }
+
+  function flattenRenderItems(groups) {
+    const items = [];
+    let isFirstTypeBlock = true;
+
+    for (const group of groups) {
+      if (!group || !(group.titles || []).length) continue;
+
+      items.push({ kind: "divider", type: group.type || "Autre", isFirst: isFirstTypeBlock });
+      isFirstTypeBlock = false;
+
+      for (const titleGroup of group.titles) {
+        items.push({ kind: "title", titleGroup });
+      }
+    }
+
+    return items;
+  }
+
+  function createRenderNode(item) {
+    if (item.kind === "divider") return createTypeDivider(item.type, item.isFirst);
+    return createTitleDetails(item.titleGroup);
+  }
+
+  function renderBatched(host, groups) {
+    const token = ++renderCycle;
+    host.replaceChildren();
+
+    const items = flattenRenderItems(groups || []);
+    const hasTitles = items.some(item => item.kind === "title");
 
     if (!hasTitles) {
       const p = document.createElement("p");
@@ -190,89 +333,30 @@
       return;
     }
 
-    let isFirstTypeBlock = true;
+    let index = 0;
 
-    for (const group of groups) {
-      if (!group || !(group.titles || []).length) continue;
+    function appendBatch(size) {
+      if (token !== renderCycle) return;
 
-      host.appendChild(createTypeDivider(group.type || "Autre", isFirstTypeBlock));
-      isFirstTypeBlock = false;
+      const end = Math.min(index + size, items.length);
+      const fragment = document.createDocumentFragment();
+      for (; index < end; index += 1) {
+        fragment.appendChild(createRenderNode(items[index]));
+      }
+      host.appendChild(fragment);
 
-      for (const titleGroup of group.titles) {
-        const details = document.createElement("details");
-        details.className = "movie-details";
-
-        const summary = document.createElement("summary");
-
-        const left = document.createElement("div");
-        left.className = "movie-summary-title";
-
-        const title = document.createElement("div");
-        title.className = "movie-title";
-        applyTitleTail(title, titleGroup.titre);
-
-        left.appendChild(title);
-
-        const chev = document.createElement("div");
-        chev.className = "movie-chevron";
-        chev.textContent = "▼";
-
-        summary.appendChild(left);
-        summary.appendChild(chev);
-
-        const panel = document.createElement("div");
-        panel.className = "movie-panel";
-
-        for (const cc of titleGroup.coffrcollecs) {
-          const sd = document.createElement("details");
-          sd.className = "season-details";
-
-          const ss = document.createElement("summary");
-          ss.textContent = cc.coffrcollec;
-
-          const grid = document.createElement("div");
-          grid.className = "cover-grid";
-
-          for (const it of cc.items) {
-            const a = document.createElement("a");
-            a.className = "cover-card";
-            a.href = it.lien;
-            a.target = "_blank";
-            a.rel = "noopener";
-
-            const img = document.createElement("img");
-            img.src = it.apercu;
-            img.alt = titleGroup.titre + " - " + cc.coffrcollec + " - " + it.format;
-            img.loading = "lazy";
-
-            const meta = document.createElement("div");
-            meta.className = "cover-meta";
-
-            const fmt = document.createElement("div");
-            fmt.className = "cover-format";
-            fmt.textContent = it.format;
-
-            meta.appendChild(fmt);
-
-            a.appendChild(img);
-            a.appendChild(meta);
-            grid.appendChild(a);
-          }
-
-          const wrap = document.createElement("div");
-          wrap.className = "season-panel";
-          wrap.appendChild(grid);
-
-          sd.appendChild(ss);
-          sd.appendChild(wrap);
-          panel.appendChild(sd);
-        }
-
-        details.appendChild(summary);
-        details.appendChild(panel);
-        host.appendChild(details);
+      if (index < items.length) {
+        scheduleFrame(() => appendBatch(RENDER_BATCH_SIZE));
       }
     }
+
+    appendBatch(INITIAL_RENDER_BATCH);
+  }
+
+  function render(groups) {
+    const host = listEl();
+    if (!host) return;
+    renderBatched(host, groups || []);
   }
 
   function filterGroups(groups, q) {

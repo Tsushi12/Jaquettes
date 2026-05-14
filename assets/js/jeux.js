@@ -1,6 +1,17 @@
 (function () {
   const listEl = () => document.getElementById("gamesList");
   const THUMB_DIR = "assets/data/thumbs_webp/";
+  const INITIAL_RENDER_BATCH = 80;
+  const RENDER_BATCH_SIZE = 120;
+  let renderCycle = 0;
+
+  function scheduleFrame(fn) {
+    if (typeof window.requestAnimationFrame === "function") {
+      window.requestAnimationFrame(fn);
+      return;
+    }
+    window.setTimeout(fn, 16);
+  }
 
   function applyTitleTail(el, text) {
     const t = (text || "").toString();
@@ -74,7 +85,6 @@
   }
 
   function loadFromFallback() {
-    // Accept: array of modules OR single module object
     let data = window.GAMES_DATA;
     if (!data) return [];
     if (!Array.isArray(data)) data = [data];
@@ -92,7 +102,7 @@
   }
 
   function groupByTitle(rows) {
-    const map = new Map(); // titreKey -> module
+    const map = new Map();
     const coll = new Intl.Collator("fr", { numeric: true, sensitivity: "base" });
 
     for (const r of rows) {
@@ -108,7 +118,6 @@
 
     const modules = Array.from(map.values());
 
-    // sort items: format then id
     for (const m of modules) {
       m.items.sort((a, b) => {
         const c = (a.format || "").localeCompare(b.format || "", "fr");
@@ -121,11 +130,86 @@
     return modules;
   }
 
-  function render(modules) {
-    const host = listEl();
-    if (!host) return;
+  function createCoverCard(gameTitle, it) {
+    const a = document.createElement("a");
+    a.className = "cover-card";
+    a.href = it.lien;
+    a.target = "_blank";
+    a.rel = "noopener";
 
-    host.innerHTML = "";
+    const img = document.createElement("img");
+    img.src = it.apercu;
+    img.alt = gameTitle + " - " + it.format;
+    img.loading = "lazy";
+    img.decoding = "async";
+
+    const meta = document.createElement("div");
+    meta.className = "cover-meta";
+
+    const fmt = document.createElement("div");
+    fmt.className = "cover-format";
+    fmt.textContent = it.format;
+
+    meta.appendChild(fmt);
+    a.appendChild(img);
+    a.appendChild(meta);
+    return a;
+  }
+
+  function createGamePanel(m) {
+    const panel = document.createElement("div");
+    panel.className = "movie-panel";
+
+    const grid = document.createElement("div");
+    grid.className = "cover-grid";
+
+    const fragment = document.createDocumentFragment();
+    for (const it of m.items) fragment.appendChild(createCoverCard(m.titre, it));
+    grid.appendChild(fragment);
+    panel.appendChild(grid);
+    return panel;
+  }
+
+  function ensureGamePanel(details, m) {
+    if (details.dataset.lazyLoaded === "true") return;
+    details.appendChild(createGamePanel(m));
+    details.dataset.lazyLoaded = "true";
+  }
+
+  function createGameDetails(m) {
+    const details = document.createElement("details");
+    details.className = "movie-details";
+
+    const summary = document.createElement("summary");
+
+    const left = document.createElement("div");
+    left.className = "movie-summary-title";
+
+    const title = document.createElement("div");
+    title.className = "movie-title";
+    applyTitleTail(title, m.titre);
+
+    left.appendChild(title);
+
+    const chev = document.createElement("div");
+    chev.className = "movie-chevron";
+    chev.textContent = "▼";
+
+    summary.appendChild(left);
+    summary.appendChild(chev);
+    details.appendChild(summary);
+
+    details.addEventListener("toggle", () => {
+      if (details.open) ensureGamePanel(details, m);
+    });
+
+    return details;
+  }
+
+  function renderBatched(host, modules) {
+    const token = ++renderCycle;
+    host.replaceChildren();
+
     if (!modules.length) {
       const p = document.createElement("p");
       p.className = "no-results";
@@ -134,66 +218,30 @@
       return;
     }
 
-    for (const m of modules) {
-      const details = document.createElement("details");
-      details.className = "movie-details";
+    let index = 0;
 
-      const summary = document.createElement("summary");
+    function appendBatch(size) {
+      if (token !== renderCycle) return;
 
-      const left = document.createElement("div");
-      left.className = "movie-summary-title";
-
-      const title = document.createElement("div");
-      title.className = "movie-title";
-      applyTitleTail(title, m.titre);
-
-      left.appendChild(title);
-
-      const chev = document.createElement("div");
-      chev.className = "movie-chevron";
-      chev.textContent = "▼";
-
-      summary.appendChild(left);
-      summary.appendChild(chev);
-
-      const panel = document.createElement("div");
-      panel.className = "movie-panel";
-
-      const grid = document.createElement("div");
-      grid.className = "cover-grid";
-
-      for (const it of m.items) {
-        const a = document.createElement("a");
-        a.className = "cover-card";
-        a.href = it.lien;
-        a.target = "_blank";
-        a.rel = "noopener";
-
-        const img = document.createElement("img");
-        img.src = it.apercu;
-        img.alt = m.titre + " - " + it.format;
-        img.loading = "lazy";
-
-        const meta = document.createElement("div");
-        meta.className = "cover-meta";
-
-        const fmt = document.createElement("div");
-        fmt.className = "cover-format";
-        fmt.textContent = it.format;
-
-        meta.appendChild(fmt);
-
-        a.appendChild(img);
-        a.appendChild(meta);
-        grid.appendChild(a);
+      const end = Math.min(index + size, modules.length);
+      const fragment = document.createDocumentFragment();
+      for (; index < end; index += 1) {
+        fragment.appendChild(createGameDetails(modules[index]));
       }
+      host.appendChild(fragment);
 
-      panel.appendChild(grid);
-
-      details.appendChild(summary);
-      details.appendChild(panel);
-      host.appendChild(details);
+      if (index < modules.length) {
+        scheduleFrame(() => appendBatch(RENDER_BATCH_SIZE));
+      }
     }
+
+    appendBatch(INITIAL_RENDER_BATCH);
+  }
+
+  function render(modules) {
+    const host = listEl();
+    if (!host) return;
+    renderBatched(host, modules || []);
   }
 
   function searchGames() {

@@ -3,6 +3,17 @@
 
   const FORMAT_PRIORITY = ["4K Ultra HD", "Blu-Ray", "DVD"];
   const THUMB_DIR = "assets/data/thumbs_webp/";
+  const INITIAL_RENDER_BATCH = 80;
+  const RENDER_BATCH_SIZE = 120;
+  let renderCycle = 0;
+
+  function scheduleFrame(fn) {
+    if (typeof window.requestAnimationFrame === "function") {
+      window.requestAnimationFrame(fn);
+      return;
+    }
+    window.setTimeout(fn, 16);
+  }
 
   function applyTitleTail(el, text) {
     const t = (text || "").toString();
@@ -70,12 +81,8 @@
   function loadFromFallback() {
     if (!Array.isArray(window.MOVIES_DATA) || !window.MOVIES_DATA.length) return [];
 
-    // Support 2 fallback shapes:
-    // A) covers rows: [{id,titre,format,lien...}, ...]
-    // B) modules: [{titre, sortId, items:[{id,format,lien}...]}...]
     const first = window.MOVIES_DATA[0];
     if (first && Array.isArray(first.items)) {
-      // modules
       const modules = [];
       for (const m of window.MOVIES_DATA) {
         if (!m || !m.titre || !Array.isArray(m.items)) continue;
@@ -89,18 +96,15 @@
       return modulesToCovers(modules);
     }
 
-    // rows
     const rows = [];
     for (const r of window.MOVIES_DATA) {
       const row = normalizeCoverRow(r);
       if (row) rows.push(row);
     }
-    console.info("[films] fallback rows OK:", rows.length, "jaquettes");
     return rows;
   }
 
   function modulesToCovers(modules) {
-    // Convert modules back to cover rows (internal helper)
     const rows = [];
     for (const m of modules) {
       for (const it of m.items) rows.push({ id: it.id, titre: m.titre, format: it.format, lien: it.lien, apercu: it.apercu });
@@ -109,8 +113,9 @@
   }
 
   function groupByTitle(rows) {
-    // Group by movie title (titre). Each movie becomes a module (even if 1 cover).
-    const map = new Map(); // titreKey -> module
+    const map = new Map();
+    const coll = new Intl.Collator("fr", { numeric: true, sensitivity: "base" });
+
     for (const r of rows) {
       const titre = (r.titre || "").trim();
       const key = titre.toLowerCase();
@@ -119,14 +124,11 @@
       if (!m.titre && titre) m.titre = titre;
       m.items.push({ id: r.id, format: r.format, lien: r.lien, apercu: r.apercu });
 
-      // Keep smallest id as sortId
-      const coll = new Intl.Collator("fr", { numeric: true, sensitivity: "base" });
       if (coll.compare(r.id, m.sortId) < 0) m.sortId = r.id;
     }
 
     const modules = Array.from(map.values());
 
-    // sort covers within module
     for (const m of modules) {
       m.items.sort((a, b) => {
         const ia = FORMAT_PRIORITY.indexOf(a.format);
@@ -134,26 +136,96 @@
         const pa = ia === -1 ? 999 : ia;
         const pb = ib === -1 ? 999 : ib;
         if (pa !== pb) return pa - pb;
-        // tie-breaker: id then format
-        const coll = new Intl.Collator("fr", { numeric: true, sensitivity: "base" });
         const c = coll.compare(a.id, b.id);
         if (c !== 0) return c;
         return (a.format || "").localeCompare(b.format || "", "fr");
       });
     }
 
-    // sort modules by sortId (id order)
-    const coll = new Intl.Collator("fr", { numeric: true, sensitivity: "base" });
     modules.sort((a, b) => coll.compare(a.sortId, b.sortId));
-
     return modules;
   }
 
-  function render(modules) {
-    const host = listEl();
-    if (!host) return;
+  function createCoverCard(movieTitle, it) {
+    const a = document.createElement("a");
+    a.className = "cover-card";
+    a.href = it.lien;
+    a.target = "_blank";
+    a.rel = "noopener";
 
-    host.innerHTML = "";
+    const img = document.createElement("img");
+    img.src = it.apercu;
+    img.alt = movieTitle + " - " + it.format;
+    img.loading = "lazy";
+    img.decoding = "async";
+
+    const meta = document.createElement("div");
+    meta.className = "cover-meta";
+
+    const fmt = document.createElement("div");
+    fmt.className = "cover-format";
+    fmt.textContent = it.format;
+
+    meta.appendChild(fmt);
+    a.appendChild(img);
+    a.appendChild(meta);
+    return a;
+  }
+
+  function createMoviePanel(m) {
+    const panel = document.createElement("div");
+    panel.className = "movie-panel";
+
+    const grid = document.createElement("div");
+    grid.className = "cover-grid";
+
+    const fragment = document.createDocumentFragment();
+    for (const it of m.items) fragment.appendChild(createCoverCard(m.titre, it));
+    grid.appendChild(fragment);
+    panel.appendChild(grid);
+    return panel;
+  }
+
+  function ensureMoviePanel(details, m) {
+    if (details.dataset.lazyLoaded === "true") return;
+    details.appendChild(createMoviePanel(m));
+    details.dataset.lazyLoaded = "true";
+  }
+
+  function createMovieDetails(m) {
+    const details = document.createElement("details");
+    details.className = "movie-details";
+
+    const summary = document.createElement("summary");
+
+    const left = document.createElement("div");
+    left.className = "movie-summary-title";
+
+    const title = document.createElement("div");
+    title.className = "movie-title";
+    applyTitleTail(title, m.titre);
+
+    left.appendChild(title);
+
+    const chev = document.createElement("div");
+    chev.className = "movie-chevron";
+    chev.textContent = "▼";
+
+    summary.appendChild(left);
+    summary.appendChild(chev);
+    details.appendChild(summary);
+
+    details.addEventListener("toggle", () => {
+      if (details.open) ensureMoviePanel(details, m);
+    });
+
+    return details;
+  }
+
+  function renderBatched(host, modules) {
+    const token = ++renderCycle;
+    host.replaceChildren();
+
     if (!modules.length) {
       const p = document.createElement("p");
       p.className = "no-results";
@@ -162,66 +234,30 @@
       return;
     }
 
-    for (const m of modules) {
-      const details = document.createElement("details");
-      details.className = "movie-details";
+    let index = 0;
 
-      const summary = document.createElement("summary");
+    function appendBatch(size) {
+      if (token !== renderCycle) return;
 
-      const left = document.createElement("div");
-      left.className = "movie-summary-title";
-
-      const title = document.createElement("div");
-      title.className = "movie-title";
-      applyTitleTail(title, m.titre);
-
-      left.appendChild(title);
-
-      const chev = document.createElement("div");
-      chev.className = "movie-chevron";
-      chev.textContent = "▼";
-
-      summary.appendChild(left);
-      summary.appendChild(chev);
-
-      const panel = document.createElement("div");
-      panel.className = "movie-panel";
-
-      const grid = document.createElement("div");
-      grid.className = "cover-grid";
-
-      for (const it of m.items) {
-        const a = document.createElement("a");
-        a.className = "cover-card";
-        a.href = it.lien;
-        a.target = "_blank";
-        a.rel = "noopener";
-
-        const img = document.createElement("img");
-        img.src = it.apercu;
-        img.alt = m.titre + " - " + it.format;
-        img.loading = "lazy";
-
-        const meta = document.createElement("div");
-        meta.className = "cover-meta";
-
-        const fmt = document.createElement("div");
-        fmt.className = "cover-format";
-        fmt.textContent = it.format;
-
-        meta.appendChild(fmt);
-
-        a.appendChild(img);
-        a.appendChild(meta);
-        grid.appendChild(a);
+      const end = Math.min(index + size, modules.length);
+      const fragment = document.createDocumentFragment();
+      for (; index < end; index += 1) {
+        fragment.appendChild(createMovieDetails(modules[index]));
       }
+      host.appendChild(fragment);
 
-      panel.appendChild(grid);
-
-      details.appendChild(summary);
-      details.appendChild(panel);
-      host.appendChild(details);
+      if (index < modules.length) {
+        scheduleFrame(() => appendBatch(RENDER_BATCH_SIZE));
+      }
     }
+
+    appendBatch(INITIAL_RENDER_BATCH);
+  }
+
+  function render(modules) {
+    const host = listEl();
+    if (!host) return;
+    renderBatched(host, modules || []);
   }
 
   function searchMovies() {
