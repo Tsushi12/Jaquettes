@@ -17,6 +17,7 @@ const SIDEBAR_FALLBACK_HTML = `<div class="sidebar" id="site-sidebar">
     <li><a href="films.html" data-nav="films"><span class="nav-icon" aria-hidden="true">🎬</span><span>Films</span></a></li>
     <li><a href="series.html" data-nav="series"><span class="nav-icon" aria-hidden="true">📺</span><span>Séries</span></a></li>
     <li><a href="jeux.html" data-nav="jeux"><span class="nav-icon" aria-hidden="true">🎮</span><span>Jeux Vidéo</span></a></li>
+    <li><a href="coffrcollec.html" data-nav="coffrcollec"><span class="nav-icon" aria-hidden="true">📦</span><span>Coffrets &amp; Collections</span></a></li>
     
     <li class="sidebar-separator"></li>
 
@@ -66,6 +67,11 @@ function applyBackground() {
       "radial-gradient(circle at 17% 13%, rgba(132,50,86,0.24) 0%, rgba(20,13,18,0.00) 46%)," +
       "radial-gradient(circle at 86% 26%, rgba(95,50,104,0.20) 0%, rgba(20,13,18,0.00) 50%)," +
       "linear-gradient(140deg, #24131b 0%, #141014 58%, #2a1724 100%)",
+
+    coffrcollec:
+      "radial-gradient(circle at 16% 12%, rgba(255,224,117,0.30) 0%, rgba(42,29,11,0.00) 46%)," +
+      "radial-gradient(circle at 84% 24%, rgba(188,125,30,0.24) 0%, rgba(42,29,11,0.00) 50%)," +
+      "linear-gradient(138deg, #4d350f 0%, #211608 57%, #7a5414 100%)",
 
     default:
       "radial-gradient(circle at 20% 10%, rgba(212,175,55,0.16) 0%, rgba(26,11,11,0.00) 44%)," +
@@ -294,7 +300,7 @@ function setupMobileSidebar(host) {
     if (!link) return;
 
     const href = link.getAttribute("href") || "";
-    const isInternalPageLink = /^(index|films|series|jeux)\.html(?:[?#].*)?$/i.test(href);
+    const isInternalPageLink = /^(index|films|series|jeux|coffrcollec)\.html(?:[?#].*)?$/i.test(href);
 
     if (isInternalPageLink) {
       const phoneLayoutMode = getStablePhoneLayoutMode();

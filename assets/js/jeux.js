@@ -1,6 +1,6 @@
 (function () {
   const listEl = () => document.getElementById("gamesList");
-  const THUMB_DIR = "assets/data/thumbs/jeux_webp/";
+  const THUMB_DIR = "assets/data/thumbs_webp/";
 
   function applyTitleTail(el, text) {
     const t = (text || "").toString();
@@ -35,21 +35,17 @@
   }
 
   function buildPreviewLink(lien, apercu) {
-    const explicit = (apercu || "").trim();
-    if (explicit) return explicit;
-
-    let src = (lien || "").trim();
+    let src = (apercu || lien || "").trim();
     if (!src) return "";
 
     try {
       src = new URL(src, window.location.href).pathname;
     } catch (e) {
-      // Keep the raw link when URL parsing is not possible.
     }
 
     const parts = src.replace(/\\/g, "/").split("/").filter(Boolean);
     let file = parts.pop() || "";
-    try { file = decodeURIComponent(file); } catch (e) { /* keep raw file name */ }
+    try { file = decodeURIComponent(file); } catch (e) { }
 
     const base = file.replace(/\.[^/.?#]+$/, "");
     return base ? THUMB_DIR + base + ".webp" : "";
