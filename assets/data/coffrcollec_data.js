@@ -13,61 +13,61 @@
                                                     "items":  [
                                                                   {
                                                                       "id":  "Smallville01",
-                                                                      "format":  "Saison 1",
+                                                                      "format":  "Smallville : Saison 1",
                                                                       "lien":  "https://jaquettes.pages.dev/series_jpg/140520262041_smallville_s01_dvd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/140520262041_smallville_s01_dvd.webp"
                                                                   },
                                                                   {
                                                                       "id":  "Smallville02",
-                                                                      "format":  "Saison 2",
+                                                                      "format":  "Smallville : Saison 2",
                                                                       "lien":  "https://jaquettes.pages.dev/series_jpg/140520262042_smallville_s02_dvd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/140520262042_smallville_s02_dvd.webp"
                                                                   },
                                                                   {
                                                                       "id":  "Smallville03",
-                                                                      "format":  "Saison 3",
+                                                                      "format":  "Smallville : Saison 3",
                                                                       "lien":  "https://jaquettes.pages.dev/series_jpg/140520262043_smallville_s03_dvd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/140520262043_smallville_s03_dvd.webp"
                                                                   },
                                                                   {
                                                                       "id":  "Smallville04",
-                                                                      "format":  "Saison 4",
+                                                                      "format":  "Smallville : Saison 4",
                                                                       "lien":  "https://jaquettes.pages.dev/series_jpg/140520262044_smallville_s04_dvd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/140520262044_smallville_s04_dvd.webp"
                                                                   },
                                                                   {
                                                                       "id":  "Smallville05",
-                                                                      "format":  "Saison 5",
+                                                                      "format":  "Smallville : Saison 5",
                                                                       "lien":  "https://jaquettes.pages.dev/series_jpg/140520262045_smallville_s05_dvd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/140520262045_smallville_s05_dvd.webp"
                                                                   },
                                                                   {
                                                                       "id":  "Smallville06",
-                                                                      "format":  "Saison 6",
+                                                                      "format":  "Smallville : Saison 6",
                                                                       "lien":  "https://jaquettes.pages.dev/series_jpg/140520262046_smallville_s06_dvd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/140520262046_smallville_s06_dvd.webp"
                                                                   },
                                                                   {
                                                                       "id":  "Smallville07",
-                                                                      "format":  "Saison 7",
+                                                                      "format":  "Smallville : Saison 7",
                                                                       "lien":  "https://jaquettes.pages.dev/series_jpg/140520262047_smallville_s07_dvd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/140520262047_smallville_s07_dvd.webp"
                                                                   },
                                                                   {
                                                                       "id":  "Smallville08",
-                                                                      "format":  "Saison 8",
+                                                                      "format":  "Smallville : Saison 8",
                                                                       "lien":  "https://jaquettes.pages.dev/series_jpg/140520262048_smallville_s08_dvd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/140520262048_smallville_s08_dvd.webp"
                                                                   },
                                                                   {
                                                                       "id":  "Smallville09",
-                                                                      "format":  "Saison 9",
+                                                                      "format":  "Smallville : Saison 9",
                                                                       "lien":  "https://jaquettes.pages.dev/series_jpg/140520262049_smallville_s09_dvd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/140520262049_smallville_s09_dvd.webp"
                                                                   },
                                                                   {
                                                                       "id":  "Smallville10",
-                                                                      "format":  "Saison 10",
+                                                                      "format":  "Smallville : Saison 10",
                                                                       "lien":  "https://jaquettes.pages.dev/series_jpg/140520262050_smallville_s10_dvd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/140520262050_smallville_s10_dvd.webp"
                                                                   }
