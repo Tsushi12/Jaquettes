@@ -752,12 +752,34 @@ body:not(.mobile-layout) .sidebar-backdrop{
 }
 
 /* Animation légère d'apparition des pages
-   Optimisée : une seule animation globale du contenu pour éviter les saccades au chargement.
-   Les animations d'ouverture des blocs restent inchangées. */
+   Optimisée : animations courtes sur opacity/transform uniquement.
+   Les éléments injectés par lots gardent une apparition visuelle sans bloquer le rendu. */
 @keyframes pageFadeIn{
   from{
     opacity: .01;
-    transform: translate3d(0, 4px, 0);
+    transform: translate3d(0, 3px, 0);
+  }
+  to{
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes pageBlockIn{
+  from{
+    opacity: .01;
+    transform: translate3d(0, 8px, 0);
+  }
+  to{
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes listItemIn{
+  from{
+    opacity: .01;
+    transform: translate3d(0, 7px, 0);
   }
   to{
     opacity: 1;
@@ -777,17 +799,29 @@ body:not(.mobile-layout) .sidebar-backdrop{
 }
 
 .content{
-  animation: pageFadeIn .18s cubic-bezier(.2, .8, .2, 1) 1 both;
+  animation: pageFadeIn .16s cubic-bezier(.2, .8, .2, 1) 1 both;
   backface-visibility: hidden;
   transform: translateZ(0);
-  will-change: transform, opacity;
 }
 
 .content > h1,
 .content > .search-bar,
-.content > .section,
-.content .movie-list > .movie-details{
+.content > .section{
+  animation: pageBlockIn .28s cubic-bezier(.16, 1, .3, 1) 1 both;
   backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+.content > h1{ animation-delay: .02s; }
+.content > .search-bar{ animation-delay: .04s; }
+.content > .section{ animation-delay: .06s; }
+
+.content .movie-list > .movie-details,
+.content .movie-list > .coffrcollec-type-divider,
+.content .movie-list > .no-results{
+  animation: listItemIn .26s cubic-bezier(.16, 1, .3, 1) 1 both;
+  backface-visibility: hidden;
+  transform: translateZ(0);
 }
 
 .movie-details[open] > .movie-panel,

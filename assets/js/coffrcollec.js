@@ -7,6 +7,12 @@
   const RENDER_BATCH_SIZE = 100;
   let renderCycle = 0;
 
+  function applyEntryAnimationDelay(el, index) {
+    if (!el || !el.style) return el;
+    el.style.animationDelay = Math.min(index, 8) * 16 + "ms";
+    return el;
+  }
+
   function scheduleFrame(fn) {
     if (typeof window.requestAnimationFrame === "function") {
       window.requestAnimationFrame(fn);
@@ -340,8 +346,11 @@
 
       const end = Math.min(index + size, items.length);
       const fragment = document.createDocumentFragment();
+      const batchStart = index;
       for (; index < end; index += 1) {
-        fragment.appendChild(createRenderNode(items[index]));
+        const node = createRenderNode(items[index]);
+        applyEntryAnimationDelay(node, index - batchStart);
+        fragment.appendChild(node);
       }
       host.appendChild(fragment);
 
