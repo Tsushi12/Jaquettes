@@ -200,7 +200,7 @@
     if (!hasTitles) {
       const p = document.createElement("p");
       p.className = "no-results";
-      p.textContent = "Aucun coffret ou collection trouvé (vérifie assets/data/coffrcollec_data.js).";
+      p.textContent = "Aucun coffret ou collection trouvé.";
       host.appendChild(p);
       return;
     }

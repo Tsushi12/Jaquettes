@@ -129,7 +129,7 @@
     if (!modules.length) {
       const p = document.createElement("p");
       p.className = "no-results";
-      p.textContent = "Aucun jeu trouvé (vérifie assets/data/jeux_data.js).";
+      p.textContent = "Aucun jeu trouvé.";
       host.appendChild(p);
       return;
     }

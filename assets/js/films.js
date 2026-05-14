@@ -157,7 +157,7 @@
     if (!modules.length) {
       const p = document.createElement("p");
       p.className = "no-results";
-      p.textContent = "Aucun film trouvé (vérifie assets/data/films_data.js).";
+      p.textContent = "Aucun film trouvé.";
       host.appendChild(p);
       return;
     }

@@ -153,7 +153,7 @@
     if (!modules.length) {
       const p = document.createElement("p");
       p.className = "no-results";
-      p.textContent = "Aucune série trouvée (vérifie assets/data/series_data.js).";
+      p.textContent = "Aucune série trouvée.";
       host.appendChild(p);
       return;
     }
