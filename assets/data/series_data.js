@@ -1,6 +1,24 @@
 ﻿window.SERIES_DATA = [
     {
-        "titre":  "Smallville",
+        "titre":  "Chernobyl (2019 - ////)",
+        "sortId":  "Chernobyl2019",
+        "seasons":  [
+                        {
+                            "saison":  "Mini-Série",
+                            "sortId":  "Chernobyl2019",
+                            "items":  [
+                                          {
+                                              "id":  "Chernobyl2019",
+                                              "format":  "Blu-Ray",
+                                              "lien":  "https://jaquettes.pages.dev/series_jpg/150520262314_chernobyl_bd.jpg",
+                                              "apercu":  "assets/data/thumbs_webp/150520262314_chernobyl_bd.webp"
+                                          }
+                                      ]
+                        }
+                    ]
+    },
+    {
+        "titre":  "Smallville (2001 - 2011)",
         "sortId":  "Smallville01",
         "seasons":  [
                         {
@@ -120,6 +138,24 @@
                                               "format":  "Affiche de Captnbok : DVD",
                                               "lien":  "https://jaquettes.pages.dev/series_jpg/140520262050_smallville_s10_dvd.jpg",
                                               "apercu":  "assets/data/thumbs_webp/140520262050_smallville_s10_dvd.webp"
+                                          }
+                                      ]
+                        }
+                    ]
+    },
+    {
+        "titre":  "WandaVision (2021 - ////)",
+        "sortId":  "Wanda2021b",
+        "seasons":  [
+                        {
+                            "saison":  "Mini-Série",
+                            "sortId":  "Wanda2021b",
+                            "items":  [
+                                          {
+                                              "id":  "Wanda2021b",
+                                              "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                                              "lien":  "https://jaquettes.pages.dev/series_jpg/150520260924_wanda_vision_bd.jpg.jpg",
+                                              "apercu":  "assets/data/thumbs_webp/150520260924_wanda_vision_bd.webp"
                                           }
                                       ]
                         }

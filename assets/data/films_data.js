@@ -12,6 +12,114 @@
                   ]
     },
     {
+        "titre":  "Ant-Man (2015)",
+        "sortId":  "AntMan2015a",
+        "items":  [
+                      {
+                          "id":  "AntMan2015a",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260812_ant_man_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260812_ant_man_bd.webp"
+                      },
+                      {
+                          "id":  "AntMan2015b",
+                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260912_ant_man_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260912_ant_man_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "Ant-Man et la Guêpe (2018)",
+        "sortId":  "AntMan2018a",
+        "items":  [
+                      {
+                          "id":  "AntMan2018a",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260820_ant_man_et_la_guepe_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260820_ant_man_et_la_guepe_bd.webp"
+                      },
+                      {
+                          "id":  "AntMan2018b",
+                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260920_ant_man_et_la_guepe_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260920_ant_man_et_la_guepe_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "Avengers (2012)",
+        "sortId":  "Avengers2012a",
+        "items":  [
+                      {
+                          "id":  "Avengers2012a",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260806_avengers_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260806_avengers_bd.webp"
+                      },
+                      {
+                          "id":  "Avengers2012b",
+                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260906_avengers_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260906_avengers_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "Avengers: L\u0027Ère d\u0027Ultron (2015)",
+        "sortId":  "Avengers2015a",
+        "items":  [
+                      {
+                          "id":  "Avengers2015a",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260811_avengers_l_ere_d_ultron_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260811_avengers_l_ere_d_ultron_bd.webp"
+                      },
+                      {
+                          "id":  "Avengers2015b",
+                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260911_avengers_l_ere_d_ultron_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260911_avengers_l_ere_d_ultron_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "Avengers: Infinity War (2018)",
+        "sortId":  "Avengers2018a",
+        "items":  [
+                      {
+                          "id":  "Avengers2018a",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260819_avengers_infinity_war_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260819_avengers_infinity_war_bd.webp"
+                      },
+                      {
+                          "id":  "Avengers2018b",
+                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260919_avengers_infinity_war_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260919_avengers_infinity_war_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "Avengers: Endgame (2019)",
+        "sortId":  "Avengers2019a",
+        "items":  [
+                      {
+                          "id":  "Avengers2019a",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260822_avengers_endgame_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260822_avengers_endgame_bd.webp"
+                      },
+                      {
+                          "id":  "Avengers2019b",
+                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260922_avengers_endgame_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260922_avengers_endgame_bd.webp"
+                      }
+                  ]
+    },
+    {
         "titre":  "Aviator (2004)",
         "sortId":  "Aviator2004",
         "items":  [
@@ -20,6 +128,24 @@
                           "format":  "Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/300920250910_Aviator_BD.jpg",
                           "apercu":  "assets/data/thumbs_webp/300920250910_Aviator_BD.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "Black Panther (2018)",
+        "sortId":  "BlackPanther2018a",
+        "items":  [
+                      {
+                          "id":  "BlackPanther2018a",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260818_black_panther_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260818_black_panther_bd.webp"
+                      },
+                      {
+                          "id":  "BlackPanther2018b",
+                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260918_black_panther_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260918_black_panther_bd.webp"
                       }
                   ]
     },
@@ -78,6 +204,60 @@
                   ]
     },
     {
+        "titre":  "Captain America: First Avenger (2011)",
+        "sortId":  "CaptainAmerica2011a",
+        "items":  [
+                      {
+                          "id":  "CaptainAmerica2011a",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260805_captain_america_first_avenger_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260805_captain_america_first_avenger_bd.webp"
+                      },
+                      {
+                          "id":  "CaptainAmerica2011b",
+                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260905_captain_america_first_avenger_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260905_captain_america_first_avenger_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "Captain America: Le Soldat de l\u0027Hiver (2014)",
+        "sortId":  "CaptainAmerica2014a",
+        "items":  [
+                      {
+                          "id":  "CaptainAmerica2014a",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260809_captain_america_le_soldat_de_l_hiver_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260809_captain_america_le_soldat_de_l_hiver_bd.webp"
+                      },
+                      {
+                          "id":  "CaptainAmerica2014b",
+                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260909_captain_america_le_soldat_de_l_hiver_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260909_captain_america_le_soldat_de_l_hiver_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "Captain America: Civil War (2016)",
+        "sortId":  "CaptainAmerica2016a",
+        "items":  [
+                      {
+                          "id":  "CaptainAmerica2016a",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260813_captain_america_civil_war_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260813_captain_america_civil_war_bd.webp"
+                      },
+                      {
+                          "id":  "CaptainAmerica2016b",
+                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260913_captain_america_civil_war_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260913_captain_america_civil_war_bd.webp"
+                      }
+                  ]
+    },
+    {
         "titre":  "Captain Conan (1996)",
         "sortId":  "CaptainConan1996",
         "items":  [
@@ -86,6 +266,24 @@
                           "format":  "Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/300920250912_Captain_conan_BD.jpg",
                           "apercu":  "assets/data/thumbs_webp/300920250912_Captain_conan_BD.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "Captain Marvel (2019)",
+        "sortId":  "CaptainMarvel2019a",
+        "items":  [
+                      {
+                          "id":  "CaptainMarvel2019a",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260821_captain_marvel_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260821_captain_marvel_bd.webp"
+                      },
+                      {
+                          "id":  "CaptainMarvel2019b",
+                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260921_captain_marvel_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260921_captain_marvel_bd.webp"
                       }
                   ]
     },
@@ -114,6 +312,24 @@
                   ]
     },
     {
+        "titre":  "Doctor Strange (2016)",
+        "sortId":  "DoctorStrange2016a",
+        "items":  [
+                      {
+                          "id":  "DoctorStrange2016a",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260814_doctor_strange_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260814_doctor_strange_bd.webp"
+                      },
+                      {
+                          "id":  "DoctorStrange2016b",
+                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260914_doctor_strange_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260914_doctor_strange_bd.webp"
+                      }
+                  ]
+    },
+    {
         "titre":  "Firefox (1982)",
         "sortId":  "Firefox1982",
         "items":  [
@@ -134,6 +350,42 @@
                           "format":  "Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/300920250915_Folle_a_tuer_BD.jpg",
                           "apercu":  "assets/data/thumbs_webp/300920250915_Folle_a_tuer_BD.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "Les Gardiens de la Galaxie (2014)",
+        "sortId":  "GardiensGalaxie2014a",
+        "items":  [
+                      {
+                          "id":  "GardiensGalaxie2014a",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260810_les_gardiens_de_la_galaxie_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260810_les_gardiens_de_la_galaxie_bd.webp"
+                      },
+                      {
+                          "id":  "GardiensGalaxie2014b",
+                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260910_les_gardiens_de_la_galaxie_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260910_les_gardiens_de_la_galaxie_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "Les Gardiens de la Galaxie Vol. 2 (2017)",
+        "sortId":  "GardiensGalaxie2017a",
+        "items":  [
+                      {
+                          "id":  "GardiensGalaxie2017a",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260815_les_gardiens_de_la_galaxie_vol_2_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260815_les_gardiens_de_la_galaxie_vol_2_bd.webp"
+                      },
+                      {
+                          "id":  "GardiensGalaxie2017b",
+                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260915_les_gardiens_de_la_galaxie_vol_2_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260915_les_gardiens_de_la_galaxie_vol_2_bd.webp"
                       }
                   ]
     },
@@ -198,6 +450,24 @@
                   ]
     },
     {
+        "titre":  "L\u0027Incroyable Hulk (2008)",
+        "sortId":  "Hulk2008a",
+        "items":  [
+                      {
+                          "id":  "Hulk2008a",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260802_l_incroyable_hulk_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260802_l_incroyable_hulk_bd.webp"
+                      },
+                      {
+                          "id":  "Hulk2008b",
+                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260902_l_incroyable_hulk_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260902_l_incroyable_hulk_bd.webp"
+                      }
+                  ]
+    },
+    {
         "titre":  "Il était une fois dans l\u0027Ouest (1968)",
         "sortId":  "Iletaitunefoisdanslouest1968",
         "items":  [
@@ -218,6 +488,60 @@
                           "format":  "Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/100920240920_Intelligence_artificielle_BD.jpg",
                           "apercu":  "assets/data/thumbs_webp/100920240920_Intelligence_artificielle_BD.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "Iron Man (2008)",
+        "sortId":  "IronMan2008a",
+        "items":  [
+                      {
+                          "id":  "IronMan2008a",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260801_iron_man_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260801_iron_man_bd.webp"
+                      },
+                      {
+                          "id":  "IronMan2008b",
+                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260901_iron_man_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260901_iron_man_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "Iron Man 2 (2010)",
+        "sortId":  "IronMan2010a",
+        "items":  [
+                      {
+                          "id":  "IronMan2010a",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260803_iron_man_2_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260803_iron_man_2_bd.webp"
+                      },
+                      {
+                          "id":  "IronMan2010b",
+                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260903_iron_man_2_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260903_iron_man_2_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "Iron Man 3 (2013)",
+        "sortId":  "IronMan2013a",
+        "items":  [
+                      {
+                          "id":  "IronMan2013a",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260807_iron_man_3_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260807_iron_man_3_bd.webp"
+                      },
+                      {
+                          "id":  "IronMan2013b",
+                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260907_iron_man_3_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260907_iron_man_3_bd.webp"
                       }
                   ]
     },
@@ -408,20 +732,56 @@
                   ]
     },
     {
-        "titre":  "Spider-Man: No Way Home (2021)",
-        "sortId":  "SpidNWHcom4K",
+        "titre":  "Spider-Man: Homecoming (2017)",
+        "sortId":  "SpiderMan2017a",
         "items":  [
+                      {
+                          "id":  "SpiderMan2017a",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260816_spider_man_homecoming_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260816_spider_man_homecoming_bd.webp"
+                      },
+                      {
+                          "id":  "SpiderMan2017b",
+                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260916_spider_man_homecoming_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260916_spider_man_homecoming_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "Spider-Man: Far From Home (2019)",
+        "sortId":  "SpiderMan2019a",
+        "items":  [
+                      {
+                          "id":  "SpiderMan2019a",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260823_spider_man_far_from_home_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260823_spider_man_far_from_home_bd.webp"
+                      },
+                      {
+                          "id":  "SpiderMan2019b",
+                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260923_spider_man_far_from_home_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260923_spider_man_far_from_home_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "Spider-Man: No Way Home (2021)",
+        "sortId":  "SpiderMan2021",
+        "items":  [
+                      {
+                          "id":  "SpiderMan2021",
+                          "format":  "Version comics : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/300920251850_Spiderman_NWH_BD.jpg",
+                          "apercu":  "assets/data/thumbs_webp/300920251850_Spiderman_NWH_BD.webp"
+                      },
                       {
                           "id":  "SpidNWHcom4K",
                           "format":  "Version comics : 4K Ultra HD + Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/300920251851_Spiderman_NWH_4K.jpg",
                           "apercu":  "assets/data/thumbs_webp/300920251851_Spiderman_NWH_4K.webp"
-                      },
-                      {
-                          "id":  "SpidNWHcomBD",
-                          "format":  "Version comics : Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/300920251850_Spiderman_NWH_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/300920251850_Spiderman_NWH_BD.webp"
                       }
                   ]
     },
@@ -752,6 +1112,60 @@
                           "format":  "Affiche originale : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/090520261961_Solo_BD.jpg",
                           "apercu":  "assets/data/thumbs_webp/090520261961_Solo_BD.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "Thor (2011)",
+        "sortId":  "Thor2011a",
+        "items":  [
+                      {
+                          "id":  "Thor2011a",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260804_thor_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260804_thor_bd.webp"
+                      },
+                      {
+                          "id":  "Thor2011b",
+                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260904_thor_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260904_thor_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "Thor: Le Monde des Ténèbres (2013)",
+        "sortId":  "Thor2013a",
+        "items":  [
+                      {
+                          "id":  "Thor2013a",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260808_thor_le_monde_des_tenebres_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260808_thor_le_monde_des_tenebres_bd.webp"
+                      },
+                      {
+                          "id":  "Thor2013b",
+                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260908_thor_le_monde_des_tenebres_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260908_thor_le_monde_des_tenebres_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "Thor: Ragnarok (2017)",
+        "sortId":  "Thor2017a",
+        "items":  [
+                      {
+                          "id":  "Thor2017a",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260817_thor_ragnarok_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260817_thor_ragnarok_bd.webp"
+                      },
+                      {
+                          "id":  "Thor2017b",
+                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/150520260917_thor_ragnarok_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/150520260917_thor_ragnarok_bd.webp"
                       }
                   ]
     },
