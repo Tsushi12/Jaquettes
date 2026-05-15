@@ -5,8 +5,8 @@
   const THUMB_DIR = "assets/data/thumbs_webp/";
   const DESKTOP_INITIAL_RENDER_BATCH = 80;
   const DESKTOP_RENDER_BATCH_SIZE = 120;
-  const MOBILE_INITIAL_RENDER_BATCH = 24;
-  const MOBILE_RENDER_BATCH_SIZE = 36;
+  const MOBILE_INITIAL_RENDER_BATCH = 16;
+  const MOBILE_RENDER_BATCH_SIZE = 20;
   let renderCycle = 0;
 
   function isMobileRenderMode() {
@@ -39,6 +39,16 @@
   }
 
   function scheduleFrame(fn) {
+    if (isMobileRenderMode()) {
+      const run = () => window.setTimeout(fn, 28);
+      if (typeof window.requestAnimationFrame === "function") {
+        window.requestAnimationFrame(run);
+        return;
+      }
+      window.setTimeout(fn, 28);
+      return;
+    }
+
     if (typeof window.requestAnimationFrame === "function") {
       window.requestAnimationFrame(fn);
       return;
