@@ -36,6 +36,30 @@
                   ]
     },
     {
+        "titre":  "Dragon Ball Xenoverse 2 (2016)",
+        "sortId":  "DBZxenoverse2",
+        "items":  [
+                      {
+                          "id":  "DBZxenoverse2",
+                          "format":  "Xbox One - Blu-ray case",
+                          "lien":  "https://jaquettes.pages.dev/jeux_jpg/140520261857_dragon_ball_xenoverse_2_xboxone.jpg",
+                          "apercu":  "assets/data/thumbs_webp/140520261857_dragon_ball_xenoverse_2_xboxone.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "Dishonored 2 (2016)",
+        "sortId":  "dishonored2",
+        "items":  [
+                      {
+                          "id":  "dishonored2",
+                          "format":  "PlayStation 4",
+                          "lien":  "https://jaquettes.pages.dev/jeux_jpg/140520261858_dishonored_2.jpg",
+                          "apercu":  "assets/data/thumbs_webp/140520261858_dishonored_2.webp"
+                      }
+                  ]
+    },
+    {
         "titre":  "Evolve (2015)",
         "sortId":  "Evolve",
         "items":  [
