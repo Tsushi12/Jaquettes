@@ -1,5 +1,299 @@
 ﻿window.MOVIES_DATA = [
     {
+        "titre":  "007 : James Bond contre Dr No (1962)",
+        "sortId":  "007JB01",
+        "items":  [
+                      {
+                          "id":  "007JB01",
+                          "format":  "James Bond - La collection : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "007 : Bons Baisers de Russie (1963)",
+        "sortId":  "007JB02",
+        "items":  [
+                      {
+                          "id":  "007JB02",
+                          "format":  "James Bond - La collection : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "007 : Goldfinger (1964)",
+        "sortId":  "007JB03",
+        "items":  [
+                      {
+                          "id":  "007JB03",
+                          "format":  "James Bond - La collection : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "007 : Opération Tonnerre (1965)",
+        "sortId":  "007JB04",
+        "items":  [
+                      {
+                          "id":  "007JB04",
+                          "format":  "James Bond - La collection : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "007 : On ne vit que deux fois (1967)",
+        "sortId":  "007JB05",
+        "items":  [
+                      {
+                          "id":  "007JB05",
+                          "format":  "James Bond - La collection : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "007 : Au service secret de Sa Majesté (1969)",
+        "sortId":  "007JB06",
+        "items":  [
+                      {
+                          "id":  "007JB06",
+                          "format":  "James Bond - La collection : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "007 : Les diamants sont éternels (1971)",
+        "sortId":  "007JB07",
+        "items":  [
+                      {
+                          "id":  "007JB07",
+                          "format":  "Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/100920240926_Les_diamants_sont_eternels_BD.jpg",
+                          "apercu":  "assets/data/thumbs_webp/100920240926_Les_diamants_sont_eternels_BD.webp"
+                      },
+                      {
+                          "id":  "007JB07",
+                          "format":  "James Bond - La collection : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "007 : Vivre et laisser mourir (1973)",
+        "sortId":  "007JB08",
+        "items":  [
+                      {
+                          "id":  "007JB08",
+                          "format":  "James Bond - La collection : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "007 : L\u0027Homme au pistolet d\u0027or (1974)",
+        "sortId":  "007JB09",
+        "items":  [
+                      {
+                          "id":  "007JB09",
+                          "format":  "James Bond - La collection : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "007 : L\u0027Espion qui m\u0027aimait (1977)",
+        "sortId":  "007JB10",
+        "items":  [
+                      {
+                          "id":  "007JB10",
+                          "format":  "James Bond - La collection : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "007 : Moonraker (1979)",
+        "sortId":  "007JB11",
+        "items":  [
+                      {
+                          "id":  "007JB11",
+                          "format":  "James Bond - La collection : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "007 : Rien que pour vos yeux (1981)",
+        "sortId":  "007JB12",
+        "items":  [
+                      {
+                          "id":  "007JB12",
+                          "format":  "James Bond - La collection : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "007 : Octopussy (1983)",
+        "sortId":  "007JB13",
+        "items":  [
+                      {
+                          "id":  "007JB13",
+                          "format":  "James Bond - La collection : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "007 : Dangereusement vôtre (1985)",
+        "sortId":  "007JB14",
+        "items":  [
+                      {
+                          "id":  "007JB14",
+                          "format":  "James Bond - La collection : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "007 : Tuer n\u0027est pas jouer (1987)",
+        "sortId":  "007JB15",
+        "items":  [
+                      {
+                          "id":  "007JB15",
+                          "format":  "James Bond - La collection : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "007 : Permis de tuer (1989)",
+        "sortId":  "007JB16",
+        "items":  [
+                      {
+                          "id":  "007JB16",
+                          "format":  "James Bond - La collection : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "007 : GoldenEye (1995)",
+        "sortId":  "007JB17",
+        "items":  [
+                      {
+                          "id":  "007JB17",
+                          "format":  "James Bond - La collection : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "007 : Demain ne meurt jamais (1997)",
+        "sortId":  "007JB18",
+        "items":  [
+                      {
+                          "id":  "007JB18",
+                          "format":  "James Bond - La collection : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "007 : Le monde ne suffit pas (1999)",
+        "sortId":  "007JB19",
+        "items":  [
+                      {
+                          "id":  "007JB19",
+                          "format":  "James Bond - La collection : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "007 : Meurs un autre jour (2002)",
+        "sortId":  "007JB20",
+        "items":  [
+                      {
+                          "id":  "007JB20",
+                          "format":  "James Bond - La collection : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "007 : Casino Royale (2006)",
+        "sortId":  "007JB21",
+        "items":  [
+                      {
+                          "id":  "007JB21",
+                          "format":  "James Bond - La collection : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262213_007_part3_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262213_007_part3_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "007 : Quantum of Solace (2008)",
+        "sortId":  "007JB22",
+        "items":  [
+                      {
+                          "id":  "007JB22",
+                          "format":  "James Bond - La collection : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262213_007_part3_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262213_007_part3_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "007 : Skyfall (2012)",
+        "sortId":  "007JB23",
+        "items":  [
+                      {
+                          "id":  "007JB23",
+                          "format":  "James Bond - La collection : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262213_007_part3_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262213_007_part3_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "007 : Spectre (2015)",
+        "sortId":  "007JB24",
+        "items":  [
+                      {
+                          "id":  "007JB24",
+                          "format":  "James Bond - La collection : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262213_007_part3_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262213_007_part3_bd.webp"
+                      }
+                  ]
+    },
+    {
         "titre":  "355 (2022)",
         "sortId":  "3554k",
         "items":  [
@@ -17,13 +311,13 @@
         "items":  [
                       {
                           "id":  "AntMan2015a",
-                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (Style M. Ferguson) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260812_ant_man_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260812_ant_man_bd.webp"
                       },
                       {
                           "id":  "AntMan2015b",
-                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260912_ant_man_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260912_ant_man_bd.webp"
                       }
@@ -35,13 +329,13 @@
         "items":  [
                       {
                           "id":  "AntMan2018a",
-                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (Style M. Ferguson) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260820_ant_man_et_la_guepe_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260820_ant_man_et_la_guepe_bd.webp"
                       },
                       {
                           "id":  "AntMan2018b",
-                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260920_ant_man_et_la_guepe_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260920_ant_man_et_la_guepe_bd.webp"
                       }
@@ -53,13 +347,13 @@
         "items":  [
                       {
                           "id":  "Avengers2012a",
-                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (Style M. Ferguson) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260806_avengers_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260806_avengers_bd.webp"
                       },
                       {
                           "id":  "Avengers2012b",
-                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260906_avengers_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260906_avengers_bd.webp"
                       }
@@ -71,13 +365,13 @@
         "items":  [
                       {
                           "id":  "Avengers2015a",
-                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (Style M. Ferguson) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260811_avengers_l_ere_d_ultron_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260811_avengers_l_ere_d_ultron_bd.webp"
                       },
                       {
                           "id":  "Avengers2015b",
-                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260911_avengers_l_ere_d_ultron_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260911_avengers_l_ere_d_ultron_bd.webp"
                       }
@@ -89,13 +383,13 @@
         "items":  [
                       {
                           "id":  "Avengers2018a",
-                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (Style M. Ferguson) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260819_avengers_infinity_war_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260819_avengers_infinity_war_bd.webp"
                       },
                       {
                           "id":  "Avengers2018b",
-                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260919_avengers_infinity_war_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260919_avengers_infinity_war_bd.webp"
                       }
@@ -107,13 +401,13 @@
         "items":  [
                       {
                           "id":  "Avengers2019a",
-                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (Style M. Ferguson) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260822_avengers_endgame_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260822_avengers_endgame_bd.webp"
                       },
                       {
                           "id":  "Avengers2019b",
-                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260922_avengers_endgame_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260922_avengers_endgame_bd.webp"
                       }
@@ -137,27 +431,15 @@
         "items":  [
                       {
                           "id":  "BlackPanther2018a",
-                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (Style M. Ferguson) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260818_black_panther_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260818_black_panther_bd.webp"
                       },
                       {
                           "id":  "BlackPanther2018b",
-                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260918_black_panther_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260918_black_panther_bd.webp"
-                      }
-                  ]
-    },
-    {
-        "titre":  "007 : Les diamants sont éternels (1971)",
-        "sortId":  "Bond1971",
-        "items":  [
-                      {
-                          "id":  "Bond1971",
-                          "format":  "Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/100920240926_Les_diamants_sont_eternels_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/100920240926_Les_diamants_sont_eternels_BD.webp"
                       }
                   ]
     },
@@ -209,13 +491,13 @@
         "items":  [
                       {
                           "id":  "CaptainAmerica2011a",
-                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (Style M. Ferguson) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260805_captain_america_first_avenger_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260805_captain_america_first_avenger_bd.webp"
                       },
                       {
                           "id":  "CaptainAmerica2011b",
-                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260905_captain_america_first_avenger_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260905_captain_america_first_avenger_bd.webp"
                       }
@@ -227,13 +509,13 @@
         "items":  [
                       {
                           "id":  "CaptainAmerica2014a",
-                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (Style M. Ferguson) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260809_captain_america_le_soldat_de_l_hiver_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260809_captain_america_le_soldat_de_l_hiver_bd.webp"
                       },
                       {
                           "id":  "CaptainAmerica2014b",
-                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260909_captain_america_le_soldat_de_l_hiver_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260909_captain_america_le_soldat_de_l_hiver_bd.webp"
                       }
@@ -245,13 +527,13 @@
         "items":  [
                       {
                           "id":  "CaptainAmerica2016a",
-                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (Style M. Ferguson) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260813_captain_america_civil_war_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260813_captain_america_civil_war_bd.webp"
                       },
                       {
                           "id":  "CaptainAmerica2016b",
-                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260913_captain_america_civil_war_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260913_captain_america_civil_war_bd.webp"
                       }
@@ -275,13 +557,13 @@
         "items":  [
                       {
                           "id":  "CaptainMarvel2019a",
-                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (Style M. Ferguson) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260821_captain_marvel_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260821_captain_marvel_bd.webp"
                       },
                       {
                           "id":  "CaptainMarvel2019b",
-                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260921_captain_marvel_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260921_captain_marvel_bd.webp"
                       }
@@ -317,13 +599,13 @@
         "items":  [
                       {
                           "id":  "DoctorStrange2016a",
-                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (Style M. Ferguson) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260814_doctor_strange_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260814_doctor_strange_bd.webp"
                       },
                       {
                           "id":  "DoctorStrange2016b",
-                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260914_doctor_strange_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260914_doctor_strange_bd.webp"
                       }
@@ -359,13 +641,13 @@
         "items":  [
                       {
                           "id":  "GardiensGalaxie2014a",
-                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (Style M. Ferguson) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260810_les_gardiens_de_la_galaxie_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260810_les_gardiens_de_la_galaxie_bd.webp"
                       },
                       {
                           "id":  "GardiensGalaxie2014b",
-                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260910_les_gardiens_de_la_galaxie_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260910_les_gardiens_de_la_galaxie_bd.webp"
                       }
@@ -377,13 +659,13 @@
         "items":  [
                       {
                           "id":  "GardiensGalaxie2017a",
-                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (Style M. Ferguson) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260815_les_gardiens_de_la_galaxie_vol_2_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260815_les_gardiens_de_la_galaxie_vol_2_bd.webp"
                       },
                       {
                           "id":  "GardiensGalaxie2017b",
-                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260915_les_gardiens_de_la_galaxie_vol_2_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260915_les_gardiens_de_la_galaxie_vol_2_bd.webp"
                       }
@@ -455,13 +737,13 @@
         "items":  [
                       {
                           "id":  "Hulk2008a",
-                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (Style M. Ferguson) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260802_l_incroyable_hulk_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260802_l_incroyable_hulk_bd.webp"
                       },
                       {
                           "id":  "Hulk2008b",
-                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260902_l_incroyable_hulk_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260902_l_incroyable_hulk_bd.webp"
                       }
@@ -497,13 +779,13 @@
         "items":  [
                       {
                           "id":  "IronMan2008a",
-                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (Style M. Ferguson) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260801_iron_man_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260801_iron_man_bd.webp"
                       },
                       {
                           "id":  "IronMan2008b",
-                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260901_iron_man_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260901_iron_man_bd.webp"
                       }
@@ -515,13 +797,13 @@
         "items":  [
                       {
                           "id":  "IronMan2010a",
-                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (Style M. Ferguson) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260803_iron_man_2_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260803_iron_man_2_bd.webp"
                       },
                       {
                           "id":  "IronMan2010b",
-                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260903_iron_man_2_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260903_iron_man_2_bd.webp"
                       }
@@ -533,13 +815,13 @@
         "items":  [
                       {
                           "id":  "IronMan2013a",
-                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (Style M. Ferguson) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260807_iron_man_3_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260807_iron_man_3_bd.webp"
                       },
                       {
                           "id":  "IronMan2013b",
-                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260907_iron_man_3_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260907_iron_man_3_bd.webp"
                       }
@@ -648,6 +930,18 @@
                   ]
     },
     {
+        "titre":  "Raiponce (2010)",
+        "sortId":  "Raiponce",
+        "items":  [
+                      {
+                          "id":  "Raiponce",
+                          "format":  "Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262115_raiponce_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262115_raiponce_bd.webp"
+                      }
+                  ]
+    },
+    {
         "titre":  "Creed III (2023)",
         "sortId":  "RockyCreed3",
         "items":  [
@@ -737,13 +1031,13 @@
         "items":  [
                       {
                           "id":  "SpiderMan2017a",
-                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (Style M. Ferguson) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260816_spider_man_homecoming_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260816_spider_man_homecoming_bd.webp"
                       },
                       {
                           "id":  "SpiderMan2017b",
-                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260916_spider_man_homecoming_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260916_spider_man_homecoming_bd.webp"
                       }
@@ -755,13 +1049,13 @@
         "items":  [
                       {
                           "id":  "SpiderMan2019a",
-                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (Style M. Ferguson) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260823_spider_man_far_from_home_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260823_spider_man_far_from_home_bd.webp"
                       },
                       {
                           "id":  "SpiderMan2019b",
-                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260923_spider_man_far_from_home_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260923_spider_man_far_from_home_bd.webp"
                       }
@@ -1121,13 +1415,13 @@
         "items":  [
                       {
                           "id":  "Thor2011a",
-                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (Style M. Ferguson) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260804_thor_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260804_thor_bd.webp"
                       },
                       {
                           "id":  "Thor2011b",
-                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260904_thor_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260904_thor_bd.webp"
                       }
@@ -1139,13 +1433,13 @@
         "items":  [
                       {
                           "id":  "Thor2013a",
-                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (Style M. Ferguson) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260808_thor_le_monde_des_tenebres_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260808_thor_le_monde_des_tenebres_bd.webp"
                       },
                       {
                           "id":  "Thor2013b",
-                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260908_thor_le_monde_des_tenebres_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260908_thor_le_monde_des_tenebres_bd.webp"
                       }
@@ -1157,13 +1451,13 @@
         "items":  [
                       {
                           "id":  "Thor2017a",
-                          "format":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style) : Blu-Ray",
+                          "format":  "Marvel - La Saga de l\u0027Infini - (Style M. Ferguson) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260817_thor_ragnarok_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260817_thor_ragnarok_bd.webp"
                       },
                       {
                           "id":  "Thor2017b",
-                          "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260917_thor_ragnarok_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260917_thor_ragnarok_bd.webp"
                       }
