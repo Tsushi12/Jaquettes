@@ -4,7 +4,7 @@
         "sortId":  "007a",
         "titles":  [
                        {
-                           "titre":  "James Bond - La collection",
+                           "titre":  "James Bond - La collection (24 films)",
                            "sortId":  "007a",
                            "coffrcollecs":  [
                                                 {
@@ -40,157 +40,7 @@
         "sortId":  "mcu01",
         "titles":  [
                        {
-                           "titre":  "Marvel - La Saga de l\u0027Infini - (M. Ferguson style)",
-                           "sortId":  "mcu01",
-                           "coffrcollecs":  [
-                                                {
-                                                    "coffrcollec":  "Blu-Ray",
-                                                    "sortId":  "mcu01",
-                                                    "items":  [
-                                                                  {
-                                                                      "id":  "mcu01",
-                                                                      "format":  "Iron Man",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260801_iron_man_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260801_iron_man_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu02",
-                                                                      "format":  "L\u0027Incroyable Hulk",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260802_l_incroyable_hulk_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260802_l_incroyable_hulk_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu03",
-                                                                      "format":  "Iron Man 2",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260803_iron_man_2_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260803_iron_man_2_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu04",
-                                                                      "format":  "Thor",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260804_thor_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260804_thor_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu05",
-                                                                      "format":  "Captain America: First Avenger",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260805_captain_america_first_avenger_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260805_captain_america_first_avenger_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu06",
-                                                                      "format":  "Avengers",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260806_avengers_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260806_avengers_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu07",
-                                                                      "format":  "Iron Man 3",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260807_iron_man_3_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260807_iron_man_3_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu08",
-                                                                      "format":  "Thor: Le Monde des Ténèbres",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260808_thor_le_monde_des_tenebres_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260808_thor_le_monde_des_tenebres_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu09",
-                                                                      "format":  "Captain America: Le Soldat de l\u0027Hiver",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260809_captain_america_le_soldat_de_l_hiver_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260809_captain_america_le_soldat_de_l_hiver_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu10",
-                                                                      "format":  "Les Gardiens de la Galaxie",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260810_les_gardiens_de_la_galaxie_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260810_les_gardiens_de_la_galaxie_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu11",
-                                                                      "format":  "Avengers: L\u0027Ère d\u0027Ultron",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260811_avengers_l_ere_d_ultron_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260811_avengers_l_ere_d_ultron_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu12",
-                                                                      "format":  "Ant-Man",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260812_ant_man_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260812_ant_man_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu13",
-                                                                      "format":  "Captain America: Civil War",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260813_captain_america_civil_war_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260813_captain_america_civil_war_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu14",
-                                                                      "format":  "Doctor Strange",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260814_doctor_strange_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260814_doctor_strange_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu15",
-                                                                      "format":  "Les Gardiens de la Galaxie Vol. 2",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260815_les_gardiens_de_la_galaxie_vol_2_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260815_les_gardiens_de_la_galaxie_vol_2_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu16",
-                                                                      "format":  "Spider-Man: Homecoming",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260816_spider_man_homecoming_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260816_spider_man_homecoming_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu17",
-                                                                      "format":  "Thor: Ragnarok",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260817_thor_ragnarok_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260817_thor_ragnarok_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu18",
-                                                                      "format":  "Black Panther",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260818_black_panther_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260818_black_panther_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu19",
-                                                                      "format":  "Avengers: Infinity War",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260819_avengers_infinity_war_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260819_avengers_infinity_war_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu20",
-                                                                      "format":  "Ant-Man et la Guêpe",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260820_ant_man_et_la_guepe_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260820_ant_man_et_la_guepe_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu21",
-                                                                      "format":  "Captain Marvel",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260821_captain_marvel_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260821_captain_marvel_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu22",
-                                                                      "format":  "Avengers: Endgame",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260822_avengers_endgame_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260822_avengers_endgame_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu23",
-                                                                      "format":  "Spider-Man: Far From Home",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260823_spider_man_far_from_home_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260823_spider_man_far_from_home_bd.webp"
-                                                                  }
-                                                              ]
-                                                }
-                                            ]
-                       },
-                       {
-                           "titre":  "Marvel Cinematic Universe - (Cuir style)",
+                           "titre":  "Marvel Cinematic Universe - (Style cuir)",
                            "sortId":  "mcu01",
                            "coffrcollecs":  [
                                                 {
@@ -340,6 +190,156 @@
                                                                       "format":  "WandaVision",
                                                                       "lien":  "https://jaquettes.pages.dev/series_jpg/150520260924_wanda_vision_bd.jpg.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/150520260924_wanda_vision_bd.webp"
+                                                                  }
+                                                              ]
+                                                }
+                                            ]
+                       },
+                       {
+                           "titre":  "Marvel - La Saga de l\u0027Infini - (Style M. Ferguson)",
+                           "sortId":  "mcu01",
+                           "coffrcollecs":  [
+                                                {
+                                                    "coffrcollec":  "Blu-Ray",
+                                                    "sortId":  "mcu01",
+                                                    "items":  [
+                                                                  {
+                                                                      "id":  "mcu01",
+                                                                      "format":  "Iron Man",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260801_iron_man_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260801_iron_man_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "mcu02",
+                                                                      "format":  "L\u0027Incroyable Hulk",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260802_l_incroyable_hulk_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260802_l_incroyable_hulk_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "mcu03",
+                                                                      "format":  "Iron Man 2",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260803_iron_man_2_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260803_iron_man_2_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "mcu04",
+                                                                      "format":  "Thor",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260804_thor_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260804_thor_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "mcu05",
+                                                                      "format":  "Captain America: First Avenger",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260805_captain_america_first_avenger_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260805_captain_america_first_avenger_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "mcu06",
+                                                                      "format":  "Avengers",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260806_avengers_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260806_avengers_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "mcu07",
+                                                                      "format":  "Iron Man 3",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260807_iron_man_3_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260807_iron_man_3_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "mcu08",
+                                                                      "format":  "Thor: Le Monde des Ténèbres",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260808_thor_le_monde_des_tenebres_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260808_thor_le_monde_des_tenebres_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "mcu09",
+                                                                      "format":  "Captain America: Le Soldat de l\u0027Hiver",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260809_captain_america_le_soldat_de_l_hiver_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260809_captain_america_le_soldat_de_l_hiver_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "mcu10",
+                                                                      "format":  "Les Gardiens de la Galaxie",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260810_les_gardiens_de_la_galaxie_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260810_les_gardiens_de_la_galaxie_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "mcu11",
+                                                                      "format":  "Avengers: L\u0027Ère d\u0027Ultron",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260811_avengers_l_ere_d_ultron_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260811_avengers_l_ere_d_ultron_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "mcu12",
+                                                                      "format":  "Ant-Man",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260812_ant_man_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260812_ant_man_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "mcu13",
+                                                                      "format":  "Captain America: Civil War",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260813_captain_america_civil_war_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260813_captain_america_civil_war_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "mcu14",
+                                                                      "format":  "Doctor Strange",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260814_doctor_strange_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260814_doctor_strange_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "mcu15",
+                                                                      "format":  "Les Gardiens de la Galaxie Vol. 2",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260815_les_gardiens_de_la_galaxie_vol_2_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260815_les_gardiens_de_la_galaxie_vol_2_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "mcu16",
+                                                                      "format":  "Spider-Man: Homecoming",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260816_spider_man_homecoming_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260816_spider_man_homecoming_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "mcu17",
+                                                                      "format":  "Thor: Ragnarok",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260817_thor_ragnarok_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260817_thor_ragnarok_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "mcu18",
+                                                                      "format":  "Black Panther",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260818_black_panther_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260818_black_panther_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "mcu19",
+                                                                      "format":  "Avengers: Infinity War",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260819_avengers_infinity_war_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260819_avengers_infinity_war_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "mcu20",
+                                                                      "format":  "Ant-Man et la Guêpe",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260820_ant_man_et_la_guepe_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260820_ant_man_et_la_guepe_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "mcu21",
+                                                                      "format":  "Captain Marvel",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260821_captain_marvel_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260821_captain_marvel_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "mcu22",
+                                                                      "format":  "Avengers: Endgame",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260822_avengers_endgame_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260822_avengers_endgame_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "mcu23",
+                                                                      "format":  "Spider-Man: Far From Home",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260823_spider_man_far_from_home_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260823_spider_man_far_from_home_bd.webp"
                                                                   }
                                                               ]
                                                 }

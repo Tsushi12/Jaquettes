@@ -5,7 +5,7 @@
         "items":  [
                       {
                           "id":  "007JB01",
-                          "format":  "James Bond - La collection : Blu-Ray",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
                       }
@@ -17,7 +17,7 @@
         "items":  [
                       {
                           "id":  "007JB02",
-                          "format":  "James Bond - La collection : Blu-Ray",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
                       }
@@ -29,7 +29,7 @@
         "items":  [
                       {
                           "id":  "007JB03",
-                          "format":  "James Bond - La collection : Blu-Ray",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
                       }
@@ -41,7 +41,7 @@
         "items":  [
                       {
                           "id":  "007JB04",
-                          "format":  "James Bond - La collection : Blu-Ray",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
                       }
@@ -53,7 +53,7 @@
         "items":  [
                       {
                           "id":  "007JB05",
-                          "format":  "James Bond - La collection : Blu-Ray",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
                       }
@@ -65,7 +65,7 @@
         "items":  [
                       {
                           "id":  "007JB06",
-                          "format":  "James Bond - La collection : Blu-Ray",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
                       }
@@ -83,7 +83,7 @@
                       },
                       {
                           "id":  "007JB07",
-                          "format":  "James Bond - La collection : Blu-Ray",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
                       }
@@ -95,7 +95,7 @@
         "items":  [
                       {
                           "id":  "007JB08",
-                          "format":  "James Bond - La collection : Blu-Ray",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
                       }
@@ -107,7 +107,7 @@
         "items":  [
                       {
                           "id":  "007JB09",
-                          "format":  "James Bond - La collection : Blu-Ray",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
                       }
@@ -119,7 +119,7 @@
         "items":  [
                       {
                           "id":  "007JB10",
-                          "format":  "James Bond - La collection : Blu-Ray",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
                       }
@@ -131,7 +131,7 @@
         "items":  [
                       {
                           "id":  "007JB11",
-                          "format":  "James Bond - La collection : Blu-Ray",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
                       }
@@ -143,7 +143,7 @@
         "items":  [
                       {
                           "id":  "007JB12",
-                          "format":  "James Bond - La collection : Blu-Ray",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
                       }
@@ -155,7 +155,7 @@
         "items":  [
                       {
                           "id":  "007JB13",
-                          "format":  "James Bond - La collection : Blu-Ray",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
                       }
@@ -167,7 +167,7 @@
         "items":  [
                       {
                           "id":  "007JB14",
-                          "format":  "James Bond - La collection : Blu-Ray",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
                       }
@@ -179,7 +179,7 @@
         "items":  [
                       {
                           "id":  "007JB15",
-                          "format":  "James Bond - La collection : Blu-Ray",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
                       }
@@ -191,7 +191,7 @@
         "items":  [
                       {
                           "id":  "007JB16",
-                          "format":  "James Bond - La collection : Blu-Ray",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
                       }
@@ -203,7 +203,7 @@
         "items":  [
                       {
                           "id":  "007JB17",
-                          "format":  "James Bond - La collection : Blu-Ray",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
                       }
@@ -215,7 +215,7 @@
         "items":  [
                       {
                           "id":  "007JB18",
-                          "format":  "James Bond - La collection : Blu-Ray",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
                       }
@@ -227,7 +227,7 @@
         "items":  [
                       {
                           "id":  "007JB19",
-                          "format":  "James Bond - La collection : Blu-Ray",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
                       }
@@ -239,7 +239,7 @@
         "items":  [
                       {
                           "id":  "007JB20",
-                          "format":  "James Bond - La collection : Blu-Ray",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
                       }
@@ -251,7 +251,7 @@
         "items":  [
                       {
                           "id":  "007JB21",
-                          "format":  "James Bond - La collection : Blu-Ray",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262213_007_part3_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262213_007_part3_bd.webp"
                       }
@@ -263,7 +263,7 @@
         "items":  [
                       {
                           "id":  "007JB22",
-                          "format":  "James Bond - La collection : Blu-Ray",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262213_007_part3_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262213_007_part3_bd.webp"
                       }
@@ -275,7 +275,7 @@
         "items":  [
                       {
                           "id":  "007JB23",
-                          "format":  "James Bond - La collection : Blu-Ray",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262213_007_part3_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262213_007_part3_bd.webp"
                       }
@@ -287,7 +287,7 @@
         "items":  [
                       {
                           "id":  "007JB24",
-                          "format":  "James Bond - La collection : Blu-Ray",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262213_007_part3_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262213_007_part3_bd.webp"
                       }
