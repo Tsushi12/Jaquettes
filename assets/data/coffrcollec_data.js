@@ -14,19 +14,19 @@
                                                                   {
                                                                       "id":  "007a",
                                                                       "format":  "007 : 1962 - 1997",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
                                                                   },
                                                                   {
                                                                       "id":  "007b",
                                                                       "format":  "007 : 1979 - 2002",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
                                                                   },
                                                                   {
                                                                       "id":  "007c",
                                                                       "format":  "007 : 2006 - 2015",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/180520262213_007_part3_bd",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/180520262213_007_part3_bd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/180520262213_007_part3_bd.webp"
                                                                   }
                                                               ]
