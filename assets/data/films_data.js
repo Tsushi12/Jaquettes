@@ -317,7 +317,7 @@
                       },
                       {
                           "id":  "AntMan2015b",
-                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260912_ant_man_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260912_ant_man_bd.webp"
                       }
@@ -335,7 +335,7 @@
                       },
                       {
                           "id":  "AntMan2018b",
-                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260920_ant_man_et_la_guepe_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260920_ant_man_et_la_guepe_bd.webp"
                       }
@@ -353,7 +353,7 @@
                       },
                       {
                           "id":  "Avengers2012b",
-                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260906_avengers_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260906_avengers_bd.webp"
                       }
@@ -371,7 +371,7 @@
                       },
                       {
                           "id":  "Avengers2015b",
-                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260911_avengers_l_ere_d_ultron_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260911_avengers_l_ere_d_ultron_bd.webp"
                       }
@@ -389,7 +389,7 @@
                       },
                       {
                           "id":  "Avengers2018b",
-                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260919_avengers_infinity_war_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260919_avengers_infinity_war_bd.webp"
                       }
@@ -407,7 +407,7 @@
                       },
                       {
                           "id":  "Avengers2019b",
-                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260922_avengers_endgame_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260922_avengers_endgame_bd.webp"
                       }
@@ -437,7 +437,7 @@
                       },
                       {
                           "id":  "BlackPanther2018b",
-                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260918_black_panther_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260918_black_panther_bd.webp"
                       }
@@ -497,7 +497,7 @@
                       },
                       {
                           "id":  "CaptainAmerica2011b",
-                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260905_captain_america_first_avenger_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260905_captain_america_first_avenger_bd.webp"
                       }
@@ -515,7 +515,7 @@
                       },
                       {
                           "id":  "CaptainAmerica2014b",
-                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260909_captain_america_le_soldat_de_l_hiver_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260909_captain_america_le_soldat_de_l_hiver_bd.webp"
                       }
@@ -533,7 +533,7 @@
                       },
                       {
                           "id":  "CaptainAmerica2016b",
-                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260913_captain_america_civil_war_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260913_captain_america_civil_war_bd.webp"
                       }
@@ -563,7 +563,7 @@
                       },
                       {
                           "id":  "CaptainMarvel2019b",
-                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260921_captain_marvel_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260921_captain_marvel_bd.webp"
                       }
@@ -605,7 +605,7 @@
                       },
                       {
                           "id":  "DoctorStrange2016b",
-                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260914_doctor_strange_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260914_doctor_strange_bd.webp"
                       }
@@ -647,7 +647,7 @@
                       },
                       {
                           "id":  "GardiensGalaxie2014b",
-                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260910_les_gardiens_de_la_galaxie_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260910_les_gardiens_de_la_galaxie_bd.webp"
                       }
@@ -665,7 +665,7 @@
                       },
                       {
                           "id":  "GardiensGalaxie2017b",
-                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260915_les_gardiens_de_la_galaxie_vol_2_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260915_les_gardiens_de_la_galaxie_vol_2_bd.webp"
                       }
@@ -743,7 +743,7 @@
                       },
                       {
                           "id":  "Hulk2008b",
-                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260902_l_incroyable_hulk_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260902_l_incroyable_hulk_bd.webp"
                       }
@@ -785,7 +785,7 @@
                       },
                       {
                           "id":  "IronMan2008b",
-                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260901_iron_man_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260901_iron_man_bd.webp"
                       }
@@ -803,7 +803,7 @@
                       },
                       {
                           "id":  "IronMan2010b",
-                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260903_iron_man_2_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260903_iron_man_2_bd.webp"
                       }
@@ -821,7 +821,7 @@
                       },
                       {
                           "id":  "IronMan2013b",
-                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260907_iron_man_3_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260907_iron_man_3_bd.webp"
                       }
@@ -1037,7 +1037,7 @@
                       },
                       {
                           "id":  "SpiderMan2017b",
-                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260916_spider_man_homecoming_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260916_spider_man_homecoming_bd.webp"
                       }
@@ -1055,7 +1055,7 @@
                       },
                       {
                           "id":  "SpiderMan2019b",
-                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260923_spider_man_far_from_home_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260923_spider_man_far_from_home_bd.webp"
                       }
@@ -1421,7 +1421,7 @@
                       },
                       {
                           "id":  "Thor2011b",
-                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260904_thor_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260904_thor_bd.webp"
                       }
@@ -1439,7 +1439,7 @@
                       },
                       {
                           "id":  "Thor2013b",
-                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260908_thor_le_monde_des_tenebres_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260908_thor_le_monde_des_tenebres_bd.webp"
                       }
@@ -1457,7 +1457,7 @@
                       },
                       {
                           "id":  "Thor2017b",
-                          "format":  "Marvel Cinematic Universe - (Style Cuir) : Blu-Ray",
+                          "format":  "Marvel Cinematic Universe - (Style cuir) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/150520260917_thor_ragnarok_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/150520260917_thor_ragnarok_bd.webp"
                       }

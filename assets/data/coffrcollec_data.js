@@ -188,7 +188,7 @@
                                                                   {
                                                                       "id":  "mcu24",
                                                                       "format":  "WandaVision",
-                                                                      "lien":  "https://jaquettes.pages.dev/series_jpg/150520260924_wanda_vision_bd.jpg.jpg",
+                                                                      "lien":  "https://jaquettes.pages.dev/series_jpg/150520260924_wanda_vision_bd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/150520260924_wanda_vision_bd.webp"
                                                                   }
                                                               ]

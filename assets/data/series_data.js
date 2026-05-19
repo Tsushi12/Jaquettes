@@ -153,8 +153,8 @@
                             "items":  [
                                           {
                                               "id":  "Wanda2021b",
-                                              "format":  "Marvel Cinematic Universe - (Cuir style) : Blu-Ray",
-                                              "lien":  "https://jaquettes.pages.dev/series_jpg/150520260924_wanda_vision_bd.jpg.jpg",
+                                              "format":  "Marvel Cinematic Universe - (Style cuir) : Blu-Ray",
+                                              "lien":  "https://jaquettes.pages.dev/series_jpg/150520260924_wanda_vision_bd.jpg",
                                               "apercu":  "assets/data/thumbs_webp/150520260924_wanda_vision_bd.webp"
                                           }
                                       ]
