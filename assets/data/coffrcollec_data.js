@@ -34,7 +34,7 @@
                                             ]
                        },
                        {
-                           "titre":  "James Bond |Affiches originales|",
+                           "titre":  "007 : James Bond |Affiches originales|",
                            "sortId":  "007JB01",
                            "coffrcollecs":  [
                                                 {
