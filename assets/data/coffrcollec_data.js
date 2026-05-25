@@ -217,8 +217,116 @@
     },
     {
         "type":  "Collections",
-        "sortId":  "Conjuring1",
+        "sortId":  "007JB01",
         "titles":  [
+                       {
+                           "titre":  "James Bond |Affiches originales|",
+                           "sortId":  "007JB01",
+                           "coffrcollecs":  [
+                                                {
+                                                    "coffrcollec":  "Blu-Ray",
+                                                    "sortId":  "007JB01",
+                                                    "items":  [
+                                                                  {
+                                                                      "id":  "007JB01",
+                                                                      "format":  "007 : James Bond contre Dr No",
+                                                                      "lien":  "700520260138_james_bond_007_contre_dr_no_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260138_james_bond_007_contre_dr_no_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "007JB02",
+                                                                      "format":  "007 : Bons Baisers de Russie",
+                                                                      "lien":  "700520260139_bons_baisers_de_russie_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260139_bons_baisers_de_russie_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "007JB04",
+                                                                      "format":  "007 : Opération Tonnerre",
+                                                                      "lien":  "700520260140_operation_tonnerre_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260140_operation_tonnerre_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "007JB05",
+                                                                      "format":  "007 : On ne vit que deux fois",
+                                                                      "lien":  "700520260141_on_ne_vit_que_deux_fois_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260141_on_ne_vit_que_deux_fois_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "007JB06",
+                                                                      "format":  "007 : Au service secret de Sa Majesté",
+                                                                      "lien":  "700520260142_au_service_secret_de_sa_majeste_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260142_au_service_secret_de_sa_majeste_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "007JB07",
+                                                                      "format":  "007 : Les diamants sont éternels",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/100920240926_les_diamants_sont_eternels_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/100920240926_les_diamants_sont_eternels_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "007JB08",
+                                                                      "format":  "007 : Vivre et laisser mourir",
+                                                                      "lien":  "700520260143_vivre_et_laisser_mourir_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260143_vivre_et_laisser_mourir_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "007JB09",
+                                                                      "format":  "007 : L\u0027Homme au pistolet d\u0027or",
+                                                                      "lien":  "700520260144_l_homme_au_pistolet_d_or_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260144_l_homme_au_pistolet_d_or_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "007JB10",
+                                                                      "format":  "007 : L\u0027Espion qui m\u0027aimait",
+                                                                      "lien":  "700520260145_l_espion_qui_m_aimait_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260145_l_espion_qui_m_aimait_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "007JB12",
+                                                                      "format":  "007 : Rien que pour vos yeux",
+                                                                      "lien":  "700520260146_rien_que_pour_vos_yeux_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260146_rien_que_pour_vos_yeux_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "007JB13",
+                                                                      "format":  "007 : Octopussy",
+                                                                      "lien":  "700520260147_octopussy_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260147_octopussy_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "007JB14",
+                                                                      "format":  "007 : Jamais plus jamais",
+                                                                      "lien":  "700520260148_jamais_plus_jamais_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260148_jamais_plus_jamais_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "007JB15",
+                                                                      "format":  "007 : Dangereusement vôtre",
+                                                                      "lien":  "700520260149_dangereusement_votre_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260149_dangereusement_votre_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "007JB18",
+                                                                      "format":  "007 : Tuer n\u0027est pas jouer",
+                                                                      "lien":  "700520260150_tuer_n_est_pas_jouer_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260150_tuer_n_est_pas_jouer_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "007JB19",
+                                                                      "format":  "007 : Demain ne meurt jamais",
+                                                                      "lien":  "700520260151_demain_ne_meurt_jamais_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260151_demain_ne_meurt_jamais_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "007JB19bis",
+                                                                      "format":  "007 : Le monde ne suffit pas",
+                                                                      "lien":  "700520260152_le_monde_ne_suffit_pas_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260152_le_monde_ne_suffit_pas_bd.webp"
+                                                                  }
+                                                              ]
+                                                }
+                                            ]
+                       },
                        {
                            "titre":  "Conjuring |Collection 8 films|",
                            "sortId":  "Conjuring1",
@@ -564,22 +672,10 @@
                                                                       "apercu":  "assets/data/thumbs_webp/250520260901_halloween_1978_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "Halloween1978b",
-                                                                      "format":  "Halloween : La Nuit des masques",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260911_halloween_1978_4k.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520260911_halloween_1978_4k.webp"
-                                                                  },
-                                                                  {
                                                                       "id":  "Halloween2018a",
                                                                       "format":  "Halloween",
                                                                       "lien":  "https://jaquettes.pages.dev/films_jpg/250520260902_halloween_2018_bd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/250520260902_halloween_2018_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "Halloween2018b",
-                                                                      "format":  "Halloween",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260912_halloween_2018_4k.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520260912_halloween_2018_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "Halloween2021a",
@@ -588,16 +684,34 @@
                                                                       "apercu":  "assets/data/thumbs_webp/250520260903_halloween_kills_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "Halloween2021b",
-                                                                      "format":  "Halloween Kills",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260913_halloween_kills_4k.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520260913_halloween_kills_4k.webp"
-                                                                  },
-                                                                  {
                                                                       "id":  "Halloween2022a",
                                                                       "format":  "Halloween Ends",
                                                                       "lien":  "https://jaquettes.pages.dev/films_jpg/250520260904_halloween_ends_bd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/250520260904_halloween_ends_bd.webp"
+                                                                  }
+                                                              ]
+                                                },
+                                                {
+                                                    "coffrcollec":  "4K Ultra HD + Blu-Ray",
+                                                    "sortId":  "Halloween1978b",
+                                                    "items":  [
+                                                                  {
+                                                                      "id":  "Halloween1978b",
+                                                                      "format":  "Halloween : La Nuit des masques",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260911_halloween_1978_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520260911_halloween_1978_4k.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "Halloween2018b",
+                                                                      "format":  "Halloween",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260912_halloween_2018_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520260912_halloween_2018_4k.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "Halloween2021b",
+                                                                      "format":  "Halloween Kills",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260913_halloween_kills_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520260913_halloween_kills_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "Halloween2022b",

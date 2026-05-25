@@ -107,7 +107,7 @@
         "items":  [
                       {
                           "id":  "007JB07",
-                          "format":  "Blu-Ray",
+                          "format":  "Affiche originale : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/100920240926_les_diamants_sont_eternels_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/100920240926_les_diamants_sont_eternels_bd.webp"
                       },
@@ -322,7 +322,7 @@
                           "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
                       },
                       {
-                          "id":  "007MondeNeSuffitPas1999",
+                          "id":  "007JB19bis",
                           "format":  "Affiche originale : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/700520260152_le_monde_ne_suffit_pas_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/700520260152_le_monde_ne_suffit_pas_bd.webp"
@@ -2909,13 +2909,13 @@
         "items":  [
                       {
                           "id":  "Halloween1978a",
-                          "format":  "La Terre du Milieu - Collection 6 films : Blu-Ray",
+                          "format":  "Collection 4 films : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/250520260901_halloween_1978_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/250520260901_halloween_1978_bd.webp"
                       },
                       {
                           "id":  "Halloween1978b",
-                          "format":  "Collection 4 films : Blu-Ray",
+                          "format":  "Collection 4 films : 4K Ultra HD + Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/250520260911_halloween_1978_4k.jpg",
                           "apercu":  "assets/data/thumbs_webp/250520260911_halloween_1978_4k.webp"
                       }
@@ -2927,13 +2927,13 @@
         "items":  [
                       {
                           "id":  "Halloween2018a",
-                          "format":  "La Terre du Milieu - Collection 6 films : Blu-Ray",
+                          "format":  "Collection 4 films : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/250520260902_halloween_2018_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/250520260902_halloween_2018_bd.webp"
                       },
                       {
                           "id":  "Halloween2018b",
-                          "format":  "Collection 4 films : Blu-Ray",
+                          "format":  "Collection 4 films : 4K Ultra HD + Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/250520260912_halloween_2018_4k.jpg",
                           "apercu":  "assets/data/thumbs_webp/250520260912_halloween_2018_4k.webp"
                       }
@@ -2945,13 +2945,13 @@
         "items":  [
                       {
                           "id":  "Halloween2021a",
-                          "format":  "La Terre du Milieu - Collection 6 films : Blu-Ray",
+                          "format":  "Collection 4 films : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/250520260903_halloween_kills_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/250520260903_halloween_kills_bd.webp"
                       },
                       {
                           "id":  "Halloween2021b",
-                          "format":  "Collection 4 films : Blu-Ray",
+                          "format":  "Collection 4 films : 4K Ultra HD + Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/250520260913_halloween_kills_4k.jpg",
                           "apercu":  "assets/data/thumbs_webp/250520260913_halloween_kills_4k.webp"
                       }
@@ -2963,13 +2963,13 @@
         "items":  [
                       {
                           "id":  "Halloween2022a",
-                          "format":  "La Terre du Milieu - Collection 6 films : Blu-Ray",
+                          "format":  "Collection 4 films : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/250520260904_halloween_ends_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/250520260904_halloween_ends_bd.webp"
                       },
                       {
                           "id":  "Halloween2022b",
-                          "format":  "Collection 4 films : Blu-Ray",
+                          "format":  "Collection 4 films : 4K Ultra HD + Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/250520260914_halloween_ends_4k.jpg",
                           "apercu":  "assets/data/thumbs_webp/250520260914_halloween_ends_4k.webp"
                       }
