@@ -1,6 +1,6 @@
 ﻿window.COFFRCOLLEC_DATA = [
     {
-        "type":  "Coffrets",
+        "type":  "007 : James Bond",
         "sortId":  "007a",
         "titles":  [
                        {
@@ -33,210 +33,6 @@
                                                 }
                                             ]
                        },
-                       {
-                           "titre":  "Le Choc des Titans |Coffret 2 films|",
-                           "sortId":  "ChocTitan",
-                           "coffrcollecs":  [
-                                                {
-                                                    "coffrcollec":  "Blu-Ray",
-                                                    "sortId":  "ChocTitan",
-                                                    "items":  [
-                                                                  {
-                                                                      "id":  "ChocTitan",
-                                                                      "format":  "Le Choc des Titans - Coffret 2 films",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520261300_l_integrale_des_titans_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520261300_l_integrale_des_titans_bd.webp"
-                                                                  }
-                                                              ]
-                                                }
-                                            ]
-                       },
-                       {
-                           "titre":  "Freddy |Coffret 7 films|",
-                           "sortId":  "FreddyV1_vol1",
-                           "coffrcollecs":  [
-                                                {
-                                                    "coffrcollec":  "Blu-Ray",
-                                                    "sortId":  "FreddyV1_vol1",
-                                                    "items":  [
-                                                                  {
-                                                                      "id":  "FreddyV1_vol1",
-                                                                      "format":  "Volume 1",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260461_freddy_coffrer_vol1_v1_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520260461_freddy_coffrer_vol1_v1_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "FreddyV1_vol2",
-                                                                      "format":  "Volume 2",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260462_freddy_coffrer_vol2_v1_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520260462_freddy_coffrer_vol2_v1_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "FreddyV1_vol3",
-                                                                      "format":  "Volume 3",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260463_freddy_coffrer_vol3_v1_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520260463_freddy_coffrer_vol3_v1_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "FreddyV1_vol4",
-                                                                      "format":  "Volume 4",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260464_freddy_coffrer_vol4_v1_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520260464_freddy_coffrer_vol4_v1_bd.webp"
-                                                                  }
-                                                              ]
-                                                }
-                                            ]
-                       },
-                       {
-                           "titre":  "Harry Potter |Coffret 8 films|",
-                           "sortId":  "HarryPottercoffr1sur2",
-                           "coffrcollecs":  [
-                                                {
-                                                    "coffrcollec":  "Blu-Ray",
-                                                    "sortId":  "HarryPottercoffr1sur2",
-                                                    "items":  [
-                                                                  {
-                                                                      "id":  "HarryPottercoffr1sur2",
-                                                                      "format":  "Partie 1",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260931_harry_potter_coffret_part1_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520260931_harry_potter_coffret_part1_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "HarryPottercoffr2sur2",
-                                                                      "format":  "Partie 2",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260932_harry_potter_coffret_part2_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520260932_harry_potter_coffret_part2_bd.webp"
-                                                                  }
-                                                              ]
-                                                }
-                                            ]
-                       },
-                       {
-                           "titre":  "L’Île de Nim |Collection 2 films|",
-                           "sortId":  "IleDeNim",
-                           "coffrcollecs":  [
-                                                {
-                                                    "coffrcollec":  "Blu-Ray",
-                                                    "sortId":  "IleDeNim",
-                                                    "items":  [
-                                                                  {
-                                                                      "id":  "IleDeNim",
-                                                                      "format":  "L’Île de Nim - Collection 2 films",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260408_l_ile_de_nim_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260408_l_ile_de_nim_bd.webp"
-                                                                  }
-                                                              ]
-                                                }
-                                            ]
-                       },
-                       {
-                           "titre":  "Le Monde de Narnia |Coffret 3 films|",
-                           "sortId":  "Narniaa",
-                           "coffrcollecs":  [
-                                                {
-                                                    "coffrcollec":  "Blu-Ray",
-                                                    "sortId":  "Narniaa",
-                                                    "items":  [
-                                                                  {
-                                                                      "id":  "Narniaa",
-                                                                      "format":  "Le Monde de Narnia - Coffret 3 films",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/052520260102_narnia_integrale_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/052520260102_narnia_integrale_bd.webp"
-                                                                  }
-                                                              ]
-                                                },
-                                                {
-                                                    "coffrcollec":  "DVD",
-                                                    "sortId":  "Narniab",
-                                                    "items":  [
-                                                                  {
-                                                                      "id":  "Narniab",
-                                                                      "format":  "Le Monde de Narnia - Coffret 3 films",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/052520260101_narnia_integrale_dvd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/052520260101_narnia_integrale_dvd.webp"
-                                                                  }
-                                                              ]
-                                                }
-                                            ]
-                       },
-                       {
-                           "titre":  "Retour vers le futur |Coffret 4 disques|",
-                           "sortId":  "RetourVersLeFutur1985",
-                           "coffrcollecs":  [
-                                                {
-                                                    "coffrcollec":  "Blu-Ray",
-                                                    "sortId":  "RetourVersLeFutur1985",
-                                                    "items":  [
-                                                                  {
-                                                                      "id":  "RetourVersLeFutur1985",
-                                                                      "format":  "Retour vers le futur",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520261031_retour_vers_le_futur_1_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520261031_retour_vers_le_futur_1_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "RetourVersLeFutur1989",
-                                                                      "format":  "Retour vers le futur II",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520261032_retour_vers_le_futur_2_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520261032_retour_vers_le_futur_2_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "RetourVersLeFutur1990",
-                                                                      "format":  "Retour vers le futur III",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520261033_retour_vers_le_futur_3_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520261033_retour_vers_le_futur_3_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "RetourVersLeFuturBonusDisc1985",
-                                                                      "format":  "Retour vers le futur : Bonus Disc",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520261034_retour_vers_le_futur_bonus_disc_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520261034_retour_vers_le_futur_bonus_disc_bd.webp"
-                                                                  }
-                                                              ]
-                                                }
-                                            ]
-                       },
-                       {
-                           "titre":  "Taxi - L\u0027intégrale |5 films|",
-                           "sortId":  "Taxi",
-                           "coffrcollecs":  [
-                                                {
-                                                    "coffrcollec":  "Blu-Ray",
-                                                    "sortId":  "Taxi",
-                                                    "items":  [
-                                                                  {
-                                                                      "id":  "Taxi",
-                                                                      "format":  "Taxi - L\u0027intégrale",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/200520260100_taxi_coffret_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/200520260100_taxi_coffret_bd.webp"
-                                                                  }
-                                                              ]
-                                                }
-                                            ]
-                       },
-                       {
-                           "titre":  "Transformers - L\u0027intégrale |5 films|",
-                           "sortId":  "Transformers",
-                           "coffrcollecs":  [
-                                                {
-                                                    "coffrcollec":  "Blu-Ray",
-                                                    "sortId":  "Transformers",
-                                                    "items":  [
-                                                                  {
-                                                                      "id":  "Transformers",
-                                                                      "format":  "Transformers - L\u0027intégrale",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520261100_transformers_5films_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520261100_transformers_5films_bd.webp"
-                                                                  }
-                                                              ]
-                                                }
-                                            ]
-                       }
-                   ]
-    },
-    {
-        "type":  "Collections",
-        "sortId":  "007JB01",
-        "titles":  [
                        {
                            "titre":  "James Bond |Affiches originales|",
                            "sortId":  "007JB01",
@@ -344,6 +140,30 @@
                                                               ]
                                                 }
                                             ]
+                       }
+                   ]
+    },
+    {
+        "type":  "C :",
+        "sortId":  "ChocTitan",
+        "titles":  [
+                       {
+                           "titre":  "Le Choc des Titans |Coffret 2 films|",
+                           "sortId":  "ChocTitan",
+                           "coffrcollecs":  [
+                                                {
+                                                    "coffrcollec":  "Blu-Ray",
+                                                    "sortId":  "ChocTitan",
+                                                    "items":  [
+                                                                  {
+                                                                      "id":  "ChocTitan",
+                                                                      "format":  "Le Choc des Titans - Coffret 2 films",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520261300_l_integrale_des_titans_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520261300_l_integrale_des_titans_bd.webp"
+                                                                  }
+                                                              ]
+                                                }
+                                            ]
                        },
                        {
                            "titre":  "Conjuring |Collection 8 films|",
@@ -404,7 +224,13 @@
                                                               ]
                                                 }
                                             ]
-                       },
+                       }
+                   ]
+    },
+    {
+        "type":  "DC Comics",
+        "sortId":  "DarkKnight2005a",
+        "titles":  [
                        {
                            "titre":  "The Dark Knight |Collection 3 films (V1)|",
                            "sortId":  "DarkKnight2005a",
@@ -466,6 +292,84 @@
                                             ]
                        },
                        {
+                           "titre":  "Smallville |Affiches de Captnbok|",
+                           "sortId":  "Smallville01",
+                           "coffrcollecs":  [
+                                                {
+                                                    "coffrcollec":  "DVD",
+                                                    "sortId":  "Smallville01",
+                                                    "items":  [
+                                                                  {
+                                                                      "id":  "Smallville01",
+                                                                      "format":  "Smallville : Saison 1",
+                                                                      "lien":  "https://jaquettes.pages.dev/series_jpg/140520262041_smallville_s01_dvd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/140520262041_smallville_s01_dvd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "Smallville02",
+                                                                      "format":  "Smallville : Saison 2",
+                                                                      "lien":  "https://jaquettes.pages.dev/series_jpg/140520262042_smallville_s02_dvd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/140520262042_smallville_s02_dvd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "Smallville03",
+                                                                      "format":  "Smallville : Saison 3",
+                                                                      "lien":  "https://jaquettes.pages.dev/series_jpg/140520262043_smallville_s03_dvd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/140520262043_smallville_s03_dvd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "Smallville04",
+                                                                      "format":  "Smallville : Saison 4",
+                                                                      "lien":  "https://jaquettes.pages.dev/series_jpg/140520262044_smallville_s04_dvd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/140520262044_smallville_s04_dvd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "Smallville05",
+                                                                      "format":  "Smallville : Saison 5",
+                                                                      "lien":  "https://jaquettes.pages.dev/series_jpg/140520262045_smallville_s05_dvd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/140520262045_smallville_s05_dvd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "Smallville06",
+                                                                      "format":  "Smallville : Saison 6",
+                                                                      "lien":  "https://jaquettes.pages.dev/series_jpg/140520262046_smallville_s06_dvd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/140520262046_smallville_s06_dvd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "Smallville07",
+                                                                      "format":  "Smallville : Saison 7",
+                                                                      "lien":  "https://jaquettes.pages.dev/series_jpg/140520262047_smallville_s07_dvd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/140520262047_smallville_s07_dvd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "Smallville08",
+                                                                      "format":  "Smallville : Saison 8",
+                                                                      "lien":  "https://jaquettes.pages.dev/series_jpg/140520262048_smallville_s08_dvd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/140520262048_smallville_s08_dvd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "Smallville09",
+                                                                      "format":  "Smallville : Saison 9",
+                                                                      "lien":  "https://jaquettes.pages.dev/series_jpg/140520262049_smallville_s09_dvd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/140520262049_smallville_s09_dvd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "Smallville10",
+                                                                      "format":  "Smallville : Saison 10",
+                                                                      "lien":  "https://jaquettes.pages.dev/series_jpg/140520262050_smallville_s10_dvd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/140520262050_smallville_s10_dvd.webp"
+                                                                  }
+                                                              ]
+                                                }
+                                            ]
+                       }
+                   ]
+    },
+    {
+        "type":  "D :",
+        "sortId":  "DestinationFinale1",
+        "titles":  [
+                       {
                            "titre":  "Destination finale |Collection 5 films|",
                            "sortId":  "DestinationFinale1",
                            "coffrcollecs":  [
@@ -506,7 +410,13 @@
                                                               ]
                                                 }
                                             ]
-                       },
+                       }
+                   ]
+    },
+    {
+        "type":  "E :",
+        "sortId":  "Equalizer1",
+        "titles":  [
                        {
                            "titre":  "Equalizer |Collection 2 films|",
                            "sortId":  "Equalizer1",
@@ -560,7 +470,13 @@
                                                               ]
                                                 }
                                             ]
-                       },
+                       }
+                   ]
+    },
+    {
+        "type":  "F :",
+        "sortId":  "FastAndFurious2001",
+        "titles":  [
                        {
                            "titre":  "Fast and Furious |Collection 8 films|",
                            "sortId":  "FastAndFurious2001",
@@ -622,6 +538,42 @@
                                             ]
                        },
                        {
+                           "titre":  "Freddy |Coffret 7 films|",
+                           "sortId":  "FreddyV1_vol1",
+                           "coffrcollecs":  [
+                                                {
+                                                    "coffrcollec":  "Blu-Ray",
+                                                    "sortId":  "FreddyV1_vol1",
+                                                    "items":  [
+                                                                  {
+                                                                      "id":  "FreddyV1_vol1",
+                                                                      "format":  "Volume 1",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260461_freddy_coffrer_vol1_v1_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520260461_freddy_coffrer_vol1_v1_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "FreddyV1_vol2",
+                                                                      "format":  "Volume 2",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260462_freddy_coffrer_vol2_v1_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520260462_freddy_coffrer_vol2_v1_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "FreddyV1_vol3",
+                                                                      "format":  "Volume 3",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260463_freddy_coffrer_vol3_v1_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520260463_freddy_coffrer_vol3_v1_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "FreddyV1_vol4",
+                                                                      "format":  "Volume 4",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260464_freddy_coffrer_vol4_v1_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520260464_freddy_coffrer_vol4_v1_bd.webp"
+                                                                  }
+                                                              ]
+                                                }
+                                            ]
+                       },
+                       {
                            "titre":  "Freddy |Collection 9 films|",
                            "sortId":  "FreddyV2_vol1",
                            "coffrcollecs":  [
@@ -674,7 +626,13 @@
                                                               ]
                                                 }
                                             ]
-                       },
+                       }
+                   ]
+    },
+    {
+        "type":  "H :",
+        "sortId":  "Halloween1978a",
+        "titles":  [
                        {
                            "titre":  "Halloween |Collection 4 films|",
                            "sortId":  "Halloween1978a",
@@ -740,7 +698,13 @@
                                                               ]
                                                 }
                                             ]
-                       },
+                       }
+                   ]
+    },
+    {
+        "type":  "Harry Potter",
+        "sortId":  "HarryPotter2001",
+        "titles":  [
                        {
                            "titre":  "Harry Potter |Collection 8 films|",
                            "sortId":  "HarryPotter2001",
@@ -801,6 +765,36 @@
                                                 }
                                             ]
                        },
+                       {
+                           "titre":  "Harry Potter |Coffret 8 films|",
+                           "sortId":  "HarryPottercoffr1sur2",
+                           "coffrcollecs":  [
+                                                {
+                                                    "coffrcollec":  "Blu-Ray",
+                                                    "sortId":  "HarryPottercoffr1sur2",
+                                                    "items":  [
+                                                                  {
+                                                                      "id":  "HarryPottercoffr1sur2",
+                                                                      "format":  "Partie 1",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260931_harry_potter_coffret_part1_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520260931_harry_potter_coffret_part1_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "HarryPottercoffr2sur2",
+                                                                      "format":  "Partie 2",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260932_harry_potter_coffret_part2_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520260932_harry_potter_coffret_part2_bd.webp"
+                                                                  }
+                                                              ]
+                                                }
+                                            ]
+                       }
+                   ]
+    },
+    {
+        "type":  "La Terre du Milieu",
+        "sortId":  "Hobbit2012",
+        "titles":  [
                        {
                            "titre":  "La Terre du Milieu |Collection 6 films|",
                            "sortId":  "Hobbit2012",
@@ -884,7 +878,37 @@
                                                               ]
                                                 }
                                             ]
-                       },
+                       }
+                   ]
+    },
+    {
+        "type":  "I :",
+        "sortId":  "IleDeNim",
+        "titles":  [
+                       {
+                           "titre":  "L’Île de Nim |Collection 2 films|",
+                           "sortId":  "IleDeNim",
+                           "coffrcollecs":  [
+                                                {
+                                                    "coffrcollec":  "Blu-Ray",
+                                                    "sortId":  "IleDeNim",
+                                                    "items":  [
+                                                                  {
+                                                                      "id":  "IleDeNim",
+                                                                      "format":  "L’Île de Nim - Collection 2 films",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260408_l_ile_de_nim_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260408_l_ile_de_nim_bd.webp"
+                                                                  }
+                                                              ]
+                                                }
+                                            ]
+                       }
+                   ]
+    },
+    {
+        "type":  "K :",
+        "sortId":  "Kingsman1",
+        "titles":  [
                        {
                            "titre":  "Kingsman |Collection 3 films|",
                            "sortId":  "Kingsman1",
@@ -914,157 +938,13 @@
                                                               ]
                                                 }
                                             ]
-                       },
-                       {
-                           "titre":  "Marvel - La Saga de l\u0027Infini |Style M. Ferguson|",
-                           "sortId":  "mcu01",
-                           "coffrcollecs":  [
-                                                {
-                                                    "coffrcollec":  "Blu-Ray",
-                                                    "sortId":  "mcu01",
-                                                    "items":  [
-                                                                  {
-                                                                      "id":  "mcu01",
-                                                                      "format":  "Iron Man",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260801_iron_man_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260801_iron_man_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu02",
-                                                                      "format":  "L\u0027Incroyable Hulk",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260802_l_incroyable_hulk_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260802_l_incroyable_hulk_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu03",
-                                                                      "format":  "Iron Man 2",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260803_iron_man_2_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260803_iron_man_2_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu04",
-                                                                      "format":  "Thor",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260804_thor_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260804_thor_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu05",
-                                                                      "format":  "Captain America: First Avenger",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260805_captain_america_first_avenger_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260805_captain_america_first_avenger_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu06",
-                                                                      "format":  "Avengers",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260806_avengers_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260806_avengers_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu07",
-                                                                      "format":  "Iron Man 3",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260807_iron_man_3_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260807_iron_man_3_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu08",
-                                                                      "format":  "Thor: Le Monde des Ténèbres",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260808_thor_le_monde_des_tenebres_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260808_thor_le_monde_des_tenebres_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu09",
-                                                                      "format":  "Captain America: Le Soldat de l\u0027Hiver",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260809_captain_america_le_soldat_de_l_hiver_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260809_captain_america_le_soldat_de_l_hiver_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu10",
-                                                                      "format":  "Les Gardiens de la Galaxie",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260810_les_gardiens_de_la_galaxie_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260810_les_gardiens_de_la_galaxie_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu11",
-                                                                      "format":  "Avengers: L\u0027Ère d\u0027Ultron",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260811_avengers_l_ere_d_ultron_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260811_avengers_l_ere_d_ultron_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu12",
-                                                                      "format":  "Ant-Man",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260812_ant_man_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260812_ant_man_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu13",
-                                                                      "format":  "Captain America: Civil War",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260813_captain_america_civil_war_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260813_captain_america_civil_war_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu14",
-                                                                      "format":  "Doctor Strange",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260814_doctor_strange_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260814_doctor_strange_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu15",
-                                                                      "format":  "Les Gardiens de la Galaxie Vol. 2",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260815_les_gardiens_de_la_galaxie_vol_2_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260815_les_gardiens_de_la_galaxie_vol_2_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu16",
-                                                                      "format":  "Spider-Man: Homecoming",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260816_spider_man_homecoming_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260816_spider_man_homecoming_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu17",
-                                                                      "format":  "Thor: Ragnarok",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260817_thor_ragnarok_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260817_thor_ragnarok_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu18",
-                                                                      "format":  "Black Panther",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260818_black_panther_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260818_black_panther_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu19",
-                                                                      "format":  "Avengers: Infinity War",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260819_avengers_infinity_war_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260819_avengers_infinity_war_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu20",
-                                                                      "format":  "Ant-Man et la Guêpe",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260820_ant_man_et_la_guepe_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260820_ant_man_et_la_guepe_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu21",
-                                                                      "format":  "Captain Marvel",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260821_captain_marvel_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260821_captain_marvel_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu22",
-                                                                      "format":  "Avengers: Endgame",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260822_avengers_endgame_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260822_avengers_endgame_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "mcu23",
-                                                                      "format":  "Spider-Man: Far From Home",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260823_spider_man_far_from_home_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/150520260823_spider_man_far_from_home_bd.webp"
-                                                                  }
-                                                              ]
-                                                }
-                                            ]
-                       },
+                       }
+                   ]
+    },
+    {
+        "type":  "Marvel",
+        "sortId":  "mcu01",
+        "titles":  [
                        {
                            "titre":  "Marvel Cinematic Universe |Style cuir|",
                            "sortId":  "mcu01",
@@ -1222,246 +1102,150 @@
                                             ]
                        },
                        {
-                           "titre":  "Ouija |Collection 2 films|",
-                           "sortId":  "Ouija1",
+                           "titre":  "Marvel - La Saga de l\u0027Infini |Style M. Ferguson|",
+                           "sortId":  "mcu01",
                            "coffrcollecs":  [
                                                 {
                                                     "coffrcollec":  "Blu-Ray",
-                                                    "sortId":  "Ouija1",
+                                                    "sortId":  "mcu01",
                                                     "items":  [
                                                                   {
-                                                                      "id":  "Ouija1",
-                                                                      "format":  "Ouija",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260116_ouija_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260116_ouija_bd.webp"
+                                                                      "id":  "mcu01",
+                                                                      "format":  "Iron Man",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260801_iron_man_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260801_iron_man_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "Ouija2",
-                                                                      "format":  "Ouija : les origines",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260117_ouija_les_origines_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260117_ouija_les_origines_bd.webp"
-                                                                  }
-                                                              ]
-                                                }
-                                            ]
-                       },
-                       {
-                           "titre":  "Pirates des Caraïbes |Collection 5 films|",
-                           "sortId":  "PiratesDesCaraibes2003",
-                           "coffrcollecs":  [
-                                                {
-                                                    "coffrcollec":  "Blu-Ray",
-                                                    "sortId":  "PiratesDesCaraibes2003",
-                                                    "items":  [
-                                                                  {
-                                                                      "id":  "PiratesDesCaraibes2003",
-                                                                      "format":  "Pirates des Caraïbes : La Malédiction du Black Pearl",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/220520261451_pirates_des_caraibes_1_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/220520261451_pirates_des_caraibes_1_bd.webp"
+                                                                      "id":  "mcu02",
+                                                                      "format":  "L\u0027Incroyable Hulk",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260802_l_incroyable_hulk_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260802_l_incroyable_hulk_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "PiratesDesCaraibes2006",
-                                                                      "format":  "Pirates des Caraïbes : Le Secret du coffre maudit",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/220520261452_pirates_des_caraibes_2_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/220520261452_pirates_des_caraibes_2_bd.webp"
+                                                                      "id":  "mcu03",
+                                                                      "format":  "Iron Man 2",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260803_iron_man_2_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260803_iron_man_2_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "PiratesDesCaraibes2007",
-                                                                      "format":  "Pirates des Caraïbes : Jusqu\u0027au bout du monde",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/220520261453_pirates_des_caraibes_3_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/220520261453_pirates_des_caraibes_3_bd.webp"
+                                                                      "id":  "mcu04",
+                                                                      "format":  "Thor",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260804_thor_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260804_thor_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "PiratesDesCaraibes2011",
-                                                                      "format":  "Pirates des Caraïbes : La Fontaine de Jouvence",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/220520261454_pirates_des_caraibes_4_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/220520261454_pirates_des_caraibes_4_bd.webp"
+                                                                      "id":  "mcu05",
+                                                                      "format":  "Captain America: First Avenger",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260805_captain_america_first_avenger_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260805_captain_america_first_avenger_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "PiratesDesCaraibes2017",
-                                                                      "format":  "Pirates des Caraïbes : La Vengeance de Salazar",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/220520261455_pirates_des_caraibes_5_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/220520261455_pirates_des_caraibes_5_bd.webp"
-                                                                  }
-                                                              ]
-                                                }
-                                            ]
-                       },
-                       {
-                           "titre":  "Scream |Collection 6 films|",
-                           "sortId":  "Scream1DVD",
-                           "coffrcollecs":  [
-                                                {
-                                                    "coffrcollec":  "DVD",
-                                                    "sortId":  "Scream1DVD",
-                                                    "items":  [
-                                                                  {
-                                                                      "id":  "Scream1DVD",
-                                                                      "format":  "Scream",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260110_scream_dvd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260110_scream_dvd.webp"
+                                                                      "id":  "mcu06",
+                                                                      "format":  "Avengers",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260806_avengers_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260806_avengers_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "Scream2DVD",
-                                                                      "format":  "Scream 2",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260111_scream_2_dvd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260111_scream_2_dvd.webp"
+                                                                      "id":  "mcu07",
+                                                                      "format":  "Iron Man 3",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260807_iron_man_3_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260807_iron_man_3_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "Scream3DVD",
-                                                                      "format":  "Scream 3",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260112_scream_3_dvd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260112_scream_3_dvd.webp"
+                                                                      "id":  "mcu08",
+                                                                      "format":  "Thor: Le Monde des Ténèbres",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260808_thor_le_monde_des_tenebres_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260808_thor_le_monde_des_tenebres_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "Scream4DVD",
-                                                                      "format":  "Scream 4",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260113_scream_4_dvd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260113_scream_4_dvd.webp"
+                                                                      "id":  "mcu09",
+                                                                      "format":  "Captain America: Le Soldat de l\u0027Hiver",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260809_captain_america_le_soldat_de_l_hiver_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260809_captain_america_le_soldat_de_l_hiver_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "Scream5DVD",
-                                                                      "format":  "Scream",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260114_scream_5_dvd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260114_scream_5_dvd.webp"
+                                                                      "id":  "mcu10",
+                                                                      "format":  "Les Gardiens de la Galaxie",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260810_les_gardiens_de_la_galaxie_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260810_les_gardiens_de_la_galaxie_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "Scream6DVD",
-                                                                      "format":  "Scream VI",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260115_scream_6_dvd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260115_scream_6_dvd.webp"
-                                                                  }
-                                                              ]
-                                                }
-                                            ]
-                       },
-                       {
-                           "titre":  "Sinister |Collection 2 films|",
-                           "sortId":  "Sinister1",
-                           "coffrcollecs":  [
-                                                {
-                                                    "coffrcollec":  "Blu-Ray",
-                                                    "sortId":  "Sinister1",
-                                                    "items":  [
-                                                                  {
-                                                                      "id":  "Sinister1",
-                                                                      "format":  "Sinister",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260108_sinister_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260108_sinister_bd.webp"
+                                                                      "id":  "mcu11",
+                                                                      "format":  "Avengers: L\u0027Ère d\u0027Ultron",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260811_avengers_l_ere_d_ultron_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260811_avengers_l_ere_d_ultron_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "Sinister2",
-                                                                      "format":  "Sinister 2",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260109_sinister_2_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260109_sinister_2_bd.webp"
-                                                                  }
-                                                              ]
-                                                }
-                                            ]
-                       },
-                       {
-                           "titre":  "Smallville |Affiches de Captnbok|",
-                           "sortId":  "Smallville01",
-                           "coffrcollecs":  [
-                                                {
-                                                    "coffrcollec":  "DVD",
-                                                    "sortId":  "Smallville01",
-                                                    "items":  [
-                                                                  {
-                                                                      "id":  "Smallville01",
-                                                                      "format":  "Smallville : Saison 1",
-                                                                      "lien":  "https://jaquettes.pages.dev/series_jpg/140520262041_smallville_s01_dvd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/140520262041_smallville_s01_dvd.webp"
+                                                                      "id":  "mcu12",
+                                                                      "format":  "Ant-Man",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260812_ant_man_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260812_ant_man_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "Smallville02",
-                                                                      "format":  "Smallville : Saison 2",
-                                                                      "lien":  "https://jaquettes.pages.dev/series_jpg/140520262042_smallville_s02_dvd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/140520262042_smallville_s02_dvd.webp"
+                                                                      "id":  "mcu13",
+                                                                      "format":  "Captain America: Civil War",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260813_captain_america_civil_war_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260813_captain_america_civil_war_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "Smallville03",
-                                                                      "format":  "Smallville : Saison 3",
-                                                                      "lien":  "https://jaquettes.pages.dev/series_jpg/140520262043_smallville_s03_dvd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/140520262043_smallville_s03_dvd.webp"
+                                                                      "id":  "mcu14",
+                                                                      "format":  "Doctor Strange",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260814_doctor_strange_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260814_doctor_strange_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "Smallville04",
-                                                                      "format":  "Smallville : Saison 4",
-                                                                      "lien":  "https://jaquettes.pages.dev/series_jpg/140520262044_smallville_s04_dvd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/140520262044_smallville_s04_dvd.webp"
+                                                                      "id":  "mcu15",
+                                                                      "format":  "Les Gardiens de la Galaxie Vol. 2",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260815_les_gardiens_de_la_galaxie_vol_2_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260815_les_gardiens_de_la_galaxie_vol_2_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "Smallville05",
-                                                                      "format":  "Smallville : Saison 5",
-                                                                      "lien":  "https://jaquettes.pages.dev/series_jpg/140520262045_smallville_s05_dvd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/140520262045_smallville_s05_dvd.webp"
+                                                                      "id":  "mcu16",
+                                                                      "format":  "Spider-Man: Homecoming",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260816_spider_man_homecoming_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260816_spider_man_homecoming_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "Smallville06",
-                                                                      "format":  "Smallville : Saison 6",
-                                                                      "lien":  "https://jaquettes.pages.dev/series_jpg/140520262046_smallville_s06_dvd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/140520262046_smallville_s06_dvd.webp"
+                                                                      "id":  "mcu17",
+                                                                      "format":  "Thor: Ragnarok",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260817_thor_ragnarok_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260817_thor_ragnarok_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "Smallville07",
-                                                                      "format":  "Smallville : Saison 7",
-                                                                      "lien":  "https://jaquettes.pages.dev/series_jpg/140520262047_smallville_s07_dvd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/140520262047_smallville_s07_dvd.webp"
+                                                                      "id":  "mcu18",
+                                                                      "format":  "Black Panther",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260818_black_panther_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260818_black_panther_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "Smallville08",
-                                                                      "format":  "Smallville : Saison 8",
-                                                                      "lien":  "https://jaquettes.pages.dev/series_jpg/140520262048_smallville_s08_dvd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/140520262048_smallville_s08_dvd.webp"
+                                                                      "id":  "mcu19",
+                                                                      "format":  "Avengers: Infinity War",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260819_avengers_infinity_war_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260819_avengers_infinity_war_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "Smallville09",
-                                                                      "format":  "Smallville : Saison 9",
-                                                                      "lien":  "https://jaquettes.pages.dev/series_jpg/140520262049_smallville_s09_dvd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/140520262049_smallville_s09_dvd.webp"
+                                                                      "id":  "mcu20",
+                                                                      "format":  "Ant-Man et la Guêpe",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260820_ant_man_et_la_guepe_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260820_ant_man_et_la_guepe_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "Smallville10",
-                                                                      "format":  "Smallville : Saison 10",
-                                                                      "lien":  "https://jaquettes.pages.dev/series_jpg/140520262050_smallville_s10_dvd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/140520262050_smallville_s10_dvd.webp"
-                                                                  }
-                                                              ]
-                                                }
-                                            ]
-                       },
-                       {
-                           "titre":  "SOS Fantômes |Collection 4 films|",
-                           "sortId":  "SOSFantomes1984",
-                           "coffrcollecs":  [
-                                                {
-                                                    "coffrcollec":  "Blu-Ray",
-                                                    "sortId":  "SOSFantomes1984",
-                                                    "items":  [
-                                                                  {
-                                                                      "id":  "SOSFantomes1984",
-                                                                      "format":  "SOS Fantômes",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260131_sos_fantomes_1_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520260131_sos_fantomes_1_bd.webp"
+                                                                      "id":  "mcu21",
+                                                                      "format":  "Captain Marvel",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260821_captain_marvel_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260821_captain_marvel_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "SOSFantomes1989",
-                                                                      "format":  "SOS Fantômes 2",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260132_sos_fantomes_2_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520260132_sos_fantomes_2_bd.webp"
+                                                                      "id":  "mcu22",
+                                                                      "format":  "Avengers: Endgame",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260822_avengers_endgame_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260822_avengers_endgame_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "SOSFantomes2016",
-                                                                      "format":  "SOS Fantômes",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260133_sos_fantomes_reboot_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520260133_sos_fantomes_reboot_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "SOSFantomes2021",
-                                                                      "format":  "SOS Fantômes : L\u0027Héritage",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260134_sos_fantomes_3_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520260134_sos_fantomes_3_bd.webp"
+                                                                      "id":  "mcu23",
+                                                                      "format":  "Spider-Man: Far From Home",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/150520260823_spider_man_far_from_home_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/150520260823_spider_man_far_from_home_bd.webp"
                                                                   }
                                                               ]
                                                 }
@@ -1580,6 +1364,276 @@
                                                               ]
                                                 }
                                             ]
+                       }
+                   ]
+    },
+    {
+        "type":  "N :",
+        "sortId":  "Narniaa",
+        "titles":  [
+                       {
+                           "titre":  "Le Monde de Narnia |Coffret 3 films|",
+                           "sortId":  "Narniaa",
+                           "coffrcollecs":  [
+                                                {
+                                                    "coffrcollec":  "Blu-Ray",
+                                                    "sortId":  "Narniaa",
+                                                    "items":  [
+                                                                  {
+                                                                      "id":  "Narniaa",
+                                                                      "format":  "Le Monde de Narnia - Coffret 3 films",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/052520260102_narnia_integrale_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/052520260102_narnia_integrale_bd.webp"
+                                                                  }
+                                                              ]
+                                                },
+                                                {
+                                                    "coffrcollec":  "DVD",
+                                                    "sortId":  "Narniab",
+                                                    "items":  [
+                                                                  {
+                                                                      "id":  "Narniab",
+                                                                      "format":  "Le Monde de Narnia - Coffret 3 films",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/052520260101_narnia_integrale_dvd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/052520260101_narnia_integrale_dvd.webp"
+                                                                  }
+                                                              ]
+                                                }
+                                            ]
+                       }
+                   ]
+    },
+    {
+        "type":  "O :",
+        "sortId":  "Ouija1",
+        "titles":  [
+                       {
+                           "titre":  "Ouija |Collection 2 films|",
+                           "sortId":  "Ouija1",
+                           "coffrcollecs":  [
+                                                {
+                                                    "coffrcollec":  "Blu-Ray",
+                                                    "sortId":  "Ouija1",
+                                                    "items":  [
+                                                                  {
+                                                                      "id":  "Ouija1",
+                                                                      "format":  "Ouija",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260116_ouija_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260116_ouija_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "Ouija2",
+                                                                      "format":  "Ouija : les origines",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260117_ouija_les_origines_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260117_ouija_les_origines_bd.webp"
+                                                                  }
+                                                              ]
+                                                }
+                                            ]
+                       }
+                   ]
+    },
+    {
+        "type":  "P :",
+        "sortId":  "PiratesDesCaraibes2003",
+        "titles":  [
+                       {
+                           "titre":  "Pirates des Caraïbes |Collection 5 films|",
+                           "sortId":  "PiratesDesCaraibes2003",
+                           "coffrcollecs":  [
+                                                {
+                                                    "coffrcollec":  "Blu-Ray",
+                                                    "sortId":  "PiratesDesCaraibes2003",
+                                                    "items":  [
+                                                                  {
+                                                                      "id":  "PiratesDesCaraibes2003",
+                                                                      "format":  "Pirates des Caraïbes : La Malédiction du Black Pearl",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/220520261451_pirates_des_caraibes_1_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/220520261451_pirates_des_caraibes_1_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "PiratesDesCaraibes2006",
+                                                                      "format":  "Pirates des Caraïbes : Le Secret du coffre maudit",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/220520261452_pirates_des_caraibes_2_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/220520261452_pirates_des_caraibes_2_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "PiratesDesCaraibes2007",
+                                                                      "format":  "Pirates des Caraïbes : Jusqu\u0027au bout du monde",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/220520261453_pirates_des_caraibes_3_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/220520261453_pirates_des_caraibes_3_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "PiratesDesCaraibes2011",
+                                                                      "format":  "Pirates des Caraïbes : La Fontaine de Jouvence",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/220520261454_pirates_des_caraibes_4_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/220520261454_pirates_des_caraibes_4_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "PiratesDesCaraibes2017",
+                                                                      "format":  "Pirates des Caraïbes : La Vengeance de Salazar",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/220520261455_pirates_des_caraibes_5_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/220520261455_pirates_des_caraibes_5_bd.webp"
+                                                                  }
+                                                              ]
+                                                }
+                                            ]
+                       }
+                   ]
+    },
+    {
+        "type":  "R :",
+        "sortId":  "RetourVersLeFutur1985",
+        "titles":  [
+                       {
+                           "titre":  "Retour vers le futur |Coffret 4 disques|",
+                           "sortId":  "RetourVersLeFutur1985",
+                           "coffrcollecs":  [
+                                                {
+                                                    "coffrcollec":  "Blu-Ray",
+                                                    "sortId":  "RetourVersLeFutur1985",
+                                                    "items":  [
+                                                                  {
+                                                                      "id":  "RetourVersLeFutur1985",
+                                                                      "format":  "Retour vers le futur",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520261031_retour_vers_le_futur_1_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520261031_retour_vers_le_futur_1_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "RetourVersLeFutur1989",
+                                                                      "format":  "Retour vers le futur II",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520261032_retour_vers_le_futur_2_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520261032_retour_vers_le_futur_2_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "RetourVersLeFutur1990",
+                                                                      "format":  "Retour vers le futur III",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520261033_retour_vers_le_futur_3_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520261033_retour_vers_le_futur_3_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "RetourVersLeFuturBonusDisc1985",
+                                                                      "format":  "Retour vers le futur : Bonus Disc",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520261034_retour_vers_le_futur_bonus_disc_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520261034_retour_vers_le_futur_bonus_disc_bd.webp"
+                                                                  }
+                                                              ]
+                                                }
+                                            ]
+                       }
+                   ]
+    },
+    {
+        "type":  "S :",
+        "sortId":  "Scream1DVD",
+        "titles":  [
+                       {
+                           "titre":  "Scream |Collection 6 films|",
+                           "sortId":  "Scream1DVD",
+                           "coffrcollecs":  [
+                                                {
+                                                    "coffrcollec":  "DVD",
+                                                    "sortId":  "Scream1DVD",
+                                                    "items":  [
+                                                                  {
+                                                                      "id":  "Scream1DVD",
+                                                                      "format":  "Scream",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260110_scream_dvd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260110_scream_dvd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "Scream2DVD",
+                                                                      "format":  "Scream 2",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260111_scream_2_dvd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260111_scream_2_dvd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "Scream3DVD",
+                                                                      "format":  "Scream 3",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260112_scream_3_dvd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260112_scream_3_dvd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "Scream4DVD",
+                                                                      "format":  "Scream 4",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260113_scream_4_dvd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260113_scream_4_dvd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "Scream5DVD",
+                                                                      "format":  "Scream",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260114_scream_5_dvd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260114_scream_5_dvd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "Scream6DVD",
+                                                                      "format":  "Scream VI",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260115_scream_6_dvd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260115_scream_6_dvd.webp"
+                                                                  }
+                                                              ]
+                                                }
+                                            ]
+                       },
+                       {
+                           "titre":  "Sinister |Collection 2 films|",
+                           "sortId":  "Sinister1",
+                           "coffrcollecs":  [
+                                                {
+                                                    "coffrcollec":  "Blu-Ray",
+                                                    "sortId":  "Sinister1",
+                                                    "items":  [
+                                                                  {
+                                                                      "id":  "Sinister1",
+                                                                      "format":  "Sinister",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260108_sinister_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260108_sinister_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "Sinister2",
+                                                                      "format":  "Sinister 2",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260109_sinister_2_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260109_sinister_2_bd.webp"
+                                                                  }
+                                                              ]
+                                                }
+                                            ]
+                       },
+                       {
+                           "titre":  "SOS Fantômes |Collection 4 films|",
+                           "sortId":  "SOSFantomes1984",
+                           "coffrcollecs":  [
+                                                {
+                                                    "coffrcollec":  "Blu-Ray",
+                                                    "sortId":  "SOSFantomes1984",
+                                                    "items":  [
+                                                                  {
+                                                                      "id":  "SOSFantomes1984",
+                                                                      "format":  "SOS Fantômes",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260131_sos_fantomes_1_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520260131_sos_fantomes_1_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "SOSFantomes1989",
+                                                                      "format":  "SOS Fantômes 2",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260132_sos_fantomes_2_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520260132_sos_fantomes_2_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "SOSFantomes2016",
+                                                                      "format":  "SOS Fantômes",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260133_sos_fantomes_reboot_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520260133_sos_fantomes_reboot_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "SOSFantomes2021",
+                                                                      "format":  "SOS Fantômes : L\u0027Héritage",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260134_sos_fantomes_3_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520260134_sos_fantomes_3_bd.webp"
+                                                                  }
+                                                              ]
+                                                }
+                                            ]
                        },
                        {
                            "titre":  "The Substitute |Collection 4 films|",
@@ -1616,7 +1670,13 @@
                                                               ]
                                                 }
                                             ]
-                       },
+                       }
+                   ]
+    },
+    {
+        "type":  "Star Wars",
+        "sortId":  "SW1aa",
+        "titles":  [
                        {
                            "titre":  "Star Wars |Affiches originales|",
                            "sortId":  "SW1aa",
@@ -2066,6 +2126,30 @@
                                                               ]
                                                 }
                                             ]
+                       }
+                   ]
+    },
+    {
+        "type":  "T :",
+        "sortId":  "Taxi",
+        "titles":  [
+                       {
+                           "titre":  "Taxi - L\u0027intégrale |5 films|",
+                           "sortId":  "Taxi",
+                           "coffrcollecs":  [
+                                                {
+                                                    "coffrcollec":  "Blu-Ray",
+                                                    "sortId":  "Taxi",
+                                                    "items":  [
+                                                                  {
+                                                                      "id":  "Taxi",
+                                                                      "format":  "Taxi - L\u0027intégrale",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/200520260100_taxi_coffret_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/200520260100_taxi_coffret_bd.webp"
+                                                                  }
+                                                              ]
+                                                }
+                                            ]
                        },
                        {
                            "titre":  "Taxi |Collection 5 films|",
@@ -2104,6 +2188,24 @@
                                                                       "format":  "Taxi 5",
                                                                       "lien":  "https://jaquettes.pages.dev/films_jpg/200520260105_taxi_5_bd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/200520260105_taxi_5_bd.webp"
+                                                                  }
+                                                              ]
+                                                }
+                                            ]
+                       },
+                       {
+                           "titre":  "Transformers - L\u0027intégrale |5 films|",
+                           "sortId":  "Transformers",
+                           "coffrcollecs":  [
+                                                {
+                                                    "coffrcollec":  "Blu-Ray",
+                                                    "sortId":  "Transformers",
+                                                    "items":  [
+                                                                  {
+                                                                      "id":  "Transformers",
+                                                                      "format":  "Transformers - L\u0027intégrale",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520261100_transformers_5films_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520261100_transformers_5films_bd.webp"
                                                                   }
                                                               ]
                                                 }
