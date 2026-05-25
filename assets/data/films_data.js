@@ -10,7 +10,7 @@
                           "apercu":  "assets/data/thumbs_webp/700520260138_james_bond_007_contre_dr_no_bd.webp"
                       },
                       {
-                          "id":  "007JB01",
+                          "id":  "007JBcof01",
                           "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
@@ -28,19 +28,7 @@
                           "apercu":  "assets/data/thumbs_webp/700520260139_bons_baisers_de_russie_bd.webp"
                       },
                       {
-                          "id":  "007JB02",
-                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
-                          "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
-                      }
-                  ]
-    },
-    {
-        "titre":  "007 : Goldfinger |1964|",
-        "sortId":  "007JB03",
-        "items":  [
-                      {
-                          "id":  "007JB03",
+                          "id":  "007JBcof02",
                           "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
@@ -58,7 +46,7 @@
                           "apercu":  "assets/data/thumbs_webp/700520260140_operation_tonnerre_bd.webp"
                       },
                       {
-                          "id":  "007JB04",
+                          "id":  "007JBcof04",
                           "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
@@ -76,7 +64,7 @@
                           "apercu":  "assets/data/thumbs_webp/700520260141_on_ne_vit_que_deux_fois_bd.webp"
                       },
                       {
-                          "id":  "007JB05",
+                          "id":  "007JBcof05",
                           "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
@@ -94,7 +82,7 @@
                           "apercu":  "assets/data/thumbs_webp/700520260142_au_service_secret_de_sa_majeste_bd.webp"
                       },
                       {
-                          "id":  "007JB06",
+                          "id":  "007JBcof06",
                           "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
@@ -112,7 +100,7 @@
                           "apercu":  "assets/data/thumbs_webp/100920240926_les_diamants_sont_eternels_bd.webp"
                       },
                       {
-                          "id":  "007JB07",
+                          "id":  "007JBcof07",
                           "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
@@ -130,7 +118,7 @@
                           "apercu":  "assets/data/thumbs_webp/700520260143_vivre_et_laisser_mourir_bd.webp"
                       },
                       {
-                          "id":  "007JB08",
+                          "id":  "007JBcof08",
                           "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
@@ -148,7 +136,7 @@
                           "apercu":  "assets/data/thumbs_webp/700520260144_l_homme_au_pistolet_d_or_bd.webp"
                       },
                       {
-                          "id":  "007JB09",
+                          "id":  "007JBcof09",
                           "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
@@ -166,22 +154,10 @@
                           "apercu":  "assets/data/thumbs_webp/700520260145_l_espion_qui_m_aimait_bd.webp"
                       },
                       {
-                          "id":  "007JB10",
+                          "id":  "007JBcof10",
                           "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
-                      }
-                  ]
-    },
-    {
-        "titre":  "007 : Moonraker |1979|",
-        "sortId":  "007JB11",
-        "items":  [
-                      {
-                          "id":  "007JB11",
-                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
-                          "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
                       }
                   ]
     },
@@ -196,7 +172,7 @@
                           "apercu":  "assets/data/thumbs_webp/700520260146_rien_que_pour_vos_yeux_bd.webp"
                       },
                       {
-                          "id":  "007JB12",
+                          "id":  "007JBcof12",
                           "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
@@ -214,7 +190,7 @@
                           "apercu":  "assets/data/thumbs_webp/700520260147_octopussy_bd.webp"
                       },
                       {
-                          "id":  "007JB13",
+                          "id":  "007JBcof13",
                           "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
@@ -235,58 +211,34 @@
     },
     {
         "titre":  "007 : Dangereusement vôtre |1985|",
-        "sortId":  "007JB14",
+        "sortId":  "007JB15",
         "items":  [
-                      {
-                          "id":  "007JB14",
-                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
-                          "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
-                      },
                       {
                           "id":  "007JB15",
                           "format":  "Affiche originale : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/700520260149_dangereusement_votre_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/700520260149_dangereusement_votre_bd.webp"
+                      },
+                      {
+                          "id":  "007JBcof14",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
                       }
                   ]
     },
     {
         "titre":  "007 : Tuer n\u0027est pas jouer |1987|",
-        "sortId":  "007JB15",
+        "sortId":  "007JB18",
         "items":  [
-                      {
-                          "id":  "007JB15",
-                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
-                          "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
-                      },
                       {
                           "id":  "007JB18",
                           "format":  "Affiche originale : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/700520260150_tuer_n_est_pas_jouer_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/700520260150_tuer_n_est_pas_jouer_bd.webp"
-                      }
-                  ]
-    },
-    {
-        "titre":  "007 : Permis de tuer |1989|",
-        "sortId":  "007JB16",
-        "items":  [
+                      },
                       {
-                          "id":  "007JB16",
-                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
-                          "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
-                      }
-                  ]
-    },
-    {
-        "titre":  "007 : GoldenEye |1995|",
-        "sortId":  "007JB17",
-        "items":  [
-                      {
-                          "id":  "007JB17",
+                          "id":  "007JBcof15",
                           "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
@@ -295,46 +247,94 @@
     },
     {
         "titre":  "007 : Demain ne meurt jamais |1997|",
-        "sortId":  "007JB18",
+        "sortId":  "007JB19",
         "items":  [
-                      {
-                          "id":  "007JB18",
-                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
-                          "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
-                      },
                       {
                           "id":  "007JB19",
                           "format":  "Affiche originale : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/700520260151_demain_ne_meurt_jamais_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/700520260151_demain_ne_meurt_jamais_bd.webp"
+                      },
+                      {
+                          "id":  "007JBcof18",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
                       }
                   ]
     },
     {
         "titre":  "007 : Le monde ne suffit pas |1999|",
-        "sortId":  "007JB19",
+        "sortId":  "007JB19bis",
         "items":  [
-                      {
-                          "id":  "007JB19",
-                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
-                          "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
-                      },
                       {
                           "id":  "007JB19bis",
                           "format":  "Affiche originale : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/700520260152_le_monde_ne_suffit_pas_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/700520260152_le_monde_ne_suffit_pas_bd.webp"
+                      },
+                      {
+                          "id":  "007JBcof19",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "007 : Goldfinger |1964|",
+        "sortId":  "007JBcof03",
+        "items":  [
+                      {
+                          "id":  "007JBcof03",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "007 : Moonraker |1979|",
+        "sortId":  "007JBcof11",
+        "items":  [
+                      {
+                          "id":  "007JBcof11",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "007 : Permis de tuer |1989|",
+        "sortId":  "007JBcof16",
+        "items":  [
+                      {
+                          "id":  "007JBcof16",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
+                      }
+                  ]
+    },
+    {
+        "titre":  "007 : GoldenEye |1995|",
+        "sortId":  "007JBcof17",
+        "items":  [
+                      {
+                          "id":  "007JBcof17",
+                          "format":  "James Bond - La collection (24 films) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
                       }
                   ]
     },
     {
         "titre":  "007 : Meurs un autre jour |2002|",
-        "sortId":  "007JB20",
+        "sortId":  "007JBcof20",
         "items":  [
                       {
-                          "id":  "007JB20",
+                          "id":  "007JBcof20",
                           "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
@@ -343,10 +343,10 @@
     },
     {
         "titre":  "007 : Casino Royale |2006|",
-        "sortId":  "007JB21",
+        "sortId":  "007JBcof21",
         "items":  [
                       {
-                          "id":  "007JB21",
+                          "id":  "007JBcof21",
                           "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262213_007_part3_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262213_007_part3_bd.webp"
@@ -355,10 +355,10 @@
     },
     {
         "titre":  "007 : Quantum of Solace |2008|",
-        "sortId":  "007JB22",
+        "sortId":  "007JBcof22",
         "items":  [
                       {
-                          "id":  "007JB22",
+                          "id":  "007JBcof22",
                           "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262213_007_part3_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262213_007_part3_bd.webp"
@@ -367,10 +367,10 @@
     },
     {
         "titre":  "007 : Skyfall |2012|",
-        "sortId":  "007JB23",
+        "sortId":  "007JBcof23",
         "items":  [
                       {
-                          "id":  "007JB23",
+                          "id":  "007JBcof23",
                           "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262213_007_part3_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262213_007_part3_bd.webp"
@@ -379,10 +379,10 @@
     },
     {
         "titre":  "007 : Spectre |2015|",
-        "sortId":  "007JB24",
+        "sortId":  "007JBcof24",
         "items":  [
                       {
-                          "id":  "007JB24",
+                          "id":  "007JBcof24",
                           "format":  "James Bond - La collection (24 films) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/180520262213_007_part3_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/180520262213_007_part3_bd.webp"
