@@ -6215,15 +6215,15 @@
                       },
                       {
                           "id":  "SWROae",
-                          "format":  "Collection 11 films (V2) : Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/220520260591_rogue_one_bd.jpg",
-                          "apercu":  "assets/data/thumbs_webp/220520260591_rogue_one_bd.webp"
-                      },
-                      {
-                          "id":  "SWROaf",
                           "format":  "Collection 11 films (V1) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/220520260592_rogue_one_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/220520260592_rogue_one_bd.webp"
+                      },
+                      {
+                          "id":  "SWROaf",
+                          "format":  "Collection 11 films (V2) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/220520260591_rogue_one_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/220520260591_rogue_one_bd.webp"
                       }
                   ]
     },
@@ -6257,15 +6257,15 @@
                       },
                       {
                           "id":  "SWSOLOae",
-                          "format":  "Collection 11 films (V2) : Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/220520260581_solo_bd.jpg",
-                          "apercu":  "assets/data/thumbs_webp/220520260581_solo_bd.webp"
-                      },
-                      {
-                          "id":  "SWSOLOaf",
                           "format":  "Collection 11 films (V1) : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/220520260582_solo_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/220520260582_solo_bd.webp"
+                      },
+                      {
+                          "id":  "SWSOLOaf",
+                          "format":  "Collection 11 films (V2) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/220520260581_solo_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/220520260581_solo_bd.webp"
                       }
                   ]
     },
