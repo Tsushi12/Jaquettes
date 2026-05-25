@@ -78,8 +78,8 @@
                       {
                           "id":  "007JB07",
                           "format":  "Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/100920240926_Les_diamants_sont_eternels_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/100920240926_Les_diamants_sont_eternels_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/100920240926_les_diamants_sont_eternels_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/100920240926_les_diamants_sont_eternels_bd.webp"
                       },
                       {
                           "id":  "007JB07",
@@ -300,8 +300,8 @@
                       {
                           "id":  "3554k",
                           "format":  "4K Ultra HD + Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261811_355_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261811_355_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261811_355_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261811_355_4k.webp"
                       }
                   ]
     },
@@ -420,8 +420,8 @@
                       {
                           "id":  "Aviator2004",
                           "format":  "Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/300920250910_Aviator_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/300920250910_Aviator_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/300920250910_aviator_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/300920250910_aviator_bd.webp"
                       }
                   ]
     },
@@ -450,14 +450,14 @@
                       {
                           "id":  "BPWFtal",
                           "format":  "Version Talokan : 4K Ultra HD",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261801_Wakanda_Forever_4K_Tal.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261801_Wakanda_Forever_4K_Tal.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261801_wakanda_forever_4k_tal.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261801_wakanda_forever_4k_tal.webp"
                       },
                       {
                           "id":  "BPWFwak",
                           "format":  "Version Wakanda : 4K Ultra HD",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261801_Wakanda_Forever_4K_Wak.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261801_Wakanda_Forever_4K_Wak.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261801_wakanda_forever_4k_wak.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261801_wakanda_forever_4k_wak.webp"
                       }
                   ]
     },
@@ -468,8 +468,8 @@
                       {
                           "id":  "BvS",
                           "format":  "4K Ultra HD + Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/011020251419_Batman_V_Superman_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/011020251419_Batman_V_Superman_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/011020251419_batman_v_superman_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/011020251419_batman_v_superman_4k.webp"
                       }
                   ]
     },
@@ -480,8 +480,8 @@
                       {
                           "id":  "Canicule1984",
                           "format":  "Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/300920250911_Canicule_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/300920250911_Canicule_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/300920250911_canicule_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/300920250911_canicule_bd.webp"
                       }
                   ]
     },
@@ -546,8 +546,8 @@
                       {
                           "id":  "CaptainConan1996",
                           "format":  "Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/300920250912_Captain_conan_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/300920250912_Captain_conan_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/300920250912_captain_conan_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/300920250912_captain_conan_bd.webp"
                       }
                   ]
     },
@@ -576,8 +576,8 @@
                       {
                           "id":  "Coupdetete1979",
                           "format":  "Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/300920250913_Coup_de_tete_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/300920250913_Coup_de_tete_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/300920250913_coup_de_tete_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/300920250913_coup_de_tete_bd.webp"
                       }
                   ]
     },
@@ -588,8 +588,8 @@
                       {
                           "id":  "DieHard1",
                           "format":  "4K Ultra HD + Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/011020251449_Die_Hard_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/011020251449_Die_Hard_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/011020251449_die_hard_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/011020251449_die_hard_4k.webp"
                       }
                   ]
     },
@@ -618,8 +618,8 @@
                       {
                           "id":  "Firefox1982",
                           "format":  "Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/300920250914_Firefox_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/300920250914_Firefox_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/300920250914_firefox_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/300920250914_firefox_bd.webp"
                       }
                   ]
     },
@@ -630,8 +630,8 @@
                       {
                           "id":  "Folleatuer1975",
                           "format":  "Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/300920250915_Folle_a_tuer_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/300920250915_Folle_a_tuer_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/300920250915_folle_a_tuer_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/300920250915_folle_a_tuer_bd.webp"
                       }
                   ]
     },
@@ -678,8 +678,8 @@
                       {
                           "id":  "Gitan (1975)",
                           "format":  "Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/100920240922_Le_Gitan_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/100920240922_Le_Gitan_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/100920240922_le_gitan_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/100920240922_le_gitan_bd.webp"
                       }
                   ]
     },
@@ -690,8 +690,8 @@
                       {
                           "id":  "Goonies1985",
                           "format":  "4K Ultra HD + Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/011020251651_Goonies_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/011020251651_Goonies_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/011020251651_goonies_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/011020251651_goonies_4k.webp"
                       }
                   ]
     },
@@ -702,8 +702,8 @@
                       {
                           "id":  "Gremlins2",
                           "format":  "Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/300920250916_Gremlins_2_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/300920250916_Gremlins_2_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/300920250916_gremlins_2_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/300920250916_gremlins_2_bd.webp"
                       }
                   ]
     },
@@ -714,8 +714,8 @@
                       {
                           "id":  "Guepard1963",
                           "format":  "Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/100920240923_Le_Guepard_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/100920240923_Le_Guepard_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/100920240923_le_guepard_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/100920240923_le_guepard_bd.webp"
                       }
                   ]
     },
@@ -726,8 +726,8 @@
                       {
                           "id":  "HasardetlaViolence1974",
                           "format":  "Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/100920240924_Le_Hasard_et_la_Violence_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/100920240924_Le_Hasard_et_la_Violence_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/100920240924_le_hasard_et_la_violence_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/100920240924_le_hasard_et_la_violence_bd.webp"
                       }
                   ]
     },
@@ -756,8 +756,8 @@
                       {
                           "id":  "Iletaitunefoisdanslouest1968",
                           "format":  "4K Ultra HD + Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/011020251521_Il_etait_une_fois_dans_l_ouest_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/011020251521_Il_etait_une_fois_dans_l_ouest_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/011020251521_il_etait_une_fois_dans_l_ouest_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/011020251521_il_etait_une_fois_dans_l_ouest_4k.webp"
                       }
                   ]
     },
@@ -768,8 +768,8 @@
                       {
                           "id":  "Intelligenceartificielle2001",
                           "format":  "Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/100920240920_Intelligence_artificielle_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/100920240920_Intelligence_artificielle_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/100920240920_intelligence_artificielle_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/100920240920_intelligence_artificielle_bd.webp"
                       }
                   ]
     },
@@ -834,8 +834,8 @@
                       {
                           "id":  "Parrain1",
                           "format":  "Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/011020251701_Le_Parrain_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/011020251701_Le_Parrain_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/011020251701_le_parrain_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/011020251701_le_parrain_bd.webp"
                       }
                   ]
     },
@@ -846,8 +846,8 @@
                       {
                           "id":  "Parrain2",
                           "format":  "Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/011020251702_Le_Parrain_2_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/011020251702_Le_Parrain_2_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/011020251702_le_parrain_2_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/011020251702_le_parrain_2_bd.webp"
                       }
                   ]
     },
@@ -858,8 +858,8 @@
                       {
                           "id":  "Parrain3",
                           "format":  "Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/011020251703_Le_Parrain_3_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/011020251703_Le_Parrain_3_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/011020251703_le_parrain_3_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/011020251703_le_parrain_3_bd.webp"
                       }
                   ]
     },
@@ -870,14 +870,14 @@
                       {
                           "id":  "Pokemon01",
                           "format":  "4K Ultra HD + Blu-Ray (V1)",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/230520262001_detective_pikachu_4k_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/230520262001_detective_pikachu_4k_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/230520262001_detective_pikachu_4k_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/230520262001_detective_pikachu_4k_bd.webp"
                       },
                       {
                           "id":  "Pokemon02",
                           "format":  "4K Ultra HD + Blu-Ray (V2)",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/230520262002_detective_pikachu_4k_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/230520262002_detective_pikachu_4k_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/230520262002_detective_pikachu_4k_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/230520262002_detective_pikachu_4k_bd.webp"
                       },
                       {
                           "id":  "Pokemon11",
@@ -894,14 +894,14 @@
                       {
                           "id":  "Pokemon21",
                           "format":  "Blu-Ray (V1)",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/230520262021_detective_pikachu_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/230520262021_detective_pikachu_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/230520262021_detective_pikachu_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/230520262021_detective_pikachu_bd.webp"
                       },
                       {
                           "id":  "Pokemon22",
                           "format":  "Blu-Ray (V2)",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/230520262022_detective_pikachu_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/230520262022_detective_pikachu_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/230520262022_detective_pikachu_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/230520262022_detective_pikachu_bd.webp"
                       }
                   ]
     },
@@ -912,8 +912,8 @@
                       {
                           "id":  "Predator1",
                           "format":  "4K Ultra HD + Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/300920251506_Predator_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/300920251506_Predator_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/300920251506_predator_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/300920251506_predator_4k.webp"
                       }
                   ]
     },
@@ -924,8 +924,8 @@
                       {
                           "id":  "President1961",
                           "format":  "Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/100920240925_Le_President_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/100920240925_Le_President_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/100920240925_le_president_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/100920240925_le_president_bd.webp"
                       }
                   ]
     },
@@ -948,8 +948,8 @@
                       {
                           "id":  "RockyCreed3",
                           "format":  "4K Ultra HD + Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261820_Creed_3_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261820_Creed_3_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261820_creed_3_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261820_creed_3_4k.webp"
                       }
                   ]
     },
@@ -960,8 +960,8 @@
                       {
                           "id":  "scream1",
                           "format":  "Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/100920241711_scream_1_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/100920241711_scream_1_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/100920241711_scream_1_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/100920241711_scream_1_bd.webp"
                       }
                   ]
     },
@@ -972,8 +972,8 @@
                       {
                           "id":  "scream2",
                           "format":  "Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/100920241712_scream_2_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/100920241712_scream_2_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/100920241712_scream_2_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/100920241712_scream_2_bd.webp"
                       }
                   ]
     },
@@ -984,8 +984,8 @@
                       {
                           "id":  "scream3",
                           "format":  "Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/100920241713_scream_3_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/100920241713_scream_3_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/100920241713_scream_3_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/100920241713_scream_3_bd.webp"
                       }
                   ]
     },
@@ -996,8 +996,8 @@
                       {
                           "id":  "scream4",
                           "format":  "Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/100920241714_scream_4_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/100920241714_scream_4_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/100920241714_scream_4_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/100920241714_scream_4_bd.webp"
                       }
                   ]
     },
@@ -1008,8 +1008,8 @@
                       {
                           "id":  "scream5",
                           "format":  "Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/100920241715_scream_5_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/100920241715_scream_5_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/100920241715_scream_5_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/100920241715_scream_5_bd.webp"
                       }
                   ]
     },
@@ -1020,8 +1020,8 @@
                       {
                           "id":  "scream6",
                           "format":  "Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/100920241716_scream_6_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/100920241716_scream_6_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/100920241716_scream_6_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/100920241716_scream_6_bd.webp"
                       }
                   ]
     },
@@ -1068,14 +1068,14 @@
                       {
                           "id":  "SpiderMan2021",
                           "format":  "Version comics : Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/300920251850_Spiderman_NWH_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/300920251850_Spiderman_NWH_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/300920251850_spiderman_nwh_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/300920251850_spiderman_nwh_bd.webp"
                       },
                       {
                           "id":  "SpidNWHcom4K",
                           "format":  "Version comics : 4K Ultra HD + Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/300920251851_Spiderman_NWH_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/300920251851_Spiderman_NWH_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/300920251851_spiderman_nwh_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/300920251851_spiderman_nwh_4k.webp"
                       }
                   ]
     },
@@ -1086,26 +1086,26 @@
                       {
                           "id":  "SW1aa",
                           "format":  "Affiche originale : 4K Ultra HD + Blu-Ray + Bonus",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/270920242113_Star_Wars_1_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/270920242113_Star_Wars_1_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/270920242113_star_wars_1_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/270920242113_star_wars_1_4k.webp"
                       },
                       {
                           "id":  "SW1ab",
                           "format":  "Affiche originale : 4K Ultra HD + Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261733_Star_Wars_1_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261733_Star_Wars_1_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261733_star_wars_1_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261733_star_wars_1_4k.webp"
                       },
                       {
                           "id":  "SW1ac",
                           "format":  "Affiche originale : 4K Ultra HD",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261911_Star_Wars_1_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261911_Star_Wars_1_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261911_star_wars_1_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261911_star_wars_1_4k.webp"
                       },
                       {
                           "id":  "SW1ad",
                           "format":  "Affiche originale : Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261951_Star_Wars_1_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261951_Star_Wars_1_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261951_star_wars_1_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261951_star_wars_1_bd.webp"
                       }
                   ]
     },
@@ -1116,26 +1116,26 @@
                       {
                           "id":  "SW2aa",
                           "format":  "Affiche originale : 4K Ultra HD + Blu-Ray + Bonus",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/270920242114_Star_Wars_2_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/270920242114_Star_Wars_2_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/270920242114_star_wars_2_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/270920242114_star_wars_2_4k.webp"
                       },
                       {
                           "id":  "SW2ab",
                           "format":  "Affiche originale : 4K Ultra HD + Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261734_Star_Wars_2_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261734_Star_Wars_2_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261734_star_wars_2_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261734_star_wars_2_4k.webp"
                       },
                       {
                           "id":  "SW2ac",
                           "format":  "Affiche originale : 4K Ultra HD",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261912_Star_Wars_2_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261912_Star_Wars_2_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261912_star_wars_2_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261912_star_wars_2_4k.webp"
                       },
                       {
                           "id":  "SW2ad",
                           "format":  "Affiche originale : Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261952_Star_Wars_2_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261952_Star_Wars_2_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261952_star_wars_2_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261952_star_wars_2_bd.webp"
                       }
                   ]
     },
@@ -1146,26 +1146,26 @@
                       {
                           "id":  "SW3aa",
                           "format":  "Affiche originale : 4K Ultra HD + Blu-Ray + Bonus",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/270920242115_Star_Wars_3_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/270920242115_Star_Wars_3_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/270920242115_star_wars_3_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/270920242115_star_wars_3_4k.webp"
                       },
                       {
                           "id":  "SW3ab",
                           "format":  "Affiche originale : 4K Ultra HD + Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261735_Star_Wars_3_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261735_Star_Wars_3_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261735_star_wars_3_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261735_star_wars_3_4k.webp"
                       },
                       {
                           "id":  "SW3ac",
                           "format":  "Affiche originale : 4K Ultra HD",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261913_Star_Wars_3_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261913_Star_Wars_3_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261913_star_wars_3_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261913_star_wars_3_4k.webp"
                       },
                       {
                           "id":  "SW3ad",
                           "format":  "Affiche originale : Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261953_Star_Wars_3_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261953_Star_Wars_3_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261953_star_wars_3_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261953_star_wars_3_bd.webp"
                       }
                   ]
     },
@@ -1176,26 +1176,26 @@
                       {
                           "id":  "SW4aa",
                           "format":  "Affiche originale : 4K Ultra HD + Blu-Ray + Bonus",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/270920242116_Star_Wars_4_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/270920242116_Star_Wars_4_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/270920242116_star_wars_4_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/270920242116_star_wars_4_4k.webp"
                       },
                       {
                           "id":  "SW4ab",
                           "format":  "Affiche originale : 4K Ultra HD + Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261736_Star_Wars_4_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261736_Star_Wars_4_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261736_star_wars_4_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261736_star_wars_4_4k.webp"
                       },
                       {
                           "id":  "SW4ac",
                           "format":  "Affiche originale : 4K Ultra HD",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261914_Star_Wars_4_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261914_Star_Wars_4_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261914_star_wars_4_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261914_star_wars_4_4k.webp"
                       },
                       {
                           "id":  "SW4ad",
                           "format":  "Affiche originale : Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261954_Star_Wars_4_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261954_Star_Wars_4_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261954_star_wars_4_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261954_star_wars_4_bd.webp"
                       }
                   ]
     },
@@ -1206,26 +1206,26 @@
                       {
                           "id":  "SW5aa",
                           "format":  "Affiche originale : 4K Ultra HD + Blu-Ray + Bonus",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/270920242117_Star_Wars_5_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/270920242117_Star_Wars_5_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/270920242117_star_wars_5_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/270920242117_star_wars_5_4k.webp"
                       },
                       {
                           "id":  "SW5ab",
                           "format":  "Affiche originale : 4K Ultra HD + Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261737_Star_Wars_5_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261737_Star_Wars_5_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261737_star_wars_5_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261737_star_wars_5_4k.webp"
                       },
                       {
                           "id":  "SW5ac",
                           "format":  "Affiche originale : 4K Ultra HD",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261915_Star_Wars_5_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261915_Star_Wars_5_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261915_star_wars_5_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261915_star_wars_5_4k.webp"
                       },
                       {
                           "id":  "SW5ad",
                           "format":  "Affiche originale : Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261955_Star_Wars_5_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261955_Star_Wars_5_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261955_star_wars_5_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261955_star_wars_5_bd.webp"
                       }
                   ]
     },
@@ -1236,26 +1236,26 @@
                       {
                           "id":  "SW6aa",
                           "format":  "Affiche originale : 4K Ultra HD + Blu-Ray + Bonus",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/270920242118_Star_Wars_6_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/270920242118_Star_Wars_6_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/270920242118_star_wars_6_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/270920242118_star_wars_6_4k.webp"
                       },
                       {
                           "id":  "SW6ab",
                           "format":  "Affiche originale : 4K Ultra HD + Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261738_Star_Wars_6_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261738_Star_Wars_6_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261738_star_wars_6_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261738_star_wars_6_4k.webp"
                       },
                       {
                           "id":  "SW6ac",
                           "format":  "Affiche originale : 4K Ultra HD",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261916_Star_Wars_6_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261916_Star_Wars_6_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261916_star_wars_6_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261916_star_wars_6_4k.webp"
                       },
                       {
                           "id":  "SW6ad",
                           "format":  "Affiche originale : Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261956_Star_Wars_6_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261956_Star_Wars_6_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261956_star_wars_6_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261956_star_wars_6_bd.webp"
                       }
                   ]
     },
@@ -1266,26 +1266,26 @@
                       {
                           "id":  "SW7aa",
                           "format":  "Affiche originale : 4K Ultra HD + Blu-Ray + Bonus",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/270920242119_Star_Wars_7_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/270920242119_Star_Wars_7_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/270920242119_star_wars_7_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/270920242119_star_wars_7_4k.webp"
                       },
                       {
                           "id":  "SW7ab",
                           "format":  "Affiche originale : 4K Ultra HD + Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261739_Star_Wars_7_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261739_Star_Wars_7_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261739_star_wars_7_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261739_star_wars_7_4k.webp"
                       },
                       {
                           "id":  "SW7ac",
                           "format":  "Affiche originale : 4K Ultra HD",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261917_Star_Wars_7_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261917_Star_Wars_7_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261917_star_wars_7_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261917_star_wars_7_4k.webp"
                       },
                       {
                           "id":  "SW7ad",
                           "format":  "Affiche originale : Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261957_Star_Wars_7_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261957_Star_Wars_7_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261957_star_wars_7_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261957_star_wars_7_bd.webp"
                       }
                   ]
     },
@@ -1296,26 +1296,26 @@
                       {
                           "id":  "SW8aa",
                           "format":  "Affiche originale : 4K Ultra HD + Blu-Ray + Bonus",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/270920242120_Star_Wars_8_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/270920242120_Star_Wars_8_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/270920242120_star_wars_8_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/270920242120_star_wars_8_4k.webp"
                       },
                       {
                           "id":  "SW8ab",
                           "format":  "Affiche originale : 4K Ultra HD + Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261740_Star_Wars_8_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261740_Star_Wars_8_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261740_star_wars_8_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261740_star_wars_8_4k.webp"
                       },
                       {
                           "id":  "SW8ac",
                           "format":  "Affiche originale : 4K Ultra HD",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261918_Star_Wars_8_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261918_Star_Wars_8_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261918_star_wars_8_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261918_star_wars_8_4k.webp"
                       },
                       {
                           "id":  "SW8ad",
                           "format":  "Affiche originale : Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261958_Star_Wars_8_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261958_Star_Wars_8_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261958_star_wars_8_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261958_star_wars_8_bd.webp"
                       }
                   ]
     },
@@ -1326,26 +1326,26 @@
                       {
                           "id":  "SW9aa",
                           "format":  "Affiche originale : 4K Ultra HD + Blu-Ray + Bonus",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/270920242121_Star_Wars_9_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/270920242121_Star_Wars_9_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/270920242121_star_wars_9_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/270920242121_star_wars_9_4k.webp"
                       },
                       {
                           "id":  "SW9ab",
                           "format":  "Affiche originale : 4K Ultra HD + Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261741_Star_Wars_9_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261741_Star_Wars_9_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261741_star_wars_9_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261741_star_wars_9_4k.webp"
                       },
                       {
                           "id":  "SW9ac",
                           "format":  "Affiche originale : 4K Ultra HD",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261919_Star_Wars_9_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261919_Star_Wars_9_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261919_star_wars_9_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261919_star_wars_9_4k.webp"
                       },
                       {
                           "id":  "SW9ad",
                           "format":  "Affiche originale : Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261959_Star_Wars_9_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261959_Star_Wars_9_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261959_star_wars_9_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261959_star_wars_9_bd.webp"
                       }
                   ]
     },
@@ -1356,26 +1356,26 @@
                       {
                           "id":  "SWROaa",
                           "format":  "Affiche originale : 4K Ultra HD + Blu-Ray + Bonus",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/270920242122_Rogue_One_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/270920242122_Rogue_One_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/270920242122_rogue_one_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/270920242122_rogue_one_4k.webp"
                       },
                       {
                           "id":  "SWROab",
                           "format":  "Affiche originale : 4K Ultra HD + Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261342_Rogue_One_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261342_Rogue_One_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261342_rogue_one_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261342_rogue_one_4k.webp"
                       },
                       {
                           "id":  "SWROac",
                           "format":  "Affiche originale : 4K Ultra HD",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261920_Rogue_One_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261920_Rogue_One_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261920_rogue_one_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261920_rogue_one_4k.webp"
                       },
                       {
                           "id":  "SWROad",
                           "format":  "Affiche originale : Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261960_Rogue_One_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261960_Rogue_One_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261960_rogue_one_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261960_rogue_one_bd.webp"
                       }
                   ]
     },
@@ -1386,26 +1386,26 @@
                       {
                           "id":  "SWSOLOaa",
                           "format":  "Affiche originale : 4K Ultra HD + Blu-Ray + Bonus",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/270920242123_Solo_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/270920242123_Solo_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/270920242123_solo_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/270920242123_solo_4k.webp"
                       },
                       {
                           "id":  "SWSOLOab",
                           "format":  "Affiche originale : 4K Ultra HD + Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261343_Solo_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261343_Solo_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261343_solo_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261343_solo_4k.webp"
                       },
                       {
                           "id":  "SWSOLOac",
                           "format":  "Affiche originale : 4K Ultra HD",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261921_Solo_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261921_Solo_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261921_solo_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261921_solo_4k.webp"
                       },
                       {
                           "id":  "SWSOLOad",
                           "format":  "Affiche originale : Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261961_Solo_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/090520261961_Solo_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/090520261961_solo_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/090520261961_solo_bd.webp"
                       }
                   ]
     },
@@ -1470,8 +1470,8 @@
                       {
                           "id":  "Tron14kdisc",
                           "format":  "4K Ultra HD + Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/121020251235_tron_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/121020251235_tron_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/121020251235_tron_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/121020251235_tron_4k.webp"
                       }
                   ]
     },
@@ -1482,8 +1482,8 @@
                       {
                           "id":  "Tron24kdisc",
                           "format":  "4K Ultra HD + Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/121020251236_tron_legacy_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/121020251236_tron_legacy_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/121020251236_tron_legacy_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/121020251236_tron_legacy_4k.webp"
                       }
                   ]
     },
@@ -1494,8 +1494,8 @@
                       {
                           "id":  "Tron34kdisc",
                           "format":  "4K Ultra HD + Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/121020251237_tron_ares_4K.jpg",
-                          "apercu":  "assets/data/thumbs_webp/121020251237_tron_ares_4K.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/121020251237_tron_ares_4k.jpg",
+                          "apercu":  "assets/data/thumbs_webp/121020251237_tron_ares_4k.webp"
                       }
                   ]
     },
@@ -1506,8 +1506,8 @@
                       {
                           "id":  "vieetriendautre1989",
                           "format":  "Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/100920240921_La_vie_et_rien_d_autre_BD.jpg",
-                          "apercu":  "assets/data/thumbs_webp/100920240921_La_vie_et_rien_d_autre_BD.webp"
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/100920240921_la_vie_et_rien_d_autre_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/100920240921_la_vie_et_rien_d_autre_bd.webp"
                       }
                   ]
     }

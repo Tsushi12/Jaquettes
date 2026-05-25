@@ -428,68 +428,68 @@
                                                                   {
                                                                       "id":  "SW1aa",
                                                                       "format":  "Star Wars, épisode I : La Menace fantôme",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/270920242113_Star_Wars_1_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/270920242113_Star_Wars_1_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/270920242113_star_wars_1_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/270920242113_star_wars_1_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW2aa",
                                                                       "format":  "Star Wars, épisode II : L\u0027Attaque des clones",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/270920242114_Star_Wars_2_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/270920242114_Star_Wars_2_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/270920242114_star_wars_2_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/270920242114_star_wars_2_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW3aa",
                                                                       "format":  "Star Wars, épisode III : La Revanche des Sith",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/270920242115_Star_Wars_3_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/270920242115_Star_Wars_3_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/270920242115_star_wars_3_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/270920242115_star_wars_3_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW4aa",
                                                                       "format":  "Star Wars, épisode IV : Un nouvel espoir",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/270920242116_Star_Wars_4_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/270920242116_Star_Wars_4_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/270920242116_star_wars_4_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/270920242116_star_wars_4_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW5aa",
                                                                       "format":  "Star Wars, épisode V : L\u0027Empire contre-attaque",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/270920242117_Star_Wars_5_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/270920242117_Star_Wars_5_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/270920242117_star_wars_5_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/270920242117_star_wars_5_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW6aa",
                                                                       "format":  "Star Wars, épisode VI : Le Retour du Jedi",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/270920242118_Star_Wars_6_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/270920242118_Star_Wars_6_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/270920242118_star_wars_6_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/270920242118_star_wars_6_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW7aa",
                                                                       "format":  "Star Wars, épisode VII : Le Réveil de la Force",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/270920242119_Star_Wars_7_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/270920242119_Star_Wars_7_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/270920242119_star_wars_7_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/270920242119_star_wars_7_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW8aa",
                                                                       "format":  "Star Wars, épisode VIII : Les Derniers Jedi",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/270920242120_Star_Wars_8_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/270920242120_Star_Wars_8_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/270920242120_star_wars_8_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/270920242120_star_wars_8_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW9aa",
                                                                       "format":  "Star Wars, épisode IX : L\u0027Ascension de Skywalker",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/270920242121_Star_Wars_9_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/270920242121_Star_Wars_9_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/270920242121_star_wars_9_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/270920242121_star_wars_9_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SWspin01ROaa",
                                                                       "format":  "Rogue One: A Star Wars Story",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/270920242122_Rogue_One_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/270920242122_Rogue_One_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/270920242122_rogue_one_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/270920242122_rogue_one_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SWspin02SOLOaa",
                                                                       "format":  "Solo: A Star Wars Story",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/270920242123_Solo_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/270920242123_Solo_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/270920242123_solo_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/270920242123_solo_4k.webp"
                                                                   }
                                                               ]
                                                 },
@@ -500,68 +500,68 @@
                                                                   {
                                                                       "id":  "SW1ab",
                                                                       "format":  "Star Wars, épisode I : La Menace fantôme",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261733_Star_Wars_1_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261733_Star_Wars_1_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261733_star_wars_1_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261733_star_wars_1_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW2ab",
                                                                       "format":  "Star Wars, épisode II : L\u0027Attaque des clones",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261734_Star_Wars_2_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261734_Star_Wars_2_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261734_star_wars_2_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261734_star_wars_2_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW3ab",
                                                                       "format":  "Star Wars, épisode III : La Revanche des Sith",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261735_Star_Wars_3_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261735_Star_Wars_3_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261735_star_wars_3_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261735_star_wars_3_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW4ab",
                                                                       "format":  "Star Wars, épisode IV : Un nouvel espoir",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261736_Star_Wars_4_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261736_Star_Wars_4_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261736_star_wars_4_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261736_star_wars_4_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW5ab",
                                                                       "format":  "Star Wars, épisode V : L\u0027Empire contre-attaque",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261737_Star_Wars_5_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261737_Star_Wars_5_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261737_star_wars_5_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261737_star_wars_5_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW6ab",
                                                                       "format":  "Star Wars, épisode VI : Le Retour du Jedi",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261738_Star_Wars_6_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261738_Star_Wars_6_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261738_star_wars_6_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261738_star_wars_6_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW7ab",
                                                                       "format":  "Star Wars, épisode VII : Le Réveil de la Force",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261739_Star_Wars_7_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261739_Star_Wars_7_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261739_star_wars_7_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261739_star_wars_7_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW8ab",
                                                                       "format":  "Star Wars, épisode VIII : Les Derniers Jedi",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261740_Star_Wars_8_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261740_Star_Wars_8_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261740_star_wars_8_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261740_star_wars_8_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW9ab",
                                                                       "format":  "Star Wars, épisode IX : L\u0027Ascension de Skywalker",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261741_Star_Wars_9_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261741_Star_Wars_9_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261741_star_wars_9_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261741_star_wars_9_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SWspin01ROaa",
                                                                       "format":  "Rogue One: A Star Wars Story",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261342_Rogue_One_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261342_Rogue_One_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261342_rogue_one_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261342_rogue_one_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SWspin02SOLOaa",
                                                                       "format":  "Solo: A Star Wars Story",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261343_Solo_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261343_Solo_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261343_solo_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261343_solo_4k.webp"
                                                                   }
                                                               ]
                                                 },
@@ -572,68 +572,68 @@
                                                                   {
                                                                       "id":  "SW1ac",
                                                                       "format":  "Star Wars, épisode I : La Menace fantôme",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261911_Star_Wars_1_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261911_Star_Wars_1_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261911_star_wars_1_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261911_star_wars_1_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW2ac",
                                                                       "format":  "Star Wars, épisode II : L\u0027Attaque des clones",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261912_Star_Wars_2_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261912_Star_Wars_2_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261912_star_wars_2_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261912_star_wars_2_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW3ac",
                                                                       "format":  "Star Wars, épisode III : La Revanche des Sith",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261913_Star_Wars_3_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261913_Star_Wars_3_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261913_star_wars_3_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261913_star_wars_3_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW4ac",
                                                                       "format":  "Star Wars, épisode IV : Un nouvel espoir",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261914_Star_Wars_4_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261914_Star_Wars_4_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261914_star_wars_4_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261914_star_wars_4_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW5ac",
                                                                       "format":  "Star Wars, épisode V : L\u0027Empire contre-attaque",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261915_Star_Wars_5_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261915_Star_Wars_5_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261915_star_wars_5_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261915_star_wars_5_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW6ac",
                                                                       "format":  "Star Wars, épisode VI : Le Retour du Jedi",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261916_Star_Wars_6_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261916_Star_Wars_6_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261916_star_wars_6_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261916_star_wars_6_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW7ac",
                                                                       "format":  "Star Wars, épisode VII : Le Réveil de la Force",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261917_Star_Wars_7_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261917_Star_Wars_7_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261917_star_wars_7_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261917_star_wars_7_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW8ac",
                                                                       "format":  "Star Wars, épisode VIII : Les Derniers Jedi",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261918_Star_Wars_8_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261918_Star_Wars_8_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261918_star_wars_8_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261918_star_wars_8_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW9ac",
                                                                       "format":  "Star Wars, épisode IX : L\u0027Ascension de Skywalker",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261919_Star_Wars_9_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261919_Star_Wars_9_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261919_star_wars_9_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261919_star_wars_9_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SWspin01ROaa",
                                                                       "format":  "Rogue One: A Star Wars Story",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261920_Rogue_One_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261920_Rogue_One_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261920_rogue_one_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261920_rogue_one_4k.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SWspin02SOLOaa",
                                                                       "format":  "Solo: A Star Wars Story",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261921_Solo_4K.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261921_Solo_4K.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261921_solo_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261921_solo_4k.webp"
                                                                   }
                                                               ]
                                                 },
@@ -644,68 +644,68 @@
                                                                   {
                                                                       "id":  "SW1ad",
                                                                       "format":  "Star Wars, épisode I : La Menace fantôme",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261951_Star_Wars_1_BD.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261951_Star_Wars_1_BD.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261951_star_wars_1_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261951_star_wars_1_bd.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW2ad",
                                                                       "format":  "Star Wars, épisode II : L\u0027Attaque des clones",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261952_Star_Wars_2_BD.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261952_Star_Wars_2_BD.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261952_star_wars_2_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261952_star_wars_2_bd.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW3ad",
                                                                       "format":  "Star Wars, épisode III : La Revanche des Sith",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261953_Star_Wars_3_BD.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261953_Star_Wars_3_BD.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261953_star_wars_3_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261953_star_wars_3_bd.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW4ad",
                                                                       "format":  "Star Wars, épisode IV : Un nouvel espoir",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261954_Star_Wars_4_BD.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261954_Star_Wars_4_BD.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261954_star_wars_4_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261954_star_wars_4_bd.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW5ad",
                                                                       "format":  "Star Wars, épisode V : L\u0027Empire contre-attaque",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261955_Star_Wars_5_BD.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261955_Star_Wars_5_BD.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261955_star_wars_5_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261955_star_wars_5_bd.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW6ad",
                                                                       "format":  "Star Wars, épisode VI : Le Retour du Jedi",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261956_Star_Wars_6_BD.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261956_Star_Wars_6_BD.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261956_star_wars_6_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261956_star_wars_6_bd.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW7ad",
                                                                       "format":  "Star Wars, épisode VII : Le Réveil de la Force",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261957_Star_Wars_7_BD.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261957_Star_Wars_7_BD.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261957_star_wars_7_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261957_star_wars_7_bd.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW8ad",
                                                                       "format":  "Star Wars, épisode VIII : Les Derniers Jedi",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261958_Star_Wars_8_BD.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261958_Star_Wars_8_BD.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261958_star_wars_8_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261958_star_wars_8_bd.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SW9ad",
                                                                       "format":  "Star Wars, épisode IX : L\u0027Ascension de Skywalker",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261959_Star_Wars_9_BD.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261959_Star_Wars_9_BD.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261959_star_wars_9_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261959_star_wars_9_bd.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SWspin01ROaa",
                                                                       "format":  "Rogue One: A Star Wars Story",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261960_Rogue_One_BD.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261960_Rogue_One_BD.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261960_rogue_one_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261960_rogue_one_bd.webp"
                                                                   },
                                                                   {
                                                                       "id":  "SWspin02SOLOaa",
                                                                       "format":  "Solo: A Star Wars Story",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261961_Solo_BD.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/090520261961_Solo_BD.webp"
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/090520261961_solo_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/090520261961_solo_bd.webp"
                                                                   }
                                                               ]
                                                 }
