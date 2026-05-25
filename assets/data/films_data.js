@@ -5605,19 +5605,19 @@
     },
     {
         "titre":  "The Amazing Spider-Man : Le Destin d\u0027un héros |2014|",
-        "sortId":  "SpiderMan2014b",
+        "sortId":  "SpiderMan2014a",
         "items":  [
+                      {
+                          "id":  "SpiderMan2014a",
+                          "format":  "L\u0027intégrale Spider-Man (8 films) : Blu-Ray",
+                          "lien":  "https://jaquettes.pages.dev/films_jpg/220520261515_amazing_spiderman_2_bd.jpg",
+                          "apercu":  "assets/data/thumbs_webp/220520261515_amazing_spiderman_2_bd.webp"
+                      },
                       {
                           "id":  "SpiderMan2014b",
                           "format":  "L\u0027intégrale Spider-Man (8 films) : 4K Ultra HD + Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/220520261525_amazing_spiderman_2_4k.jpg",
                           "apercu":  "assets/data/thumbs_webp/220520261525_amazing_spiderman_2_4k.webp"
-                      },
-                      {
-                          "id":  "SpiderManDestinDHeros2014a",
-                          "format":  "L\u0027intégrale Spider-Man (8 films) : Blu-Ray",
-                          "lien":  "https://jaquettes.pages.dev/films_jpg/220520261515_amazing_spiderman_2_bd.jpg",
-                          "apercu":  "assets/data/thumbs_webp/220520261515_amazing_spiderman_2_bd.webp"
                       }
                   ]
     },

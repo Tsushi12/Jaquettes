@@ -1500,6 +1500,12 @@
                                                                       "apercu":  "assets/data/thumbs_webp/220520261514_amazing_spiderman_1_bd.webp"
                                                                   },
                                                                   {
+                                                                      "id":  "SpiderMan2014a",
+                                                                      "format":  "The Amazing Spider-Man : Le Destin d\u0027un héros",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/220520261515_amazing_spiderman_2_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/220520261515_amazing_spiderman_2_bd.webp"
+                                                                  },
+                                                                  {
                                                                       "id":  "SpiderMan2017c",
                                                                       "format":  "Spider-Man: Homecoming",
                                                                       "lien":  "https://jaquettes.pages.dev/films_jpg/220520261516_spiderman_homecoming_bd.jpg",
@@ -1516,12 +1522,6 @@
                                                                       "format":  "Spider-Man: No Way Home",
                                                                       "lien":  "https://jaquettes.pages.dev/films_jpg/220520261518_spiderman_nowayhome_bd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/220520261518_spiderman_nowayhome_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "SpiderManLeDestinDUnHeros2014a",
-                                                                      "format":  "The Amazing Spider-Man : Le Destin d\u0027un héros",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/220520261515_amazing_spiderman_2_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/220520261515_amazing_spiderman_2_bd.webp"
                                                                   }
                                                               ]
                                                 },
