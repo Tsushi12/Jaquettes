@@ -792,96 +792,6 @@
                    ]
     },
     {
-        "type":  "La Terre du Milieu",
-        "sortId":  "Hobbit2012",
-        "titles":  [
-                       {
-                           "titre":  "La Terre du Milieu |Collection 6 films|",
-                           "sortId":  "Hobbit2012",
-                           "coffrcollecs":  [
-                                                {
-                                                    "coffrcollec":  "Blu-Ray",
-                                                    "sortId":  "Hobbit2012",
-                                                    "items":  [
-                                                                  {
-                                                                      "id":  "Hobbit2012",
-                                                                      "format":  "Le Hobbit : Un voyage inattendu",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260504_le_hobbit_1_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520260504_le_hobbit_1_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "Hobbit2013",
-                                                                      "format":  "Le Hobbit : La Désolation de Smaug",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260505_le_hobbit_2_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520260505_le_hobbit_2_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "Hobbit2014",
-                                                                      "format":  "Le Hobbit : La Bataille des Cinq Armées",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260506_le_hobbit_3_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520260506_le_hobbit_3_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "SeigneurDesAnneaux2001",
-                                                                      "format":  "Le Seigneur des anneaux : La Communauté de l\u0027anneau",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260501_le_seigneur_des_anneaux_1_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520260501_le_seigneur_des_anneaux_1_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "SeigneurDesAnneaux2001",
-                                                                      "format":  "Le Seigneur des anneaux : La Communauté de l\u0027anneau - Partie 1",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260511_le_seigneur_des_anneaux_1_part1_4k.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520260511_le_seigneur_des_anneaux_1_part1_4k.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "SeigneurDesAnneaux2001",
-                                                                      "format":  "Le Seigneur des anneaux : La Communauté de l\u0027anneau - Partie 2",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260512_le_seigneur_des_anneaux_1_part2_4k.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520260512_le_seigneur_des_anneaux_1_part2_4k.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "SeigneurDesAnneaux2002",
-                                                                      "format":  "Le Seigneur des anneaux : Les Deux Tours",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260502_le_seigneur_des_anneaux_2_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520260502_le_seigneur_des_anneaux_2_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "SeigneurDesAnneaux2002",
-                                                                      "format":  "Le Seigneur des anneaux : Les Deux Tours - Partie 1",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260513_le_seigneur_des_anneaux_2_part1_4k.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520260513_le_seigneur_des_anneaux_2_part1_4k.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "SeigneurDesAnneaux2002",
-                                                                      "format":  "Le Seigneur des anneaux : Les Deux Tours - Partie 2",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260514_le_seigneur_des_anneaux_2_part2_4k.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520260514_le_seigneur_des_anneaux_2_part2_4k.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "SeigneurDesAnneaux2003",
-                                                                      "format":  "Le Seigneur des anneaux : Le Retour du roi",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260503_le_seigneur_des_anneaux_3_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520260503_le_seigneur_des_anneaux_3_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "SeigneurDesAnneaux2003",
-                                                                      "format":  "Le Seigneur des anneaux : Le Retour du roi - Partie 1",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260515_le_seigneur_des_anneaux_3_part1_4k.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520260515_le_seigneur_des_anneaux_3_part1_4k.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "SeigneurDesAnneaux2003",
-                                                                      "format":  "Le Seigneur des anneaux : Le Retour du roi - Partie 2",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260516_le_seigneur_des_anneaux_3_part2_4k.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/250520260516_le_seigneur_des_anneaux_3_part2_4k.webp"
-                                                                  }
-                                                              ]
-                                                }
-                                            ]
-                       }
-                   ]
-    },
-    {
         "type":  "I :",
         "sortId":  "IleDeNim",
         "titles":  [
@@ -1666,6 +1576,108 @@
                                                                       "format":  "The Substitute: Failure Is Not an Option",
                                                                       "lien":  "https://jaquettes.pages.dev/films_jpg/700520260107_the_substitute_failure_is_not_an_option_dvd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/700520260107_the_substitute_failure_is_not_an_option_dvd.webp"
+                                                                  }
+                                                              ]
+                                                }
+                                            ]
+                       }
+                   ]
+    },
+    {
+        "type":  "La Terre du Milieu",
+        "sortId":  "SeigneurDesAnneaux2001",
+        "titles":  [
+                       {
+                           "titre":  "La Terre du Milieu |Collection 6 films|",
+                           "sortId":  "SeigneurDesAnneaux2001",
+                           "coffrcollecs":  [
+                                                {
+                                                    "coffrcollec":  "Blu-Ray",
+                                                    "sortId":  "SeigneurDesAnneaux2001",
+                                                    "items":  [
+                                                                  {
+                                                                      "id":  "SeigneurDesAnneaux2001",
+                                                                      "format":  "Le Seigneur des anneaux : La Communauté de l\u0027anneau",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260501_le_seigneur_des_anneaux_1_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520260501_le_seigneur_des_anneaux_1_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "SeigneurDesAnneaux2002",
+                                                                      "format":  "Le Seigneur des anneaux : Les Deux Tours",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260502_le_seigneur_des_anneaux_2_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520260502_le_seigneur_des_anneaux_2_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "SeigneurDesAnneaux2003",
+                                                                      "format":  "Le Seigneur des anneaux : Le Retour du roi",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260503_le_seigneur_des_anneaux_3_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520260503_le_seigneur_des_anneaux_3_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "SeigneurDesAnneaux2012",
+                                                                      "format":  "Le Hobbit : Un voyage inattendu",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260504_le_hobbit_1_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520260504_le_hobbit_1_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "SeigneurDesAnneaux2013",
+                                                                      "format":  "Le Hobbit : La Désolation de Smaug",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260505_le_hobbit_2_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520260505_le_hobbit_2_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "SeigneurDesAnneaux2014",
+                                                                      "format":  "Le Hobbit : La Bataille des Cinq Armées",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260506_le_hobbit_3_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520260506_le_hobbit_3_bd.webp"
+                                                                  }
+                                                              ]
+                                                }
+                                            ]
+                       },
+                       {
+                           "titre":  "Le Seigneur des anneaux - Version longue|Collection 3 films|",
+                           "sortId":  "SeigneurDesAnneauxVL2001",
+                           "coffrcollecs":  [
+                                                {
+                                                    "coffrcollec":  "Blu-Ray",
+                                                    "sortId":  "SeigneurDesAnneauxVL2001",
+                                                    "items":  [
+                                                                  {
+                                                                      "id":  "SeigneurDesAnneauxVL2001",
+                                                                      "format":  "Le Seigneur des anneaux : La Communauté de l\u0027anneau - Partie 1",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260511_le_seigneur_des_anneaux_1_part1_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520260511_le_seigneur_des_anneaux_1_part1_4k.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "SeigneurDesAnneauxVL2001",
+                                                                      "format":  "Le Seigneur des anneaux : La Communauté de l\u0027anneau - Partie 2",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260512_le_seigneur_des_anneaux_1_part2_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520260512_le_seigneur_des_anneaux_1_part2_4k.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "SeigneurDesAnneauxVL2002",
+                                                                      "format":  "Le Seigneur des anneaux : Les Deux Tours - Partie 1",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260513_le_seigneur_des_anneaux_2_part1_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520260513_le_seigneur_des_anneaux_2_part1_4k.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "SeigneurDesAnneauxVL2002",
+                                                                      "format":  "Le Seigneur des anneaux : Les Deux Tours - Partie 2",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260514_le_seigneur_des_anneaux_2_part2_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520260514_le_seigneur_des_anneaux_2_part2_4k.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "SeigneurDesAnneauxVL2003",
+                                                                      "format":  "Le Seigneur des anneaux : Le Retour du roi - Partie 1",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260515_le_seigneur_des_anneaux_3_part1_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520260515_le_seigneur_des_anneaux_3_part1_4k.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "SeigneurDesAnneauxVL2003",
+                                                                      "format":  "Le Seigneur des anneaux : Le Retour du roi - Partie 2",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/250520260516_le_seigneur_des_anneaux_3_part2_4k.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/250520260516_le_seigneur_des_anneaux_3_part2_4k.webp"
                                                                   }
                                                               ]
                                                 }
