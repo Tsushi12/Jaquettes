@@ -1,6 +1,6 @@
 ﻿window.MOVIES_DATA = [
     {
-        "titre":  "007 : James Bond contre Dr No (1962)",
+        "titre":  "007 : James Bond contre Dr No |1962|",
         "sortId":  "007JB01",
         "items":  [
                       {
@@ -12,7 +12,7 @@
                   ]
     },
     {
-        "titre":  "007 : Bons Baisers de Russie (1963)",
+        "titre":  "007 : Bons Baisers de Russie |1963|",
         "sortId":  "007JB02",
         "items":  [
                       {
@@ -24,7 +24,7 @@
                   ]
     },
     {
-        "titre":  "007 : Goldfinger (1964)",
+        "titre":  "007 : Goldfinger |1964|",
         "sortId":  "007JB03",
         "items":  [
                       {
@@ -36,7 +36,7 @@
                   ]
     },
     {
-        "titre":  "007 : Opération Tonnerre (1965)",
+        "titre":  "007 : Opération Tonnerre |1965|",
         "sortId":  "007JB04",
         "items":  [
                       {
@@ -48,7 +48,7 @@
                   ]
     },
     {
-        "titre":  "007 : On ne vit que deux fois (1967)",
+        "titre":  "007 : On ne vit que deux fois |1967|",
         "sortId":  "007JB05",
         "items":  [
                       {
@@ -60,7 +60,7 @@
                   ]
     },
     {
-        "titre":  "007 : Au service secret de Sa Majesté (1969)",
+        "titre":  "007 : Au service secret de Sa Majesté |1969|",
         "sortId":  "007JB06",
         "items":  [
                       {
@@ -72,7 +72,7 @@
                   ]
     },
     {
-        "titre":  "007 : Les diamants sont éternels (1971)",
+        "titre":  "007 : Les diamants sont éternels |1971|",
         "sortId":  "007JB07",
         "items":  [
                       {
@@ -90,7 +90,7 @@
                   ]
     },
     {
-        "titre":  "007 : Vivre et laisser mourir (1973)",
+        "titre":  "007 : Vivre et laisser mourir |1973|",
         "sortId":  "007JB08",
         "items":  [
                       {
@@ -102,7 +102,7 @@
                   ]
     },
     {
-        "titre":  "007 : L\u0027Homme au pistolet d\u0027or (1974)",
+        "titre":  "007 : L\u0027Homme au pistolet d\u0027or |1974|",
         "sortId":  "007JB09",
         "items":  [
                       {
@@ -114,7 +114,7 @@
                   ]
     },
     {
-        "titre":  "007 : L\u0027Espion qui m\u0027aimait (1977)",
+        "titre":  "007 : L\u0027Espion qui m\u0027aimait |1977|",
         "sortId":  "007JB10",
         "items":  [
                       {
@@ -126,7 +126,7 @@
                   ]
     },
     {
-        "titre":  "007 : Moonraker (1979)",
+        "titre":  "007 : Moonraker |1979|",
         "sortId":  "007JB11",
         "items":  [
                       {
@@ -138,7 +138,7 @@
                   ]
     },
     {
-        "titre":  "007 : Rien que pour vos yeux (1981)",
+        "titre":  "007 : Rien que pour vos yeux |1981|",
         "sortId":  "007JB12",
         "items":  [
                       {
@@ -150,7 +150,7 @@
                   ]
     },
     {
-        "titre":  "007 : Octopussy (1983)",
+        "titre":  "007 : Octopussy |1983|",
         "sortId":  "007JB13",
         "items":  [
                       {
@@ -162,7 +162,7 @@
                   ]
     },
     {
-        "titre":  "007 : Dangereusement vôtre (1985)",
+        "titre":  "007 : Dangereusement vôtre |1985|",
         "sortId":  "007JB14",
         "items":  [
                       {
@@ -174,7 +174,7 @@
                   ]
     },
     {
-        "titre":  "007 : Tuer n\u0027est pas jouer (1987)",
+        "titre":  "007 : Tuer n\u0027est pas jouer |1987|",
         "sortId":  "007JB15",
         "items":  [
                       {
@@ -186,7 +186,7 @@
                   ]
     },
     {
-        "titre":  "007 : Permis de tuer (1989)",
+        "titre":  "007 : Permis de tuer |1989|",
         "sortId":  "007JB16",
         "items":  [
                       {
@@ -198,7 +198,7 @@
                   ]
     },
     {
-        "titre":  "007 : GoldenEye (1995)",
+        "titre":  "007 : GoldenEye |1995|",
         "sortId":  "007JB17",
         "items":  [
                       {
@@ -210,7 +210,7 @@
                   ]
     },
     {
-        "titre":  "007 : Demain ne meurt jamais (1997)",
+        "titre":  "007 : Demain ne meurt jamais |1997|",
         "sortId":  "007JB18",
         "items":  [
                       {
@@ -222,7 +222,7 @@
                   ]
     },
     {
-        "titre":  "007 : Le monde ne suffit pas (1999)",
+        "titre":  "007 : Le monde ne suffit pas |1999|",
         "sortId":  "007JB19",
         "items":  [
                       {
@@ -234,7 +234,7 @@
                   ]
     },
     {
-        "titre":  "007 : Meurs un autre jour (2002)",
+        "titre":  "007 : Meurs un autre jour |2002|",
         "sortId":  "007JB20",
         "items":  [
                       {
@@ -246,7 +246,7 @@
                   ]
     },
     {
-        "titre":  "007 : Casino Royale (2006)",
+        "titre":  "007 : Casino Royale |2006|",
         "sortId":  "007JB21",
         "items":  [
                       {
@@ -258,7 +258,7 @@
                   ]
     },
     {
-        "titre":  "007 : Quantum of Solace (2008)",
+        "titre":  "007 : Quantum of Solace |2008|",
         "sortId":  "007JB22",
         "items":  [
                       {
@@ -270,7 +270,7 @@
                   ]
     },
     {
-        "titre":  "007 : Skyfall (2012)",
+        "titre":  "007 : Skyfall |2012|",
         "sortId":  "007JB23",
         "items":  [
                       {
@@ -282,7 +282,7 @@
                   ]
     },
     {
-        "titre":  "007 : Spectre (2015)",
+        "titre":  "007 : Spectre |2015|",
         "sortId":  "007JB24",
         "items":  [
                       {
@@ -294,7 +294,7 @@
                   ]
     },
     {
-        "titre":  "355 (2022)",
+        "titre":  "355 |2022|",
         "sortId":  "3554k",
         "items":  [
                       {
@@ -306,7 +306,7 @@
                   ]
     },
     {
-        "titre":  "Ant-Man (2015)",
+        "titre":  "Ant-Man |2015|",
         "sortId":  "AntMan2015a",
         "items":  [
                       {
@@ -324,7 +324,7 @@
                   ]
     },
     {
-        "titre":  "Ant-Man et la Guêpe (2018)",
+        "titre":  "Ant-Man et la Guêpe |2018|",
         "sortId":  "AntMan2018a",
         "items":  [
                       {
@@ -342,7 +342,7 @@
                   ]
     },
     {
-        "titre":  "Avengers (2012)",
+        "titre":  "Avengers |2012|",
         "sortId":  "Avengers2012a",
         "items":  [
                       {
@@ -360,7 +360,7 @@
                   ]
     },
     {
-        "titre":  "Avengers: L\u0027Ère d\u0027Ultron (2015)",
+        "titre":  "Avengers: L\u0027Ère d\u0027Ultron |2015|",
         "sortId":  "Avengers2015a",
         "items":  [
                       {
@@ -378,7 +378,7 @@
                   ]
     },
     {
-        "titre":  "Avengers: Infinity War (2018)",
+        "titre":  "Avengers: Infinity War |2018|",
         "sortId":  "Avengers2018a",
         "items":  [
                       {
@@ -396,7 +396,7 @@
                   ]
     },
     {
-        "titre":  "Avengers: Endgame (2019)",
+        "titre":  "Avengers: Endgame |2019|",
         "sortId":  "Avengers2019a",
         "items":  [
                       {
@@ -414,7 +414,7 @@
                   ]
     },
     {
-        "titre":  "Aviator (2004)",
+        "titre":  "Aviator |2004|",
         "sortId":  "Aviator2004",
         "items":  [
                       {
@@ -426,7 +426,7 @@
                   ]
     },
     {
-        "titre":  "Black Panther (2018)",
+        "titre":  "Black Panther |2018|",
         "sortId":  "BlackPanther2018a",
         "items":  [
                       {
@@ -444,7 +444,7 @@
                   ]
     },
     {
-        "titre":  "Black Panther: Wakanda Forever (2022)",
+        "titre":  "Black Panther: Wakanda Forever |2022|",
         "sortId":  "BPWFtal",
         "items":  [
                       {
@@ -462,7 +462,7 @@
                   ]
     },
     {
-        "titre":  "Batman v Superman : L\u0027Aube de la justice (2016)",
+        "titre":  "Batman v Superman : L\u0027Aube de la justice |2016|",
         "sortId":  "BvS",
         "items":  [
                       {
@@ -474,7 +474,7 @@
                   ]
     },
     {
-        "titre":  "Canicule (1984)",
+        "titre":  "Canicule |1984|",
         "sortId":  "Canicule1984",
         "items":  [
                       {
@@ -486,7 +486,7 @@
                   ]
     },
     {
-        "titre":  "Captain America: First Avenger (2011)",
+        "titre":  "Captain America: First Avenger |2011|",
         "sortId":  "CaptainAmerica2011a",
         "items":  [
                       {
@@ -504,7 +504,7 @@
                   ]
     },
     {
-        "titre":  "Captain America: Le Soldat de l\u0027Hiver (2014)",
+        "titre":  "Captain America: Le Soldat de l\u0027Hiver |2014|",
         "sortId":  "CaptainAmerica2014a",
         "items":  [
                       {
@@ -522,7 +522,7 @@
                   ]
     },
     {
-        "titre":  "Captain America: Civil War (2016)",
+        "titre":  "Captain America: Civil War |2016|",
         "sortId":  "CaptainAmerica2016a",
         "items":  [
                       {
@@ -540,7 +540,7 @@
                   ]
     },
     {
-        "titre":  "Captain Conan (1996)",
+        "titre":  "Captain Conan |1996|",
         "sortId":  "CaptainConan1996",
         "items":  [
                       {
@@ -552,7 +552,7 @@
                   ]
     },
     {
-        "titre":  "Captain Marvel (2019)",
+        "titre":  "Captain Marvel |2019|",
         "sortId":  "CaptainMarvel2019a",
         "items":  [
                       {
@@ -570,7 +570,7 @@
                   ]
     },
     {
-        "titre":  "Coup de tête (1979)",
+        "titre":  "Coup de tête |1979|",
         "sortId":  "Coupdetete1979",
         "items":  [
                       {
@@ -582,7 +582,7 @@
                   ]
     },
     {
-        "titre":  "Piège de cristal (Die Hard) (1988)",
+        "titre":  "Piège de cristal (Die Hard) |1988|",
         "sortId":  "DieHard1",
         "items":  [
                       {
@@ -594,7 +594,7 @@
                   ]
     },
     {
-        "titre":  "Doctor Strange (2016)",
+        "titre":  "Doctor Strange |2016|",
         "sortId":  "DoctorStrange2016a",
         "items":  [
                       {
@@ -612,7 +612,7 @@
                   ]
     },
     {
-        "titre":  "Firefox (1982)",
+        "titre":  "Firefox |1982|",
         "sortId":  "Firefox1982",
         "items":  [
                       {
@@ -624,7 +624,7 @@
                   ]
     },
     {
-        "titre":  "Folle à tuer (1975)",
+        "titre":  "Folle à tuer |1975|",
         "sortId":  "Folleatuer1975",
         "items":  [
                       {
@@ -636,7 +636,7 @@
                   ]
     },
     {
-        "titre":  "Les Gardiens de la Galaxie (2014)",
+        "titre":  "Les Gardiens de la Galaxie |2014|",
         "sortId":  "GardiensGalaxie2014a",
         "items":  [
                       {
@@ -654,7 +654,7 @@
                   ]
     },
     {
-        "titre":  "Les Gardiens de la Galaxie Vol. 2 (2017)",
+        "titre":  "Les Gardiens de la Galaxie Vol. 2 |2017|",
         "sortId":  "GardiensGalaxie2017a",
         "items":  [
                       {
@@ -672,7 +672,7 @@
                   ]
     },
     {
-        "titre":  "Le Gitan (1975)",
+        "titre":  "Le Gitan |1975|",
         "sortId":  "Gitan (1975)",
         "items":  [
                       {
@@ -684,7 +684,7 @@
                   ]
     },
     {
-        "titre":  "Les Goonies (1985)",
+        "titre":  "Les Goonies |1985|",
         "sortId":  "Goonies1985",
         "items":  [
                       {
@@ -696,7 +696,7 @@
                   ]
     },
     {
-        "titre":  "Gremlins 2 (1990)",
+        "titre":  "Gremlins 2 |1990|",
         "sortId":  "Gremlins2",
         "items":  [
                       {
@@ -708,7 +708,7 @@
                   ]
     },
     {
-        "titre":  "Le Guépard (1963)",
+        "titre":  "Le Guépard |1963|",
         "sortId":  "Guepard1963",
         "items":  [
                       {
@@ -720,7 +720,7 @@
                   ]
     },
     {
-        "titre":  "Le Hasard et la Violence (1974)",
+        "titre":  "Le Hasard et la Violence |1974|",
         "sortId":  "HasardetlaViolence1974",
         "items":  [
                       {
@@ -732,7 +732,7 @@
                   ]
     },
     {
-        "titre":  "L\u0027Incroyable Hulk (2008)",
+        "titre":  "L\u0027Incroyable Hulk |2008|",
         "sortId":  "Hulk2008a",
         "items":  [
                       {
@@ -750,7 +750,7 @@
                   ]
     },
     {
-        "titre":  "Il était une fois dans l\u0027Ouest (1968)",
+        "titre":  "Il était une fois dans l\u0027Ouest |1968|",
         "sortId":  "Iletaitunefoisdanslouest1968",
         "items":  [
                       {
@@ -762,7 +762,7 @@
                   ]
     },
     {
-        "titre":  "Intelligence artificielle (2001)",
+        "titre":  "Intelligence artificielle |2001|",
         "sortId":  "Intelligenceartificielle2001",
         "items":  [
                       {
@@ -774,7 +774,7 @@
                   ]
     },
     {
-        "titre":  "Iron Man (2008)",
+        "titre":  "Iron Man |2008|",
         "sortId":  "IronMan2008a",
         "items":  [
                       {
@@ -792,7 +792,7 @@
                   ]
     },
     {
-        "titre":  "Iron Man 2 (2010)",
+        "titre":  "Iron Man 2 |2010|",
         "sortId":  "IronMan2010a",
         "items":  [
                       {
@@ -810,7 +810,7 @@
                   ]
     },
     {
-        "titre":  "Iron Man 3 (2013)",
+        "titre":  "Iron Man 3 |2013|",
         "sortId":  "IronMan2013a",
         "items":  [
                       {
@@ -828,7 +828,7 @@
                   ]
     },
     {
-        "titre":  "Le Parrain (1972)",
+        "titre":  "Le Parrain |1972|",
         "sortId":  "Parrain1",
         "items":  [
                       {
@@ -840,7 +840,7 @@
                   ]
     },
     {
-        "titre":  "Le Parrain, 2e partie (1974)",
+        "titre":  "Le Parrain, 2e partie |1974|",
         "sortId":  "Parrain2",
         "items":  [
                       {
@@ -852,7 +852,7 @@
                   ]
     },
     {
-        "titre":  "Le Parrain, 3e partie (1990)",
+        "titre":  "Le Parrain, 3e partie |1990|",
         "sortId":  "Parrain3",
         "items":  [
                       {
@@ -864,7 +864,7 @@
                   ]
     },
     {
-        "titre":  "Pokémon : Détective Pikachu (2019)",
+        "titre":  "Pokémon : Détective Pikachu |2019|",
         "sortId":  "Pokemon01",
         "items":  [
                       {
@@ -906,7 +906,7 @@
                   ]
     },
     {
-        "titre":  "Predator (1987)",
+        "titre":  "Predator |1987|",
         "sortId":  "Predator1",
         "items":  [
                       {
@@ -918,7 +918,7 @@
                   ]
     },
     {
-        "titre":  "Le Président (1961)",
+        "titre":  "Le Président |1961|",
         "sortId":  "President1961",
         "items":  [
                       {
@@ -930,7 +930,7 @@
                   ]
     },
     {
-        "titre":  "Raiponce (2010)",
+        "titre":  "Raiponce |2010|",
         "sortId":  "Raiponce",
         "items":  [
                       {
@@ -942,7 +942,7 @@
                   ]
     },
     {
-        "titre":  "Creed III (2023)",
+        "titre":  "Creed III |2023|",
         "sortId":  "RockyCreed3",
         "items":  [
                       {
@@ -954,7 +954,7 @@
                   ]
     },
     {
-        "titre":  "Scream (1996)",
+        "titre":  "Scream |1996|",
         "sortId":  "scream1",
         "items":  [
                       {
@@ -966,7 +966,7 @@
                   ]
     },
     {
-        "titre":  "Scream 2 (1997)",
+        "titre":  "Scream 2 |1997|",
         "sortId":  "scream2",
         "items":  [
                       {
@@ -978,7 +978,7 @@
                   ]
     },
     {
-        "titre":  "Scream 3 (2000)",
+        "titre":  "Scream 3 |2000|",
         "sortId":  "scream3",
         "items":  [
                       {
@@ -990,7 +990,7 @@
                   ]
     },
     {
-        "titre":  "Scream 4 (2011)",
+        "titre":  "Scream 4 |2011|",
         "sortId":  "scream4",
         "items":  [
                       {
@@ -1002,7 +1002,7 @@
                   ]
     },
     {
-        "titre":  "Scream (2022)",
+        "titre":  "Scream |2022|",
         "sortId":  "scream5",
         "items":  [
                       {
@@ -1014,7 +1014,7 @@
                   ]
     },
     {
-        "titre":  "Scream VI (2023)",
+        "titre":  "Scream VI |2023|",
         "sortId":  "scream6",
         "items":  [
                       {
@@ -1026,7 +1026,7 @@
                   ]
     },
     {
-        "titre":  "Spider-Man: Homecoming (2017)",
+        "titre":  "Spider-Man: Homecoming |2017|",
         "sortId":  "SpiderMan2017a",
         "items":  [
                       {
@@ -1044,7 +1044,7 @@
                   ]
     },
     {
-        "titre":  "Spider-Man: Far From Home (2019)",
+        "titre":  "Spider-Man: Far From Home |2019|",
         "sortId":  "SpiderMan2019a",
         "items":  [
                       {
@@ -1062,7 +1062,7 @@
                   ]
     },
     {
-        "titre":  "Spider-Man: No Way Home (2021)",
+        "titre":  "Spider-Man: No Way Home |2021|",
         "sortId":  "SpiderMan2021",
         "items":  [
                       {
@@ -1080,7 +1080,7 @@
                   ]
     },
     {
-        "titre":  "Star Wars, épisode I : La Menace fantôme (1999)",
+        "titre":  "Star Wars, épisode I : La Menace fantôme |1999|",
         "sortId":  "SW1aa",
         "items":  [
                       {
@@ -1110,7 +1110,7 @@
                   ]
     },
     {
-        "titre":  "Star Wars, épisode II : L\u0027Attaque des clones (2002)",
+        "titre":  "Star Wars, épisode II : L\u0027Attaque des clones |2002|",
         "sortId":  "SW2aa",
         "items":  [
                       {
@@ -1140,7 +1140,7 @@
                   ]
     },
     {
-        "titre":  "Star Wars, épisode III : La Revanche des Sith (2005)",
+        "titre":  "Star Wars, épisode III : La Revanche des Sith |2005|",
         "sortId":  "SW3aa",
         "items":  [
                       {
@@ -1170,7 +1170,7 @@
                   ]
     },
     {
-        "titre":  "Star Wars, épisode IV : Un nouvel espoir (1977)",
+        "titre":  "Star Wars, épisode IV : Un nouvel espoir |1977|",
         "sortId":  "SW4aa",
         "items":  [
                       {
@@ -1200,7 +1200,7 @@
                   ]
     },
     {
-        "titre":  "Star Wars, épisode V : L\u0027Empire contre-attaque (1980)",
+        "titre":  "Star Wars, épisode V : L\u0027Empire contre-attaque |1980|",
         "sortId":  "SW5aa",
         "items":  [
                       {
@@ -1230,7 +1230,7 @@
                   ]
     },
     {
-        "titre":  "Star Wars, épisode VI : Le Retour du Jedi (1983)",
+        "titre":  "Star Wars, épisode VI : Le Retour du Jedi |1983|",
         "sortId":  "SW6aa",
         "items":  [
                       {
@@ -1260,7 +1260,7 @@
                   ]
     },
     {
-        "titre":  "Star Wars, épisode VII : Le Réveil de la Force (2015)",
+        "titre":  "Star Wars, épisode VII : Le Réveil de la Force |2015|",
         "sortId":  "SW7aa",
         "items":  [
                       {
@@ -1290,7 +1290,7 @@
                   ]
     },
     {
-        "titre":  "Star Wars, épisode VIII : Les Derniers Jedi (2017)",
+        "titre":  "Star Wars, épisode VIII : Les Derniers Jedi |2017|",
         "sortId":  "SW8aa",
         "items":  [
                       {
@@ -1320,7 +1320,7 @@
                   ]
     },
     {
-        "titre":  "Star Wars, épisode IX : L\u0027Ascension de Skywalker (2019)",
+        "titre":  "Star Wars, épisode IX : L\u0027Ascension de Skywalker |2019|",
         "sortId":  "SW9aa",
         "items":  [
                       {
@@ -1350,7 +1350,7 @@
                   ]
     },
     {
-        "titre":  "Rogue One: A Star Wars Story (2016)",
+        "titre":  "Rogue One: A Star Wars Story |2016|",
         "sortId":  "SWROaa",
         "items":  [
                       {
@@ -1380,7 +1380,7 @@
                   ]
     },
     {
-        "titre":  "Solo: A Star Wars Story (2018)",
+        "titre":  "Solo: A Star Wars Story |2018|",
         "sortId":  "SWSOLOaa",
         "items":  [
                       {
@@ -1410,7 +1410,7 @@
                   ]
     },
     {
-        "titre":  "Thor (2011)",
+        "titre":  "Thor |2011|",
         "sortId":  "Thor2011a",
         "items":  [
                       {
@@ -1428,7 +1428,7 @@
                   ]
     },
     {
-        "titre":  "Thor: Le Monde des Ténèbres (2013)",
+        "titre":  "Thor: Le Monde des Ténèbres |2013|",
         "sortId":  "Thor2013a",
         "items":  [
                       {
@@ -1446,7 +1446,7 @@
                   ]
     },
     {
-        "titre":  "Thor: Ragnarok (2017)",
+        "titre":  "Thor: Ragnarok |2017|",
         "sortId":  "Thor2017a",
         "items":  [
                       {
@@ -1464,7 +1464,7 @@
                   ]
     },
     {
-        "titre":  "Tron (1982)",
+        "titre":  "Tron |1982|",
         "sortId":  "Tron14kdisc",
         "items":  [
                       {
@@ -1476,7 +1476,7 @@
                   ]
     },
     {
-        "titre":  "Tron : L\u0027Héritage (2011)",
+        "titre":  "Tron : L\u0027Héritage |2011|",
         "sortId":  "Tron24kdisc",
         "items":  [
                       {
@@ -1488,7 +1488,7 @@
                   ]
     },
     {
-        "titre":  "Tron: Ares (2025)",
+        "titre":  "Tron: Ares |2025|",
         "sortId":  "Tron34kdisc",
         "items":  [
                       {
@@ -1500,7 +1500,7 @@
                   ]
     },
     {
-        "titre":  "La vie et rien d\u0027autre (1989)",
+        "titre":  "La vie et rien d\u0027autre |1989|",
         "sortId":  "vieetriendautre1989",
         "items":  [
                       {

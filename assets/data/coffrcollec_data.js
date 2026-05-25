@@ -4,7 +4,7 @@
         "sortId":  "007a",
         "titles":  [
                        {
-                           "titre":  "James Bond - La collection (24 films)",
+                           "titre":  "James Bond - La collection |24 films|",
                            "sortId":  "007a",
                            "coffrcollecs":  [
                                                 {
@@ -40,7 +40,7 @@
         "sortId":  "mcu01",
         "titles":  [
                        {
-                           "titre":  "Marvel Cinematic Universe - (Style cuir)",
+                           "titre":  "Marvel Cinematic Universe - |Style cuir|",
                            "sortId":  "mcu01",
                            "coffrcollecs":  [
                                                 {
@@ -196,7 +196,7 @@
                                             ]
                        },
                        {
-                           "titre":  "Marvel - La Saga de l\u0027Infini - (Style M. Ferguson)",
+                           "titre":  "Marvel - La Saga de l\u0027Infini |Style M. Ferguson|",
                            "sortId":  "mcu01",
                            "coffrcollecs":  [
                                                 {
@@ -346,7 +346,7 @@
                                             ]
                        },
                        {
-                           "titre":  "Smallville : Affiche de Captnbok",
+                           "titre":  "Smallville |Affiche de Captnbok|",
                            "sortId":  "Smallville01",
                            "coffrcollecs":  [
                                                 {
@@ -418,7 +418,7 @@
                                             ]
                        },
                        {
-                           "titre":  "Star Wars : Affiches originales",
+                           "titre":  "Star Wars |Affiches originales|",
                            "sortId":  "SW1aa",
                            "coffrcollecs":  [
                                                 {

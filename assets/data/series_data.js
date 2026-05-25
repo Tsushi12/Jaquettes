@@ -1,6 +1,6 @@
 ﻿window.SERIES_DATA = [
     {
-        "titre":  "Chernobyl (2019 - 2019)",
+        "titre":  "Chernobyl |2019|",
         "sortId":  "Chernobyl2019",
         "seasons":  [
                         {
@@ -18,7 +18,7 @@
                     ]
     },
     {
-        "titre":  "Smallville (2001 - 2011)",
+        "titre":  "Smallville |2001 - 2011|",
         "sortId":  "Smallville01",
         "seasons":  [
                         {
@@ -144,7 +144,7 @@
                     ]
     },
     {
-        "titre":  "WandaVision (2021 - 2021)",
+        "titre":  "WandaVision |2021|",
         "sortId":  "Wanda2021b",
         "seasons":  [
                         {

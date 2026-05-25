@@ -1,6 +1,6 @@
 ﻿window.GAMES_DATA = [
     {
-        "titre":  "Batman: Arkham Knight (2015)",
+        "titre":  "Batman: Arkham Knight |2015|",
         "sortId":  "BatmanArkham4",
         "items":  [
                       {
@@ -12,7 +12,7 @@
                   ]
     },
     {
-        "titre":  "Call of Duty: Black Ops 4 (2018)",
+        "titre":  "Call of Duty: Black Ops 4 |2018|",
         "sortId":  "CODBO4",
         "items":  [
                       {
@@ -24,7 +24,7 @@
                   ]
     },
     {
-        "titre":  "Cyberpunk 2077 (2020)",
+        "titre":  "Cyberpunk 2077 |2020|",
         "sortId":  "Cyberpunk",
         "items":  [
                       {
@@ -36,7 +36,7 @@
                   ]
     },
     {
-        "titre":  "Dragon Ball Xenoverse 2 (2016)",
+        "titre":  "Dragon Ball Xenoverse 2 |2016|",
         "sortId":  "DBZxenoverse2",
         "items":  [
                       {
@@ -48,7 +48,7 @@
                   ]
     },
     {
-        "titre":  "Dishonored 2 (2016)",
+        "titre":  "Dishonored 2 |2016|",
         "sortId":  "dishonored2",
         "items":  [
                       {
@@ -60,7 +60,7 @@
                   ]
     },
     {
-        "titre":  "Evolve (2015)",
+        "titre":  "Evolve |2015|",
         "sortId":  "Evolve",
         "items":  [
                       {
@@ -72,7 +72,7 @@
                   ]
     },
     {
-        "titre":  "Forza Horizon (2012)",
+        "titre":  "Forza Horizon |2012|",
         "sortId":  "ForzaHorrizon1",
         "items":  [
                       {
@@ -84,7 +84,7 @@
                   ]
     },
     {
-        "titre":  "Forza Horizon 2 (2014)",
+        "titre":  "Forza Horizon 2 |2014|",
         "sortId":  "ForzaHorrizon2",
         "items":  [
                       {
@@ -96,7 +96,7 @@
                   ]
     },
     {
-        "titre":  "Forza Horizon 3 (2016)",
+        "titre":  "Forza Horizon 3 |2016|",
         "sortId":  "ForzaHorrizon3",
         "items":  [
                       {
@@ -108,7 +108,7 @@
                   ]
     },
     {
-        "titre":  "Forza Horizon 4 (2018)",
+        "titre":  "Forza Horizon 4 |2018|",
         "sortId":  "ForzaHorrizon4",
         "items":  [
                       {
@@ -120,7 +120,7 @@
                   ]
     },
     {
-        "titre":  "Forza Horizon 5 (2021)",
+        "titre":  "Forza Horizon 5 |2021|",
         "sortId":  "ForzaHorrizon5a",
         "items":  [
                       {
@@ -138,7 +138,7 @@
                   ]
     },
     {
-        "titre":  "Forza Motorsport 6 (2015)",
+        "titre":  "Forza Motorsport 6 |2015|",
         "sortId":  "ForzaMotorsport6",
         "items":  [
                       {
@@ -150,7 +150,7 @@
                   ]
     },
     {
-        "titre":  "Halo: The Master Chief Collection (2014)",
+        "titre":  "Halo: The Master Chief Collection |2014|",
         "sortId":  "Halo1a4",
         "items":  [
                       {
@@ -162,7 +162,7 @@
                   ]
     },
     {
-        "titre":  "Halo 5: Guardians (2015)",
+        "titre":  "Halo 5: Guardians |2015|",
         "sortId":  "Halo5Guardians",
         "items":  [
                       {
@@ -174,7 +174,7 @@
                   ]
     },
     {
-        "titre":  "Hogwarts Legacy (2023)",
+        "titre":  "Hogwarts Legacy |2023|",
         "sortId":  "HogwartsLegacy",
         "items":  [
                       {
@@ -186,7 +186,7 @@
                   ]
     },
     {
-        "titre":  "Kingdom Come: Deliverance (2018)",
+        "titre":  "Kingdom Come: Deliverance |2018|",
         "sortId":  "KingdomComeDeliverance",
         "items":  [
                       {
@@ -198,7 +198,7 @@
                   ]
     },
     {
-        "titre":  "LEGO Batman 3: Au-del  de Gotham (2014)",
+        "titre":  "LEGO Batman 3: Au-del  de Gotham |2014|",
         "sortId":  "LegoBatman3",
         "items":  [
                       {
@@ -210,7 +210,7 @@
                   ]
     },
     {
-        "titre":  "LEGO Les Indestructibles (2018)",
+        "titre":  "LEGO Les Indestructibles |2018|",
         "sortId":  "LegoIndestructibles",
         "items":  [
                       {
@@ -222,7 +222,7 @@
                   ]
     },
     {
-        "titre":  "LEGO Star Wars: La Saga Skywalker (2022)",
+        "titre":  "LEGO Star Wars: La Saga Skywalker |2022|",
         "sortId":  "LegoStarWarsSagaSkywalker",
         "items":  [
                       {
@@ -234,7 +234,7 @@
                   ]
     },
     {
-        "titre":  "Lords of the Fallen (2014)",
+        "titre":  "Lords of the Fallen |2014|",
         "sortId":  "LordsOfTheFallen",
         "items":  [
                       {
@@ -246,7 +246,7 @@
                   ]
     },
     {
-        "titre":  "Metro Exodus (2019)",
+        "titre":  "Metro Exodus |2019|",
         "sortId":  "MetroExodus",
         "items":  [
                       {
@@ -258,7 +258,7 @@
                   ]
     },
     {
-        "titre":  "Murdered: Soul Suspect (2014)",
+        "titre":  "Murdered: Soul Suspect |2014|",
         "sortId":  "MurderedSoulSuspect",
         "items":  [
                       {
@@ -270,7 +270,7 @@
                   ]
     },
     {
-        "titre":  "Overwatch (2016)",
+        "titre":  "Overwatch |2016|",
         "sortId":  "Overwatch",
         "items":  [
                       {
@@ -282,7 +282,7 @@
                   ]
     },
     {
-        "titre":  "Prey (2017)",
+        "titre":  "Prey |2017|",
         "sortId":  "Prey",
         "items":  [
                       {
@@ -294,7 +294,7 @@
                   ]
     },
     {
-        "titre":  "PlayerUnknown\u0027s Battlegrounds (2017)",
+        "titre":  "PlayerUnknown\u0027s Battlegrounds |2017|",
         "sortId":  "PUBG",
         "items":  [
                       {
@@ -306,7 +306,7 @@
                   ]
     },
     {
-        "titre":  "Red Dead Redemption (2010)",
+        "titre":  "Red Dead Redemption |2010|",
         "sortId":  "RDR10",
         "items":  [
                       {
@@ -318,7 +318,7 @@
                   ]
     },
     {
-        "titre":  "Red Dead Redemption: Undead Nightmare (2010)",
+        "titre":  "Red Dead Redemption: Undead Nightmare |2010|",
         "sortId":  "RDR11",
         "items":  [
                       {
@@ -330,7 +330,7 @@
                   ]
     },
     {
-        "titre":  "Red Dead Redemption 2 (2018)",
+        "titre":  "Red Dead Redemption 2 |2018|",
         "sortId":  "RDR20",
         "items":  [
                       {
@@ -342,7 +342,7 @@
                   ]
     },
     {
-        "titre":  "State of Decay: Year-One Survival Edition (2015)",
+        "titre":  "State of Decay: Year-One Survival Edition |2015|",
         "sortId":  "StateOfDecay1",
         "items":  [
                       {
@@ -354,7 +354,7 @@
                   ]
     },
     {
-        "titre":  "State of Decay 2 (2018)",
+        "titre":  "State of Decay 2 |2018|",
         "sortId":  "StateOfDecay2",
         "items":  [
                       {
@@ -366,7 +366,7 @@
                   ]
     },
     {
-        "titre":  "The Quarry (2022)",
+        "titre":  "The Quarry |2022|",
         "sortId":  "TheQuarry",
         "items":  [
                       {
@@ -378,7 +378,7 @@
                   ]
     },
     {
-        "titre":  "The Sinking City (2019)",
+        "titre":  "The Sinking City |2019|",
         "sortId":  "TheSinkingCity",
         "items":  [
                       {
@@ -390,7 +390,7 @@
                   ]
     },
     {
-        "titre":  "Titanfall (2014)",
+        "titre":  "Titanfall |2014|",
         "sortId":  "Titanfall",
         "items":  [
                       {
@@ -402,7 +402,7 @@
                   ]
     },
     {
-        "titre":  "Watch Dogs (2014)",
+        "titre":  "Watch Dogs |2014|",
         "sortId":  "WatchDogs1",
         "items":  [
                       {
@@ -414,7 +414,7 @@
                   ]
     },
     {
-        "titre":  "Watch Dogs 2 (2016)",
+        "titre":  "Watch Dogs 2 |2016|",
         "sortId":  "WatchDogs2",
         "items":  [
                       {
@@ -426,7 +426,7 @@
                   ]
     },
     {
-        "titre":  "Watch Dogs: Legion (2020)",
+        "titre":  "Watch Dogs: Legion |2020|",
         "sortId":  "WatchDogs3",
         "items":  [
                       {

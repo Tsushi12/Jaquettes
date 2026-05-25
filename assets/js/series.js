@@ -58,21 +58,32 @@
 
   function applyTitleTail(el, text) {
     const t = (text || "").toString();
-    const n = 13;
+    const marker = " |";
+    const markerStart = t.indexOf(marker);
+    const start = markerStart === -1 ? -1 : markerStart + 1;
+    const end = start === -1 ? -1 : t.indexOf("|", start + 1);
+
     el.innerHTML = "";
-    if (t.length <= n) {
+    if (start === -1 || end === -1) {
       el.textContent = t;
       return;
     }
+
     const main = document.createElement("span");
-    main.textContent = t.slice(0, t.length - n);
+    main.textContent = t.slice(0, start);
 
     const tail = document.createElement("span");
     tail.className = "title-tail";
-    tail.textContent = t.slice(t.length - n);
+    tail.textContent = t.slice(start + 1, end);
 
     el.appendChild(main);
     el.appendChild(tail);
+
+    if (end + 1 < t.length) {
+      const after = document.createElement("span");
+      after.textContent = t.slice(end + 1);
+      el.appendChild(after);
+    }
   }
 
   function buildLink(dossier, fichier, extension) {
