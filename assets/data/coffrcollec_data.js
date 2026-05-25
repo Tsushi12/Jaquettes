@@ -1220,7 +1220,7 @@
                                                               ]
                                                 },
                                                 {
-                                                    "coffrcollec":  "4K Ultra HD + Blu-Ray",
+                                                    "coffrcollec":  "4K Ultra HD",
                                                     "sortId":  "SpiderMan2002b",
                                                     "items":  [
                                                                   {
@@ -1636,11 +1636,11 @@
                                             ]
                        },
                        {
-                           "titre":  "Le Seigneur des anneaux - Version longue|Collection 3 films|",
+                           "titre":  "Le Seigneur des anneaux - Version longue |Collection 3 films|",
                            "sortId":  "SeigneurDesAnneauxVL2001",
                            "coffrcollecs":  [
                                                 {
-                                                    "coffrcollec":  "Blu-Ray",
+                                                    "coffrcollec":  "4K Ultra HD",
                                                     "sortId":  "SeigneurDesAnneauxVL2001",
                                                     "items":  [
                                                                   {
