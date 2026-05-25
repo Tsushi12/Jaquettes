@@ -1,0 +1,8 @@
+csv_to_js.bat
+assets/data/films.csv
+assets/data/series.csv
+assets/data/jeux.csv
+assets/data/coffrcollec.csv
+tools/
+upload-cloudflare/
+.wrangler/
