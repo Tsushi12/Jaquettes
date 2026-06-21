@@ -852,6 +852,42 @@
                    ]
     },
     {
+        "type":  "M :",
+        "sortId":  "m0bluray1mondedenarniacoffret3filmsmondedenarniacoffret3films",
+        "titles":  [
+                       {
+                           "titre":  "Le Monde de Narnia |Coffret 3 films|",
+                           "sortId":  "m0bluray1mondedenarniacoffret3filmsmondedenarniacoffret3films",
+                           "coffrcollecs":  [
+                                                {
+                                                    "coffrcollec":  "Blu-Ray",
+                                                    "sortId":  "m0bluray1mondedenarniacoffret3filmsmondedenarniacoffret3films",
+                                                    "items":  [
+                                                                  {
+                                                                      "id":  "m0bluray1mondedenarniacoffret3filmsmondedenarniacoffret3films",
+                                                                      "format":  "Le Monde de Narnia - Coffret 3 films",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/052520260102_narnia_integrale_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/052520260102_narnia_integrale_bd.webp"
+                                                                  }
+                                                              ]
+                                                },
+                                                {
+                                                    "coffrcollec":  "DVD",
+                                                    "sortId":  "m0dvd1mondedenarniacoffret3filmsmondedenarniacoffret3films",
+                                                    "items":  [
+                                                                  {
+                                                                      "id":  "m0dvd1mondedenarniacoffret3filmsmondedenarniacoffret3films",
+                                                                      "format":  "Le Monde de Narnia - Coffret 3 films",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/052520260101_narnia_integrale_dvd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/052520260101_narnia_integrale_dvd.webp"
+                                                                  }
+                                                              ]
+                                                }
+                                            ]
+                       }
+                   ]
+    },
+    {
         "type":  "Marvel",
         "sortId":  "marvel0bluray10marvelcinematicuniversestylecuirgardiensdelagalaxie",
         "titles":  [
@@ -1270,42 +1306,6 @@
                                                                       "format":  "Spider-Man: No Way Home",
                                                                       "lien":  "https://jaquettes.pages.dev/films_jpg/220520261518_spiderman_nowayhome_bd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/220520261518_spiderman_nowayhome_bd.webp"
-                                                                  }
-                                                              ]
-                                                }
-                                            ]
-                       }
-                   ]
-    },
-    {
-        "type":  "N :",
-        "sortId":  "n0bluray1mondedenarniacoffret3filmsmondedenarniacoffret3films",
-        "titles":  [
-                       {
-                           "titre":  "Le Monde de Narnia |Coffret 3 films|",
-                           "sortId":  "n0bluray1mondedenarniacoffret3filmsmondedenarniacoffret3films",
-                           "coffrcollecs":  [
-                                                {
-                                                    "coffrcollec":  "Blu-Ray",
-                                                    "sortId":  "n0bluray1mondedenarniacoffret3filmsmondedenarniacoffret3films",
-                                                    "items":  [
-                                                                  {
-                                                                      "id":  "n0bluray1mondedenarniacoffret3filmsmondedenarniacoffret3films",
-                                                                      "format":  "Le Monde de Narnia - Coffret 3 films",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/052520260102_narnia_integrale_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/052520260102_narnia_integrale_bd.webp"
-                                                                  }
-                                                              ]
-                                                },
-                                                {
-                                                    "coffrcollec":  "DVD",
-                                                    "sortId":  "n0dvd1mondedenarniacoffret3filmsmondedenarniacoffret3films",
-                                                    "items":  [
-                                                                  {
-                                                                      "id":  "n0dvd1mondedenarniacoffret3filmsmondedenarniacoffret3films",
-                                                                      "format":  "Le Monde de Narnia - Coffret 3 films",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/052520260101_narnia_integrale_dvd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/052520260101_narnia_integrale_dvd.webp"
                                                                   }
                                                               ]
                                                 }
