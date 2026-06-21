@@ -2478,11 +2478,11 @@
                   ]
     },
     {
-        "titre":  "Furie |1978|",
-        "sortId":  "furie1978bluray",
+        "titre":  "Furie |2019|",
+        "sortId":  "furie2019bluray",
         "items":  [
                       {
-                          "id":  "furie1978bluray",
+                          "id":  "furie2019bluray",
                           "format":  "Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/700520260298_furie_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/700520260298_furie_bd.webp"
