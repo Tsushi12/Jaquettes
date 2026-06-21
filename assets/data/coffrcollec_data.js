@@ -1,149 +1,5 @@
 ﻿window.COFFRCOLLEC_DATA = [
     {
-        "type":  "007 : James Bond",
-        "sortId":  "007jamesbond0bluray10007jamesbondaffichesoriginales007rienquepourvosyeux",
-        "titles":  [
-                       {
-                           "titre":  "007 : James Bond |Affiches originales|",
-                           "sortId":  "007jamesbond0bluray10007jamesbondaffichesoriginales007rienquepourvosyeux",
-                           "coffrcollecs":  [
-                                                {
-                                                    "coffrcollec":  "Blu-Ray",
-                                                    "sortId":  "007jamesbond0bluray10007jamesbondaffichesoriginales007rienquepourvosyeux",
-                                                    "items":  [
-                                                                  {
-                                                                      "id":  "007jamesbond0bluray10007jamesbondaffichesoriginales007rienquepourvosyeux",
-                                                                      "format":  "007 : Rien que pour vos yeux",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260146_rien_que_pour_vos_yeux_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260146_rien_que_pour_vos_yeux_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "007jamesbond0bluray1007jamesbondaffichesoriginales007jamesbondcontredrno",
-                                                                      "format":  "007 : James Bond contre Dr No",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260138_james_bond_007_contre_dr_no_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260138_james_bond_007_contre_dr_no_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "007jamesbond0bluray11007jamesbondaffichesoriginales007octopussy",
-                                                                      "format":  "007 : Octopussy",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260147_octopussy_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260147_octopussy_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "007jamesbond0bluray12007jamesbondaffichesoriginales007jamaisplusjamais",
-                                                                      "format":  "007 : Jamais plus jamais",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260148_jamais_plus_jamais_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260148_jamais_plus_jamais_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "007jamesbond0bluray13007jamesbondaffichesoriginales007dangereusementvôtre",
-                                                                      "format":  "007 : Dangereusement vôtre",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260149_dangereusement_votre_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260149_dangereusement_votre_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "007jamesbond0bluray14007jamesbondaffichesoriginales007tuernestpasjouer",
-                                                                      "format":  "007 : Tuer n\u0027est pas jouer",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260150_tuer_n_est_pas_jouer_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260150_tuer_n_est_pas_jouer_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "007jamesbond0bluray15007jamesbondaffichesoriginales007demainnemeurtjamais",
-                                                                      "format":  "007 : Demain ne meurt jamais",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260151_demain_ne_meurt_jamais_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260151_demain_ne_meurt_jamais_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "007jamesbond0bluray16007jamesbondaffichesoriginales007lemondenesuffitpas",
-                                                                      "format":  "007 : Le monde ne suffit pas",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260152_le_monde_ne_suffit_pas_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260152_le_monde_ne_suffit_pas_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "007jamesbond0bluray2007jamesbondaffichesoriginales007bonsbaisersderussie",
-                                                                      "format":  "007 : Bons Baisers de Russie",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260139_bons_baisers_de_russie_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260139_bons_baisers_de_russie_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "007jamesbond0bluray3007jamesbondaffichesoriginales007opérationtonnerre",
-                                                                      "format":  "007 : Opération Tonnerre",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260140_operation_tonnerre_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260140_operation_tonnerre_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "007jamesbond0bluray4007jamesbondaffichesoriginales007onnevitquedeuxfois",
-                                                                      "format":  "007 : On ne vit que deux fois",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260141_on_ne_vit_que_deux_fois_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260141_on_ne_vit_que_deux_fois_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "007jamesbond0bluray5007jamesbondaffichesoriginales007auservicesecretdesamajesté",
-                                                                      "format":  "007 : Au service secret de Sa Majesté",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260142_au_service_secret_de_sa_majeste_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260142_au_service_secret_de_sa_majeste_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "007jamesbond0bluray6007jamesbondaffichesoriginales007lesdiamantssontéternels",
-                                                                      "format":  "007 : Les diamants sont éternels",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/100920240926_les_diamants_sont_eternels_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/100920240926_les_diamants_sont_eternels_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "007jamesbond0bluray7007jamesbondaffichesoriginales007vivreetlaissermourir",
-                                                                      "format":  "007 : Vivre et laisser mourir",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260143_vivre_et_laisser_mourir_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260143_vivre_et_laisser_mourir_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "007jamesbond0bluray8007jamesbondaffichesoriginales007lhommeaupistoletdor",
-                                                                      "format":  "007 : L\u0027Homme au pistolet d\u0027or",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260144_l_homme_au_pistolet_d_or_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260144_l_homme_au_pistolet_d_or_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "007jamesbond0bluray9007jamesbondaffichesoriginales007lespionquimaimait",
-                                                                      "format":  "007 : L\u0027Espion qui m\u0027aimait",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260145_l_espion_qui_m_aimait_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260145_l_espion_qui_m_aimait_bd.webp"
-                                                                  }
-                                                              ]
-                                                }
-                                            ]
-                       },
-                       {
-                           "titre":  "James Bond - La collection |24 films|",
-                           "sortId":  "007jamesbond0bluray1jamesbondlacollection24films00719621997",
-                           "coffrcollecs":  [
-                                                {
-                                                    "coffrcollec":  "Blu-Ray",
-                                                    "sortId":  "007jamesbond0bluray1jamesbondlacollection24films00719621997",
-                                                    "items":  [
-                                                                  {
-                                                                      "id":  "007jamesbond0bluray1jamesbondlacollection24films00719621997",
-                                                                      "format":  "007 : 1962 - 1997",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "007jamesbond0bluray2jamesbondlacollection24films00719792002",
-                                                                      "format":  "007 : 1979 - 2002",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "007jamesbond0bluray3jamesbondlacollection24films00720062015",
-                                                                      "format":  "007 : 2006 - 2015",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/180520262213_007_part3_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/180520262213_007_part3_bd.webp"
-                                                                  }
-                                                              ]
-                                                }
-                                            ]
-                       }
-                   ]
-    },
-    {
         "type":  "C :",
         "sortId":  "c0bluray1chocdestitanscoffret2filmschocdestitanscoffret2films",
         "titles":  [
@@ -276,7 +132,7 @@
                    ]
     },
     {
-        "type":  "DC Comics",
+        "type":  "DC Comics :",
         "sortId":  "dccomics0bluray1darkknightcollection3filmsv1batmanbegins",
         "titles":  [
                        {
@@ -672,7 +528,7 @@
                    ]
     },
     {
-        "type":  "Harry Potter",
+        "type":  "Harry Potter :",
         "sortId":  "harrypotter0bluray1harrypottercoffret8filmspartie1",
         "titles":  [
                        {
@@ -754,6 +610,150 @@
                                                                       "format":  "Harry Potter et les Reliques de la Mort : 2ème partie",
                                                                       "lien":  "https://jaquettes.pages.dev/films_jpg/250520260928_harry_potter_8_bd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/250520260928_harry_potter_8_bd.webp"
+                                                                  }
+                                                              ]
+                                                }
+                                            ]
+                       }
+                   ]
+    },
+    {
+        "type":  "James Bond :",
+        "sortId":  "jamesbond0bluray10007jamesbondaffichesoriginales007rienquepourvosyeux",
+        "titles":  [
+                       {
+                           "titre":  "007 : James Bond |Affiches originales|",
+                           "sortId":  "jamesbond0bluray10007jamesbondaffichesoriginales007rienquepourvosyeux",
+                           "coffrcollecs":  [
+                                                {
+                                                    "coffrcollec":  "Blu-Ray",
+                                                    "sortId":  "jamesbond0bluray10007jamesbondaffichesoriginales007rienquepourvosyeux",
+                                                    "items":  [
+                                                                  {
+                                                                      "id":  "jamesbond0bluray10007jamesbondaffichesoriginales007rienquepourvosyeux",
+                                                                      "format":  "007 : Rien que pour vos yeux",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260146_rien_que_pour_vos_yeux_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260146_rien_que_pour_vos_yeux_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "jamesbond0bluray1007jamesbondaffichesoriginales007jamesbondcontredrno",
+                                                                      "format":  "007 : James Bond contre Dr No",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260138_james_bond_007_contre_dr_no_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260138_james_bond_007_contre_dr_no_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "jamesbond0bluray11007jamesbondaffichesoriginales007octopussy",
+                                                                      "format":  "007 : Octopussy",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260147_octopussy_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260147_octopussy_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "jamesbond0bluray12007jamesbondaffichesoriginales007jamaisplusjamais",
+                                                                      "format":  "007 : Jamais plus jamais",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260148_jamais_plus_jamais_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260148_jamais_plus_jamais_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "jamesbond0bluray13007jamesbondaffichesoriginales007dangereusementvôtre",
+                                                                      "format":  "007 : Dangereusement vôtre",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260149_dangereusement_votre_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260149_dangereusement_votre_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "jamesbond0bluray14007jamesbondaffichesoriginales007tuernestpasjouer",
+                                                                      "format":  "007 : Tuer n\u0027est pas jouer",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260150_tuer_n_est_pas_jouer_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260150_tuer_n_est_pas_jouer_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "jamesbond0bluray15007jamesbondaffichesoriginales007demainnemeurtjamais",
+                                                                      "format":  "007 : Demain ne meurt jamais",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260151_demain_ne_meurt_jamais_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260151_demain_ne_meurt_jamais_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "jamesbond0bluray16007jamesbondaffichesoriginales007lemondenesuffitpas",
+                                                                      "format":  "007 : Le monde ne suffit pas",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260152_le_monde_ne_suffit_pas_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260152_le_monde_ne_suffit_pas_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "jamesbond0bluray2007jamesbondaffichesoriginales007bonsbaisersderussie",
+                                                                      "format":  "007 : Bons Baisers de Russie",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260139_bons_baisers_de_russie_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260139_bons_baisers_de_russie_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "jamesbond0bluray3007jamesbondaffichesoriginales007opérationtonnerre",
+                                                                      "format":  "007 : Opération Tonnerre",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260140_operation_tonnerre_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260140_operation_tonnerre_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "jamesbond0bluray4007jamesbondaffichesoriginales007onnevitquedeuxfois",
+                                                                      "format":  "007 : On ne vit que deux fois",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260141_on_ne_vit_que_deux_fois_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260141_on_ne_vit_que_deux_fois_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "jamesbond0bluray5007jamesbondaffichesoriginales007auservicesecretdesamajesté",
+                                                                      "format":  "007 : Au service secret de Sa Majesté",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260142_au_service_secret_de_sa_majeste_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260142_au_service_secret_de_sa_majeste_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "jamesbond0bluray6007jamesbondaffichesoriginales007lesdiamantssontéternels",
+                                                                      "format":  "007 : Les diamants sont éternels",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/100920240926_les_diamants_sont_eternels_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/100920240926_les_diamants_sont_eternels_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "jamesbond0bluray7007jamesbondaffichesoriginales007vivreetlaissermourir",
+                                                                      "format":  "007 : Vivre et laisser mourir",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260143_vivre_et_laisser_mourir_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260143_vivre_et_laisser_mourir_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "jamesbond0bluray8007jamesbondaffichesoriginales007lhommeaupistoletdor",
+                                                                      "format":  "007 : L\u0027Homme au pistolet d\u0027or",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260144_l_homme_au_pistolet_d_or_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260144_l_homme_au_pistolet_d_or_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "jamesbond0bluray9007jamesbondaffichesoriginales007lespionquimaimait",
+                                                                      "format":  "007 : L\u0027Espion qui m\u0027aimait",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260145_l_espion_qui_m_aimait_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260145_l_espion_qui_m_aimait_bd.webp"
+                                                                  }
+                                                              ]
+                                                }
+                                            ]
+                       },
+                       {
+                           "titre":  "James Bond - La collection |24 films|",
+                           "sortId":  "jamesbond0bluray1jamesbondlacollection24films00719621997",
+                           "coffrcollecs":  [
+                                                {
+                                                    "coffrcollec":  "Blu-Ray",
+                                                    "sortId":  "jamesbond0bluray1jamesbondlacollection24films00719621997",
+                                                    "items":  [
+                                                                  {
+                                                                      "id":  "jamesbond0bluray1jamesbondlacollection24films00719621997",
+                                                                      "format":  "007 : 1962 - 1997",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/180520262211_007_part1_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/180520262211_007_part1_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "jamesbond0bluray2jamesbondlacollection24films00719792002",
+                                                                      "format":  "007 : 1979 - 2002",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/180520262212_007_part2_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/180520262212_007_part2_bd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "jamesbond0bluray3jamesbondlacollection24films00720062015",
+                                                                      "format":  "007 : 2006 - 2015",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/180520262213_007_part3_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/180520262213_007_part3_bd.webp"
                                                                   }
                                                               ]
                                                 }
@@ -888,7 +888,7 @@
                    ]
     },
     {
-        "type":  "Marvel",
+        "type":  "Marvel :",
         "sortId":  "marvel0bluray10marvelcinematicuniversestylecuirgardiensdelagalaxie",
         "titles":  [
                        {
@@ -1584,7 +1584,7 @@
                    ]
     },
     {
-        "type":  "Star Wars",
+        "type":  "Star Wars :",
         "sortId":  "starwars0bluray10starwarsaffichesoriginalessoloastarwarsstory",
         "titles":  [
                        {
@@ -2202,7 +2202,7 @@
                    ]
     },
     {
-        "type":  "La Terre du Milieu",
+        "type":  "La Terre du Milieu :",
         "sortId":  "terredumilieu0bluray1terredumilieucollection6filmsseigneurdesanneauxlacommunautédelanneau",
         "titles":  [
                        {
