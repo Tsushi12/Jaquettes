@@ -402,11 +402,11 @@
                   ]
     },
     {
-        "titre":  "2 Fast 2 Furious |2003|",
-        "sortId":  "2fast2furious2003collection8filmsbluray",
+        "titre":  "2 Fast 2 Furious (Fast and Furious 2) |2003|",
+        "sortId":  "2fast2furiousfastandfurious22003collection8filmsbluray",
         "items":  [
                       {
-                          "id":  "2fast2furious2003collection8filmsbluray",
+                          "id":  "2fast2furiousfastandfurious22003collection8filmsbluray",
                           "format":  "Collection 8 films : Blu-Ray",
                           "lien":  "https://jaquettes.pages.dev/films_jpg/210520260002_fast_and_furious_2_bd.jpg",
                           "apercu":  "assets/data/thumbs_webp/210520260002_fast_and_furious_2_bd.webp"
@@ -2268,7 +2268,7 @@
                   ]
     },
     {
-        "titre":  "Fast and Furious : Tokyo Drift |2006|",
+        "titre":  "Fast and Furious: Tokyo Drift |2006|",
         "sortId":  "fastandfurioustokyodrift2006collection8filmsbluray",
         "items":  [
                       {
