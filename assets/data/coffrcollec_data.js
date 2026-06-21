@@ -440,36 +440,6 @@
                                                               ]
                                                 }
                                             ]
-                       },
-                       {
-                           "titre":  "L’Exorciste |Collection 3 films|",
-                           "sortId":  "e0dvd1lexorcistecollection3filmslexorciste",
-                           "coffrcollecs":  [
-                                                {
-                                                    "coffrcollec":  "DVD",
-                                                    "sortId":  "e0dvd1lexorcistecollection3filmslexorciste",
-                                                    "items":  [
-                                                                  {
-                                                                      "id":  "e0dvd1lexorcistecollection3filmslexorciste",
-                                                                      "format":  "L’Exorciste",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260132_l_exorciste_v1_dvd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260132_l_exorciste_v1_dvd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "e0dvd2lexorcistecollection3filmslexorciste2lhérétique",
-                                                                      "format":  "L’Exorciste 2 : L’Hérétique",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260133_l_exorciste_2_l_heretique_dvd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260133_l_exorciste_2_l_heretique_dvd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "e0dvd3lexorcistecollection3filmslexorcistelasuite",
-                                                                      "format":  "L’Exorciste, la suite",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260134_l_exorciste_la_suite_dvd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260134_l_exorciste_la_suite_dvd.webp"
-                                                                  }
-                                                              ]
-                                                }
-                                            ]
                        }
                    ]
     },
@@ -792,30 +762,6 @@
                    ]
     },
     {
-        "type":  "I :",
-        "sortId":  "i0bluray1lîledenimcollection2filmslîledenimcollection2films",
-        "titles":  [
-                       {
-                           "titre":  "L’Île de Nim |Collection 2 films|",
-                           "sortId":  "i0bluray1lîledenimcollection2filmslîledenimcollection2films",
-                           "coffrcollecs":  [
-                                                {
-                                                    "coffrcollec":  "Blu-Ray",
-                                                    "sortId":  "i0bluray1lîledenimcollection2filmslîledenimcollection2films",
-                                                    "items":  [
-                                                                  {
-                                                                      "id":  "i0bluray1lîledenimcollection2filmslîledenimcollection2films",
-                                                                      "format":  "L’Île de Nim - Collection 2 films",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260408_l_ile_de_nim_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260408_l_ile_de_nim_bd.webp"
-                                                                  }
-                                                              ]
-                                                }
-                                            ]
-                       }
-                   ]
-    },
-    {
         "type":  "K :",
         "sortId":  "k0bluray1kingsmancollection3filmskingsmanservicessecrets",
         "titles":  [
@@ -844,6 +790,60 @@
                                                                       "format":  "The King’s Man : Première Mission",
                                                                       "lien":  "https://jaquettes.pages.dev/films_jpg/700520260137_the_king_s_man_premiere_mission_bd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/700520260137_the_king_s_man_premiere_mission_bd.webp"
+                                                                  }
+                                                              ]
+                                                }
+                                            ]
+                       }
+                   ]
+    },
+    {
+        "type":  "L :",
+        "sortId":  "l0bluray1lîledenimcollection2filmslîledenimcollection2films",
+        "titles":  [
+                       {
+                           "titre":  "L’Île de Nim |Collection 2 films|",
+                           "sortId":  "l0bluray1lîledenimcollection2filmslîledenimcollection2films",
+                           "coffrcollecs":  [
+                                                {
+                                                    "coffrcollec":  "Blu-Ray",
+                                                    "sortId":  "l0bluray1lîledenimcollection2filmslîledenimcollection2films",
+                                                    "items":  [
+                                                                  {
+                                                                      "id":  "l0bluray1lîledenimcollection2filmslîledenimcollection2films",
+                                                                      "format":  "L’Île de Nim - Collection 2 films",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260408_l_ile_de_nim_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260408_l_ile_de_nim_bd.webp"
+                                                                  }
+                                                              ]
+                                                }
+                                            ]
+                       },
+                       {
+                           "titre":  "L’Exorciste |Collection 3 films|",
+                           "sortId":  "l0dvd1lexorcistecollection3filmslexorciste",
+                           "coffrcollecs":  [
+                                                {
+                                                    "coffrcollec":  "DVD",
+                                                    "sortId":  "l0dvd1lexorcistecollection3filmslexorciste",
+                                                    "items":  [
+                                                                  {
+                                                                      "id":  "l0dvd1lexorcistecollection3filmslexorciste",
+                                                                      "format":  "L’Exorciste",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260132_l_exorciste_v1_dvd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260132_l_exorciste_v1_dvd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "l0dvd2lexorcistecollection3filmslexorciste2lhérétique",
+                                                                      "format":  "L’Exorciste 2 : L’Hérétique",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260133_l_exorciste_2_l_heretique_dvd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260133_l_exorciste_2_l_heretique_dvd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "l0dvd3lexorcistecollection3filmslexorcistelasuite",
+                                                                      "format":  "L’Exorciste, la suite",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260134_l_exorciste_la_suite_dvd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260134_l_exorciste_la_suite_dvd.webp"
                                                                   }
                                                               ]
                                                 }
