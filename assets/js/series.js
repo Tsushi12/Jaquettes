@@ -131,6 +131,17 @@
     return { id, titre, saison, format, lien, apercu };
   }
 
+  function getIdCategory(id) {
+    const s = (id || "").trim();
+    const first = s.charAt(0).normalize("NFD").replace(/[\u0300-\u036f]/g, "").charAt(0).toUpperCase();
+    return /^[A-Z]$/.test(first) ? first + " :" : "# :";
+  }
+
+  function getCategoryRank(category) {
+    if (category === "# :") return 0;
+    const first = (category || "").charAt(0).toUpperCase();
+    return /^[A-Z]$/.test(first) ? first.charCodeAt(0) - 64 : 0;
+  }
   function rowsFromFallback() {
     let data = window.SERIES_DATA;
     if (!data) return [];
@@ -138,26 +149,28 @@
     if (!data.length) return [];
 
     const rows = [];
-    for (const s of data) {
-      if (!s || !s.titre || !Array.isArray(s.seasons)) continue;
-      for (const seas of s.seasons) {
-        if (!seas || !seas.saison || !Array.isArray(seas.items)) continue;
-        for (const it of seas.items) {
-          const row = normalizeRow({
-            id: it.id,
-            titre: s.titre,
-            saison: seas.saison,
-            format: it.format,
-            lien: it.lien,
-            apercu: it.apercu,
-          });
-          if (row) rows.push(row);
+    for (const groupOrSeries of data) {
+      const seriesList = Array.isArray(groupOrSeries?.series) ? groupOrSeries.series : [groupOrSeries];
+      for (const s of seriesList) {
+        if (!s || !s.titre || !Array.isArray(s.seasons)) continue;
+        for (const seas of s.seasons) {
+          if (!seas || !seas.saison || !Array.isArray(seas.items)) continue;
+          for (const it of seas.items) {
+            const row = normalizeRow({
+              id: it.id,
+              titre: s.titre,
+              saison: seas.saison,
+              format: it.format,
+              lien: it.lien,
+              apercu: it.apercu,
+            });
+            if (row) rows.push(row);
+          }
         }
       }
     }
     return rows;
   }
-
   function groupSeries(rows) {
     const coll = new Intl.Collator("fr", { numeric: true, sensitivity: "base" });
 
@@ -208,6 +221,27 @@
     return modules;
   }
 
+  function groupSeriesByCategory(rows) {
+    const coll = new Intl.Collator("fr", { numeric: true, sensitivity: "base" });
+    const map = new Map();
+
+    for (const r of rows) {
+      const category = getIdCategory(r.id);
+      if (!map.has(category)) {
+        map.set(category, { category, rank: getCategoryRank(category), sortId: r.id, rows: [] });
+      }
+      const group = map.get(category);
+      group.rows.push(r);
+      if (coll.compare(r.id, group.sortId) < 0) group.sortId = r.id;
+    }
+
+    const groups = Array.from(map.values()).sort((a, b) => a.rank - b.rank);
+    return groups.map(group => ({
+      category: group.category,
+      sortId: group.sortId,
+      series: groupSeries(group.rows),
+    }));
+  }
   function createCoverCard(seriesTitle, seasonName, it) {
     const a = document.createElement("a");
     a.className = "cover-card";
@@ -317,11 +351,50 @@
     return details;
   }
 
-  function renderBatched(host, modules) {
+  function createCategoryDivider(category, isFirst) {
+    const wrap = document.createElement("div");
+    wrap.className = "category-divider";
+
+    if (!isFirst) {
+      wrap.classList.add("category-divider-with-separator");
+      const hr = document.createElement("hr");
+      wrap.appendChild(hr);
+    }
+
+    const h2 = document.createElement("h2");
+    h2.className = "category-title";
+    h2.textContent = category;
+    wrap.appendChild(h2);
+    return wrap;
+  }
+
+  function flattenRenderItems(groups) {
+    const items = [];
+    let isFirstCategory = true;
+
+    for (const group of groups || []) {
+      if (!group || !(group.series || []).length) continue;
+      items.push({ kind: "divider", category: group.category || "# :", isFirst: isFirstCategory });
+      isFirstCategory = false;
+      for (const serie of group.series) items.push({ kind: "series", serie });
+    }
+
+    return items;
+  }
+
+  function createRenderNode(item) {
+    if (item.kind === "divider") return createCategoryDivider(item.category, item.isFirst);
+    return createSeriesDetails(item.serie);
+  }
+
+  function renderBatched(host, groups) {
     const token = ++renderCycle;
     host.replaceChildren();
 
-    if (!modules.length) {
+    const items = flattenRenderItems(groups || []);
+    const hasSeries = items.some(item => item.kind === "series");
+
+    if (!hasSeries) {
       const p = document.createElement("p");
       p.className = "no-results";
       p.textContent = "Aucune série trouvée.";
@@ -335,72 +408,81 @@
     function appendBatch(size) {
       if (token !== renderCycle) return;
 
-      const end = Math.min(index + size, modules.length);
+      const end = Math.min(index + size, items.length);
       const fragment = document.createDocumentFragment();
       const batchStart = index;
       for (; index < end; index += 1) {
-        const node = createSeriesDetails(modules[index]);
+        const node = createRenderNode(items[index]);
         applyEntryAnimationDelay(node, index - batchStart);
         fragment.appendChild(node);
       }
       host.appendChild(fragment);
 
-      if (index < modules.length) {
+      if (index < items.length) {
         scheduleFrame(() => appendBatch(batchConfig.next));
       }
     }
 
     appendBatch(batchConfig.initial);
   }
-
   function render(modules) {
     const host = listEl();
     if (!host) return;
     renderBatched(host, modules || []);
   }
 
-  function filterModules(modules, q) {
-    if (!q) return modules;
+  function filterGroups(groups, q) {
+    if (!q) return groups;
 
     const ql = q.toLowerCase();
     const out = [];
 
-    for (const s of modules) {
-      const titleMatch = (s.titre || "").toLowerCase().includes(ql);
-      if (titleMatch) {
-        out.push(s);
-        continue;
-      }
+    for (const group of groups || []) {
+      const categoryMatch = (group.category || "").toLowerCase().includes(ql);
+      const series = [];
 
-      const seasons = [];
-      for (const seas of s.seasons || []) {
-        const seasonMatch = (seas.saison || "").toLowerCase().includes(ql);
-        if (seasonMatch) {
-          seasons.push(seas);
+      for (const s of group.series || []) {
+        const titleMatch = (s.titre || "").toLowerCase().includes(ql);
+        if (categoryMatch || titleMatch) {
+          series.push(s);
           continue;
         }
 
-        const items = (seas.items || []).filter(it => (it.format || "").toLowerCase().includes(ql));
-        if (items.length) seasons.push({ ...seas, items });
+        const seasons = [];
+        for (const seas of s.seasons || []) {
+          const seasonMatch = (seas.saison || "").toLowerCase().includes(ql);
+          if (seasonMatch) {
+            seasons.push(seas);
+            continue;
+          }
+
+          const items = (seas.items || []).filter(it => {
+            return (it.format || "").toLowerCase().includes(ql) ||
+              (it.id || "").toLowerCase().includes(ql);
+          });
+          if (items.length) seasons.push({ ...seas, items });
+        }
+
+        if (seasons.length) series.push({ ...s, seasons });
       }
 
-      if (seasons.length) out.push({ ...s, seasons });
+      if (series.length) out.push({ ...group, series });
     }
 
     return out;
   }
-
   function searchSeries() {
     const q = (document.getElementById("searchInput")?.value || "").trim();
-    render(filterModules(window.__SERIES_MODULES, q));
+    render(filterGroups(window.__SERIES_GROUPS, q));
   }
 
   function init() {
     const rows = rowsFromFallback();
     window.__DATA_SOURCE = "js";
 
-    window.__SERIES_MODULES = groupSeries(rows);
-    render(window.__SERIES_MODULES);
+    window.__SERIES_GROUPS = groupSeriesByCategory(rows);
+    window.__SERIES_MODULES = window.__SERIES_GROUPS.flatMap(group => group.series || []);
+    render(window.__SERIES_GROUPS);
     window.searchSeries = searchSeries;
   }
 

@@ -128,6 +128,17 @@
     return { id, titre, format, lien, apercu };
   }
 
+  function getIdCategory(id) {
+    const s = (id || "").trim();
+    const first = s.charAt(0).normalize("NFD").replace(/[\u0300-\u036f]/g, "").charAt(0).toUpperCase();
+    return /^[A-Z]$/.test(first) ? first + " :" : "# :";
+  }
+
+  function getCategoryRank(category) {
+    if (category === "# :") return 0;
+    const first = (category || "").charAt(0).toUpperCase();
+    return /^[A-Z]$/.test(first) ? first.charCodeAt(0) - 64 : 0;
+  }
   function modulesToCovers(modules) {
     const rows = [];
     for (const m of modules) {
@@ -143,6 +154,20 @@
     if (!data.length) return [];
 
     const first = data[0];
+    if (first && Array.isArray(first.titles)) {
+      const rows = [];
+      for (const group of data) {
+        for (const m of group.titles || []) {
+          if (!m || !m.titre || !Array.isArray(m.items)) continue;
+          for (const it of m.items) {
+            const row = normalizeCoverRow({ id: it.id, titre: m.titre, format: it.format, lien: it.lien, apercu: it.apercu });
+            if (row) rows.push(row);
+          }
+        }
+      }
+      return rows;
+    }
+
     if (first && Array.isArray(first.items)) return modulesToCovers(data);
 
     const rows = [];
@@ -152,7 +177,6 @@
     }
     return rows;
   }
-
   function groupByTitle(rows) {
     const map = new Map();
     const coll = new Intl.Collator("fr", { numeric: true, sensitivity: "base" });
@@ -182,6 +206,27 @@
     return modules;
   }
 
+  function groupByCategory(rows) {
+    const coll = new Intl.Collator("fr", { numeric: true, sensitivity: "base" });
+    const map = new Map();
+
+    for (const r of rows) {
+      const category = getIdCategory(r.id);
+      if (!map.has(category)) {
+        map.set(category, { category, rank: getCategoryRank(category), sortId: r.id, rows: [] });
+      }
+      const group = map.get(category);
+      group.rows.push(r);
+      if (coll.compare(r.id, group.sortId) < 0) group.sortId = r.id;
+    }
+
+    const groups = Array.from(map.values()).sort((a, b) => a.rank - b.rank);
+    return groups.map(group => ({
+      category: group.category,
+      sortId: group.sortId,
+      titles: groupByTitle(group.rows),
+    }));
+  }
   function createCoverCard(gameTitle, it) {
     const a = document.createElement("a");
     a.className = "cover-card";
@@ -258,11 +303,50 @@
     return details;
   }
 
-  function renderBatched(host, modules) {
+  function createCategoryDivider(category, isFirst) {
+    const wrap = document.createElement("div");
+    wrap.className = "category-divider";
+
+    if (!isFirst) {
+      wrap.classList.add("category-divider-with-separator");
+      const hr = document.createElement("hr");
+      wrap.appendChild(hr);
+    }
+
+    const h2 = document.createElement("h2");
+    h2.className = "category-title";
+    h2.textContent = category;
+    wrap.appendChild(h2);
+    return wrap;
+  }
+
+  function flattenRenderItems(groups) {
+    const items = [];
+    let isFirstCategory = true;
+
+    for (const group of groups || []) {
+      if (!group || !(group.titles || []).length) continue;
+      items.push({ kind: "divider", category: group.category || "# :", isFirst: isFirstCategory });
+      isFirstCategory = false;
+      for (const title of group.titles) items.push({ kind: "title", title });
+    }
+
+    return items;
+  }
+
+  function createRenderNode(item) {
+    if (item.kind === "divider") return createCategoryDivider(item.category, item.isFirst);
+    return createGameDetails(item.title);
+  }
+
+  function renderBatched(host, groups) {
     const token = ++renderCycle;
     host.replaceChildren();
 
-    if (!modules.length) {
+    const items = flattenRenderItems(groups || []);
+    const hasTitles = items.some(item => item.kind === "title");
+
+    if (!hasTitles) {
       const p = document.createElement("p");
       p.className = "no-results";
       p.textContent = "Aucun jeu trouvé.";
@@ -276,42 +360,63 @@
     function appendBatch(size) {
       if (token !== renderCycle) return;
 
-      const end = Math.min(index + size, modules.length);
+      const end = Math.min(index + size, items.length);
       const fragment = document.createDocumentFragment();
       const batchStart = index;
       for (; index < end; index += 1) {
-        const node = createGameDetails(modules[index]);
+        const node = createRenderNode(items[index]);
         applyEntryAnimationDelay(node, index - batchStart);
         fragment.appendChild(node);
       }
       host.appendChild(fragment);
 
-      if (index < modules.length) {
+      if (index < items.length) {
         scheduleFrame(() => appendBatch(batchConfig.next));
       }
     }
 
     appendBatch(batchConfig.initial);
   }
-
   function render(modules) {
     const host = listEl();
     if (!host) return;
     renderBatched(host, modules || []);
   }
 
-  function searchGames() {
-    const q = (document.getElementById("searchInput")?.value || "").trim().toLowerCase();
-    const filtered = window.__GAMES_MODULES.filter(m => (m.titre || "").toLowerCase().includes(q));
-    render(filtered);
+  function filterGroups(groups, q) {
+    if (!q) return groups;
+
+    const ql = q.toLowerCase();
+    const out = [];
+
+    for (const group of groups || []) {
+      const categoryMatch = (group.category || "").toLowerCase().includes(ql);
+      const titles = [];
+
+      for (const m of group.titles || []) {
+        const titleMatch = (m.titre || "").toLowerCase().includes(ql);
+        const idMatch = (m.sortId || "").toLowerCase().includes(ql);
+        const anyCoverId = (m.items || []).some(it => (it.id || "").toLowerCase().includes(ql));
+        if (categoryMatch || titleMatch || idMatch || anyCoverId) titles.push(m);
+      }
+
+      if (titles.length) out.push({ ...group, titles });
+    }
+
+    return out;
   }
 
+  function searchGames() {
+    const q = (document.getElementById("searchInput")?.value || "").trim().toLowerCase();
+    render(filterGroups(window.__GAMES_GROUPS, q));
+  }
   function init() {
     const coverRows = loadFromFallback();
     window.__DATA_SOURCE = "js";
 
-    window.__GAMES_MODULES = groupByTitle(coverRows);
-    render(window.__GAMES_MODULES);
+    window.__GAMES_GROUPS = groupByCategory(coverRows);
+    window.__GAMES_MODULES = window.__GAMES_GROUPS.flatMap(group => group.titles || []);
+    render(window.__GAMES_GROUPS);
     window.searchGames = searchGames;
   }
 
