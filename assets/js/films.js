@@ -399,20 +399,31 @@
     renderBatched(host, modules || []);
   }
 
+  function normalizeSearchText(value) {
+    return (value || "")
+      .toString()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/\u0153/g, "oe")
+      .replace(/\u00e6/g, "ae")
+      .replace(/\u00f8/g, "o")
+      .replace(/\u00df/g, "ss")
+      .replace(/[\u0027\u0060\u00B4\u02B9\u02BA\u02BB\u02BC\u02BD\u02BE\u02C8\u02CA\u02CB\u2018\u2019\u201A\u201B\u2032\uFF07]/g, "");
+  }
   function filterGroups(groups, q) {
-    if (!q) return groups;
-
-    const ql = q.toLowerCase();
+    const ql = normalizeSearchText(q);
+    if (!ql) return groups;
     const out = [];
 
     for (const group of groups || []) {
-      const categoryMatch = (group.category || "").toLowerCase().includes(ql);
+      const categoryMatch = normalizeSearchText(group.category).includes(ql);
       const titles = [];
 
       for (const m of group.titles || []) {
-        const titleMatch = (m.titre || "").toLowerCase().includes(ql);
-        const idMatch = (m.sortId || "").toLowerCase().includes(ql);
-        const anyCoverId = (m.items || []).some(it => (it.id || "").toLowerCase().includes(ql));
+        const titleMatch = normalizeSearchText(m.titre).includes(ql);
+        const idMatch = normalizeSearchText(m.sortId).includes(ql);
+        const anyCoverId = (m.items || []).some(it => normalizeSearchText(it.id).includes(ql));
         if (categoryMatch || titleMatch || idMatch || anyCoverId) titles.push(m);
       }
 
@@ -423,7 +434,7 @@
   }
 
   function searchMovies() {
-    const q = (document.getElementById("searchInput")?.value || "").trim().toLowerCase();
+    const q = (document.getElementById("searchInput")?.value || "").trim();
     render(filterGroups(window.__MOVIES_GROUPS, q));
   }
   function init() {

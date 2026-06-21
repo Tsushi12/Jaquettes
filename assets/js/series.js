@@ -431,18 +431,29 @@
     renderBatched(host, modules || []);
   }
 
+  function normalizeSearchText(value) {
+    return (value || "")
+      .toString()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/\u0153/g, "oe")
+      .replace(/\u00e6/g, "ae")
+      .replace(/\u00f8/g, "o")
+      .replace(/\u00df/g, "ss")
+      .replace(/[\u0027\u0060\u00B4\u02B9\u02BA\u02BB\u02BC\u02BD\u02BE\u02C8\u02CA\u02CB\u2018\u2019\u201A\u201B\u2032\uFF07]/g, "");
+  }
   function filterGroups(groups, q) {
-    if (!q) return groups;
-
-    const ql = q.toLowerCase();
+    const ql = normalizeSearchText(q);
+    if (!ql) return groups;
     const out = [];
 
     for (const group of groups || []) {
-      const categoryMatch = (group.category || "").toLowerCase().includes(ql);
+      const categoryMatch = normalizeSearchText(group.category).includes(ql);
       const series = [];
 
       for (const s of group.series || []) {
-        const titleMatch = (s.titre || "").toLowerCase().includes(ql);
+        const titleMatch = normalizeSearchText(s.titre).includes(ql);
         if (categoryMatch || titleMatch) {
           series.push(s);
           continue;
@@ -450,15 +461,15 @@
 
         const seasons = [];
         for (const seas of s.seasons || []) {
-          const seasonMatch = (seas.saison || "").toLowerCase().includes(ql);
+          const seasonMatch = normalizeSearchText(seas.saison).includes(ql);
           if (seasonMatch) {
             seasons.push(seas);
             continue;
           }
 
           const items = (seas.items || []).filter(it => {
-            return (it.format || "").toLowerCase().includes(ql) ||
-              (it.id || "").toLowerCase().includes(ql);
+            return normalizeSearchText(it.format).includes(ql) ||
+              normalizeSearchText(it.id).includes(ql);
           });
           if (items.length) seasons.push({ ...seas, items });
         }

@@ -581,16 +581,16 @@
                        },
                        {
                            "titre":  "The Amazing Spider-Man |2012|",
-                           "sortId":  "amazingspiderman2012lintégralespiderman8films4kultrahdbluray",
+                           "sortId":  "amazingspiderman2012intégralespiderman8films4kultrahdbluray",
                            "items":  [
                                          {
-                                             "id":  "amazingspiderman2012lintégralespiderman8films4kultrahdbluray",
+                                             "id":  "amazingspiderman2012intégralespiderman8films4kultrahdbluray",
                                              "format":  "L\u0027intégrale Spider-Man (8 films) : 4K Ultra HD + Blu-Ray",
                                              "lien":  "https://jaquettes.pages.dev/films_jpg/220520261524_amazing_spiderman_1_4k.jpg",
                                              "apercu":  "assets/data/thumbs_webp/220520261524_amazing_spiderman_1_4k.webp"
                                          },
                                          {
-                                             "id":  "amazingspiderman2012lintégralespiderman8filmsbluray",
+                                             "id":  "amazingspiderman2012intégralespiderman8filmsbluray",
                                              "format":  "L\u0027intégrale Spider-Man (8 films) : Blu-Ray",
                                              "lien":  "https://jaquettes.pages.dev/films_jpg/220520261514_amazing_spiderman_1_bd.jpg",
                                              "apercu":  "assets/data/thumbs_webp/220520261514_amazing_spiderman_1_bd.webp"
@@ -599,19 +599,31 @@
                        },
                        {
                            "titre":  "The Amazing Spider-Man : Le Destin d\u0027un héros |2014|",
-                           "sortId":  "amazingspidermanledestindunhéros2014lintégralespiderman8films4kultrahdbluray",
+                           "sortId":  "amazingspidermanledestindunhéros2014intégralespiderman8films4kultrahdbluray",
                            "items":  [
                                          {
-                                             "id":  "amazingspidermanledestindunhéros2014lintégralespiderman8films4kultrahdbluray",
+                                             "id":  "amazingspidermanledestindunhéros2014intégralespiderman8films4kultrahdbluray",
                                              "format":  "L\u0027intégrale Spider-Man (8 films) : 4K Ultra HD + Blu-Ray",
                                              "lien":  "https://jaquettes.pages.dev/films_jpg/220520261525_amazing_spiderman_2_4k.jpg",
                                              "apercu":  "assets/data/thumbs_webp/220520261525_amazing_spiderman_2_4k.webp"
                                          },
                                          {
-                                             "id":  "amazingspidermanledestindunhéros2014lintégralespiderman8filmsbluray",
+                                             "id":  "amazingspidermanledestindunhéros2014intégralespiderman8filmsbluray",
                                              "format":  "L\u0027intégrale Spider-Man (8 films) : Blu-Ray",
                                              "lien":  "https://jaquettes.pages.dev/films_jpg/220520261515_amazing_spiderman_2_bd.jpg",
                                              "apercu":  "assets/data/thumbs_webp/220520261515_amazing_spiderman_2_bd.webp"
+                                         }
+                                     ]
+                       },
+                       {
+                           "titre":  "L\u0027Ange de la vengeance |1981|",
+                           "sortId":  "angedelavengeance1981bluray",
+                           "items":  [
+                                         {
+                                             "id":  "angedelavengeance1981bluray",
+                                             "format":  "Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260312_l_ange_de_la_vengeance_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/700520260312_l_ange_de_la_vengeance_bd.webp"
                                          }
                                      ]
                        },
@@ -700,7 +712,7 @@
                                      ]
                        },
                        {
-                           "titre":  "Apportez-moi la tête d’Alfredo Garcia |1974|",
+                           "titre":  "Apportez-moi la tête d\u0027Alfredo Garcia |1974|",
                            "sortId":  "apportezmoilatêtedalfredogarcia1974bluray",
                            "items":  [
                                          {
@@ -738,6 +750,30 @@
                                              "format":  "Blu-Ray",
                                              "lien":  "https://jaquettes.pages.dev/films_jpg/700520260343_armaguedon_v1_bd.jpg",
                                              "apercu":  "assets/data/thumbs_webp/700520260343_armaguedon_v1_bd.webp"
+                                         }
+                                     ]
+                       },
+                       {
+                           "titre":  "L\u0027Armée des ombres |1969|",
+                           "sortId":  "arméedesombres1969bluray",
+                           "items":  [
+                                         {
+                                             "id":  "arméedesombres1969bluray",
+                                             "format":  "Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260246_l_armee_des_ombres_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/700520260246_l_armee_des_ombres_bd.webp"
+                                         }
+                                     ]
+                       },
+                       {
+                           "titre":  "L\u0027Assassin habite au 21 |1942|",
+                           "sortId":  "assassinhabiteau211942bluray",
+                           "items":  [
+                                         {
+                                             "id":  "assassinhabiteau211942bluray",
+                                             "format":  "Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260183_l_assassin_habite_au_21_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/700520260183_l_assassin_habite_au_21_bd.webp"
                                          }
                                      ]
                        },
@@ -850,6 +886,18 @@
                                      ]
                        },
                        {
+                           "titre":  "L\u0027Aventure intérieure |1987|",
+                           "sortId":  "aventureintérieure1987bluray",
+                           "items":  [
+                                         {
+                                             "id":  "aventureintérieure1987bluray",
+                                             "format":  "Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260323_l_aventure_interieure_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/700520260323_l_aventure_interieure_bd.webp"
+                                         }
+                                     ]
+                       },
+                       {
                            "titre":  "Les Aventuriers |1967|",
                            "sortId":  "aventuriers1967bluray",
                            "items":  [
@@ -952,7 +1000,7 @@
                                      ]
                        },
                        {
-                           "titre":  "La Bataille d’Angleterre |1969|",
+                           "titre":  "La Bataille d\u0027Angleterre |1969|",
                            "sortId":  "batailledangleterre1969bluray",
                            "items":  [
                                          {
@@ -1600,7 +1648,7 @@
                                      ]
                        },
                        {
-                           "titre":  "Clochette et l’Expédition féerique |2010|",
+                           "titre":  "Clochette et l\u0027Expédition féerique |2010|",
                            "sortId":  "clochetteetlexpéditionféerique2010bluray",
                            "items":  [
                                          {
@@ -1684,7 +1732,7 @@
                                      ]
                        },
                        {
-                           "titre":  "La Conquête de l’Ouest |1962|",
+                           "titre":  "La Conquête de l\u0027Ouest |1962|",
                            "sortId":  "conquêtedelouest1962bluray",
                            "items":  [
                                          {
@@ -1846,7 +1894,7 @@
                                      ]
                        },
                        {
-                           "titre":  "De l’or pour les braves |1970|",
+                           "titre":  "De l\u0027or pour les braves |1970|",
                            "sortId":  "delorpourlesbraves1970bluray",
                            "items":  [
                                          {
@@ -2098,6 +2146,24 @@
                                      ]
                        },
                        {
+                           "titre":  "L\u0027Enfant du cauchemar |1989|",
+                           "sortId":  "enfantducauchemar1989coffret7filmsbluray",
+                           "items":  [
+                                         {
+                                             "id":  "enfantducauchemar1989coffret7filmsbluray",
+                                             "format":  "Coffret 7 films : Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/250520260463_freddy_coffrer_vol3_v1_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/250520260463_freddy_coffrer_vol3_v1_bd.webp"
+                                         },
+                                         {
+                                             "id":  "enfantducauchemar1989collection9filmsbluray",
+                                             "format":  "Collection 9 films : Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/250520260473_freddy_coffrer_vol3_v2_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/250520260473_freddy_coffrer_vol3_v2_bd.webp"
+                                         }
+                                     ]
+                       },
+                       {
                            "titre":  "En pleine tempête |2000|",
                            "sortId":  "enpleinetempête2000bluray",
                            "items":  [
@@ -2146,6 +2212,18 @@
                                      ]
                        },
                        {
+                           "titre":  "L\u0027Étoile du Nord |1982|",
+                           "sortId":  "étoiledunord1982bluray",
+                           "items":  [
+                                         {
+                                             "id":  "étoiledunord1982bluray",
+                                             "format":  "Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260313_l_etoile_du_nord_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/700520260313_l_etoile_du_nord_bd.webp"
+                                         }
+                                     ]
+                       },
+                       {
                            "titre":  "Et pour quelques dollars de plus |1965|",
                            "sortId":  "etpourquelquesdollarsdeplus1965afficheoriginalebluray",
                            "items":  [
@@ -2154,6 +2232,48 @@
                                              "format":  "Affiche originale : Blu-Ray",
                                              "lien":  "https://jaquettes.pages.dev/films_jpg/700520260102_et_pour_quelques_dollars_de_plus_bd.jpg",
                                              "apercu":  "assets/data/thumbs_webp/700520260102_et_pour_quelques_dollars_de_plus_bd.webp"
+                                         }
+                                     ]
+                       },
+                       {
+                           "titre":  "L\u0027Exorciste |1973|",
+                           "sortId":  "exorciste1973bluray",
+                           "items":  [
+                                         {
+                                             "id":  "exorciste1973bluray",
+                                             "format":  "Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260161_l_exorciste_v2_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/700520260161_l_exorciste_v2_bd.webp"
+                                         },
+                                         {
+                                             "id":  "exorciste1973collection3filmsdvd",
+                                             "format":  "Collection 3 films : DVD",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260132_l_exorciste_v1_dvd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/700520260132_l_exorciste_v1_dvd.webp"
+                                         }
+                                     ]
+                       },
+                       {
+                           "titre":  "L\u0027Exorciste 2 : L\u0027Hérétique |1977|",
+                           "sortId":  "exorciste2lhérétique1977collection3filmsdvd",
+                           "items":  [
+                                         {
+                                             "id":  "exorciste2lhérétique1977collection3filmsdvd",
+                                             "format":  "Collection 3 films : DVD",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260133_l_exorciste_2_l_heretique_dvd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/700520260133_l_exorciste_2_l_heretique_dvd.webp"
+                                         }
+                                     ]
+                       },
+                       {
+                           "titre":  "L\u0027Exorciste, la suite |1990|",
+                           "sortId":  "exorcistelasuite1990collection3filmsdvd",
+                           "items":  [
+                                         {
+                                             "id":  "exorcistelasuite1990collection3filmsdvd",
+                                             "format":  "Collection 3 films : DVD",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260134_l_exorciste_la_suite_dvd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/700520260134_l_exorciste_la_suite_dvd.webp"
                                          }
                                      ]
                        },
@@ -2596,7 +2716,7 @@
                                      ]
                        },
                        {
-                           "titre":  "Les Géants de l’Ouest |1969|",
+                           "titre":  "Les Géants de l\u0027Ouest |1969|",
                            "sortId":  "géantsdelouest1969bluray",
                            "items":  [
                                          {
@@ -3058,7 +3178,7 @@
                                      ]
                        },
                        {
-                           "titre":  "Hollow Man : L’Homme sans ombre |2000|",
+                           "titre":  "Hollow Man : L\u0027Homme sans ombre |2000|",
                            "sortId":  "hollowmanlhommesansombre2000bluray",
                            "items":  [
                                          {
@@ -3066,6 +3186,66 @@
                                              "format":  "Blu-Ray",
                                              "lien":  "https://jaquettes.pages.dev/films_jpg/700520260404_hollow_man_l_homme_sans_ombre_bd.jpg",
                                              "apercu":  "assets/data/thumbs_webp/700520260404_hollow_man_l_homme_sans_ombre_bd.webp"
+                                         }
+                                     ]
+                       },
+                       {
+                           "titre":  "L\u0027Homme aux colts d\u0027or |1959|",
+                           "sortId":  "hommeauxcoltsdor1959bluray",
+                           "items":  [
+                                         {
+                                             "id":  "hommeauxcoltsdor1959bluray",
+                                             "format":  "Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260205_l_homme_aux_colts_d_or_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/700520260205_l_homme_aux_colts_d_or_bd.webp"
+                                         }
+                                     ]
+                       },
+                       {
+                           "titre":  "L\u0027Homme de l\u0027Ouest |1958|",
+                           "sortId":  "hommedelouest1958bluray",
+                           "items":  [
+                                         {
+                                             "id":  "hommedelouest1958bluray",
+                                             "format":  "Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260202_l_homme_de_l_ouest_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/700520260202_l_homme_de_l_ouest_bd.webp"
+                                         }
+                                     ]
+                       },
+                       {
+                           "titre":  "L\u0027Homme de nulle part |2010|",
+                           "sortId":  "hommedenullepart2010bluray",
+                           "items":  [
+                                         {
+                                             "id":  "hommedenullepart2010bluray",
+                                             "format":  "Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260369_l_homme_de_nulle_part_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/700520260369_l_homme_de_nulle_part_bd.webp"
+                                         }
+                                     ]
+                       },
+                       {
+                           "titre":  "L\u0027Homme des vallées perdues |1953|",
+                           "sortId":  "hommedesvalléesperdues1953bluray",
+                           "items":  [
+                                         {
+                                             "id":  "hommedesvalléesperdues1953bluray",
+                                             "format":  "Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260194_l_homme_des_vallees_perdues_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/700520260194_l_homme_des_vallees_perdues_bd.webp"
+                                         }
+                                     ]
+                       },
+                       {
+                           "titre":  "L\u0027Homme qui tua Liberty Valance |1962|",
+                           "sortId":  "hommequitualibertyvalance1962bluray",
+                           "items":  [
+                                         {
+                                             "id":  "hommequitualibertyvalance1962bluray",
+                                             "format":  "Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260214_l_homme_qui_tua_liberty_valance_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/700520260214_l_homme_qui_tua_liberty_valance_bd.webp"
                                          }
                                      ]
                        },
@@ -3078,6 +3258,18 @@
                                              "format":  "Blu-Ray",
                                              "lien":  "https://jaquettes.pages.dev/films_jpg/700520260242_la_horde_sauvage_bd.jpg",
                                              "apercu":  "assets/data/thumbs_webp/700520260242_la_horde_sauvage_bd.webp"
+                                         }
+                                     ]
+                       },
+                       {
+                           "titre":  "L\u0027Horloger de Saint-Paul |1974|",
+                           "sortId":  "horlogerdesaintpaul1974bluray",
+                           "items":  [
+                                         {
+                                             "id":  "horlogerdesaintpaul1974bluray",
+                                             "format":  "Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260272_l_horloger_de_saint_paul_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/700520260272_l_horloger_de_saint_paul_bd.webp"
                                          }
                                      ]
                        },
@@ -3109,8 +3301,32 @@
     },
     {
         "category":  "I :",
-        "sortId":  "ilétaitunefoisdanslouest19684kultrahdbluray",
+        "sortId":  "îledenim2007collection2filmsbluray",
         "titles":  [
+                       {
+                           "titre":  "L\u0027Île de Nim |2007|",
+                           "sortId":  "îledenim2007collection2filmsbluray",
+                           "items":  [
+                                         {
+                                             "id":  "îledenim2007collection2filmsbluray",
+                                             "format":  "Collection 2 films : Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260408_l_ile_de_nim_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/700520260408_l_ile_de_nim_bd.webp"
+                                         }
+                                     ]
+                       },
+                       {
+                           "titre":  "L\u0027Île de Nim 2 |2008|",
+                           "sortId":  "îledenim22008collection2filmsbluray",
+                           "items":  [
+                                         {
+                                             "id":  "îledenim22008collection2filmsbluray",
+                                             "format":  "Collection 2 films : Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260408_l_ile_de_nim_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/700520260408_l_ile_de_nim_bd.webp"
+                                         }
+                                     ]
+                       },
                        {
                            "titre":  "Il était une fois dans l\u0027Ouest |1968|",
                            "sortId":  "ilétaitunefoisdanslouest19684kultrahdbluray",
@@ -3148,6 +3364,36 @@
                                      ]
                        },
                        {
+                           "titre":  "L\u0027Inconnu du Nord-Express |1951|",
+                           "sortId":  "inconnudunordexpress1951bluray",
+                           "items":  [
+                                         {
+                                             "id":  "inconnudunordexpress1951bluray",
+                                             "format":  "Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260191_l_inconnu_du_nord_express_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/700520260191_l_inconnu_du_nord_express_bd.webp"
+                                         }
+                                     ]
+                       },
+                       {
+                           "titre":  "L\u0027Incroyable Hulk |2008|",
+                           "sortId":  "incroyablehulk2008marvelcinematicuniversestylecuirbluray",
+                           "items":  [
+                                         {
+                                             "id":  "incroyablehulk2008marvelcinematicuniversestylecuirbluray",
+                                             "format":  "Marvel Cinematic Universe (Style cuir) : Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/150520260902_l_incroyable_hulk_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/150520260902_l_incroyable_hulk_bd.webp"
+                                         },
+                                         {
+                                             "id":  "incroyablehulk2008marvellasagadelinfinistylemfergusonbluray",
+                                             "format":  "Marvel - La Saga de l\u0027Infini (Style M. Ferguson) : Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/150520260802_l_incroyable_hulk_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/150520260802_l_incroyable_hulk_bd.webp"
+                                         }
+                                     ]
+                       },
+                       {
                            "titre":  "Insaisissables |2013|",
                            "sortId":  "insaisissables2013bluray",
                            "items":  [
@@ -3168,6 +3414,60 @@
                                              "format":  "Blu-Ray",
                                              "lien":  "https://jaquettes.pages.dev/films_jpg/700520260357_insomnia_bd.jpg",
                                              "apercu":  "assets/data/thumbs_webp/700520260357_insomnia_bd.webp"
+                                         }
+                                     ]
+                       },
+                       {
+                           "titre":  "L\u0027Inspecteur Harry |1971|",
+                           "sortId":  "inspecteurharry1971afficheoriginalebluray",
+                           "items":  [
+                                         {
+                                             "id":  "inspecteurharry1971afficheoriginalebluray",
+                                             "format":  "Affiche originale : Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260127_l_inspecteur_harry_v2_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/700520260127_l_inspecteur_harry_v2_bd.webp"
+                                         },
+                                         {
+                                             "id":  "inspecteurharry1971afficherééditionbluray",
+                                             "format":  "Affiche réédition : Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260122_l_inspecteur_harry_v1_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/700520260122_l_inspecteur_harry_v1_bd.webp"
+                                         }
+                                     ]
+                       },
+                       {
+                           "titre":  "L\u0027Inspecteur Harry est la dernière cible |1988|",
+                           "sortId":  "inspecteurharryestladernièrecible1988afficheoriginalebluray",
+                           "items":  [
+                                         {
+                                             "id":  "inspecteurharryestladernièrecible1988afficheoriginalebluray",
+                                             "format":  "Affiche originale : Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260131_l_inspecteur_harry_est_la_derniere_cible_v2_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/700520260131_l_inspecteur_harry_est_la_derniere_cible_v2_bd.webp"
+                                         },
+                                         {
+                                             "id":  "inspecteurharryestladernièrecible1988afficherééditionbluray",
+                                             "format":  "Affiche réédition : Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260126_l_inspecteur_harry_est_la_derniere_cible_v1_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/700520260126_l_inspecteur_harry_est_la_derniere_cible_v1_bd.webp"
+                                         }
+                                     ]
+                       },
+                       {
+                           "titre":  "L\u0027Inspecteur ne renonce jamais |1976|",
+                           "sortId":  "inspecteurnerenoncejamais1976afficheoriginalebluray",
+                           "items":  [
+                                         {
+                                             "id":  "inspecteurnerenoncejamais1976afficheoriginalebluray",
+                                             "format":  "Affiche originale : Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260129_l_inspecteur_ne_renonce_jamais_v2_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/700520260129_l_inspecteur_ne_renonce_jamais_v2_bd.webp"
+                                         },
+                                         {
+                                             "id":  "inspecteurnerenoncejamais1976afficherééditionbluray",
+                                             "format":  "Affiche réédition : Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260124_l_inspecteur_ne_renonce_jamais_v1_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/700520260124_l_inspecteur_ne_renonce_jamais_v1_bd.webp"
                                          }
                                      ]
                        },
@@ -3292,7 +3592,7 @@
                                      ]
                        },
                        {
-                           "titre":  "Jeanne d’Arc |1999|",
+                           "titre":  "Jeanne d\u0027Arc |1999|",
                            "sortId":  "jeannedarc1999bluray",
                            "items":  [
                                          {
@@ -3310,7 +3610,7 @@
                                      ]
                        },
                        {
-                           "titre":  "Jeu d’enfant |1988|",
+                           "titre":  "Jeu d\u0027enfant |1988|",
                            "sortId":  "jeudenfant1988bluray",
                            "items":  [
                                          {
@@ -3358,7 +3658,7 @@
                                      ]
                        },
                        {
-                           "titre":  "Le Juge et l’Assassin |1976|",
+                           "titre":  "Le Juge et l\u0027Assassin |1976|",
                            "sortId":  "jugeetlassassin1976bluray",
                            "items":  [
                                          {
@@ -3400,7 +3700,7 @@
                                      ]
                        },
                        {
-                           "titre":  "Kingsman : Le Cercle d’or |2017|",
+                           "titre":  "Kingsman : Le Cercle d\u0027or |2017|",
                            "sortId":  "kingsmanlecercledor2017collection3filmsbluray",
                            "items":  [
                                          {
@@ -3412,7 +3712,7 @@
                                      ]
                        },
                        {
-                           "titre":  "The King’s Man : Première Mission |2021|",
+                           "titre":  "The King\u0027s Man : Première Mission |2021|",
                            "sortId":  "kingsmanpremièremission2021collection3filmsbluray",
                            "items":  [
                                          {
@@ -3466,54 +3766,6 @@
                                      ]
                        },
                        {
-                           "titre":  "L’Ange de la vengeance |1981|",
-                           "sortId":  "langedelavengeance1981bluray",
-                           "items":  [
-                                         {
-                                             "id":  "langedelavengeance1981bluray",
-                                             "format":  "Blu-Ray",
-                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260312_l_ange_de_la_vengeance_bd.jpg",
-                                             "apercu":  "assets/data/thumbs_webp/700520260312_l_ange_de_la_vengeance_bd.webp"
-                                         }
-                                     ]
-                       },
-                       {
-                           "titre":  "L’Armée des ombres |1969|",
-                           "sortId":  "larméedesombres1969bluray",
-                           "items":  [
-                                         {
-                                             "id":  "larméedesombres1969bluray",
-                                             "format":  "Blu-Ray",
-                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260246_l_armee_des_ombres_bd.jpg",
-                                             "apercu":  "assets/data/thumbs_webp/700520260246_l_armee_des_ombres_bd.webp"
-                                         }
-                                     ]
-                       },
-                       {
-                           "titre":  "L’Assassin habite au 21 |1942|",
-                           "sortId":  "lassassinhabiteau211942bluray",
-                           "items":  [
-                                         {
-                                             "id":  "lassassinhabiteau211942bluray",
-                                             "format":  "Blu-Ray",
-                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260183_l_assassin_habite_au_21_bd.jpg",
-                                             "apercu":  "assets/data/thumbs_webp/700520260183_l_assassin_habite_au_21_bd.webp"
-                                         }
-                                     ]
-                       },
-                       {
-                           "titre":  "L’Aventure intérieure |1987|",
-                           "sortId":  "laventureintérieure1987bluray",
-                           "items":  [
-                                         {
-                                             "id":  "laventureintérieure1987bluray",
-                                             "format":  "Blu-Ray",
-                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260323_l_aventure_interieure_bd.jpg",
-                                             "apercu":  "assets/data/thumbs_webp/700520260323_l_aventure_interieure_bd.webp"
-                                         }
-                                     ]
-                       },
-                       {
                            "titre":  "Legend |1985|",
                            "sortId":  "legend1985bluray",
                            "items":  [
@@ -3526,24 +3778,6 @@
                                      ]
                        },
                        {
-                           "titre":  "L\u0027Enfant du cauchemar |1989|",
-                           "sortId":  "lenfantducauchemar1989coffret7filmsbluray",
-                           "items":  [
-                                         {
-                                             "id":  "lenfantducauchemar1989coffret7filmsbluray",
-                                             "format":  "Coffret 7 films : Blu-Ray",
-                                             "lien":  "https://jaquettes.pages.dev/films_jpg/250520260463_freddy_coffrer_vol3_v1_bd.jpg",
-                                             "apercu":  "assets/data/thumbs_webp/250520260463_freddy_coffrer_vol3_v1_bd.webp"
-                                         },
-                                         {
-                                             "id":  "lenfantducauchemar1989collection9filmsbluray",
-                                             "format":  "Collection 9 films : Blu-Ray",
-                                             "lien":  "https://jaquettes.pages.dev/films_jpg/250520260473_freddy_coffrer_vol3_v2_bd.jpg",
-                                             "apercu":  "assets/data/thumbs_webp/250520260473_freddy_coffrer_vol3_v2_bd.webp"
-                                         }
-                                     ]
-                       },
-                       {
                            "titre":  "Léon |1994|",
                            "sortId":  "léon1994bluray",
                            "items":  [
@@ -3552,240 +3786,6 @@
                                              "format":  "Blu-Ray",
                                              "lien":  "https://jaquettes.pages.dev/films_jpg/700520260339_leon_bd.jpg",
                                              "apercu":  "assets/data/thumbs_webp/700520260339_leon_bd.webp"
-                                         }
-                                     ]
-                       },
-                       {
-                           "titre":  "L’Étoile du Nord |1982|",
-                           "sortId":  "létoiledunord1982bluray",
-                           "items":  [
-                                         {
-                                             "id":  "létoiledunord1982bluray",
-                                             "format":  "Blu-Ray",
-                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260313_l_etoile_du_nord_bd.jpg",
-                                             "apercu":  "assets/data/thumbs_webp/700520260313_l_etoile_du_nord_bd.webp"
-                                         }
-                                     ]
-                       },
-                       {
-                           "titre":  "L’Exorciste |1973|",
-                           "sortId":  "lexorciste1973bluray",
-                           "items":  [
-                                         {
-                                             "id":  "lexorciste1973bluray",
-                                             "format":  "Blu-Ray",
-                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260161_l_exorciste_v2_bd.jpg",
-                                             "apercu":  "assets/data/thumbs_webp/700520260161_l_exorciste_v2_bd.webp"
-                                         },
-                                         {
-                                             "id":  "lexorciste1973collection3filmsdvd",
-                                             "format":  "Collection 3 films : DVD",
-                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260132_l_exorciste_v1_dvd.jpg",
-                                             "apercu":  "assets/data/thumbs_webp/700520260132_l_exorciste_v1_dvd.webp"
-                                         }
-                                     ]
-                       },
-                       {
-                           "titre":  "L’Exorciste 2 : L’Hérétique |1977|",
-                           "sortId":  "lexorciste2lhérétique1977collection3filmsdvd",
-                           "items":  [
-                                         {
-                                             "id":  "lexorciste2lhérétique1977collection3filmsdvd",
-                                             "format":  "Collection 3 films : DVD",
-                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260133_l_exorciste_2_l_heretique_dvd.jpg",
-                                             "apercu":  "assets/data/thumbs_webp/700520260133_l_exorciste_2_l_heretique_dvd.webp"
-                                         }
-                                     ]
-                       },
-                       {
-                           "titre":  "L’Exorciste, la suite |1990|",
-                           "sortId":  "lexorcistelasuite1990collection3filmsdvd",
-                           "items":  [
-                                         {
-                                             "id":  "lexorcistelasuite1990collection3filmsdvd",
-                                             "format":  "Collection 3 films : DVD",
-                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260134_l_exorciste_la_suite_dvd.jpg",
-                                             "apercu":  "assets/data/thumbs_webp/700520260134_l_exorciste_la_suite_dvd.webp"
-                                         }
-                                     ]
-                       },
-                       {
-                           "titre":  "L’Homme aux colts d’or |1959|",
-                           "sortId":  "lhommeauxcoltsdor1959bluray",
-                           "items":  [
-                                         {
-                                             "id":  "lhommeauxcoltsdor1959bluray",
-                                             "format":  "Blu-Ray",
-                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260205_l_homme_aux_colts_d_or_bd.jpg",
-                                             "apercu":  "assets/data/thumbs_webp/700520260205_l_homme_aux_colts_d_or_bd.webp"
-                                         }
-                                     ]
-                       },
-                       {
-                           "titre":  "L’Homme de l’Ouest |1958|",
-                           "sortId":  "lhommedelouest1958bluray",
-                           "items":  [
-                                         {
-                                             "id":  "lhommedelouest1958bluray",
-                                             "format":  "Blu-Ray",
-                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260202_l_homme_de_l_ouest_bd.jpg",
-                                             "apercu":  "assets/data/thumbs_webp/700520260202_l_homme_de_l_ouest_bd.webp"
-                                         }
-                                     ]
-                       },
-                       {
-                           "titre":  "L’Homme de nulle part |2010|",
-                           "sortId":  "lhommedenullepart2010bluray",
-                           "items":  [
-                                         {
-                                             "id":  "lhommedenullepart2010bluray",
-                                             "format":  "Blu-Ray",
-                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260369_l_homme_de_nulle_part_bd.jpg",
-                                             "apercu":  "assets/data/thumbs_webp/700520260369_l_homme_de_nulle_part_bd.webp"
-                                         }
-                                     ]
-                       },
-                       {
-                           "titre":  "L’Homme des vallées perdues |1953|",
-                           "sortId":  "lhommedesvalléesperdues1953bluray",
-                           "items":  [
-                                         {
-                                             "id":  "lhommedesvalléesperdues1953bluray",
-                                             "format":  "Blu-Ray",
-                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260194_l_homme_des_vallees_perdues_bd.jpg",
-                                             "apercu":  "assets/data/thumbs_webp/700520260194_l_homme_des_vallees_perdues_bd.webp"
-                                         }
-                                     ]
-                       },
-                       {
-                           "titre":  "L’Homme qui tua Liberty Valance |1962|",
-                           "sortId":  "lhommequitualibertyvalance1962bluray",
-                           "items":  [
-                                         {
-                                             "id":  "lhommequitualibertyvalance1962bluray",
-                                             "format":  "Blu-Ray",
-                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260214_l_homme_qui_tua_liberty_valance_bd.jpg",
-                                             "apercu":  "assets/data/thumbs_webp/700520260214_l_homme_qui_tua_liberty_valance_bd.webp"
-                                         }
-                                     ]
-                       },
-                       {
-                           "titre":  "L’Horloger de Saint-Paul |1974|",
-                           "sortId":  "lhorlogerdesaintpaul1974bluray",
-                           "items":  [
-                                         {
-                                             "id":  "lhorlogerdesaintpaul1974bluray",
-                                             "format":  "Blu-Ray",
-                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260272_l_horloger_de_saint_paul_bd.jpg",
-                                             "apercu":  "assets/data/thumbs_webp/700520260272_l_horloger_de_saint_paul_bd.webp"
-                                         }
-                                     ]
-                       },
-                       {
-                           "titre":  "L’Île de Nim |2007|",
-                           "sortId":  "lîledenim2007collection2filmsbluray",
-                           "items":  [
-                                         {
-                                             "id":  "lîledenim2007collection2filmsbluray",
-                                             "format":  "Collection 2 films : Blu-Ray",
-                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260408_l_ile_de_nim_bd.jpg",
-                                             "apercu":  "assets/data/thumbs_webp/700520260408_l_ile_de_nim_bd.webp"
-                                         }
-                                     ]
-                       },
-                       {
-                           "titre":  "L’Île de Nim 2 |2008|",
-                           "sortId":  "lîledenim22008collection2filmsbluray",
-                           "items":  [
-                                         {
-                                             "id":  "lîledenim22008collection2filmsbluray",
-                                             "format":  "Collection 2 films : Blu-Ray",
-                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260408_l_ile_de_nim_bd.jpg",
-                                             "apercu":  "assets/data/thumbs_webp/700520260408_l_ile_de_nim_bd.webp"
-                                         }
-                                     ]
-                       },
-                       {
-                           "titre":  "L’Inconnu du Nord-Express |1951|",
-                           "sortId":  "linconnudunordexpress1951bluray",
-                           "items":  [
-                                         {
-                                             "id":  "linconnudunordexpress1951bluray",
-                                             "format":  "Blu-Ray",
-                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260191_l_inconnu_du_nord_express_bd.jpg",
-                                             "apercu":  "assets/data/thumbs_webp/700520260191_l_inconnu_du_nord_express_bd.webp"
-                                         }
-                                     ]
-                       },
-                       {
-                           "titre":  "L\u0027Incroyable Hulk |2008|",
-                           "sortId":  "lincroyablehulk2008marvelcinematicuniversestylecuirbluray",
-                           "items":  [
-                                         {
-                                             "id":  "lincroyablehulk2008marvelcinematicuniversestylecuirbluray",
-                                             "format":  "Marvel Cinematic Universe (Style cuir) : Blu-Ray",
-                                             "lien":  "https://jaquettes.pages.dev/films_jpg/150520260902_l_incroyable_hulk_bd.jpg",
-                                             "apercu":  "assets/data/thumbs_webp/150520260902_l_incroyable_hulk_bd.webp"
-                                         },
-                                         {
-                                             "id":  "lincroyablehulk2008marvellasagadelinfinistylemfergusonbluray",
-                                             "format":  "Marvel - La Saga de l\u0027Infini (Style M. Ferguson) : Blu-Ray",
-                                             "lien":  "https://jaquettes.pages.dev/films_jpg/150520260802_l_incroyable_hulk_bd.jpg",
-                                             "apercu":  "assets/data/thumbs_webp/150520260802_l_incroyable_hulk_bd.webp"
-                                         }
-                                     ]
-                       },
-                       {
-                           "titre":  "L’Inspecteur Harry |1971|",
-                           "sortId":  "linspecteurharry1971afficheoriginalebluray",
-                           "items":  [
-                                         {
-                                             "id":  "linspecteurharry1971afficheoriginalebluray",
-                                             "format":  "Affiche originale : Blu-Ray",
-                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260127_l_inspecteur_harry_v2_bd.jpg",
-                                             "apercu":  "assets/data/thumbs_webp/700520260127_l_inspecteur_harry_v2_bd.webp"
-                                         },
-                                         {
-                                             "id":  "linspecteurharry1971afficherééditionbluray",
-                                             "format":  "Affiche réédition : Blu-Ray",
-                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260122_l_inspecteur_harry_v1_bd.jpg",
-                                             "apercu":  "assets/data/thumbs_webp/700520260122_l_inspecteur_harry_v1_bd.webp"
-                                         }
-                                     ]
-                       },
-                       {
-                           "titre":  "L’Inspecteur Harry est la dernière cible |1988|",
-                           "sortId":  "linspecteurharryestladernièrecible1988afficheoriginalebluray",
-                           "items":  [
-                                         {
-                                             "id":  "linspecteurharryestladernièrecible1988afficheoriginalebluray",
-                                             "format":  "Affiche originale : Blu-Ray",
-                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260131_l_inspecteur_harry_est_la_derniere_cible_v2_bd.jpg",
-                                             "apercu":  "assets/data/thumbs_webp/700520260131_l_inspecteur_harry_est_la_derniere_cible_v2_bd.webp"
-                                         },
-                                         {
-                                             "id":  "linspecteurharryestladernièrecible1988afficherééditionbluray",
-                                             "format":  "Affiche réédition : Blu-Ray",
-                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260126_l_inspecteur_harry_est_la_derniere_cible_v1_bd.jpg",
-                                             "apercu":  "assets/data/thumbs_webp/700520260126_l_inspecteur_harry_est_la_derniere_cible_v1_bd.webp"
-                                         }
-                                     ]
-                       },
-                       {
-                           "titre":  "L’Inspecteur ne renonce jamais |1976|",
-                           "sortId":  "linspecteurnerenoncejamais1976afficheoriginalebluray",
-                           "items":  [
-                                         {
-                                             "id":  "linspecteurnerenoncejamais1976afficheoriginalebluray",
-                                             "format":  "Affiche originale : Blu-Ray",
-                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260129_l_inspecteur_ne_renonce_jamais_v2_bd.jpg",
-                                             "apercu":  "assets/data/thumbs_webp/700520260129_l_inspecteur_ne_renonce_jamais_v2_bd.webp"
-                                         },
-                                         {
-                                             "id":  "linspecteurnerenoncejamais1976afficherééditionbluray",
-                                             "format":  "Affiche réédition : Blu-Ray",
-                                             "lien":  "https://jaquettes.pages.dev/films_jpg/700520260124_l_inspecteur_ne_renonce_jamais_v1_bd.jpg",
-                                             "apercu":  "assets/data/thumbs_webp/700520260124_l_inspecteur_ne_renonce_jamais_v1_bd.webp"
                                          }
                                      ]
                        },
@@ -4120,7 +4120,7 @@
                                      ]
                        },
                        {
-                           "titre":  "Mort d’un pourri |1977|",
+                           "titre":  "Mort d\u0027un pourri |1977|",
                            "sortId":  "mortdunpourri1977bluray",
                            "items":  [
                                          {
@@ -4876,7 +4876,7 @@
                                      ]
                        },
                        {
-                           "titre":  "Le Retour de l’inspecteur Harry |1983|",
+                           "titre":  "Le Retour de l\u0027inspecteur Harry |1983|",
                            "sortId":  "retourdelinspecteurharry1983afficheoriginalebluray",
                            "items":  [
                                          {
@@ -5074,7 +5074,7 @@
                                      ]
                        },
                        {
-                           "titre":  "La Route de l’Ouest |1967|",
+                           "titre":  "La Route de l\u0027Ouest |1967|",
                            "sortId":  "routedelouest1967bluray",
                            "items":  [
                                          {
@@ -5152,7 +5152,7 @@
                                      ]
                        },
                        {
-                           "titre":  "Le Saut de l’ange |1971|",
+                           "titre":  "Le Saut de l\u0027ange |1971|",
                            "sortId":  "sautdelange1971bluray",
                            "items":  [
                                          {
@@ -5651,16 +5651,16 @@
                        },
                        {
                            "titre":  "Spider-Man |2002|",
-                           "sortId":  "spiderman2002lintégralespiderman8films4kultrahdbluray",
+                           "sortId":  "spiderman2002intégralespiderman8films4kultrahdbluray",
                            "items":  [
                                          {
-                                             "id":  "spiderman2002lintégralespiderman8films4kultrahdbluray",
+                                             "id":  "spiderman2002intégralespiderman8films4kultrahdbluray",
                                              "format":  "L\u0027intégrale Spider-Man (8 films) : 4K Ultra HD + Blu-Ray",
                                              "lien":  "https://jaquettes.pages.dev/films_jpg/220520261521_spiderman_1_4k.jpg",
                                              "apercu":  "assets/data/thumbs_webp/220520261521_spiderman_1_4k.webp"
                                          },
                                          {
-                                             "id":  "spiderman2002lintégralespiderman8filmsbluray",
+                                             "id":  "spiderman2002intégralespiderman8filmsbluray",
                                              "format":  "L\u0027intégrale Spider-Man (8 films) : Blu-Ray",
                                              "lien":  "https://jaquettes.pages.dev/films_jpg/220520261511_spiderman_1_bd.jpg",
                                              "apercu":  "assets/data/thumbs_webp/220520261511_spiderman_1_bd.webp"
@@ -5669,16 +5669,16 @@
                        },
                        {
                            "titre":  "Spider-Man 2 |2004|",
-                           "sortId":  "spiderman22004lintégralespiderman8films4kultrahdbluray",
+                           "sortId":  "spiderman22004intégralespiderman8films4kultrahdbluray",
                            "items":  [
                                          {
-                                             "id":  "spiderman22004lintégralespiderman8films4kultrahdbluray",
+                                             "id":  "spiderman22004intégralespiderman8films4kultrahdbluray",
                                              "format":  "L\u0027intégrale Spider-Man (8 films) : 4K Ultra HD + Blu-Ray",
                                              "lien":  "https://jaquettes.pages.dev/films_jpg/220520261522_spiderman_2_4k.jpg",
                                              "apercu":  "assets/data/thumbs_webp/220520261522_spiderman_2_4k.webp"
                                          },
                                          {
-                                             "id":  "spiderman22004lintégralespiderman8filmsbluray",
+                                             "id":  "spiderman22004intégralespiderman8filmsbluray",
                                              "format":  "L\u0027intégrale Spider-Man (8 films) : Blu-Ray",
                                              "lien":  "https://jaquettes.pages.dev/films_jpg/220520261512_spiderman_2_bd.jpg",
                                              "apercu":  "assets/data/thumbs_webp/220520261512_spiderman_2_bd.webp"
@@ -5687,16 +5687,16 @@
                        },
                        {
                            "titre":  "Spider-Man 3 |2007|",
-                           "sortId":  "spiderman32007lintégralespiderman8films4kultrahdbluray",
+                           "sortId":  "spiderman32007intégralespiderman8films4kultrahdbluray",
                            "items":  [
                                          {
-                                             "id":  "spiderman32007lintégralespiderman8films4kultrahdbluray",
+                                             "id":  "spiderman32007intégralespiderman8films4kultrahdbluray",
                                              "format":  "L\u0027intégrale Spider-Man (8 films) : 4K Ultra HD + Blu-Ray",
                                              "lien":  "https://jaquettes.pages.dev/films_jpg/220520261523_spiderman_3_4k.jpg",
                                              "apercu":  "assets/data/thumbs_webp/220520261523_spiderman_3_4k.webp"
                                          },
                                          {
-                                             "id":  "spiderman32007lintégralespiderman8filmsbluray",
+                                             "id":  "spiderman32007intégralespiderman8filmsbluray",
                                              "format":  "L\u0027intégrale Spider-Man (8 films) : Blu-Ray",
                                              "lien":  "https://jaquettes.pages.dev/films_jpg/220520261513_spiderman_3_bd.jpg",
                                              "apercu":  "assets/data/thumbs_webp/220520261513_spiderman_3_bd.webp"
@@ -5705,16 +5705,16 @@
                        },
                        {
                            "titre":  "Spider-Man: Far From Home |2019|",
-                           "sortId":  "spidermanfarfromhome2019lintégralespiderman8films4kultrahdbluray",
+                           "sortId":  "spidermanfarfromhome2019intégralespiderman8films4kultrahdbluray",
                            "items":  [
                                          {
-                                             "id":  "spidermanfarfromhome2019lintégralespiderman8films4kultrahdbluray",
+                                             "id":  "spidermanfarfromhome2019intégralespiderman8films4kultrahdbluray",
                                              "format":  "L\u0027intégrale Spider-Man (8 films) : 4K Ultra HD + Blu-Ray",
                                              "lien":  "https://jaquettes.pages.dev/films_jpg/220520261527_spiderman_farfromhome_4k.jpg",
                                              "apercu":  "assets/data/thumbs_webp/220520261527_spiderman_farfromhome_4k.webp"
                                          },
                                          {
-                                             "id":  "spidermanfarfromhome2019lintégralespiderman8filmsbluray",
+                                             "id":  "spidermanfarfromhome2019intégralespiderman8filmsbluray",
                                              "format":  "L\u0027intégrale Spider-Man (8 films) : Blu-Ray",
                                              "lien":  "https://jaquettes.pages.dev/films_jpg/220520261517_spiderman_farfromhome_bd.jpg",
                                              "apercu":  "assets/data/thumbs_webp/220520261517_spiderman_farfromhome_bd.webp"
@@ -5735,16 +5735,16 @@
                        },
                        {
                            "titre":  "Spider-Man: Homecoming |2017|",
-                           "sortId":  "spidermanhomecoming2017lintégralespiderman8films4kultrahdbluray",
+                           "sortId":  "spidermanhomecoming2017intégralespiderman8films4kultrahdbluray",
                            "items":  [
                                          {
-                                             "id":  "spidermanhomecoming2017lintégralespiderman8films4kultrahdbluray",
+                                             "id":  "spidermanhomecoming2017intégralespiderman8films4kultrahdbluray",
                                              "format":  "L\u0027intégrale Spider-Man (8 films) : 4K Ultra HD + Blu-Ray",
                                              "lien":  "https://jaquettes.pages.dev/films_jpg/220520261526_spiderman_homecoming_4k.jpg",
                                              "apercu":  "assets/data/thumbs_webp/220520261526_spiderman_homecoming_4k.webp"
                                          },
                                          {
-                                             "id":  "spidermanhomecoming2017lintégralespiderman8filmsbluray",
+                                             "id":  "spidermanhomecoming2017intégralespiderman8filmsbluray",
                                              "format":  "L\u0027intégrale Spider-Man (8 films) : Blu-Ray",
                                              "lien":  "https://jaquettes.pages.dev/films_jpg/220520261516_spiderman_homecoming_bd.jpg",
                                              "apercu":  "assets/data/thumbs_webp/220520261516_spiderman_homecoming_bd.webp"
@@ -5765,16 +5765,16 @@
                        },
                        {
                            "titre":  "Spider-Man: No Way Home |2021|",
-                           "sortId":  "spidermannowayhome2021lintégralespiderman8films4kultrahdbluray",
+                           "sortId":  "spidermannowayhome2021intégralespiderman8films4kultrahdbluray",
                            "items":  [
                                          {
-                                             "id":  "spidermannowayhome2021lintégralespiderman8films4kultrahdbluray",
+                                             "id":  "spidermannowayhome2021intégralespiderman8films4kultrahdbluray",
                                              "format":  "L\u0027intégrale Spider-Man (8 films) : 4K Ultra HD + Blu-Ray",
                                              "lien":  "https://jaquettes.pages.dev/films_jpg/220520261528_spiderman_nowayhome_4k.jpg",
                                              "apercu":  "assets/data/thumbs_webp/220520261528_spiderman_nowayhome_4k.webp"
                                          },
                                          {
-                                             "id":  "spidermannowayhome2021lintégralespiderman8filmsbluray",
+                                             "id":  "spidermannowayhome2021intégralespiderman8filmsbluray",
                                              "format":  "L\u0027intégrale Spider-Man (8 films) : Blu-Ray",
                                              "lien":  "https://jaquettes.pages.dev/films_jpg/220520261518_spiderman_nowayhome_bd.jpg",
                                              "apercu":  "assets/data/thumbs_webp/220520261518_spiderman_nowayhome_bd.webp"

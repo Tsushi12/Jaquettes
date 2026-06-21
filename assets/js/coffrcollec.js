@@ -430,18 +430,29 @@
     renderBatched(host, groups || []);
   }
 
+  function normalizeSearchText(value) {
+    return (value || "")
+      .toString()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/\u0153/g, "oe")
+      .replace(/\u00e6/g, "ae")
+      .replace(/\u00f8/g, "o")
+      .replace(/\u00df/g, "ss")
+      .replace(/[\u0027\u0060\u00B4\u02B9\u02BA\u02BB\u02BC\u02BD\u02BE\u02C8\u02CA\u02CB\u2018\u2019\u201A\u201B\u2032\uFF07]/g, "");
+  }
   function filterGroups(groups, q) {
-    if (!q) return groups;
-
-    const ql = q.toLowerCase();
+    const ql = normalizeSearchText(q);
+    if (!ql) return groups;
     const out = [];
 
     for (const group of groups) {
-      const typeMatch = (group.type || "").toLowerCase().includes(ql);
+      const typeMatch = normalizeSearchText(group.type).includes(ql);
       const titles = [];
 
       for (const titleGroup of group.titles || []) {
-        const titleMatch = (titleGroup.titre || "").toLowerCase().includes(ql);
+        const titleMatch = normalizeSearchText(titleGroup.titre).includes(ql);
         if (typeMatch || titleMatch) {
           titles.push(titleGroup);
           continue;
@@ -449,15 +460,15 @@
 
         const coffrcollecs = [];
         for (const cc of titleGroup.coffrcollecs || []) {
-          const coffrMatch = (cc.coffrcollec || "").toLowerCase().includes(ql);
+          const coffrMatch = normalizeSearchText(cc.coffrcollec).includes(ql);
           if (coffrMatch) {
             coffrcollecs.push(cc);
             continue;
           }
 
           const items = (cc.items || []).filter(it => {
-            return (it.format || "").toLowerCase().includes(ql) ||
-              (it.id || "").toLowerCase().includes(ql);
+            return normalizeSearchText(it.format).includes(ql) ||
+              normalizeSearchText(it.id).includes(ql);
           });
 
           if (items.length) coffrcollecs.push({ ...cc, items });

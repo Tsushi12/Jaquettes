@@ -296,6 +296,36 @@
                                                               ]
                                                 }
                                             ]
+                       },
+                       {
+                           "titre":  "L\u0027Exorciste |Collection 3 films|",
+                           "sortId":  "e0dvd1exorcistecollection3filmsexorciste",
+                           "coffrcollecs":  [
+                                                {
+                                                    "coffrcollec":  "DVD",
+                                                    "sortId":  "e0dvd1exorcistecollection3filmsexorciste",
+                                                    "items":  [
+                                                                  {
+                                                                      "id":  "e0dvd1exorcistecollection3filmsexorciste",
+                                                                      "format":  "L’Exorciste",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260132_l_exorciste_v1_dvd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260132_l_exorciste_v1_dvd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "e0dvd2exorcistecollection3filmsexorciste2lhérétique",
+                                                                      "format":  "L’Exorciste 2 : L’Hérétique",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260133_l_exorciste_2_l_heretique_dvd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260133_l_exorciste_2_l_heretique_dvd.webp"
+                                                                  },
+                                                                  {
+                                                                      "id":  "e0dvd3exorcistecollection3filmsexorcistelasuite",
+                                                                      "format":  "L’Exorciste, la suite",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260134_l_exorciste_la_suite_dvd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260134_l_exorciste_la_suite_dvd.webp"
+                                                                  }
+                                                              ]
+                                                }
+                                            ]
                        }
                    ]
     },
@@ -618,6 +648,30 @@
                    ]
     },
     {
+        "type":  "I :",
+        "sortId":  "î0bluray1îledenimcollection2filmsîledenimcollection2films",
+        "titles":  [
+                       {
+                           "titre":  "L\u0027Île de Nim |Collection 2 films|",
+                           "sortId":  "î0bluray1îledenimcollection2filmsîledenimcollection2films",
+                           "coffrcollecs":  [
+                                                {
+                                                    "coffrcollec":  "Blu-Ray",
+                                                    "sortId":  "î0bluray1îledenimcollection2filmsîledenimcollection2films",
+                                                    "items":  [
+                                                                  {
+                                                                      "id":  "î0bluray1îledenimcollection2filmsîledenimcollection2films",
+                                                                      "format":  "L’Île de Nim - Collection 2 films",
+                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260408_l_ile_de_nim_bd.jpg",
+                                                                      "apercu":  "assets/data/thumbs_webp/700520260408_l_ile_de_nim_bd.webp"
+                                                                  }
+                                                              ]
+                                                }
+                                            ]
+                       }
+                   ]
+    },
+    {
         "type":  "James Bond :",
         "sortId":  "jamesbond0bluray10007jamesbondaffichesoriginales007rienquepourvosyeux",
         "titles":  [
@@ -798,60 +852,6 @@
                    ]
     },
     {
-        "type":  "L :",
-        "sortId":  "l0bluray1lîledenimcollection2filmslîledenimcollection2films",
-        "titles":  [
-                       {
-                           "titre":  "L’Île de Nim |Collection 2 films|",
-                           "sortId":  "l0bluray1lîledenimcollection2filmslîledenimcollection2films",
-                           "coffrcollecs":  [
-                                                {
-                                                    "coffrcollec":  "Blu-Ray",
-                                                    "sortId":  "l0bluray1lîledenimcollection2filmslîledenimcollection2films",
-                                                    "items":  [
-                                                                  {
-                                                                      "id":  "l0bluray1lîledenimcollection2filmslîledenimcollection2films",
-                                                                      "format":  "L’Île de Nim - Collection 2 films",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260408_l_ile_de_nim_bd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260408_l_ile_de_nim_bd.webp"
-                                                                  }
-                                                              ]
-                                                }
-                                            ]
-                       },
-                       {
-                           "titre":  "L’Exorciste |Collection 3 films|",
-                           "sortId":  "l0dvd1lexorcistecollection3filmslexorciste",
-                           "coffrcollecs":  [
-                                                {
-                                                    "coffrcollec":  "DVD",
-                                                    "sortId":  "l0dvd1lexorcistecollection3filmslexorciste",
-                                                    "items":  [
-                                                                  {
-                                                                      "id":  "l0dvd1lexorcistecollection3filmslexorciste",
-                                                                      "format":  "L’Exorciste",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260132_l_exorciste_v1_dvd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260132_l_exorciste_v1_dvd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "l0dvd2lexorcistecollection3filmslexorciste2lhérétique",
-                                                                      "format":  "L’Exorciste 2 : L’Hérétique",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260133_l_exorciste_2_l_heretique_dvd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260133_l_exorciste_2_l_heretique_dvd.webp"
-                                                                  },
-                                                                  {
-                                                                      "id":  "l0dvd3lexorcistecollection3filmslexorcistelasuite",
-                                                                      "format":  "L’Exorciste, la suite",
-                                                                      "lien":  "https://jaquettes.pages.dev/films_jpg/700520260134_l_exorciste_la_suite_dvd.jpg",
-                                                                      "apercu":  "assets/data/thumbs_webp/700520260134_l_exorciste_la_suite_dvd.webp"
-                                                                  }
-                                                              ]
-                                                }
-                                            ]
-                       }
-                   ]
-    },
-    {
         "type":  "M :",
         "sortId":  "m0bluray1mondedenarniacoffret3filmsmondedenarniacoffret3films",
         "titles":  [
@@ -996,7 +996,7 @@
                                                                       "apercu":  "assets/data/thumbs_webp/150520260924_wanda_vision_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "marvel0bluray2marvelcinematicuniversestylecuirlincroyablehulk",
+                                                                      "id":  "marvel0bluray2marvelcinematicuniversestylecuirincroyablehulk",
                                                                       "format":  "L\u0027Incroyable Hulk",
                                                                       "lien":  "https://jaquettes.pages.dev/films_jpg/150520260902_l_incroyable_hulk_bd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/150520260902_l_incroyable_hulk_bd.webp"
@@ -1146,7 +1146,7 @@
                                                                       "apercu":  "assets/data/thumbs_webp/150520260823_spider_man_far_from_home_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "marvel0bluray2marvellasagadelinfinistylemfergusonlincroyablehulk",
+                                                                      "id":  "marvel0bluray2marvellasagadelinfinistylemfergusonincroyablehulk",
                                                                       "format":  "L\u0027Incroyable Hulk",
                                                                       "lien":  "https://jaquettes.pages.dev/films_jpg/150520260802_l_incroyable_hulk_bd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/150520260802_l_incroyable_hulk_bd.webp"
@@ -1199,56 +1199,56 @@
                        },
                        {
                            "titre":  "L\u0027intégrale Spider-Man |8 films|",
-                           "sortId":  "marvel0bluray1lintégralespiderman8filmsspiderman",
+                           "sortId":  "marvel0bluray1intégralespiderman8filmsspiderman",
                            "coffrcollecs":  [
                                                 {
                                                     "coffrcollec":  "4K Ultra HD",
-                                                    "sortId":  "marvel04kultrahd1lintégralespiderman8filmsspiderman",
+                                                    "sortId":  "marvel04kultrahd1intégralespiderman8filmsspiderman",
                                                     "items":  [
                                                                   {
-                                                                      "id":  "marvel04kultrahd1lintégralespiderman8filmsspiderman",
+                                                                      "id":  "marvel04kultrahd1intégralespiderman8filmsspiderman",
                                                                       "format":  "Spider-Man",
                                                                       "lien":  "https://jaquettes.pages.dev/films_jpg/220520261521_spiderman_1_4k.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/220520261521_spiderman_1_4k.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "marvel04kultrahd2lintégralespiderman8filmsspiderman2",
+                                                                      "id":  "marvel04kultrahd2intégralespiderman8filmsspiderman2",
                                                                       "format":  "Spider-Man 2",
                                                                       "lien":  "https://jaquettes.pages.dev/films_jpg/220520261522_spiderman_2_4k.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/220520261522_spiderman_2_4k.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "marvel04kultrahd3lintégralespiderman8filmsspiderman3",
+                                                                      "id":  "marvel04kultrahd3intégralespiderman8filmsspiderman3",
                                                                       "format":  "Spider-Man 3",
                                                                       "lien":  "https://jaquettes.pages.dev/films_jpg/220520261523_spiderman_3_4k.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/220520261523_spiderman_3_4k.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "marvel04kultrahd4lintégralespiderman8filmsamazingspiderman",
+                                                                      "id":  "marvel04kultrahd4intégralespiderman8filmsamazingspiderman",
                                                                       "format":  "The Amazing Spider-Man",
                                                                       "lien":  "https://jaquettes.pages.dev/films_jpg/220520261524_amazing_spiderman_1_4k.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/220520261524_amazing_spiderman_1_4k.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "marvel04kultrahd5lintégralespiderman8filmsamazingspidermanledestindunhéros",
+                                                                      "id":  "marvel04kultrahd5intégralespiderman8filmsamazingspidermanledestindunhéros",
                                                                       "format":  "The Amazing Spider-Man : Le Destin d\u0027un héros",
                                                                       "lien":  "https://jaquettes.pages.dev/films_jpg/220520261525_amazing_spiderman_2_4k.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/220520261525_amazing_spiderman_2_4k.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "marvel04kultrahd6lintégralespiderman8filmsspidermanhomecoming",
+                                                                      "id":  "marvel04kultrahd6intégralespiderman8filmsspidermanhomecoming",
                                                                       "format":  "Spider-Man: Homecoming",
                                                                       "lien":  "https://jaquettes.pages.dev/films_jpg/220520261526_spiderman_homecoming_4k.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/220520261526_spiderman_homecoming_4k.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "marvel04kultrahd7lintégralespiderman8filmsspidermanfarfromhome",
+                                                                      "id":  "marvel04kultrahd7intégralespiderman8filmsspidermanfarfromhome",
                                                                       "format":  "Spider-Man: Far From Home",
                                                                       "lien":  "https://jaquettes.pages.dev/films_jpg/220520261527_spiderman_farfromhome_4k.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/220520261527_spiderman_farfromhome_4k.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "marvel04kultrahd8lintégralespiderman8filmsspidermannowayhome",
+                                                                      "id":  "marvel04kultrahd8intégralespiderman8filmsspidermannowayhome",
                                                                       "format":  "Spider-Man: No Way Home",
                                                                       "lien":  "https://jaquettes.pages.dev/films_jpg/220520261528_spiderman_nowayhome_4k.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/220520261528_spiderman_nowayhome_4k.webp"
@@ -1257,52 +1257,52 @@
                                                 },
                                                 {
                                                     "coffrcollec":  "Blu-Ray",
-                                                    "sortId":  "marvel0bluray1lintégralespiderman8filmsspiderman",
+                                                    "sortId":  "marvel0bluray1intégralespiderman8filmsspiderman",
                                                     "items":  [
                                                                   {
-                                                                      "id":  "marvel0bluray1lintégralespiderman8filmsspiderman",
+                                                                      "id":  "marvel0bluray1intégralespiderman8filmsspiderman",
                                                                       "format":  "Spider-Man",
                                                                       "lien":  "https://jaquettes.pages.dev/films_jpg/220520261511_spiderman_1_bd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/220520261511_spiderman_1_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "marvel0bluray2lintégralespiderman8filmsspiderman2",
+                                                                      "id":  "marvel0bluray2intégralespiderman8filmsspiderman2",
                                                                       "format":  "Spider-Man 2",
                                                                       "lien":  "https://jaquettes.pages.dev/films_jpg/220520261512_spiderman_2_bd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/220520261512_spiderman_2_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "marvel0bluray3lintégralespiderman8filmsspiderman3",
+                                                                      "id":  "marvel0bluray3intégralespiderman8filmsspiderman3",
                                                                       "format":  "Spider-Man 3",
                                                                       "lien":  "https://jaquettes.pages.dev/films_jpg/220520261513_spiderman_3_bd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/220520261513_spiderman_3_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "marvel0bluray4lintégralespiderman8filmsamazingspiderman",
+                                                                      "id":  "marvel0bluray4intégralespiderman8filmsamazingspiderman",
                                                                       "format":  "The Amazing Spider-Man",
                                                                       "lien":  "https://jaquettes.pages.dev/films_jpg/220520261514_amazing_spiderman_1_bd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/220520261514_amazing_spiderman_1_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "marvel0bluray5lintégralespiderman8filmsamazingspidermanledestindunhéros",
+                                                                      "id":  "marvel0bluray5intégralespiderman8filmsamazingspidermanledestindunhéros",
                                                                       "format":  "The Amazing Spider-Man : Le Destin d\u0027un héros",
                                                                       "lien":  "https://jaquettes.pages.dev/films_jpg/220520261515_amazing_spiderman_2_bd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/220520261515_amazing_spiderman_2_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "marvel0bluray6lintégralespiderman8filmsspidermanhomecoming",
+                                                                      "id":  "marvel0bluray6intégralespiderman8filmsspidermanhomecoming",
                                                                       "format":  "Spider-Man: Homecoming",
                                                                       "lien":  "https://jaquettes.pages.dev/films_jpg/220520261516_spiderman_homecoming_bd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/220520261516_spiderman_homecoming_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "marvel0bluray7lintégralespiderman8filmsspidermanfarfromhome",
+                                                                      "id":  "marvel0bluray7intégralespiderman8filmsspidermanfarfromhome",
                                                                       "format":  "Spider-Man: Far From Home",
                                                                       "lien":  "https://jaquettes.pages.dev/films_jpg/220520261517_spiderman_farfromhome_bd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/220520261517_spiderman_farfromhome_bd.webp"
                                                                   },
                                                                   {
-                                                                      "id":  "marvel0bluray8lintégralespiderman8filmsspidermannowayhome",
+                                                                      "id":  "marvel0bluray8intégralespiderman8filmsspidermannowayhome",
                                                                       "format":  "Spider-Man: No Way Home",
                                                                       "lien":  "https://jaquettes.pages.dev/films_jpg/220520261518_spiderman_nowayhome_bd.jpg",
                                                                       "apercu":  "assets/data/thumbs_webp/220520261518_spiderman_nowayhome_bd.webp"
