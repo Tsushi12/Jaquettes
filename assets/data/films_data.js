@@ -508,6 +508,18 @@
                                      ]
                        },
                        {
+                           "titre":  "Ali |2001|",
+                           "sortId":  "ali2001bluray",
+                           "items":  [
+                                         {
+                                             "id":  "ali2001bluray",
+                                             "format":  "Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/250720261019_ali_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/250720261019_ali_bd.webp"
+                                         }
+                                     ]
+                       },
+                       {
                            "titre":  "Alice au pays des merveilles |1951|",
                            "sortId":  "aliceaupaysdesmerveilles1951bluray",
                            "items":  [
@@ -1262,6 +1274,18 @@
                                              "apercu":  "assets/data/thumbs_webp/700520260389_borsalino_bd.webp"
                                          }
                                      ]
+                       },
+                       {
+                           "titre":  "Butch Cassidy et le Kid |1969|",
+                           "sortId":  "butchcassidyetlekid1969bluray",
+                           "items":  [
+                                         {
+                                             "id":  "butchcassidyetlekid1969bluray",
+                                             "format":  "Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/250720261132_butch_cassidy_et_le_kid_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/250720261132_butch_cassidy_et_le_kid_bd.webp"
+                                         }
+                                     ]
                        }
                    ]
     },
@@ -1930,6 +1954,18 @@
                                      ]
                        },
                        {
+                           "titre":  "Le dernier des Mohicans |1992|",
+                           "sortId":  "dernierdesmohicans1992bluray",
+                           "items":  [
+                                         {
+                                             "id":  "dernierdesmohicans1992bluray",
+                                             "format":  "Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/250720261015_le_dernier_des_mohicans_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/250720261015_le_dernier_des_mohicans_bd.webp"
+                                         }
+                                     ]
+                       },
+                       {
                            "titre":  "Dernier domicile connu |1970|",
                            "sortId":  "dernierdomicileconnu1970bluray",
                            "items":  [
@@ -2208,6 +2244,18 @@
                                              "format":  "Blu-Ray",
                                              "lien":  "https://jaquettes.pages.dev/films_jpg/700520260315_espion_leve_toi_bd.jpg",
                                              "apercu":  "assets/data/thumbs_webp/700520260315_espion_leve_toi_bd.webp"
+                                         }
+                                     ]
+                       },
+                       {
+                           "titre":  "L\u0027esprit de Caïn |1992|",
+                           "sortId":  "espritdecaïn1992bluray",
+                           "items":  [
+                                         {
+                                             "id":  "espritdecaïn1992bluray",
+                                             "format":  "Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/250720261007_l_esprit_de_cain_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/250720261007_l_esprit_de_cain_bd.webp"
                                          }
                                      ]
                        },
@@ -3142,6 +3190,18 @@
                                      ]
                        },
                        {
+                           "titre":  "Heat |1995|",
+                           "sortId":  "heat19954kultrahdbluray",
+                           "items":  [
+                                         {
+                                             "id":  "heat19954kultrahdbluray",
+                                             "format":  "4K Ultra HD + Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/250720261039_heat_4k.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/250720261039_heat_4k.webp"
+                                         }
+                                     ]
+                       },
+                       {
                            "titre":  "Le Hobbit : La Bataille des Cinq Armées |2014|",
                            "sortId":  "hobbitlabatailledescinqarmées2014terredumilieucollection6filmsbluray",
                            "items":  [
@@ -3668,6 +3728,18 @@
                                              "apercu":  "assets/data/thumbs_webp/700520260291_le_juge_et_l_assassin_bd.webp"
                                          }
                                      ]
+                       },
+                       {
+                           "titre":  "Le Juge Fayard dit « le Shériff » |1977|",
+                           "sortId":  "jugefayardditleshériff1977bluray",
+                           "items":  [
+                                         {
+                                             "id":  "jugefayardditleshériff1977bluray",
+                                             "format":  "Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/250720261131_le_juge_fayard_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/250720261131_le_juge_fayard_bd.webp"
+                                         }
+                                     ]
                        }
                    ]
     },
@@ -3942,6 +4014,18 @@
                                              "format":  "Blu-Ray",
                                              "lien":  "https://jaquettes.pages.dev/films_jpg/700520260219_melodie_en_sous_sol_bd.jpg",
                                              "apercu":  "assets/data/thumbs_webp/700520260219_melodie_en_sous_sol_bd.webp"
+                                         }
+                                     ]
+                       },
+                       {
+                           "titre":  "Miami Vice |2006|",
+                           "sortId":  "miamivice20064kultrahdbluray",
+                           "items":  [
+                                         {
+                                             "id":  "miamivice20064kultrahdbluray",
+                                             "format":  "4K Ultra HD + Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/250720261038_miami_vice_4k.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/250720261038_miami_vice_4k.webp"
                                          }
                                      ]
                        },
@@ -4396,6 +4480,12 @@
                                          {
                                              "id":  "piègedecristaldiehard19884kultrahdbluray",
                                              "format":  "4K Ultra HD + Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/250720261757_die_hard_4k.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/250720261757_die_hard_4k.webp"
+                                         },
+                                         {
+                                             "id":  "piègedecristaldiehard19884kultrahdbluray",
+                                             "format":  "4K Ultra HD + Blu-Ray",
                                              "lien":  "https://jaquettes.pages.dev/films_jpg/011020251449_die_hard_4k.jpg",
                                              "apercu":  "assets/data/thumbs_webp/011020251449_die_hard_4k.webp"
                                          }
@@ -4756,6 +4846,18 @@
                                      ]
                        },
                        {
+                           "titre":  "Public Enemies |2009|",
+                           "sortId":  "publicenemies20094kultrahdbluray",
+                           "items":  [
+                                         {
+                                             "id":  "publicenemies20094kultrahdbluray",
+                                             "format":  "4K Ultra HD + Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/250720261014_public_enemies_4k.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/250720261014_public_enemies_4k.webp"
+                                         }
+                                     ]
+                       },
+                       {
                            "titre":  "Pulsions |1980|",
                            "sortId":  "pulsions1980bluray",
                            "items":  [
@@ -4956,6 +5058,18 @@
                                              "format":  "Collection 9 films : Blu-Ray",
                                              "lien":  "https://jaquettes.pages.dev/films_jpg/250520260472_freddy_coffrer_vol2_v2_bd.jpg",
                                              "apercu":  "assets/data/thumbs_webp/250520260472_freddy_coffrer_vol2_v2_bd.webp"
+                                         }
+                                     ]
+                       },
+                       {
+                           "titre":  "Révélations |1999|",
+                           "sortId":  "révélations1999bluray",
+                           "items":  [
+                                         {
+                                             "id":  "révélations1999bluray",
+                                             "format":  "Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/250720261013_revelations_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/250720261013_revelations_bd.webp"
                                          }
                                      ]
                        },
@@ -5477,13 +5591,19 @@
                        },
                        {
                            "titre":  "Le Sixième Sens |1986|",
-                           "sortId":  "sixièmesens1986bluray",
+                           "sortId":  "sixièmesens19864kultrahdbluray",
                            "items":  [
                                          {
                                              "id":  "sixièmesens1986bluray",
                                              "format":  "Blu-Ray",
                                              "lien":  "https://jaquettes.pages.dev/films_jpg/700520260403_le_sixieme_sens_bd.jpg",
                                              "apercu":  "assets/data/thumbs_webp/700520260403_le_sixieme_sens_bd.webp"
+                                         },
+                                         {
+                                             "id":  "sixièmesens19864kultrahdbluray",
+                                             "format":  "4K Ultra HD + Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/250720261023_le_sixieme_sens_manhunter_4k.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/250720261023_le_sixieme_sens_manhunter_4k.webp"
                                          }
                                      ]
                        },
@@ -5515,6 +5635,12 @@
                            "titre":  "Le Solitaire |1981|",
                            "sortId":  "solitaire1981bluray",
                            "items":  [
+                                         {
+                                             "id":  "solitaire1981bluray",
+                                             "format":  "Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/250720261035_le_solitaire_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/250720261035_le_solitaire_bd.webp"
+                                         },
                                          {
                                              "id":  "solitaire1981bluray",
                                              "format":  "Blu-Ray",
