@@ -3191,8 +3191,14 @@
                        },
                        {
                            "titre":  "Heat |1995|",
-                           "sortId":  "heat19954kultrahdbluray",
+                           "sortId":  "heat1995bluray",
                            "items":  [
+                                         {
+                                             "id":  "heat1995bluray",
+                                             "format":  "Blu-Ray",
+                                             "lien":  "https://jaquettes.pages.dev/films_jpg/260720261455_heat_bd.jpg",
+                                             "apercu":  "assets/data/thumbs_webp/260720261455_heat_bd.webp"
+                                         },
                                          {
                                              "id":  "heat19954kultrahdbluray",
                                              "format":  "4K Ultra HD + Blu-Ray",
